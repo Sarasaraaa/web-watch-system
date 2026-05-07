@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Web Watch System</title>
+    <link>https://example.com</link>
+    <description>Webページ変更監視</description>
+  </channel>
+</rss>
