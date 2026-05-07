@@ -1,0 +1,12 @@
+[
+  {
+    "id": "android",
+    "name": "Android Developers",
+    "url": "https://developer.android.com/about/versions?hl=ja"
+  },
+  {
+    "id": "ios",
+    "name": "Apple Developer",
+    "url": "https://developer.apple.com/news/releases/"
+  }
+]
