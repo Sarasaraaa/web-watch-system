@@ -1,169 +1,777 @@
+# ============================================================
 # GitHub Actions のワークフロー名
-name: Web Watch System
+# GitHub Actions 画面に表示される名称
+# ============================================================
+name: Watch release information pages
 
+# ============================================================
 # ワークフローを実行するタイミング
+# ============================================================
 on:
-  # 定期実行の設定
+
+  # 定期実行設定
   schedule:
-    # 毎日 UTC 1:00 に実行
-    # 日本時間では毎日 10:00
-    - cron: '0 1 * * *' 
+
+    # GitHub Actions の cron は UTC 時間で指定する
+    #
+    # 日本時間 9:30 に実行したい場合：
+    # JST 09:30 = UTC 00:30
+    #
+    # cron の形式：
+    # ┌───────────── 分 (0 - 59)
+    # │ ┌─────────── 時 (0 - 23)
+    # │ │ ┌───────── 日 (1 - 31)
+    # │ │ │ ┌─────── 月 (1 - 12)
+    # │ │ │ │ ┌───── 曜日 (0 - 6)
+    # │ │ │ │ │
+    # │ │ │ │ │
+    # * * * * *
+    #
+    - cron: '30 0 * * *'
+
   # GitHub Actions 画面から手動実行できるようにする
   workflow_dispatch:
 
-# このワークフローに付与する権限
+# ============================================================
+# ワークフローへ付与する権限
+# ============================================================
 permissions:
-  # 変更ファイルをリポジトリへ commit / push するために write 権限が必要
+
+  # GitHub Actions から
+  # RSS XML
+  # 差分HTML
+  # 前回比較用ファイル
+  # を commit/push するため write 権限が必要
   contents: write
 
+# ============================================================
+# 実行するジョブ
+# ============================================================
 jobs:
+
   watch:
-    # GitHub が用意する Ubuntu 環境で実行
+
+    # GitHub が提供する Ubuntu 環境を利用
     runs-on: ubuntu-latest
 
     steps:
-      # リポジトリの内容を実行環境へ取得
-      - uses: actions/checkout@v5
 
-      # Webページを確認し、変更があればRSS XMLと前回データを更新する
-      - name: Run Web Watch
+      # ======================================================
+      # リポジトリ内容を実行環境へ取得
+      # ======================================================
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ======================================================
+      # Webページ取得・比較・RSS生成
+      # ======================================================
+      - name: Fetch pages and generate notifications
+
         run: |
-          # 前回取得したページ本文を保存するディレクトリ
-          mkdir -p data
-          # RSS XMLを出力するディレクトリ
-          mkdir -p docs
 
-          # Pythonスクリプトをこの場で実行
+          # Pythonスクリプトを直接実行
           python3 << 'PY'
-          import urllib.request
-          import re
-          import html
+
+          # ==================================================
+          # 必要ライブラリ読み込み
+          # ==================================================
+
+          # OS操作
           import os
-          import hashlib
+
+          # 正規表現
+          import re
+
+          # HTMLエスケープ処理
+          import html
+
+          # JSON読み込み
           import json
+
+          # ハッシュ生成
+          import hashlib
+
+          # 差分生成
+          import difflib
+
+          # Webアクセス
+          import urllib.request
+
+          # 日時生成
           from datetime import datetime, timezone
 
-          # 監視対象の一覧を読み込む
-          # config/targets.json に id, name, url を定義しておく想定
-          with open('config/targets.json', 'r', encoding='utf-8') as f:
-              targets = json.load(f)
+          # ==================================================
+          # config/targets.json を読み込み
+          #
+          # 監視対象URLをJSONで管理する
+          #
+          # 例：
+          # [
+          #   {
+          #     "name": "Android バージョン情報",
+          #     "url": "https://developer.android.com/about/versions?hl=ja",
+          #     "enabled": true,
+          #     "check_last_updated_only": true
+          #   }
+          # ]
+          # ==================================================
 
-          # 監視対象ごとに処理する
-          for target in targets:
-              target_id = target['id']
-              name = target['name']
-              url = target['url']
+          with open("config/targets.json", "r", encoding="utf-8") as f:
+              PAGES = json.load(f)
 
-              print(f'Checking: {name}')
+          # ==================================================
+          # ディレクトリ定義
+          # ==================================================
 
-              try:
-                  # Webサイトによっては User-Agent がないと拒否されるため指定する
-                  req = urllib.request.Request(
-                      url,
-                      headers={"User-Agent": "Mozilla/5.0"}
+          # 前回比較用テキスト保存先
+          DATA_DIR = "data"
+
+          # GitHub Pages 公開用ディレクトリ
+          DOCS_DIR = "docs"
+
+          # 差分HTML保存先
+          DIFF_DIR = os.path.join(DOCS_DIR, "diffs")
+
+          # ディレクトリ作成
+          os.makedirs(DATA_DIR, exist_ok=True)
+          os.makedirs(DOCS_DIR, exist_ok=True)
+          os.makedirs(DIFF_DIR, exist_ok=True)
+
+          # ==================================================
+          # 共通関数
+          # ==================================================
+
+          def safe_filename(text):
+              """
+              URLを安全なファイル名へ変換する
+
+              URLには:
+              /
+              :
+              ?
+              などファイル名に使えない文字が含まれるため、
+              SHA256ハッシュ値へ変換する
+              """
+
+              return hashlib.sha256(
+                  text.encode("utf-8")
+              ).hexdigest()[:16]
+
+
+          def fetch_html(url):
+              """
+              WebページHTML取得
+
+              User-Agent を指定しないと
+              アクセス拒否されるサイトがあるため、
+              ブラウザ相当の値を設定する
+              """
+
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "User-Agent": "Mozilla/5.0"
+                  }
+              )
+
+              with urllib.request.urlopen(
+                  req,
+                  timeout=30
+              ) as res:
+
+                  return res.read().decode(
+                      "utf-8",
+                      errors="ignore"
                   )
 
-                  # 対象URLからHTMLを取得する
-                  with urllib.request.urlopen(req, timeout=30) as res:
-                      raw = res.read().decode('utf-8', errors='ignore')
 
-                  # scriptタグを除去
-                  text = re.sub(r'<script[\s\S]*?</script>', '', raw, flags=re.I)
-                  # styleタグを除去
-                  text = re.sub(r'<style[\s\S]*?</style>', '', text, flags=re.I)
-                  # HTMLタグを改行に置換
-                  text = re.sub(r'<[^>]+>', '\n', text)
-                  # &amp; などのHTMLエンティティを通常文字へ戻す
-                  text = html.unescape(text)
-                  # 空行を整理
-                  text = re.sub(r'\n\s*\n+', '\n', text)
-                  # 連続するスペースやタブを1つに整理
-                  text = re.sub(r'[ \t]+', ' ', text)
-                  # 前後の空白を削除
-                  text = text.strip()
+          def html_to_text(raw_html):
+              """
+              HTML → プレーンテキスト変換
 
-                  # 前回取得した本文の保存先
-                  previous_path = f'data/{target_id}_previous.txt'
-                  # RSS XMLの出力先
-                  rss_path = f'docs/{target_id}.xml'
+              比較時に不要な:
+              - script
+              - style
+              - noscript
+              を除去する
+              """
 
-                  # 前回の本文を読み込む
-                  old = ''
+              # script除去
+              text = re.sub(
+                  r"<script[\s\S]*?</script>",
+                  "",
+                  raw_html,
+                  flags=re.I
+              )
+
+              # style除去
+              text = re.sub(
+                  r"<style[\s\S]*?</style>",
+                  "",
+                  text,
+                  flags=re.I
+              )
+
+              # noscript除去
+              text = re.sub(
+                  r"<noscript[\s\S]*?</noscript>",
+                  "",
+                  text,
+                  flags=re.I
+              )
+
+              # HTMLタグを改行へ変換
+              text = re.sub(
+                  r"<[^>]+>",
+                  "\n",
+                  text
+              )
+
+              # HTMLエスケープ解除
+              #
+              # 例:
+              # &amp; → &
+              #
+              text = html.unescape(text)
+
+              # 改行コード統一
+              text = re.sub(
+                  r"\r\n|\r",
+                  "\n",
+                  text
+              )
+
+              # 連続空白整理
+              text = re.sub(
+                  r"[ \t]+",
+                  " ",
+                  text
+              )
+
+              # 空行整理
+              text = re.sub(
+                  r"\n\s*\n+",
+                  "\n",
+                  text
+              )
+
+              # 行ごとに前後空白削除
+              lines = [
+                  line.strip()
+                  for line in text.splitlines()
+              ]
+
+              # 空行除去
+              lines = [
+                  line
+                  for line in lines
+                  if line
+              ]
+
+              return "\n".join(lines)
+
+
+          def extract_last_updated(text):
+              """
+              最終更新日らしき文言を抽出
+
+              通知ノイズを減らすため、
+              ページ全文比較ではなく
+              最終更新日だけ比較したい場合に利用する
+              """
+
+              patterns = [
+
+                  # Android Developer
+                  r"最終更新日\s*[0-9]{4}-[0-9]{2}-[0-9]{2}\s*UTC。",
+
+                  r"最終更新日\s*[0-9]{4}-[0-9]{2}-[0-9]{2}\s*UTC",
+
+                  # 英語サイト系
+                  r"Last updated\s*[A-Za-z]+\s+\d{1,2},\s+\d{4}",
+
+                  r"Updated\s*[A-Za-z]+\s+\d{1,2},\s+\d{4}",
+              ]
+
+              for pattern in patterns:
+
+                  match = re.search(
+                      pattern,
+                      text
+                  )
+
+                  if match:
+                      return match.group(0)
+
+              return "検出できませんでした"
+
+
+          def make_diff_html(
+              page_name,
+              url,
+              old_text,
+              new_text,
+              last_updated
+          ):
+              """
+              HTML差分生成
+
+              Teams通知に全文を載せると
+              非常に見づらくなるため、
+              差分HTMLをGitHub Pagesで公開する
+              """
+
+              old_lines = old_text.splitlines()
+              new_lines = new_text.splitlines()
+
+              diff_html = difflib.HtmlDiff(
+                  wrapcolumn=100
+              ).make_file(
+                  old_lines,
+                  new_lines,
+                  fromdesc="前回取得内容",
+                  todesc="今回取得内容",
+                  context=False,
+                  numlines=3,
+                  charset="utf-8"
+              )
+
+              # 差分ページ上部に情報を追加
+              header = (
+                  f"<h1>{html.escape(page_name)} の変更差分</h1>"
+
+                  f"<p><strong>対象URL:</strong> "
+
+                  f"<a href='{html.escape(url)}'>"
+
+                  f"{html.escape(url)}</a></p>"
+
+                  f"<p><strong>検出した最終更新日:</strong> "
+
+                  f"{html.escape(last_updated)}</p>"
+
+                  f"<p><strong>確認日時:</strong> "
+
+                  f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}</p>"
+
+                  f"<hr>"
+              )
+
+              return diff_html.replace(
+                  "<body>",
+                  "<body>" + header
+              )
+
+
+          def make_plain_diff_summary(
+              old_text,
+              new_text,
+              max_lines=40
+          ):
+              """
+              Teams通知用の簡易差分生成
+
+              Teamsへ全文差分を載せると長すぎるため、
+              一部のみ抜粋する
+              """
+
+              diff_lines = list(
+                  difflib.unified_diff(
+                      old_text.splitlines(),
+                      new_text.splitlines(),
+                      fromfile="前回",
+                      tofile="今回",
+                      lineterm=""
+                  )
+              )
+
+              changed_lines = []
+
+              for line in diff_lines:
+
+                  # diffメタ情報除去
+                  if line.startswith("+++") \
+                     or line.startswith("---") \
+                     or line.startswith("@@"):
+
+                      continue
+
+                  # 追加行・削除行だけ取得
+                  if line.startswith("+") \
+                     or line.startswith("-"):
+
+                      changed_lines.append(line)
+
+              if not changed_lines:
+
+                  return (
+                      "差分行は抽出できませんでしたが、"
+                      "本文変更を検知しました。"
+                  )
+
+              # Teams通知が長くなりすぎないよう制限
+              if len(changed_lines) > max_lines:
+
+                  shown = changed_lines[:max_lines]
+
+                  shown.append(
+                      f"... 他 {len(changed_lines) - max_lines} 行の変更があります。"
+                  )
+
+                  return "\n".join(shown)
+
+              return "\n".join(changed_lines)
+
+          # ==================================================
+          # 監視処理本体
+          # ==================================================
+
+          # 変更があったページ一覧
+          changed_pages = []
+
+          # targets.json の各ページを処理
+          for page in PAGES:
+
+              # enabled=false の場合はスキップ
+              if page.get("enabled", True) is False:
+                  continue
+
+              page_name = page["name"]
+              page_url = page["url"]
+
+              print(f"Checking: {page_name}")
+
+              # URLから安全なファイル名生成
+              filename_key = safe_filename(page_url)
+
+              # 前回比較用ファイル
+              previous_path = os.path.join(
+                  DATA_DIR,
+                  f"{filename_key}.txt"
+              )
+
+              # 差分HTML保存先
+              diff_path = os.path.join(
+                  DIFF_DIR,
+                  f"{filename_key}.html"
+              )
+
+              try:
+
+                  # ==========================================
+                  # Webページ取得
+                  # ==========================================
+
+                  raw_html = fetch_html(page_url)
+
+                  # HTML → テキスト化
+                  current_text = html_to_text(raw_html)
+
+                  # 最終更新日抽出
+                  current_last_updated = extract_last_updated(
+                      current_text
+                  )
+
+                  # ==========================================
+                  # 前回内容読み込み
+                  # ==========================================
+
+                  previous_text = ""
+
                   if os.path.exists(previous_path):
-                      with open(previous_path, 'r', encoding='utf-8') as f:
-                          old = f.read()
 
-                  # 今回取得した本文と前回本文を比較する
-                  changed = text != old
+                      with open(
+                          previous_path,
+                          "r",
+                          encoding="utf-8"
+                      ) as f:
+
+                          previous_text = f.read()
+
+                  # ==========================================
+                  # 比較方法判定
+                  # ==========================================
+
+                  # 最終更新日だけ比較するか
+                  check_last_updated_only = page.get(
+                      "check_last_updated_only",
+                      False
+                  )
+
+                  if check_last_updated_only:
+
+                      changed = (
+                          previous_text != current_last_updated
+                      )
+
+                  else:
+
+                      changed = (
+                          previous_text != current_text
+                      )
+
+                  # 初回実行時は通知しない
+                  is_first_run = (previous_text == "")
+
+                  if is_first_run:
+                      changed = False
+
+                  # ==========================================
+                  # 変更検知時処理
+                  # ==========================================
 
                   if changed:
-                      # RSSのpubDate用に現在時刻をUTC形式で作成
-                      now = datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S GMT')
-                      # 本文のハッシュ値を作成し、変更内容の識別子に使う
-                      digest = hashlib.sha256(text.encode('utf-8')).hexdigest()[:12]
 
-                      # RSSのdescriptionに入れる要約(500文字に設定)
-                      summary = text[:500]
-                      # XML内で壊れないように特殊文字をエスケープ
-                      summary = summary.replace('&', '&amp;')
-                      summary = summary.replace('<', '&lt;')
-                      summary = summary.replace('>', '&gt;')
+                      print(f"Changed detected: {page_name}")
 
-                      # RSS XMLを生成
-                      rss = f'''<?xml version="1.0" encoding="UTF-8" ?>
-          <rss version="2.0">
-            <channel>
-              <title>{name}</title>
-              <link>{url}</link>
-              <description>{name} updates</description>
+                      # 差分HTML生成
+                      diff_html = make_diff_html(
+                          page_name,
+                          page_url,
+                          previous_text,
+                          current_text,
+                          current_last_updated
+                      )
 
-              <item>
-                <title>{name} changed {digest}</title>
-                <link>{url}</link>
-                <guid>{digest}</guid>
-                <pubDate>{now}</pubDate>
-                <description>{summary}</description>
-              </item>
+                      with open(
+                          diff_path,
+                          "w",
+                          encoding="utf-8"
+                      ) as f:
 
-            </channel>
-          </rss>
-          '''
+                          f.write(diff_html)
 
-                      # RSS XMLを書き出す
-                      with open(rss_path, 'w', encoding='utf-8') as f:
-                          f.write(rss)
+                      # Teams通知用サマリ生成
+                      diff_summary = make_plain_diff_summary(
+                          previous_text,
+                          current_text
+                      )
 
-                      # 今回取得した本文を次回比較用に保存
-                      with open(previous_path, 'w', encoding='utf-8') as f:
-                          f.write(text)
+                      changed_pages.append({
+                          "name": page_name,
+                          "url": page_url,
+                          "last_updated": current_last_updated,
+                          "summary": diff_summary,
+                          "diff_file": f"diffs/{filename_key}.html"
+                      })
 
-                      print(f'Changed: {name}')
+                  # ==========================================
+                  # 次回比較用保存
+                  # ==========================================
+
+                  if check_last_updated_only:
+
+                      save_value = current_last_updated
+
                   else:
-                      # 前回と同じ内容なら何も更新しない
-                      print(f'No change: {name}')
+
+                      save_value = current_text
+
+                  with open(
+                      previous_path,
+                      "w",
+                      encoding="utf-8"
+                  ) as f:
+
+                      f.write(save_value)
 
               except Exception as e:
-                  # 取得失敗やJSON不備などがあっても、他の対象の処理は継続する
-                  print(f'Error: {name}')
+
+                  # 1サイト失敗しても全体停止しない
+                  print(f"Error: {page_name}")
                   print(e)
+
+          # ==================================================
+          # RSS生成
+          # ==================================================
+
+          if changed_pages:
+
+              now = datetime.now(timezone.utc)
+
+              pub_date = now.strftime(
+                  "%a, %d %b %Y %H:%M:%S GMT"
+              )
+
+              # RSS item 一意化用ハッシュ
+              digest_source = (
+                  pub_date
+                  + "".join([
+                      p["name"] + p["summary"]
+                      for p in changed_pages
+                  ])
+              )
+
+              digest = hashlib.sha256(
+                  digest_source.encode("utf-8")
+              ).hexdigest()[:12]
+
+              # GitHub Pages URL生成
+              repo = os.environ.get(
+                  "GITHUB_REPOSITORY",
+                  ""
+              )
+
+              owner = repo.split("/")[0]
+              repo_name = repo.split("/")[1]
+
+              pages_base_url = (
+                  f"https://{owner}.github.io/{repo_name}"
+              )
+
+              details_html = ""
+              details_text = ""
+
+              for p in changed_pages:
+
+                  diff_url = (
+                      f"{pages_base_url}/{p['diff_file']}"
+                  )
+
+                  # RSS本文用HTML生成
+                  details_html += (
+                      f"<h2>{html.escape(p['name'])}</h2>"
+
+                      f"<p><strong>対象URL:</strong> "
+
+                      f"<a href='{html.escape(p['url'])}'>"
+
+                      f"{html.escape(p['url'])}</a></p>"
+
+                      f"<p><strong>検出した最終更新日:</strong> "
+
+                      f"{html.escape(p['last_updated'])}</p>"
+
+                      f"<p><strong>差分詳細:</strong> "
+
+                      f"<a href='{html.escape(diff_url)}'>"
+
+                      f"{html.escape(diff_url)}</a></p>"
+
+                      f"<pre>{html.escape(p['summary'])}</pre>"
+
+                      f"<hr>"
+                  )
+
+                  # テキスト通知内容生成
+                  details_text += (
+                      f"【{p['name']}】\n"
+                      f"対象URL: {p['url']}\n"
+                      f"検出した最終更新日: {p['last_updated']}\n"
+                      f"差分詳細: {diff_url}\n\n"
+                      f"変更サマリ:\n"
+                      f"{p['summary']}\n\n"
+                  )
+
+              # RSS XML生成
+              rss = (
+                  f'<?xml version="1.0" encoding="UTF-8" ?>'
+                  f'<rss version="2.0">'
+                  f'<channel>'
+
+                  f'<title>OS Release Page Watch</title>'
+
+                  f'<link>{pages_base_url}/rss.xml</link>'
+
+                  f'<description>'
+                  f'Android/iOSなどのリリース情報ページ変更監視'
+                  f'</description>'
+
+                  f'<item>'
+
+                  f'<title>'
+                  f'監視対象ページに変更がありました（{len(changed_pages)}件）'
+                  f'</title>'
+
+                  f'<link>{pages_base_url}/rss.xml</link>'
+
+                  f'<guid>{digest}</guid>'
+
+                  f'<pubDate>{pub_date}</pubDate>'
+
+                  f'<description><![CDATA['
+
+                  f'<p>'
+                  f'監視対象ページに変更がありました。'
+                  f'</p>'
+
+                  f'<p>'
+                  f'<strong>変更ページ数:</strong> '
+                  f'{len(changed_pages)}件'
+                  f'</p>'
+
+                  f'{details_html}'
+
+                  f']]></description>'
+
+                  f'</item>'
+
+                  f'</channel>'
+                  f'</rss>'
+              )
+
+              # RSS XML保存
+              with open(
+                  os.path.join(DOCS_DIR, "rss.xml"),
+                  "w",
+                  encoding="utf-8"
+              ) as f:
+
+                  f.write(rss)
+
+              # デバッグ・確認用テキスト保存
+              with open(
+                  os.path.join(
+                      DOCS_DIR,
+                      "latest_notification.txt"
+                  ),
+                  "w",
+                  encoding="utf-8"
+              ) as f:
+
+                  f.write(details_text)
+
+              print(
+                  f"Changed pages count: {len(changed_pages)}"
+              )
+
+          else:
+
+              print("No changes detected.")
 
           PY
 
-      # 変更されたファイルをGitHubリポジトリへ反映する
-      - name: Commit changes
+      # ======================================================
+      # GitHubへ変更反映
+      # ======================================================
+      - name: Commit generated files
+
         run: |
-          # GitHub Actions が commit するためのユーザー情報
+
+          # GitHub Actions 用ユーザー情報設定
           git config user.name "github-actions"
+
           git config user.email "github-actions@github.com"
 
-          # 変更されたファイルをすべてステージング
-          git add .
+          # data:
+          # 前回比較用データ
+          #
+          # docs:
+          # RSS XML
+          # 差分HTML
+          #
+          git add data docs
 
-          # commit対象の差分がなければ何もしない
+          # commit対象があるか確認
           if git diff --cached --quiet; then
-            echo "No changes"
+
+            echo "No repository changes"
+
           else
-            差分があればcommitしてpush
-            git commit -m "Update web watch"
+
+            # 差分がある場合のみ commit / push
+            git commit -m "Update web watch results"
+
             git push
+
           fi
