@@ -197,13 +197,13 @@ Settings
 ## RSS
 
 ```text
-https://GitHubID.github.io/web-watch-system/rss.xml
+https://Sarasaraaa.github.io/web-watch-system/rss.xml
 ```
 
 ## 差分HTML
 
 ```text
-https://GitHubID.github.io/web-watch-system/diffs/xxxx.html
+https://Sarasaraaa.github.io/web-watch-system/diffs/xxxx.html
 ```
 
 ---
@@ -220,7 +220,7 @@ RSS
 RSS URL:
 
 ```text
-https://GitHubID.github.io/web-watch-system/rss.xml
+https://Sarasaraaa.github.io/web-watch-system/rss.xml
 ```
 
 ---
@@ -287,45 +287,6 @@ data/*.txt
 * RSS初期化
 
 のみ行います。
-
----
-
-# よくあるエラー
-
-## GitHub Pages build failure
-
-### 原因
-
-```text
-/docs が存在しない
-```
-
-### 対応
-
-以下ファイルを作成してください。
-
-```text
-docs/index.html
-docs/.nojekyll
-```
-
----
-
-## Node.js 20 deprecation warning
-
-### 原因
-
-```yaml
-uses: actions/checkout@v4
-```
-
-### 対応
-
-```yaml
-uses: actions/checkout@v5
-```
-
-へ変更してください。
 
 ---
 
