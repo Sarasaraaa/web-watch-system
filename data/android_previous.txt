@@ -1,4 +1,7 @@
-
+Android リリース  |  Platform  |  Android Developers
+ メイン コンテンツにスキップ
+ Essentials
+AI エクスペリエンスの構築
 Gemini API などを使用して、AI 搭載の Android アプリを構築します。
  使ってみる
 使ってみる
