@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Android Developers</title>
+    <link>https://developer.android.com/about/versions?hl=ja</link>
+    <description>Android Developers updates</description>
+
+    <item>
+      <title>Android Developers changed 0c4d68d9c94f</title>
+      <link>https://developer.android.com/about/versions?hl=ja</link>
+      <guid>0c4d68d9c94f</guid>
+      <pubDate>Thu, 07 May 2026 08:54:08 GMT</pubDate>
+      <description>Android リリース  |  Platform  |  Android Developers
+ メイン コンテンツにスキップ
+ Essentials
+AI エクスペリエンスの構築
+Gemini API などを使用して、AI 搭載の Android アプリを構築します。
+ 使ってみる
+使ってみる
+初めてのアプリを作成することから始めてみましょう。トレーニング コースを活用して理解を深めるほか、ご自身でアプリ開発を習得することもできます。
+ Hello world
+ トレーニング コース
+ チュートリアル
+ チーム向けの Compose
+ Kotlin for Android
+ Google Play での収益化 ↗️
+ Android デベロッパーの確認
+デバイスごとに拡張する
+スマートフォン、タブレット、スマートウォッチ、ヘッドセットなど、さまざまなデバイスでシームレスなエクスペリエンスをユーザーに提供するアプリを作成します。
+ アダプティブ アプリ
+ Android XR
+ Wear OS
+ 自動車向け Android
+ Android TV
+ ChromeOS
+カテゴリ別に作成</description>
+    </item>
+
+  </channel>
+</rss>
