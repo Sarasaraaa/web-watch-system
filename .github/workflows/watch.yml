@@ -1,0 +1,125 @@
+name: Web Watch System
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # UTC 01:00 = 日本時間 10:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Web Watch
+        run: |
+          mkdir -p data
+          mkdir -p docs
+
+          python3 << 'PY'
+          import urllib.request
+          import re
+          import html
+          import os
+          import hashlib
+          import json
+          from datetime import datetime, timezone
+
+          with open('config/targets.json', 'r', encoding='utf-8') as f:
+              targets = json.load(f)
+
+          for target in targets:
+              target_id = target['id']
+              name = target['name']
+              url = target['url']
+
+              print(f'Checking: {name}')
+
+              try:
+                  req = urllib.request.Request(
+                      url,
+                      headers={"User-Agent": "Mozilla/5.0"}
+                  )
+
+                  with urllib.request.urlopen(req, timeout=30) as res:
+                      raw = res.read().decode('utf-8', errors='ignore')
+
+                  text = re.sub(r'<script[\s\S]*?</script>', '', raw, flags=re.I)
+                  text = re.sub(r'<style[\s\S]*?</style>', '', text, flags=re.I)
+                  text = re.sub(r'<[^>]+>', '\n', text)
+                  text = html.unescape(text)
+                  text = re.sub(r'\n\s*\n+', '\n', text)
+                  text = re.sub(r'[ \t]+', ' ', text)
+                  text = text.strip()
+
+                  previous_path = f'data/{target_id}_previous.txt'
+                  rss_path = f'docs/{target_id}.xml'
+
+                  old = ''
+                  if os.path.exists(previous_path):
+                      with open(previous_path, 'r', encoding='utf-8') as f:
+                          old = f.read()
+
+                  changed = text != old
+
+                  if changed:
+                      now = datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S GMT')
+                      digest = hashlib.sha256(text.encode('utf-8')).hexdigest()[:12]
+
+                      summary = text[:500]
+                      summary = summary.replace('&', '&amp;')
+                      summary = summary.replace('<', '&lt;')
+                      summary = summary.replace('>', '&gt;')
+
+                      rss = f'''<?xml version="1.0" encoding="UTF-8" ?>
+          <rss version="2.0">
+            <channel>
+              <title>{name}</title>
+              <link>{url}</link>
+              <description>{name} updates</description>
+
+              <item>
+                <title>{name} changed {digest}</title>
+                <link>{url}</link>
+                <guid>{digest}</guid>
+                <pubDate>{now}</pubDate>
+                <description>{summary}</description>
+              </item>
+
+            </channel>
+          </rss>
+          '''
+
+                      with open(rss_path, 'w', encoding='utf-8') as f:
+                          f.write(rss)
+
+                      with open(previous_path, 'w', encoding='utf-8') as f:
+                          f.write(text)
+
+                      print(f'Changed: {name}')
+                  else:
+                      print(f'No change: {name}')
+
+              except Exception as e:
+                  print(f'Error: {name}')
+                  print(e)
+
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update web watch"
+            git push
+          fi
