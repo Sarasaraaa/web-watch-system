@@ -1,12 +1,14 @@
 [
   {
-    "id": "android",
-    "name": "Android Developers",
-    "url": "https://developer.android.com/about/versions?hl=ja"
+    "name": "Android バージョン情報",
+    "url": "https://developer.android.com/about/versions?hl=ja",
+    "enabled": true,
+    "check_last_updated_only": true
   },
   {
-    "id": "ios",
-    "name": "Apple Developer",
-    "url": "https://developer.apple.com/news/releases/"
+    "name": "iOS リリース情報",
+    "url": "https://support.apple.com/ja-jp/HT201222",
+    "enabled": true,
+    "check_last_updated_only": false
   }
 ]
