@@ -60,7 +60,7 @@ jobs:
       # リポジトリ内容を実行環境へ取得
       # ======================================================
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # ======================================================
       # Webページ取得・比較・RSS生成
