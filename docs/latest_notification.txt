@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?><rss version="2.0"><channel><title>OS Release Page Watch</title><link>https://Sarasaraaa.github.io/web-watch-system/rss.xml</link><description>Android/iOSなどのリリース情報ページ変更監視</description><item><title>監視対象ページに変更がありました（2件）</title><link>https://Sarasaraaa.github.io/web-watch-system/rss.xml</link><guid>4f0796c531e0</guid><pubDate>Thu, 07 May 2026 10:27:32 GMT</pubDate><description><![CDATA[<p>監視対象ページに変更がありました。</p><p><strong>変更ページ数:</strong> 2件</p><h2>Android バージョン情報</h2><p><strong>対象URL:</strong> <a href='https://developer.android.com/about/versions?hl=ja'>https://developer.android.com/about/versions?hl=ja</a></p><p><strong>検出した最終更新日:</strong> 最終更新日 2025-06-11 UTC。</p><p><strong>差分詳細:</strong> <a href='https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html'>https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html</a></p><pre>-最終更新日 2025-06-10 UTC。
+【Android バージョン情報】
+対象URL: https://developer.android.com/about/versions?hl=ja
+検出した最終更新日: 最終更新日 2025-06-11 UTC。
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
+
+変更サマリ:
+-最終更新日 2025-06-10 UTC。
 +Android リリース  |  Platform  |  Android Developers
 +メイン コンテンツにスキップ
 +Essentials
@@ -38,5 +44,14 @@
 +Jetpack ライブラリと Compose ライブラリ
 +Wear OS 向けリリース
 +プライバシー サンドボックス ↗️
-... 他 420 行の変更があります。</pre><hr><h2>iOS リリース情報</h2><p><strong>対象URL:</strong> <a href='https://support.apple.com/ja-jp/HT201222'>https://support.apple.com/ja-jp/HT201222</a></p><p><strong>検出した最終更新日:</strong> 検出できませんでした</p><p><strong>差分詳細:</strong> <a href='https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html'>https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html</a></p><pre>-﻿TEST_CHANGE
-+﻿</pre><hr>]]></description></item></channel></rss>
+... 他 420 行の変更があります。
+
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+
+変更サマリ:
+-﻿TEST_CHANGE
++﻿
+
