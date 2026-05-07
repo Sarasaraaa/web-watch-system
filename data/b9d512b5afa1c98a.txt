@@ -1,0 +1,939 @@
+﻿
+Appleのセキュリティリリース - Apple サポート (日本)
+Apple
+ストア
+Mac
+iPad
+iPhone
+Watch
+Vision
+AirPods
+TV & Home
+エンターテインメント
+アクセサリ
+サポート
+0
++
+Appleのセキュリティリリース
+Appleソフトウェアのセキュリティアップデートをまとめて紹介します。
+Appleのセキュリティリリースについて
+Appleでは、ユーザ保護の観点から、調査が終了してパッチやリリースが公開されるまでは、セキュリティ上の問題を公開、説明、または是認いたしません。ここでは、ソフトウェアアップデートおよび
+バックグラウンドセキュリティ改善
+など、最新のリリースを一覧にまとめています。各リリースでは、関連する
+CVE-ID
+の詳細を含むセキュリティ情報を確認できます。
+セキュリティ関連の問題についてテクニカルサポートが必要な場合は（たとえば、Apple Accountのパスワードをリセットする、最近のApp Storeの課金内容を確認するなど）、
+こちらの記事
+を参照してください。
+Appleの製品にセキュリティやプライバシーに関わる脆弱性を見つけた場合は、
+こちらの記事
+を参考に、研究内容をご報告ください。
+Appleから最新のソフトウェア・アップデートを入手する
+ソフトウェアを常に最新の状態にしておくことは、Apple製品を安全にお使いいただくための最も重要な方策の1つです。
+iOSおよびiPadOSの最新バージョンは26.4.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+こちらの記事
+を参照してください。
+macOSの最新バージョンは26.4.1です。Macのソフトウェアをアップデートする方法については
+こちらの記事
+、重要なバックグラウンドアップデートを許可する方法については
+こちらの記事
+を参照してください。
+tvOSの最新バージョンは26.4です。Apple TVのソフトウェアをアップデートする方法については、
+こちらの記事
+を参照してください。
+watchOSの最新バージョンは26.4です。Apple Watchのソフトウェアをアップデートする方法については、
+こちらの記事
+を参照してください。
+visionOSの最新バージョンは26.4です。Apple Vision Proのソフトウェアをアップデートする方法については、
+こちらの記事
+を参照してください。
+iOS、iPadOS、tvOS、watchOS、visionOSのソフトウェア・アップデートをインストールした後で、それ以前のバージョンにダウングレードすることはできません。
+Appleセキュリティアップデート（Apple Security Update）
+名前と情報リンク
+対象
+リリース日
+iOS 26.4.2およびiPadOS 26.4.2
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2026年4月22日
+iOS 18.7.8およびiPadOS 18.7.8
+iPhone XR、iPhone XS、iPhone XS Max、iPhone 11（全モデル）、iPhone SE（第2世代）、iPhone 12（全モデル）、iPhone 13（全モデル）、iPhone SE（第3世代）、iPhone 14（全モデル）、iPhone 15（全モデル）、iPhone 16（全モデル）、iPhone 16e、iPad mini（第5世代～A17 Pro）、iPad（第7世代～A16）、iPad Air（第3～第5世代）、iPad Air 11インチ（M2～M3）、iPad Air 13インチ（M2～M3）、iPad Pro 11インチ（第1世代～M4）、iPad Pro 12.9インチ（第3世代～第6世代）、iPad Pro 13インチ（M4）
+2026年4月22日
+macOS Tahoe 26.4.1
+このアップデートにはCVEの公開エントリがありません。
+macOS Tahoe
+2026年4月9日
+iOS 26.4.1およびiPadOS 26.4.1
+このアップデートにはCVEの公開エントリがありません。
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2026年4月8日
+iOS 18.7.7およびiPadOS 18.7.7
+iPhone XR、iPhone XS、iPhone XS Max、iPhone 11（全モデル）、iPhone SE（第2世代）、iPhone 12（全モデル）、iPhone 13（全モデル）、iPhone SE（第3世代）、iPhone 14（全モデル）、iPhone 15（全モデル）、iPhone 16（全モデル）、iPhone 16e、iPad mini（第5世代～A17 Pro）、iPad（第7世代～A16）、iPad Air（第3～第5世代）、iPad Air 11インチ（M2～M3）、iPad Air 13インチ（M2～M3）、iPad Pro 11インチ（第1世代～M4）、iPad Pro 12.9インチ（第3世代～第6世代）、iPad Pro 13インチ（M4）
+2026年4月1日
+iOS 26.4およびiPadOS 26.4
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2026年3月24日
+iOS 18.7.7およびiPadOS 18.7.7
+iPhone XS、iPhone XS Max、iPhone XR、iPad（第7世代）
+2026年3月24日
+macOS Tahoe 26.4
+macOS Tahoe
+2026年3月24日
+macOS Sequoia 15.7.5
+macOS Sequoia
+2026年3月24日
+macOS Sonoma 14.8.5
+macOS Sonoma
+2026年3月24日
+tvOS 26.4
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2026年3月24日
+watchOS 5.3.10
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 1、Series 2、Series 3、Series 4
+2026年3月24日
+watchOS 8.8.2
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 3、Series 4、Series 5、Series 6、Series 7、SE
+2026年3月24日
+watchOS 26.4
+Apple Watch Series 6以降
+2026年3月24日
+visionOS 26.4
+Apple Vision Pro（すべてのモデル）
+2026年3月24日
+Safari 26.4
+macOS SonomaおよびmacOS Sequoia
+2026年3月24日
+Xcode 26.4
+macOS Tahoe 26.2以降
+2026年3月24日
+iOS、iPadOS、macOSのバックグラウンドセキュリティ改善
+iOS 26.3.1、iPadOS 26.3.1、macOS 26.3.1、macOS 26.3.2
+2026年3月17日
+iOS 16.7.15およびiPadOS 16.7.15
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2026年3月11日
+iOS 15.8.7およびiPadOS 15.8.7
+iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
+2026年3月11日
+macOS Tahoe 26.3.2
+このアップデートにはCVEの公開エントリがありません。
+MacBook Neo
+2026年3月10日
+iOS 26.3.1およびiPadOS 26.3.1
+このアップデートにはCVEの公開エントリがありません。
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2026年3月4日
+iOS 18.7.6
+このアップデートにはCVEの公開エントリがありません。
+iPhone XS、iPhone XS Max、iPhone XR
+2026年3月4日
+macOS Tahoe 26.3.1
+このアップデートにはCVEの公開エントリがありません。
+macOS Tahoe
+2026年3月4日
+visionOS 26.3.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Vision Pro（すべてのモデル）
+2026年2月26日
+iOS 26.3およびiPadOS 26.3
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2026年2月11日
+iOS 18.7.5およびiPadOS 18.7.5
+iPhone XS、iPhone XS Max、iPhone XR、iPad（第7世代）
+2026年2月11日
+macOS Tahoe 26.3
+macOS Tahoe
+2026年2月11日
+macOS Sequoia 15.7.4
+macOS Sequoia
+2026年2月11日
+macOS Sonoma 14.8.4
+macOS Sonoma
+2026年2月11日
+tvOS 26.3
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2026年2月11日
+watchOS 26.3
+Apple Watch Series 6以降
+2026年2月11日
+visionOS 26.3
+Apple Vision Pro（すべてのモデル）
+2026年2月11日
+Safari 26.3
+macOS SonomaおよびmacOS Sequoia
+2026年2月11日
+watchOS 11.6.2
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 6以降
+2026年2月5日
+iOS 16.7.14およびiPadOS 16.7.14
+このアップデートにはCVEの公開エントリがありません。
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2026年2月2日
+macOS Big Sur 11.7.11
+このアップデートにはCVEの公開エントリがありません。
+macOS Big Sur
+2026年2月2日
+セキュリティアップデート2026-001 Catalina
+このアップデートにはCVEの公開エントリがありません。
+macOS Catalina
+2026年2月2日
+watchOS 10.6.2
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 4、Series 5、SE
+2026年2月2日
+watchOS 9.6.4
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 4、Series 5、Series 6、Series 7、Series 8、SE、SE 2、Ultra
+2026年2月2日
+watchOS 6.3.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 1、Series 2、Series 3、Series 4、Series 5
+2026年2月2日
+Keynote 15.1
+macOS Sequoia 15.6以降
+2026年1月28日
+Pages 15.1
+macOS Sequoia 15.6以降
+2026年1月28日
+iOS 26.2.1およびiPadOS 26.2.1
+このアップデートにはCVEの公開エントリがありません。
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2026年1月26日
+iOS 18.7.4およびiPadOS 18.7.4
+このアップデートにはCVEの公開エントリがありません。
+iPhone XS、iPhone XS Max、iPhone XR、iPad Pro 13インチ、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2026年1月26日
+iOS 16.7.13およびiPadOS 16.7.13
+このアップデートにはCVEの公開エントリがありません。
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2026年1月26日
+iOS 15.8.6およびiPadOS 15.8.6
+このアップデートにはCVEの公開エントリがありません。
+iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
+2026年1月26日
+iOS 12.5.8およびiPadOS 12.5.8
+このアップデートにはCVEの公開エントリがありません。
+iPhone 5s、iPhone 6、iPhone 6 Plus、iPad Air、iPad mini 2、iPad mini 3、iPod touch（第6世代）
+2026年1月26日
+watchOS 26.2.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 6以降
+2026年1月26日
+iOS 26.2およびiPadOS 26.2
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2025年12月12日
+iOS 18.7.3およびiPadOS 18.7.3
+iPhone XS、iPhone XS Max、iPhone XR、iPad Pro 13インチ、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年12月12日
+macOS Tahoe 26.2
+macOS Tahoe
+2025年12月12日
+macOS Sequoia 15.7.3
+macOS Sequoia
+2025年12月12日
+macOS Sonoma 14.8.3
+macOS Sonoma
+2025年12月12日
+tvOS 26.2
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年12月12日
+watchOS 26.2
+Apple Watch Series 6以降
+2025年12月12日
+visionOS 26.2
+Apple Vision Pro（すべてのモデル）
+2025年12月12日
+Safari 26.2
+macOS SonomaおよびmacOS Sequoia
+2025年12月12日
+Compressor 4.11.1
+macOS Sequoia 15.6以降
+2025年11月13日
+iOS 18.7.2およびiPadOS 18.7.2
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年11月5日
+iOS 26.1およびiPadOS 26.1
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2025年11月3日
+macOS Tahoe 26.1
+macOS Tahoe
+2025年11月3日
+macOS Sequoia 15.7.2
+macOS Sequoia
+2025年11月3日
+macOS Sonoma 14.8.2
+macOS Sonoma
+2025年11月3日
+tvOS 26.1
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年11月3日
+watchOS 26.1
+Apple Watch Series 6以降
+2025年11月3日
+visionOS 26.1
+Apple Vision Pro（すべてのモデル）
+2025年11月3日
+Safari 26.1
+macOS SonomaおよびmacOS Sequoia
+2025年11月3日
+Xcode 26.1
+macOS Sequoia 15.6以降
+2025年11月3日
+iOS 26.0.1およびiPadOS 26.0.1
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2025年9月29日
+iOS 18.7.1およびiPadOS 18.7.1
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年9月29日
+macOS Tahoe 26.0.1
+macOS Tahoe
+2025年9月29日
+macOS Sequoia 15.7.1
+macOS Sequoia
+2025年9月29日
+macOS Sonoma 14.8.1
+macOS Sonoma
+2025年9月29日
+visionOS 26.0.1
+Apple Vision Pro
+2025年9月29日
+watchOS 26.0.2
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 6以降
+2025年9月29日
+tvOS 26.0.1
+このアップデートにはCVEの公開エントリがありません。
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年9月29日
+watchOS 26.0.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Ultra 3
+2025年9月18日
+iOS 26およびiPadOS 26
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2025年9月15日
+iOS 18.7およびiPadOS 18.7
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年9月15日
+iOS 16.7.12およびiPadOS 16.7.12
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2025年9月15日
+iOS 15.8.5およびiPadOS 15.8.5
+iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
+2025年9月15日
+macOS Tahoe 26
+Mac Studio（2022年以降）、iMac（2020年以降）、Mac Pro（2019年以降）、Mac mini（2020年以降）、Appleシリコン搭載MacBook Air（2020年以降）、MacBook Pro（16-inch, 2019）、MacBook Pro（13-inch, 2020, Four Thunderbolt 3 ports）、Appleシリコン搭載MacBook Pro（2020年以降）
+2025年9月15日
+macOS Sequoia 15.7
+macOS Sequoia
+2025年9月15日
+macOS Sonoma 14.8
+macOS Sonoma
+2025年9月15日
+tvOS 26
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年9月15日
+watchOS 26
+Apple Watch Series 6以降
+2025年9月15日
+visionOS 26
+Apple Vision Pro
+2025年9月15日
+Safari 26
+macOS SonomaおよびmacOS Sequoia
+2025年9月15日
+Xcode 26
+macOS Sequoia 15.6以降
+2025年9月15日
+iOS 18.6.2およびiPadOS 18.6.2
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年8月20日
+iPadOS 17.7.10
+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
+2025年8月20日
+macOS Sequoia 15.6.1
+macOS Sequoia
+2025年8月20日
+macOS Sonoma 14.7.8
+macOS Sonoma
+2025年8月20日
+macOS Ventura 13.7.8
+macOS Ventura
+2025年8月20日
+iOS 18.6.1
+このアップデートにはCVEの公開エントリがありません。
+iPhone XS以降
+2025年8月14日
+watchOS 11.6.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 6以降
+2025年8月14日
+Safari 18.6
+macOS VenturaおよびmacOS Sonoma
+2025年7月30日
+iOS 18.6およびiPadOS 18.6
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年7月29日
+iPadOS 17.7.9
+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
+2025年7月29日
+macOS Sequoia 15.6
+macOS Sequoia
+2025年7月29日
+macOS Sonoma 14.7.7
+macOS Sonoma
+2025年7月29日
+macOS Ventura 13.7.7
+macOS Ventura
+2025年7月29日
+watchOS 11.6
+Apple Watch Series 6以降
+2025年7月29日
+tvOS 18.6
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年7月29日
+visionOS 2.6
+Apple Vision Pro
+2025年7月29日
+Android用Apple Music Classical 2.3
+Androidバージョン9.0以降
+2025年6月19日
+App Store Connect 3.0
+iOS 17.0およびiPadOS 17.0以降
+2025年6月9日
+iPadOS 17.7.8
+このアップデートにはCVEの公開エントリがありません。
+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
+2025年5月19日
+iOS 18.5およびiPadOS 18.5
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年5月12日
+iPadOS 17.7.7
+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
+2025年5月12日
+macOS Sequoia 15.5
+macOS Sequoia
+2025年5月12日
+macOS Sonoma 14.7.6
+macOS Sonoma
+2025年5月12日
+macOS Ventura 13.7.6
+macOS Ventura
+2025年5月12日
+watchOS 11.5
+Apple Watch Series 6以降
+2025年5月12日
+tvOS 18.5
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年5月12日
+visionOS 2.5
+Apple Vision Pro
+2025年5月12日
+Safari 18.5
+macOS VenturaおよびmacOS Sonoma
+2025年5月12日
+iOS 18.4.1およびiPadOS 18.4.1
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年4月16日
+macOS Sequoia 15.4.1
+macOS Sequoia
+2025年4月16日
+tvOS 18.4.1
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年4月16日
+visionOS 2.4.1
+Apple Vision Pro
+2025年4月16日
+CarPlay Communication Plug-in R18.1アップデート
+MFi Program
+2025年4月4日
+watchOS 11.4
+Apple Watch Series 6以降
+2025年4月1日
+AirPlay Audio SDK 2.7.1およびAirPlay Video SDK 3.6.0.126
+MFi Program
+2025年3月31日
+Safari 18.4
+macOS VenturaおよびmacOS Sonoma
+2025年3月31日
+Xcode 16.3
+macOS Sequoia 15.2以降
+2025年3月31日
+iOS 18.4およびiPadOS 18.4
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年3月31日
+iPadOS 17.7.6
+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
+2025年3月31日
+iOS 16.7.11およびiPadOS 16.7.11
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2025年3月31日
+iOS 15.8.4およびiPadOS 15.8.4
+iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
+2025年3月31日
+macOS Sequoia 15.4
+macOS Sequoia
+2025年3月31日
+macOS Sonoma 14.7.5
+macOS Sonoma
+2025年3月31日
+macOS Ventura 13.7.5
+macOS Ventura
+2025年3月31日
+tvOS 18.4
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年3月31日
+visionOS 2.4
+Apple Vision Pro
+2025年3月31日
+Safari 18.3.1
+macOS VenturaおよびmacOS Sonoma
+2025年3月11日
+iOS 18.3.2およびiPadOS 18.3.2
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年3月11日
+macOS Sequoia 15.3.2
+macOS Sequoia
+2025年3月11日
+visionOS 2.3.2
+Apple Vision Pro
+2025年3月11日
+tvOS 18.3.1
+このアップデートにはCVEの公開エントリがありません。
+Apple TV 4K（第3世代）
+2025年3月11日
+iOS 18.3.1およびiPadOS 18.3.1
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年2月10日
+iPadOS 17.7.5
+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
+2025年2月10日
+macOS Sequoia 15.3.1
+macOS Sequoia
+2025年2月10日
+macOS Sonoma 14.7.4
+macOS Sonoma
+2025年2月10日
+macOS Ventura 13.7.4
+macOS Ventura
+2025年2月10日
+watchOS 11.3.1
+Apple Watch Series 6以降
+2025年2月10日
+visionOS 2.3.1
+Apple Vision Pro
+2025年2月10日
+GarageBand 10.4.12
+macOS Sonoma 14.4以降
+2025年1月30日
+visionOS 2.3
+Apple Vision Pro
+2025年1月27日
+iOS 18.3およびiPadOS 18.3
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年1月27日
+iPadOS 17.7.4
+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
+2025年1月27日
+macOS Sequoia 15.3
+macOS Sequoia
+2025年1月27日
+macOS Sonoma 14.7.3
+macOS Sonoma
+2025年1月27日
+macOS Ventura 13.7.3
+macOS Ventura
+2025年1月27日
+watchOS 11.3
+Apple Watch Series 6以降
+2025年1月27日
+tvOS 18.3
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年1月27日
+Safari 18.3
+macOS VenturaおよびmacOS Sonoma
+2025年1月27日
+tvOS 18.2.1
+このアップデートにはCVEの公開エントリがありません。
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2025年1月16日
+iOS 18.2.1およびiPadOS 18.2.1
+このアップデートにはCVEの公開エントリがありません。
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2025年1月6日
+Safari 18.2
+macOS VenturaおよびmacOS Sonoma
+2024年12月11日
+iOS 18.2およびiPadOS 18.2
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2024年12月11日
+iPadOS 17.7.3
+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
+2024年12月11日
+macOS Sequoia 15.2
+macOS Sequoia
+2024年12月11日
+macOS Sonoma 14.7.2
+macOS Sonoma
+2024年12月11日
+macOS Ventura 13.7.2
+macOS Ventura
+2024年12月11日
+watchOS 11.2
+Apple Watch Series 6以降
+2024年12月11日
+tvOS 18.2
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2024年12月11日
+visionOS 2.2
+Apple Vision Pro
+2024年12月11日
+Safari 18.1.1
+macOS VenturaおよびmacOS Sonoma
+2024年11月19日
+visionOS 2.1.1
+Apple Vision Pro
+2024年11月19日
+iOS 18.1.1およびiPadOS 18.1.1
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2024年11月19日
+iOS 17.7.2およびiPadOS 17.7.2
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年11月19日
+macOS Sequoia 15.1.1
+macOS Sequoia
+2024年11月19日
+Safari 18.1
+macOS VenturaおよびmacOS Sonoma
+2024年10月29日
+iOS 18.1およびiPadOS 18.1
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2024年10月28日
+iOS 17.7.1およびiPadOS 17.7.1
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年10月28日
+macOS Sequoia 15.1
+macOS Sequoia
+2024年10月28日
+macOS Sonoma 14.7.1
+macOS Sonoma
+2024年10月28日
+macOS Ventura 13.7.1
+macOS Ventura
+2024年10月28日
+watchOS 11.1
+Apple Watch Series 6以降
+2024年10月28日
+tvOS 18.1
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2024年10月28日
+visionOS 2.1
+Apple Vision Pro
+2024年10月28日
+Windows用Apple Music 1.5.0.152
+Intelマシン用Windows 10 22H2以降、Armマシン用Windows 11 24H2以降
+2024年10月3日
+Windows用Apple TV 1.5.0.152
+Windows 10 22H2以降
+2024年10月3日
+iOS 18.0.1およびiPadOS 18.0.1
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2024年10月3日
+macOS Sequoia 15.0.1
+このアップデートにはCVEの公開エントリがありません。
+macOS Sequoia
+2024年10月3日
+watchOS 11.0.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 6以降
+2024年10月3日
+visionOS 2.0.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Vision Pro
+2024年10月3日
+Safari 18.0.1
+このアップデートにはCVEの公開エントリがありません。
+macOS VenturaおよびmacOS Sonoma
+2024年10月3日
+iOS 18およびiPadOS 18
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第3世代）以降、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第7世代）以降、iPad mini（第5世代）以降
+2024年9月16日
+macOS Sequoia 15
+Mac Studio（2022年以降）、iMac（2019年以降）、Mac Pro（2019年以降）、Mac mini（2018年以降）、MacBook Air（2020年以降）、MacBook Pro（2018年以降）、iMac Pro（2017年以降）
+2024年9月16日
+tvOS 18
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2024年9月16日
+watchOS 11
+Apple Watch Series 6以降
+2024年9月16日
+visionOS 2
+Apple Vision Pro
+2024年9月16日
+Safari 18
+macOS VenturaおよびmacOS Sonoma
+2024年9月16日
+Xcode 16
+macOS Sonoma 14.5以降
+2024年9月16日
+iOS 17.7およびiPadOS 17.7
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年9月16日
+macOS Sonoma 14.7
+macOS Sonoma
+2024年9月16日
+macOS Ventura 13.7
+macOS Ventura
+2024年9月16日
+iTunes 12.13.3 for Windows
+Windows 10以降
+2024年9月12日
+watchOS 10.6.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 4以降
+2024年8月19日
+tvOS 17.6.1
+このアップデートにはCVEの公開エントリがありません。
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2024年8月19日
+iOS 17.6.1およびiPadOS 17.6.1
+このアップデートにはCVEの公開エントリがありません。
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年8月7日
+iOS 16.7.10およびiPadOS 16.7.10
+このアップデートにはCVEの公開エントリがありません。
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2024年8月7日
+macOS Sonoma 14.6.1
+このアップデートにはCVEの公開エントリがありません。
+macOS Sonoma
+2024年8月7日
+macOS Ventura 13.6.9
+このアップデートにはCVEの公開エントリがありません。
+macOS Ventura
+2024年8月7日
+Safari 17.6
+macOS MontereyおよびmacOS Ventura
+2024年7月29日
+iOS 17.6およびiPadOS 17.6
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年7月29日
+iOS 16.7.9およびiPadOS 16.7.9
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2024年7月29日
+macOS Sonoma 14.6
+macOS Sonoma
+2024年7月29日
+macOS Ventura 13.6.8
+macOS Ventura
+2024年7月29日
+macOS Monterey 12.7.6
+macOS Monterey
+2024年7月29日
+watchOS 10.6
+Apple Watch Series 4以降
+2024年7月29日
+tvOS 17.6
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2024年7月29日
+visionOS 1.3
+Apple Vision Pro
+2024年7月29日
+iOS 15.8.3およびiPadOS 15.8.3
+このアップデートにはCVEの公開エントリがありません。
+iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
+2024年7月29日
+AirPodsファームウェアアップデート6A326、AirPodsファームウェアアップデート6F8、Beatsファームウェアアップデート6F8
+AirPods（第2世代以降）、AirPods Pro（すべてのモデル）、AirPods Max、Powerbeats Pro、Beats Fit Pro
+2024年6月25日
+visionOS 1.2
+Apple Vision Pro
+2024年6月10日
+tvOS 17.5.1
+このアップデートにはCVEの公開エントリがありません。
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2024年5月21日
+iOS 17.5.1およびiPadOS 17.5.1
+このアップデートにはCVEの公開エントリがありません。
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年5月20日
+Safari 17.5
+macOS MontereyおよびmacOS Ventura
+2024年5月13日
+iOS 17.5およびiPadOS 17.5
+iPhone XS以降、13インチiPad Pro、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年5月13日
+iOS 16.7.8およびiPadOS 16.7.8
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2024年5月13日
+macOS Sonoma 14.5
+macOS Sonoma
+2024年5月13日
+macOS Ventura 13.6.7
+macOS Ventura
+2024年5月13日
+macOS Monterey 12.7.5
+macOS Monterey
+2024年5月13日
+watchOS 10.5
+Apple Watch Series 4以降
+2024年5月13日
+tvOS 17.5
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2024年5月13日
+iTunes 12.13.2 for Windows
+Windows 10以降
+2024年5月8日
+visionOS 1.1.2
+このアップデートにはCVEの公開エントリがありません。
+Apple Vision Pro
+2024年4月9日
+Safari 17.4.1
+macOS MontereyおよびmacOS Ventura
+2024年3月25日
+macOS Sonoma 14.4.1
+macOS Sonoma
+2024年3月25日
+macOS Ventura 13.6.6
+macOS Ventura
+2024年3月25日
+iOS 17.4.1およびiPadOS 17.4.1
+iPhone XS以降、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年3月21日
+iOS 16.7.7およびiPadOS 16.7.7
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2024年3月21日
+visionOS 1.1.1
+Apple Vision Pro
+2024年3月21日
+GarageBand 10.4.11
+macOS VenturaおよびmacOS Sonoma
+2024年3月12日
+Safari 17.4
+macOS MontereyおよびmacOS Ventura
+2024年3月7日
+macOS Sonoma 14.4
+macOS Sonoma
+2024年3月7日
+macOS Ventura 13.6.5
+macOS Ventura
+2024年3月7日
+macOS Monterey 12.7.4
+macOS Monterey
+2024年3月7日
+watchOS 10.4
+Apple Watch Series 4以降
+2024年3月7日
+tvOS 17.4
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2024年3月7日
+visionOS 1.1
+Apple Vision Pro
+2024年3月7日
+Xcode 15.3
+macOS Sonoma 14以降
+2024年3月5日
+iOS 17.4およびiPadOS 17.4
+iPhone XS以降、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年3月5日
+iOS 16.7.6およびiPadOS 16.7.6
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2024年3月5日
+iOS 15.8.2およびiPadOS 15.8.2
+このアップデートにはCVEの公開エントリがありません。
+iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
+2024年3月5日
+visionOS 1.0.3
+このアップデートにはCVEの公開エントリがありません。
+Apple Vision Pro
+2024年2月12日
+Safari 17.3.1
+このアップデートにはCVEの公開エントリがありません。
+macOS MontereyおよびmacOS Ventura
+2024年2月9日
+iOS 17.3.1およびiPadOS 17.3.1
+このアップデートにはCVEの公開エントリがありません。
+iPhone XS以降、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年2月8日
+macOS Sonoma 14.3.1
+このアップデートにはCVEの公開エントリがありません。
+macOS Sonoma
+2024年2月8日
+watchOS 10.3.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 4以降
+2024年2月8日
+visionOS 1.0.2
+Apple Vision Pro
+2024年1月31日
+Safari 17.3
+macOS MontereyおよびmacOS Ventura
+2024年1月22日
+iOS 17.3およびiPadOS 17.3
+iPhone XS以降、12.9インチiPad Pro（第2世代）以降、10.5インチiPad Pro、11インチiPad Pro（第1世代）以降、iPad Air（第3世代）以降、iPad（第6世代）以降、iPad mini（第5世代）以降
+2024年1月22日
+iOS 16.7.5およびiPadOS 16.7.5
+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
+2024年1月22日
+iOS 15.8.1およびiPadOS 15.8.1
+iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
+2024年1月22日
+macOS Sonoma 14.3
+macOS Sonoma
+2024年1月22日
+macOS Ventura 13.6.4
+macOS Ventura
+2024年1月22日
+macOS Monterey 12.7.3
+macOS Monterey
+2024年1月22日
+watchOS 10.3
+Apple Watch Series 4以降
+2024年1月22日
+tvOS 17.3
+Apple TV HDおよびApple TV 4K（すべてのモデル）
+2024年1月22日
+Magic Keyboardファームウェアアップデート2.0.6
+Magic Keyboard、Magic Keyboard（2021）、Magic Keyboard（テンキー付き）、Magic Keyboard（Touch ID搭載）、Magic Keyboard（Touch ID搭載、テンキー付き）
+2024年1月9日
+以前のセキュリティアップデートについては以下の記事を参照してください。
+Appleセキュリティアップデート（2022～2023）
+Appleセキュリティアップデート（2020～2021）
+Appleセキュリティアップデート（2018～2019）
+Appleセキュリティアップデート（2016～2017）
+Appleセキュリティアップデート（2015）
+Appleセキュリティアップデート（2014）
+Appleセキュリティアップデート（2013）
+Appleセキュリティアップデート（2011～2012）
+Appleセキュリティアップデート（2010）
+Appleセキュリティアップデート（15-Jan-2008～03-Dec-2009）
+Appleセキュリティアップデート（25-Jan-2005～21-Dec-2007）
+Appleセキュリティアップデート（03-Oct-2003～11-Jan-2005）
+Appleセキュリティアップデート（2003年8月以前）
+Apple が製造していない製品に関する情報や、Apple が管理または検証していない個々の Web サイトについては、推奨や承認なしで提供されています。Apple は他社の Web サイトや製品の選択、性能、使用に関しては一切責任を負いません。Apple は他社の Web サイトの正確性や信頼性についてはいかなる表明もいたしません。詳しくは
+各メーカーや開発元にお問い合わせ
+ください。
+公開日：
+2026 年 04 月 23 日
+役に立ちましたか？
+はい
+いいえ
+入力可能な文字数：
+250
+入力可能な文字数は 250 です。
+コメントには個人情報を含めないでください。
+送信
+フィードバックありがとうございます。
+Apple Footer
+
+Apple
+サポート
+Appleのセキュリティリリース
+日本
+Copyright © 2026 Apple Inc. All rights reserved.
+プライバシーポリシー
+利用規約
+販売条件
+サイトマップ
