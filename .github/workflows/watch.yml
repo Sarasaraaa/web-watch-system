@@ -425,9 +425,23 @@ jobs:
                       f"... 他 {len(changed_lines) - max_lines} 行の変更があります。"
                   )
 
-                  return "\n".join(shown)
+                  # 【修正】Teams通知上で差分を1行ずつ表示するため、
+                  # 改行文字ではなく <br> を使う
+                  # ここで html.escape() しているため、
+                  # 後続のRSS本文生成では再度 html.escape() しない
+                  return "<br>".join(
+                      html.escape(line)
+                      for line in shown
+                  )
 
-              return "\n".join(changed_lines)
+              # 【修正】Teams通知上で差分を1行ずつ表示するため、
+              # 改行文字ではなく <br> を使う
+              # ここで html.escape() しているため、
+              # 後続のRSS本文生成では再度 html.escape() しない
+              return "<br>".join(
+                  html.escape(line)
+                  for line in changed_lines
+              )
 
           # ==================================================
           # 監視処理本体
@@ -656,7 +670,14 @@ jobs:
                       f"{html.escape(diff_url)}</a></p>"
 
                       f"<br><strong>変更サマリ:</strong><br>"
-                      f"<code>{html.escape(p['summary'])}</code>"
+
+                      # 【修正】p["summary"] は make_plain_diff_summary() 側で
+                      # html.escape() 済み、かつ <br> を含むHTML文字列のため、
+                      # ここで html.escape(p["summary"]) を実行すると
+                      # <br> が文字として表示され、改行されなくなる。
+                      #
+                      # そのため、ここでは再エスケープせず、そのまま埋め込む。
+                      f"<code>{p['summary']}</code>"
 
                       f"<hr>"
                   )
@@ -668,7 +689,10 @@ jobs:
                       f"検出した最終更新日: {p['last_updated']}\n"
                       f"差分詳細: {diff_url}\n\n"
                       f"変更サマリ:\n"
-                      f"{p['summary']}\n\n"
+
+                      # 【修正】latest_notification.txt はテキスト確認用のため、
+                      # RSS/Teams用の <br> を改行へ戻して保存する
+                      f"{p['summary'].replace('<br>', chr(10))}\n\n"
                   )
 
               # RSS XML生成
