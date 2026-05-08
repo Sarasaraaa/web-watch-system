@@ -1,57 +1,9 @@
-【Android バージョン情報】
-対象URL: https://developer.android.com/about/versions?hl=ja
-検出した最終更新日: 最終更新日 2025-06-11 UTC。
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
-
-変更サマリ:
--最終更新日 2025-06-10 UTC。
-+Android リリース  |  Platform  |  Android Developers
-+メイン コンテンツにスキップ
-+Essentials
-+AI エクスペリエンスの構築
-+Gemini API などを使用して、AI 搭載の Android アプリを構築します。
-+使ってみる
-+使ってみる
-+初めてのアプリを作成することから始めてみましょう。トレーニング コースを活用して理解を深めるほか、ご自身でアプリ開発を習得することもできます。
-+Hello world
-+トレーニング コース
-+チュートリアル
-+チーム向けの Compose
-+Kotlin for Android
-+Google Play での収益化 ↗️
-+Android デベロッパーの確認
-+デバイスごとに拡張する
-+スマートフォン、タブレット、スマートウォッチ、ヘッドセットなど、さまざまなデバイスでシームレスなエクスペリエンスをユーザーに提供するアプリを作成します。
-+アダプティブ アプリ
-+Android XR
-+Wear OS
-+自動車向け Android
-+Android TV
-+ChromeOS
-+カテゴリ別に作成する
-+Google 独自の規範となるガイダンスに沿って、ユースケース向けにビルドする方法を学習します。
-+ゲーム
-+カメラ＆メディア
-+ソーシャル＆メッセージ
-+健康＆フィットネス
-+仕事効率化
-+エンタープライズ アプリ
-+最新情報を確認する
-+年間を通して最新リリースのお知らせをお届けします。プレビュー プログラムにご参加いただき、ご意見をお寄せください。
-+最新情報
-+試験運用版の最新情報
-+Android Studio プレビュー
-+Jetpack ライブラリと Compose ライブラリ
-+Wear OS 向けリリース
-+プライバシー サンドボックス ↗️
-... 他 420 行の変更があります。
-
 【iOS リリース情報】
 対象URL: https://support.apple.com/ja-jp/HT201222
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
 
 変更サマリ:
--﻿TEST_CHANGE
+-test﻿
 +﻿
 

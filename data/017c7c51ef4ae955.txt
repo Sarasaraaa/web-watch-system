@@ -1,0 +1,1860 @@
+App Store Connect - Help - Apple Developer
+' />
+' />
+' />
+View in English
+Apple Developer
+Get Started
+Explore Get Started
+Overview
+Learn
+Apple Developer Program
+Stay Updated
+Latest News
+Hello Developer
+Platforms
+Explore Platforms
+Apple Platforms
+iOS
+iPadOS
+macOS
+tvOS
+visionOS
+watchOS
+App Store
+Featured
+Design
+Distribution
+Games
+Accessories
+Web
+Home
+CarPlay
+Technologies
+Explore Technologies
+Overview
+Xcode
+Swift
+SwiftUI
+Featured
+Accessibility
+App Intents
+Apple Intelligence
+Games
+Machine Learning & AI
+Security
+Xcode Cloud
+Community
+Explore Community
+Overview
+Meet with Apple events
+Community-driven events
+Developer Forums
+Open Source
+Featured
+WWDC
+Swift Student Challenge
+Developer Stories
+App Store Awards
+Apple Design Awards
+Apple Developer Centers
+Documentation
+Explore Documentation
+Documentation Library
+Technology Overviews
+Sample Code
+Human Interface Guidelines
+Videos
+Release Notes
+Featured Updates
+iOS
+iPadOS
+macOS
+watchOS
+visionOS
+tvOS
+Xcode
+Downloads
+Explore Downloads
+All Downloads
+Operating Systems
+Applications
+Design Resources
+Featured
+Xcode
+TestFlight
+Fonts
+SF Symbols
+Icon Composer
+Support
+Explore Support
+Overview
+Help Guides
+Developer Forums
+Feedback Assistant
+Contact Us
+Featured
+Account Help
+App Review Guidelines
+App Store Connect Help
+Upcoming Requirements
+Agreements and Guidelines
+System Status
+Quick Links
+Events
+News
+Forums
+Sample Code
+Videos
+-->
+Search
+Search Reset
+Release notes
+Release notes
+App Store Connect homepage
+Get started
+App Store Connect workflow
+Get started
+App Store Connect for iPhone and iPad
+Get started
+Overview of accounts and roles
+Manage your team
+Add and edit users
+Manage your team
+Edit access to apps
+Manage your team
+View and edit your profile
+Manage your team
+Manage webhooks
+Manage your team
+Set up OS data transfer
+Manage your team
+Add a new app
+Create an app record
+Set your developer name
+Create an app record
+View and edit app information
+Create an app record
+Add watchOS app information
+Create an app record
+Add iMessage app information
+Create an app record
+Add platforms
+Create an app record
+Create and submit app bundles
+Create an app record
+Edit app bundle information
+Create an app record
+Remove an app
+Create an app record
+Edit access to an app
+Create an app record
+Upload builds
+Manage builds
+View builds and metadata
+Manage builds
+Choose a build to submit
+Manage builds
+Overview of Apple-hosted asset packs
+Manage asset packs
+Upload Apple-hosted asset packs
+Manage asset packs
+Set an app age rating
+Manage app information
+Manage app tags
+Manage app information
+Set the app motion information for Apple Vision Pro
+Manage app information
+Provide a custom license agreement
+Manage app information
+Localize app information
+Manage app information
+Manage app privacy
+Manage app information
+Set a tax category
+Manage app information
+Declare Regulated Medical Device Status
+Manage app information
+Overview of export compliance
+Manage app information
+Determine and upload app encryption documentation
+Manage app information
+Add an app icon
+Manage app information
+Upload app previews and screenshots
+Manage app information
+Set an app preview poster frame
+Manage app information
+Remove app previews or screenshots
+Manage app information
+Overview of Accessibility Nutrition Labels
+Manage app accessibility
+VoiceOver evaluation criteria
+Manage app accessibility
+Voice Control evaluation criteria
+Manage app accessibility
+Larger Text evaluation criteria
+Manage app accessibility
+Dark Interface evaluation criteria
+Manage app accessibility
+Differentiate Without Color Alone evaluation criteria
+Manage app accessibility
+Sufficient Contrast evaluation criteria
+Manage app accessibility
+Reduced Motion evaluation criteria
+Manage app accessibility
+Captions evaluation criteria
+Manage app accessibility
+Audio Descriptions evaluation criteria
+Manage app accessibility
+Manage Accessibility Nutrition Labels
+Manage app accessibility
+TestFlight Overview
+Test a beta version
+Provide test information
+Test a beta version
+Add internal testers
+Test a beta version
+Invite external testers
+Test a beta version
+View and manage tester information
+Test a beta version
+View tester feedback
+Test a beta version
+Add testers to builds
+Test a beta version
+View build status and metrics
+Test a beta version
+Stop testing a build
+Test a beta version
+Provide export compliance information for beta builds
+Test a beta version
+Test Apple-hosted asset packs
+Test a beta version
+Remove testers from a group
+Test a beta version
+Delete testers from TestFlight
+Test a beta version
+Test an App Clip experience
+Test a beta version
+Test iPhone and iPad apps on Macs with Apple silicon
+Test a beta version
+Test iPhone and iPad apps on Apple Vision Pro
+Test a beta version
+Testing subscriptions and In-App Purchases in TestFlight
+Test a beta version
+Overview of submitting for review
+Manage submissions to App Review
+Submit an app
+Manage submissions to App Review
+Submit an In-App Purchase
+Manage submissions to App Review
+Submit Apple-hosted asset packs
+Manage submissions to App Review
+Submit a custom product page
+Manage submissions to App Review
+Submit an In-App Event
+Manage submissions to App Review
+Submit Game Center components
+Manage submissions to App Review
+Remove a submission from review
+Manage submissions to App Review
+Reply to App Review messages
+Manage submissions to App Review
+Manage a submission with unresolved issues
+Manage submissions to App Review
+Upload a geographic coverage file
+Manage submissions to App Review
+Overview of publishing your app on the App Store
+Manage your app's availability
+Manage availability for your app on the App Store
+Manage your app's availability
+Set distribution methods
+Manage your app's availability
+Publish for pre-order
+Manage your app's availability
+Select an App Store version release option
+Manage your app's availability
+Manage availability of iPhone and iPad apps on Macs with Apple silicon
+Manage your app's availability
+Manage availability of iPhone and iPad apps on Apple Vision Pro
+Manage your app's availability
+Make a version unavailable for download
+Manage your app's availability
+View app status history
+Manage your app's availability
+Set a price
+Manage app pricing
+Schedule price changes for apps
+Manage app pricing
+Overview of maintaining an app
+Update your app
+Create a new version
+Update your app
+Release a version update in phases
+Update your app
+Nominate your app for featuring
+Manage featuring nominations
+Ratings and reviews overview
+Monitor ratings and reviews
+View ratings and reviews
+Monitor ratings and reviews
+Respond to reviews
+Monitor ratings and reviews
+Reset an app overview rating
+Monitor ratings and reviews
+Overview of reporting tools
+Measure app performance
+Differences in reporting tools
+Measure app performance
+View units, proceeds, sales, and pre-orders
+Measure app performance
+View subscription data
+Measure app performance
+Download and view reports
+Measure app performance
+Overview of app transfer
+Transfer an app
+App transfer criteria
+Transfer an app
+Initiate an app transfer
+Transfer an app
+Accept an app transfer
+Transfer an app
+Sign and update agreements
+Manage agreements
+View agreements status
+Manage agreements
+Enter banking information
+Manage banking information
+Provide tax information
+Manage tax information
+Provide tax information for business-to-business status
+Manage tax information
+Provide tax information for alternative payment options
+Manage tax information
+Provide tax information for Core Technology Fee
+Manage tax information
+Manage invoices and other tax documents
+Manage tax information
+Manage European Union Digital Services Act trader requirements
+Manage compliance information
+View Mainland China compliance information
+Manage compliance information
+Manage Korea compliance information
+Manage compliance information
+Manage information for DAC7
+Manage compliance information
+Manage information for ITA
+Manage compliance information
+Manage information for MRDP
+Manage compliance information
+Manage information for SERR
+Manage compliance information
+Manage information for State Council Decree No. 810
+Manage compliance information
+Overview of receiving payments
+Getting paid
+View payments and proceeds
+Getting paid
+Download financial reports
+Getting paid
+Overview of making payments to Apple
+Making payments to Apple
+Update your account for invoicing requirements
+Making payments to Apple
+Understanding taxes
+Making payments to Apple
+Invoice fields
+Making payments to Apple
+Reporting tokens and transactions to Apple
+Making payments to Apple
+Core Technology Fee overview
+Understanding the Core Technology Fee
+Estimate fees for alternative business terms
+Understanding the Core Technology Fee
+Measure your first annual installs
+Understanding the Core Technology Fee
+Core Technology Fee report fields
+Understanding the Core Technology Fee
+Request and manage promo codes
+Offer promo codes
+Overview of App Clips
+Offer App Clip experiences
+Offer a default App Clip experience
+Offer App Clip experiences
+Offer an advanced App Clip experience
+Offer App Clip experiences
+Generate App Clip codes
+Offer App Clip experiences
+Manage an App Clip experience
+Offer App Clip experiences
+View domain URL status
+Offer App Clip experiences
+Configure multiple product page versions
+Create custom product pages
+Overview of product page optimization
+Create product page optimization tests
+Create a test
+Create product page optimization tests
+Configure test treatments
+Create product page optimization tests
+Run a test
+Create product page optimization tests
+Apply a test treatment to your product page
+Create product page optimization tests
+Overview of In-App Events
+Offer In-App Events
+Offer In-App Events
+Offer In-App Events
+Manage events
+Offer In-App Events
+Overview for configuring In-App Purchases
+Configure In-App Purchase settings
+Generate keys for In-App Purchases
+Configure In-App Purchase settings
+Generate a shared secret to verify receipts
+Configure In-App Purchase settings
+Enter server URLs for App Store Server Notifications
+Configure In-App Purchase settings
+Set a tax category for In-App Purchases
+Configure In-App Purchase settings
+Turn on Family Sharing for In-App Purchases
+Configure In-App Purchase settings
+Promote In-App Purchases
+Configure In-App Purchase settings
+Create consumable or non-consumable In-App Purchases
+Manage In-App Purchases
+Create non-renewing subscriptions
+Manage In-App Purchases
+View and edit In-App Purchase information
+Manage In-App Purchases
+Set a price for an In-App Purchase
+Manage In-App Purchases
+Schedule price changes for In-App Purchases
+Manage In-App Purchases
+Set availability for In-App Purchases
+Manage In-App Purchases
+Create offer codes for In-App Purchases
+Manage In-App Purchases
+Offer auto-renewable subscriptions
+Manage subscriptions
+Set availability for an auto-renewable subscription
+Manage subscriptions
+Manage pricing for auto-renewable subscriptions
+Manage subscriptions
+Set up introductory offers for auto-renewable subscriptions
+Manage subscriptions
+Set up promotional offers for auto-renewable subscriptions
+Manage subscriptions
+Set up subscription offer codes
+Manage subscriptions
+Set up win-back offers
+Manage subscriptions
+Manage Streamlined Purchasing
+Manage subscriptions
+Enable billing grace period for auto-renewable subscriptions
+Manage subscriptions
+Overview of testing in sandbox
+Test In-App Purchases
+Create Sandbox Apple Account
+Test In-App Purchases
+Manage Sandbox Apple Account settings
+Test In-App Purchases
+Overview of Game Center
+Configure Game Center
+Manage leaderboards
+Configure Game Center
+Manage leaderboard sets
+Configure Game Center
+Manage achievements
+Configure Game Center
+Manage challenges
+Configure Game Center
+Manage activities
+Configure Game Center
+Overview of Game Center groups
+Configure Game Center
+Manage groups
+Configure Game Center
+Overview of testing Game Center
+Configure Game Center
+Remove leaderboard test data
+Configure Game Center
+Manage an app version for Game Center
+Configure Game Center
+Add multiplayer compatibility
+Configure Game Center
+Manage scores and players
+Configure Game Center
+Manage distribution on an alternative app marketplace
+Managing alternative distribution
+Get an alternative distribution package ID
+Managing alternative distribution
+Submit for Notarization
+Managing alternative distribution
+Create a marketplace app
+Managing alternative distribution
+Role permissions
+Reference > Account management
+User notifications
+Reference > Account management
+Compliance review
+Reference > Account management
+Tax ID formats
+Reference > Account management
+App and submission statuses
+Reference > App information
+App information
+Reference > App information
+Platform version information
+Reference > App information
+App preview specifications
+Reference > App information
+Screenshot specifications
+Reference > App information
+Required, localizable, and editable properties
+Reference > App information
+App Store localizations
+Reference > App information
+App privacy
+Reference > App information
+Age ratings values and definitions
+Reference > App information
+Provide app motion information
+Reference > App information
+Export compliance documentation for encryption
+Reference > App information
+App bundle information
+Reference > App information
+App pricing and availability
+Reference > Pricing and availability
+App Store pricing and availability start times by country or region
+Reference > Pricing and availability
+In-App Purchase and subscriptions pricing and availability
+Reference > Pricing and availability
+Build upload statuses
+Reference > App uploads
+App build statuses
+Reference > App uploads
+Maximum build file sizes
+Reference > App uploads
+On-demand resources size limits
+Reference > App uploads
+App Sandbox information
+Reference > App uploads
+Apple-hosted asset pack statuses
+Reference > App uploads
+Apple-hosted asset pack size limits
+Reference > App uploads
+TestFlight tester information
+Reference > TestFlight
+Beta tester feedback
+Reference > TestFlight
+In-App Purchase types
+Reference > In-App Purchases and subscriptions
+In-App Purchase information
+Reference > In-App Purchases and subscriptions
+In-App Purchase statuses
+Reference > In-App Purchases and subscriptions
+In-App Purchase localization statuses
+Reference > In-App Purchases and subscriptions
+Auto-renewable subscription information
+Reference > In-App Purchases and subscriptions
+Auto-renewable subscription price increase thresholds
+Reference > In-App Purchases and subscriptions
+Consent for subscription offer conversions
+Reference > In-App Purchases and subscriptions
+Leaderboards
+Reference > Game Center
+Achievements
+Reference > Game Center
+Challenges
+Reference > Game Center
+Game activities
+Reference > Game Center
+Group properties
+Reference > Game Center
+Game Center properties
+Reference > Game Center
+Nominations template
+Reference > Nominations
+In-App Event statuses
+Reference > In-App Events
+In-App Event badges
+Reference > In-App Events
+In-App Event media specifications
+Reference > In-App Events
+Payment information
+Reference > Reporting
+Financial report fields
+Reference > Reporting
+Transaction tax report fields
+Reference > Reporting
+Apple legal entities
+Reference > Reporting
+Currency codes
+Reference > Reporting
+Financial report regions and currencies
+Reference > Reporting
+Minimum payment threshold
+Reference > Reporting
+Summary Sales Report
+Reference > Reporting
+Sales Events Report
+Reference > Reporting
+Pre-Order Report
+Reference > Reporting
+Subscription Report
+Reference > Reporting
+Subscription Event Report
+Reference > Reporting
+Subscriber Report
+Reference > Reporting
+Subscription Offer Redemption Report
+Reference > Reporting
+Win-back eligibility report
+Reference > Reporting
+Report file names
+Reference > Reporting
+Subscription events
+Reference > Reporting
+Promotional codes
+Reference > Reporting
+Product type identifiers
+Reference > Reporting
+Cancellation reasons
+Reference > Reporting
+Sales and Trends metrics and dimensions
+Reference > Reporting
+Sales and Trends reports availability
+Reference > Reporting
+Banking information
+Reference > Reporting
+Store Services tiers
+Reference
+No results
+If you have any questions about membership, your account, or App Store Connect, please review developer support.
+App Store Connect Help
+App Store Connect
+Filter
+⌘K
+Release notes
+Get started
+App Store Connect homepage
+App Store Connect workflow
+App Store Connect for iPhone and iPad
+Manage your team
+Overview of accounts and roles
+Add and edit users
+Edit access to apps
+View and edit your profile
+Manage webhooks
+Set up OS data transfer
+Create an app record
+Add a new app
+Set your developer name
+View and edit app information
+Add watchOS app information
+Add iMessage app information
+Add platforms
+Create and submit app bundles
+Edit app bundle information
+Remove an app
+Edit access to an app
+Manage builds
+Upload builds
+View builds and metadata
+Choose a build to submit
+Manage asset packs
+Overview of Apple-hosted asset packs
+Upload Apple-hosted asset packs
+Manage app information
+Set an app age rating
+Manage app tags
+Set the app motion information for Apple Vision Pro
+Provide a custom license agreement
+Localize app information
+Manage app privacy
+Set a tax category
+Declare Regulated Medical Device Status
+Overview of export compliance
+Determine and upload app encryption documentation
+Add an app icon
+Upload app previews and screenshots
+Set an app preview poster frame
+Remove app previews or screenshots
+Manage app accessibility
+Overview of Accessibility Nutrition Labels
+VoiceOver evaluation criteria
+Voice Control evaluation criteria
+Larger Text evaluation criteria
+Dark Interface evaluation criteria
+Differentiate Without Color Alone evaluation criteria
+Sufficient Contrast evaluation criteria
+Reduced Motion evaluation criteria
+Captions evaluation criteria
+Audio Descriptions evaluation criteria
+Manage Accessibility Nutrition Labels
+Test a beta version
+TestFlight Overview
+Provide test information
+Add internal testers
+Invite external testers
+View and manage tester information
+View tester feedback
+Add testers to builds
+View build status and metrics
+Stop testing a build
+Provide export compliance information for beta builds
+Test Apple-hosted asset packs
+Remove testers from a group
+Delete testers from TestFlight
+Test an App Clip experience
+Test iPhone and iPad apps on Macs with Apple silicon
+Test iPhone and iPad apps on Apple Vision Pro
+Testing subscriptions and In-App Purchases in TestFlight
+Manage submissions to App Review
+Overview of submitting for review
+Submit an app
+Submit an In-App Purchase
+Submit Apple-hosted asset packs
+Submit a custom product page
+Submit an In-App Event
+Submit Game Center components
+Remove a submission from review
+Reply to App Review messages
+Manage a submission with unresolved issues
+Upload a geographic coverage file
+Manage your app's availability
+Overview of publishing your app on the App Store
+Manage availability for your app on the App Store
+Set distribution methods
+Publish for pre-order
+Select an App Store version release option
+Manage availability of iPhone and iPad apps on Macs with Apple silicon
+Manage availability of iPhone and iPad apps on Apple Vision Pro
+Make a version unavailable for download
+View app status history
+Manage app pricing
+Set a price
+Schedule price changes for apps
+Update your app
+Overview of maintaining an app
+Create a new version
+Release a version update in phases
+Manage featuring nominations
+Nominate your app for featuring
+Monitor ratings and reviews
+Ratings and reviews overview
+View ratings and reviews
+Respond to reviews
+Reset an app overview rating
+Measure app performance
+Overview of reporting tools
+Differences in reporting tools
+View units, proceeds, sales, and pre-orders
+View subscription data
+Download and view reports
+Transfer an app
+Overview of app transfer
+App transfer criteria
+Initiate an app transfer
+Accept an app transfer
+Manage agreements
+Sign and update agreements
+View agreements status
+Manage banking information
+Enter banking information
+Manage tax information
+Provide tax information
+Provide tax information for business-to-business status
+Provide tax information for alternative payment options
+Provide tax information for Core Technology Fee
+Manage invoices and other tax documents
+Manage compliance information
+Manage European Union Digital Services Act trader requirements
+View Mainland China compliance information
+Manage Korea compliance information
+Manage information for DAC7
+Manage information for ITA
+Manage information for MRDP
+Manage information for SERR
+Manage information for State Council Decree No. 810
+Getting paid
+Overview of receiving payments
+View payments and proceeds
+Download financial reports
+Making payments to Apple
+Overview of making payments to Apple
+Update your account for invoicing requirements
+Understanding taxes
+Invoice fields
+Reporting tokens and transactions to Apple
+Understanding the Core Technology Fee
+Core Technology Fee overview
+Estimate fees for alternative business terms
+Measure your first annual installs
+Core Technology Fee report fields
+Offer promo codes
+Request and manage promo codes
+Offer App Clip experiences
+Overview of App Clips
+Offer a default App Clip experience
+Offer an advanced App Clip experience
+Generate App Clip codes
+Manage an App Clip experience
+View domain URL status
+Create custom product pages
+Configure multiple product page versions
+Create product page optimization tests
+Overview of product page optimization
+Create a test
+Configure test treatments
+Run a test
+Apply a test treatment to your product page
+Offer In-App Events
+Overview of In-App Events
+Offer In-App Events
+Manage events
+Configure In-App Purchase settings
+Overview for configuring In-App Purchases
+Generate keys for In-App Purchases
+Generate a shared secret to verify receipts
+Enter server URLs for App Store Server Notifications
+Set a tax category for In-App Purchases
+Turn on Family Sharing for In-App Purchases
+Promote In-App Purchases
+Manage In-App Purchases
+Create consumable or non-consumable In-App Purchases
+Create non-renewing subscriptions
+View and edit In-App Purchase information
+Set a price for an In-App Purchase
+Schedule price changes for In-App Purchases
+Set availability for In-App Purchases
+Create offer codes for In-App Purchases
+Manage subscriptions
+Offer auto-renewable subscriptions
+Set availability for an auto-renewable subscription
+Manage pricing for auto-renewable subscriptions
+Set up introductory offers for auto-renewable subscriptions
+Set up promotional offers for auto-renewable subscriptions
+Set up subscription offer codes
+Set up win-back offers
+Manage Streamlined Purchasing
+Enable billing grace period for auto-renewable subscriptions
+Test In-App Purchases
+Overview of testing in sandbox
+Create Sandbox Apple Account
+Manage Sandbox Apple Account settings
+Configure Game Center
+Overview of Game Center
+Manage leaderboards
+Manage leaderboard sets
+Manage achievements
+Manage challenges
+Manage activities
+Overview of Game Center groups
+Manage groups
+Overview of testing Game Center
+Remove leaderboard test data
+Manage an app version for Game Center
+Add multiplayer compatibility
+Manage scores and players
+Managing alternative distribution
+Manage distribution on an alternative app marketplace
+Get an alternative distribution package ID
+Submit for Notarization
+Create a marketplace app
+Reference
+Account management
+Role permissions
+User notifications
+Compliance review
+Tax ID formats
+App information
+App and submission statuses
+App information
+Platform version information
+App preview specifications
+Screenshot specifications
+Required, localizable, and editable properties
+App Store localizations
+App privacy
+Age ratings values and definitions
+Provide app motion information
+Export compliance documentation for encryption
+App bundle information
+Pricing and availability
+App pricing and availability
+App Store pricing and availability start times by country or region
+In-App Purchase and subscriptions pricing and availability
+App uploads
+Build upload statuses
+App build statuses
+Maximum build file sizes
+On-demand resources size limits
+App Sandbox information
+Apple-hosted asset pack statuses
+Apple-hosted asset pack size limits
+TestFlight
+TestFlight tester information
+Beta tester feedback
+In-App Purchases and subscriptions
+In-App Purchase types
+In-App Purchase information
+In-App Purchase statuses
+In-App Purchase localization statuses
+Auto-renewable subscription information
+Auto-renewable subscription price increase thresholds
+Consent for subscription offer conversions
+Game Center
+Leaderboards
+Achievements
+Challenges
+Game activities
+Group properties
+Game Center properties
+Nominations
+Nominations template
+In-App Events
+In-App Event statuses
+In-App Event badges
+In-App Event media specifications
+Reporting
+Payment information
+Financial report fields
+Transaction tax report fields
+Apple legal entities
+Currency codes
+Financial report regions and currencies
+Minimum payment threshold
+Summary Sales Report
+Sales Events Report
+Pre-Order Report
+Subscription Report
+Subscription Event Report
+Subscriber Report
+Subscription Offer Redemption Report
+Win-back eligibility report
+Report file names
+Subscription events
+Promotional codes
+Product type identifiers
+Cancellation reasons
+Sales and Trends metrics and dimensions
+Sales and Trends reports availability
+Banking information
+Store Services tiers
+Filter
+⌘K
+Release notes
+Release Notes
+Learn about new features and updates in App Store Connect.
+May 5, 2026
+App Store Connect update
+You can now upload apps built with Xcode 26.5 RC using the SDK for iOS 26.5 RC, iPadOS 26.5 RC macOS 26.5 RC, visionOS 26.5 RC, tvOS 26.5 RC, and watchOS 26.5 RC for the App Store, and for internal and external testing through TestFlight.
+April 30, 2026
+TestFlight update
+TestFlight 4.2 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes:
+Added support for 11 new languages for TestFlight on iPhone and iPad: Bangla, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Slovenian, Tamil, Telugu, and Urdu.
+Improvements and bug fixes for accessibility features, including VoiceOver, Voice Control, and Larger Text.
+Stability improvements and bug fixes.
+April 28, 2026
+TestFlight update
+You can now upload apps built with Xcode 26.5 beta 3 using the SDK for iOS 26.5 beta 4, iPadOS 26.5 beta 4, macOS 26.5 beta 4, tvOS 26.5 beta 4, visionOS 26.5 beta 4, and watchOS 26.5 beta 4 for internal and external testing through TestFlight.
+TestFlight Xcode
+April 27, 2026
+App Store Connect update
+You can now offer monthly subscriptions with 12 month commitment outside the United States and Singapore.
+April 22, 2026
+App Store Connect update
+Details on how to provide information for the
+Provisions on the Reporting of Tax-related Information by Internet Platform Enterprises (State Council Decree No. 810)
+are now available.
+Minor editorial fixes were also made.
+April 16, 2026
+App Store Connect update
+You can now upload apps built with Xcode 26.4.1 using the SDK for iOS 26.4.1, iPadOS 26.4.1, macOS 26.4.1, visionOS 26.4, tvOS 26.4, and watchOS 26.4 for the App Store, and for internal and external testing through TestFlight.
+TestFlight
+April 14, 2026
+TestFlight update
+You can now upload apps built with Xcode 26.5 beta 2 using the SDK for iOS26.5 beta 2, iPadOS 26.5 beta 2, macOS 26.5 beta 2, tvOS 26.5 beta 2, visionOS 26.5 beta 2, and watchOS 26.4 beta 4 for internal and external testing through TestFlight.
+TestFlight
+April 1, 2026
+App Store Connect update
+App Store Connect 3.2 is now available on the App Store for iPhone and iPad. This update includes:
+Accessibility improvements for developers who are VoiceOver and Voice Control users.
+Support for the following 11 new languages when promoting your app during launches, updates, or when featured on the App Store: Bangla, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Slovenian, Tamil, Telugu, and Urdu.
+Streamlined filtering for TestFlight feedback.
+Stability improvements and bug fixes.
+March 31, 2026
+TestFlight update
+You can now upload apps built with Xcode 26.5 beta using the SDK for iOS 26.5 beta, iPadOS 26.5 beta, macOS 26.5 beta, tvOS 26.5 beta, visionOS 26.5 beta, and watchOS 26.5 beta for internal and external testing through TestFlight.
+TestFlight
+March 30, 2026
+App Store Connect update
+You can now provide your app metadata in following languages.
+Bangla, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Slovenia, Tamil, Telugu, Urdu.
+App Store localizations
+March 27, 2026
+App Store Connect update
+Promo codes for In-App Purchases are no longer supported.
+In-App Purchase
+March 26, 2026
+App Store Connect update
+You can now
+declare your app's regulated medical device status
+and provide the necessary details in the App Information section for your app in App Store Connect. Apps that are distributed in the European Union (EU)/European Economic Area (EEA), United Kingdom (UK), or United States (U.S.) and meet either of the following criteria are required to indicate whether they’re regulated medical devices:
+Have a primary or secondary category of Health & Fitness or Medical
+Have indicated your app contains “frequent” in the Medical or Treatment Information field in the age rating questionnaire in App Store Connect
+In order to comply with regulatory requirements in certain jurisdictions, you can now enter your compliance information in the Business section of App Store Connect. This is to align with requirements for
+Directive on Administrative Cooperation-7th Amendment
+,
+Part XX of the Income Tax Act
+,
+Model Reporting Rules for Digital Platforms
+, and
+Sharing Economy Reporting Regime
+.
+Minor editorial fixes were also made.
+March 24, 2026
+App Store Connect update
+You can now upload apps built with Xcode 26.4 using the SDK for iOS 26.4, iPadOS 26.4, macOS 26.4, tvOS 26.4, visionOS 26.4, and watchOS 26.4 for the App Store, and for internal and external testing through TestFlight.
+March 24, 2026
+App Store Connect update
+Reporting tokens are now available for external purchases made in Japan.
+March 18, 2026
+App Store Connect update
+You can now upload apps built with Xcode 26.4 Release Candidate using the SDK for iOS 26.4 RC, iPadOS 26.4 RC, macOS 26.4 RC, tvOS 26.4 RC, visionOS 26.4 RC, and watchOS 26.4 RC for the App Store, and for internal and external testing through TestFlight.
+TestFlight Xcode
+March 10, 2026
+TestFlight update
+You can now upload apps built with Xcode 26.4 beta 3 using the SDK for iOS26.4 beta 4, iPadOS 26.4 beta 4, macOS 26.4 beta 4, tvOS 26.4 beta 4, visionOS 26.4 beta 4, and watchOS 26.4 beta 4 for internal and external testing through TestFlight.
+TestFlight
+March 5, 2026
+App Store Connect update
+You can now upload screenshots and app previews for iPhone 17e, iPad Air 13-inch (M4), and iPad Air 11-inch (M4).
+March 4, 2026
+Editorial updates
+You can create your app icon using Icon Composer within your Xcode project.
+Learn how to add an app icon.
+The App Clip header image specification is now available in
+Offer a default App Clip experience
+.
+Additional minor updates.
+February 26, 2026
+App Store Connect update
+You can now upload apps built with Xcode 26.3 using the SDK for iOS 26.2, iPadOS 26.2, macOS 26.2, tvOS 26.2, visionOS 26.2, and watchOS 26.2 for the App Store, and for internal and external testing through TestFlight.
+February 24, 2026
+TestFlight update
+You can now upload apps built with Xcode 26.4 beta 2 using the SDK for iOS26.4 beta 2, iPadOS 26.4 beta 2, macOS 26.4 beta 2, tvOS 26.4 beta 2, visionOS 26.4 beta 2, and watchOS 26.4 beta 2 for internal and external testing through TestFlight.
+TestFlight
+February 20, 2026
+App Store Connect update
+You can now upload apps built with Xcode 26.3 Release Candidate 2 using the SDK for iOS 26.2, iPadOS 26.2, macOS 26.2, tvOS 26.2, visionOS 26.2, and watchOS 26.2 for the App Store, and for internal and external testing through TestFlight.
+February 17, 2026
+App Store Connect update
+For app bundles created on February 17 or later, apps included in the bundle no longer need to support the same platform as the primary app.
+App Bundles
+Create and submit app bundles
+February 17, 2026
+TestFlight update
+You can now upload apps built with Xcode 26.4 beta using the SDK for iOS26.4 beta, iPadOS 26.4 beta, macOS 26.4 beta, tvOS 26.4 beta, visionOS 26.4 beta, and watchOS 26.4 beta for internal and external testing through TestFlight.
+TestFlight
+February 11, 2026
+App Store Connect update
+The
+app transfer overview section
+now provides an explanation of the experience for apps that have OS data transfer set up.
+Minor editorial fixes were also made.
+App Transfer
+February 3, 2026
+App Store Connect update
+You can now upload apps built with Xcode 26.3 Release Candidate using the SDK for iOS 26.2, iPadOS 26.2, macOS 26.2, tvOS 26.2, visionOS 26.2, and watchOS 26.2 for the App Store, and for internal and external testing through TestFlight.
+TestFlight
+December 17, 2025
+App Store Connect updates
+Updates to alternative distribution, alternative app marketplaces, alternative payments, and linking out, including support for Japan.
+December 15, 2025
+App Store Connect update
+You can now set up app mappings for
+OS data transfer
+in App Store Connect which will enable users to seamlessly transfer your app’s data across Android and iOS. Note that users can only use OS data transfer for your app if you set it up both in App Store Connect and with Google.
+December 12, 2025
+App Store Connect update
+You can now upload apps built with Xcode 26.2 using the SDK for iOS 26.2, iPadOS 26.2, macOS 26.2, tvOS 26.2, visionOS 26. 2, and watchOS 26.2 for the App Store, and for internal and external testing through TestFlight.
+TestFlight
+December 10, 2025
+TestFlight update
+TestFlight 4.1 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes stability improvements and bug fixes.
+TestFlight
+December 8, 2025
+TestFlight update
+You can now upload apps built with Xcode 26.2 RC using the SDK for iOS 26.2 RC, iPadOS 26.2 RC, macOS 26.2 RC, tvOS 26.2 RC, visionOS 26. 2 RC, and watchOS 26.2 RC for internal and external testing through TestFlight.
+App Store Connect
+December 3, 2025
+Editorial updates
+The maximum number of offer codes per app (shared across all
+In-App Purchases
+or
+Subscriptions
+), the customer redemption limit, and code expiration vary depending on the offer code type.
+Additional minor updates.
+In-App Purchases, Subscriptions
+November 19, 2025
+TestFlight update
+You can now upload apps built with Xcode 26.2 beta 2 using the SDK for iOS 26.2 beta 3, iPadOS 26.2 beta 3, macOS 26.2 beta 3, tvOS 26.2 beta 3, visionOS 26.2 beta 3, and watchOS 26.2 beta 3 for internal and external testing through TestFlight.
+TestFlight
+November 4, 2025
+Editorial update
+The Reference section of App Store Connect Help has been reorganized. The reference pages are now grouped into categories.
+November 4, 2025
+TestFlight update
+You can now upload apps built with Xcode 26.2 beta using the SDK for iOS 26.2 beta, iPadOS 26.2 beta, macOS 26.2 beta, tvOS 26.2 beta, visionOS 26.2 beta, and watchOS 26.2 beta for internal and external testing through TestFlight.
+TestFlight
+October 29, 2025
+App Store Connect update
+You can now create offer codes for consumable and non-consumable in-app purchases, and non-renewing subscriptions.
+In-app purchases
+Create offer codes for In-App Purchases
+October 29, 2025
+App Store Connect update
+You can now upload apps built with Xcode 26.1 RC using the SDK for iOS 26.1 RC, iPadOS 26.1 RC, macOS 26.1 RC, tvOS 26.1 RC, visionOS 26.1 RC, and watchOS 26.1 RC for the App Store, and for internal and external testing through TestFlight.
+App Store Connect
+October 28, 2025
+App Store Connect update
+You can now create up to 70
+custom product pages
+per app on the App Store.
+October 22, 2025
+TestFlight update
+Users with Managed Apple Accounts, except those assigned to Student roles, can now be invited to use TestFlight to beta test apps.
+TestFlight
+Apple School Manager User Guide
+Apple Business User Guide
+October 22, 2025
+App Store Connect updates
+The submission process for Game Center components in App Store Connect has been updated. You can now add Game Center components directly from the Game Center section. Additionally, you can submit App Store content with an additional submission, even if you have an existing submission under review.
+Game Center
+Submit Game Center components
+October 21, 2025
+TestFlight update
+You can now upload apps built with Xcode 26.1 beta 3 using the SDK for iOS 26.1 beta 4, iPadOS 26.1 beta 4, macOS 26.1 beta 4, tvOS 26.1 beta 4, visionOS 26.1 beta 4, and watchOS 26.1 beta 4 for internal and external testing through TestFlight.
+TestFlight
+October 20, 2025
+TestFlight update
+Apps built with Xcode 26.1 beta 3 are not yet supported for upload to App Store Connect or for internal or external testing through TestFlight.
+TestFlight
+October 17, 2025
+Editorial updates
+Offer codes for tvOS only apps are currently not supported.
+Additional minor updates.
+Offer codes
+October 6, 2025
+TestFlight update
+TestFlight 4.0 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes:
+A refreshed look, featuring the Liquid Glass design.
+Accessibility improvements, including VoiceOver, Voice Control, and Larger Text.
+Stability improvements and bug fixes.
+Known issue:
+For watchOS-only apps, the install status may not be reflected correctly in TestFlight. To see the correct status, please quit the TestFlight app and re-open it.
+TestFlight
+October 6, 2025
+TestFlight update
+You can now upload apps built with Xcode 26.1 beta 2 using the SDK for iOS 26.1 beta 2, iPadOS 26.1 beta 2, macOS 26.1 beta 2, tvOS 26.1 beta 2, visionOS 26.1 beta 2, and watchOS 26.1 beta 2 for internal and external testing through TestFlight.
+TestFlight
+October 1, 2025
+App Store Connect updates
+Your
+build upload status
+is now available directly in App Store Connect. The new statuses provide detailed insights into delivery progress, including warnings, errors, and other information.
+You can now
+configure webhooks
+in App Store Connect to receive automatic notifications to your web server when the status of a build upload, beta build, or Apple-hosted asset pack version changes.
+Webhooks
+October 1, 2025
+App Store Connect update
+App Store Connect 3.1 is now available on the App Store for iPhone and iPad. This update includes:
+A refreshed look, featuring Liquid Glass and enhanced icons.
+The ability to view your app's age rating across all countries and regions.
+Learn more.
+Streamlined filtering for Ratings and Reviews.
+Stability improvements and bug fixes.
+App Store Connect for iPhone and iPad
+September 25, 2025
+App Store Connect update
+New field added for games -
+Availability in Vietnam
+.
+September 24, 2025
+App Store Connect update
+The submission experience
+has been updated in App Store Connect. You can now submit App Store content with an additional submission, even if you already have an existing submission under review.
+Editorial updates
+To set a
+minimum compatible version
+for challenges, at least one Game Center-enabled version of the app must be in Ready for Distribution status on at least one App Store storefront.
+Additional minor updates.
+September 22, 2025
+TestFlight update
+You can now upload apps built with Xcode 26.1 beta using the SDK for iOS 26.1 beta, iPadOS 26.1 beta, macOS 26.1 beta, tvOS 26.1 beta, visionOS 26.1 beta, and watchOS 26.1 beta for internal and external testing through TestFlight.
+TestFlight
+September 15, 2025
+App Store Connect updates
+You can now
+submit Apple-hosted asset packs
+for distribution on the App Store.
+Learn more about Apple-hosted asset packs.
+App Clip demo URL
+is now automatically generated in App Store Connect during default App Clip experience creation.
+Apple-hosted asset packs, App Clips
+September 15, 2025
+App Store Connect update
+You can now upload apps built with Xcode 26 using the SDK for iOS 26, iPadOS 26, macOS 26, tvOS 26, visionOS 26, and watchOS 26 for the App Store, and for internal and external testing through TestFlight.
+Xcode, TestFlight
+September 10, 2025
+The submission experience has been updated in App Store Connect so you can now create multiple draft submissions and better prepare your updates for App Review.
+App Review
+Overview of submitting for review
+September 10, 2025
+TestFlight update
+Apple-Hosted Background Assets for external testing on all platforms is now supported in TestFlight.
+TestFlight Xcode
+Test Apple-hosted asset packs
+September 9, 2025
+App Store Connect update
+You can now upload apps built with Xcode 26 RC using the SDK for iOS 26 RC, iPadOS 26 RC, macOS 26 RC, tvOS 26 RC, visionOS 26 RC, and watchOS 26 RC for the App Store, and for internal and external testing through TestFlight, with support for the following:
+Apps built with the Enhanced Security capability or Enhanced Security extensions on visionOS.
+Not yet supported:
+Apple-Hosted Background Assets for external testing or App Store on all platforms.
+TestFlight Xcode
+September 3, 2025
+App Store Connect update
+Austria, Germany, and Poland now require user consent for
+auto-renewable subscription price increases
+.
+Editorial updates
+You can create up to
+20 challenges
+and
+20 activities
+for Game Center per app.
+The Accessibility Nutrition Labels
+will appear on Apple devices running iOS 26, iPadOS 26, macOS 26, tvOS 26, visionOS 26, and watchOS 26 or later.
+Screenshots
+must be provided in .jpeg, .jpg, and .png formats.
+Additional minor updates.
+August 28, 2025
+TestFlight update
+You can now upload apps built with Xcode 26 beta 7 using the SDK for iOS 26 beta 8, iPadOS 26 beta 8, macOS 26 beta 8, tvOS 26 beta 8, visionOS 26 beta 8, and watchOS 26 beta 8 for internal and external testing.
+Not yet supported:
+Apple-Hosted Background Assets for external testing on all platforms.
+Apps built with the Enhanced Security capability or Enhanced Security extensions on visionOS.
+Known issues:
+TestFlight may not load data properly on devices using macOS 26 beta. To prevent this issue, we recommend updating to TestFlight version 3.9.
+TestFlight Xcode
+August 18, 2025
+TestFlight update
+You can now upload apps built with Xcode 26 beta 6 using the SDK for iOS 26 beta 7, iPadOS 26 beta 7, macOS 26 beta 7, tvOS 26 beta 7, visionOS 26 beta 7, and watchOS 26 beta 7 for internal and external testing.
+Not yet supported:
+Apple-Hosted Background Assets for external testing on all platforms.
+Apps built with the Enhanced Security capability or Enhanced Security extensions on visionOS.
+Known issues:
+TestFlight may not load data properly on devices using macOS 26 beta. To prevent this issue, we recommend updating to TestFlight version 3.9.
+TestFlight Xcode
+August 6, 2025
+TestFlight update
+You can now upload apps built with Xcode 26 beta 5 using the SDK for iOS 26 beta 5, iPadOS 26 beta 5, macOS 26 beta 5, tvOS 26 beta 5, visionOS 26 beta 5, and watchOS 26 beta 5 for internal and external testing.
+Not yet supported:
+Apple-Hosted Background Assets for external testing on all platforms.
+Apps built with the Enhanced Security capability or Enhanced Security extensions on visionOS.
+Known issues:
+TestFlight may not load data properly on devices using macOS 26 beta. To prevent this issue, we recommend updating to TestFlight version 3.9.
+TestFlight Xcode
+July 22, 2025
+TestFlight update
+You can now upload apps built with Xcode 26 beta 4 using the SDK for iOS 26 beta 4, iPadOS 26 beta 4, macOS 26 beta 4, tvOS 26 beta 4, visionOS 26 beta 4, and watchOS 26 beta 4 for internal and external testing , with support for the following:
+Apps built with the Enhanced Security capability or Enhanced Security extensions on iOS, iPadOS, and macOS.
+Not yet supported:
+Apple-Hosted Background Assets for external testing on all platforms.
+Apps built with the Enhanced Security capability or Enhanced Security extensions on visionOS.
+Known issues:
+TestFlight may not load data properly on devices using macOS 26 beta. To prevent this issue, we recommend updating to TestFlight version 3.9.
+If you’ve added an icon made with Icon Composer as part of your watchOS app submission, you may encounter an icon related error upon upload. We are aware of this issue and working to resolve it.
+TestFlight Xcode
+July 8, 2025
+TestFlight update
+You can now upload apps built with Xcode 26 beta 3 using the SDK for iOS 26 beta 3, iPadOS 26 beta 3, macOS 26 beta 3, tvOS 26 beta 3, visionOS 26 beta 3, and watchOS 26 beta 3 for internal and external testing, with support for the following:
+Icon Composer icons on iOS, iPadOS, and macOS
+iphone-performance-gaming-tier apps on visionOS
+Not yet supported:
+Apple-Hosted Background Assets for external testing on all platforms.
+Apps built with the Enhanced Security capability or Enhanced Security extensions.
+Known issues:
+Installation status may not be reflected correctly in the TestFlight app on the macOS 26 beta.
+TestFlight may not load data properly on devices using macOS 26 beta. To prevent this issue, we recommend updating to TestFlight version 3.9.
+If you’ve added an icon made with Icon Composer as part your iOS or watchOS app submission, you may encounter an icon related error upon upload. We are aware of this issue and working to resolve it.
+iOS apps with an watchOS extension where the watch app has a minimum deployment target earlier than watchOS 6.0 will fail to install on iOS. We are working to resolve this, in the meantime, the workaround is to change the MinimumOSVersion in the watch app to 6.0 or later.
+TestFlight Xcode
+June 24, 2025
+TestFlight update
+You can now submit apps built with Xcode 26 beta 2 using the SDK for iOS 26 beta 2, iPadOS 26 beta 2, macOS 26 beta 2, tvOS 26 beta 2, visionOS 26 beta 2, and watchOS 26 beta 2 for internal and external testing, with support for the following:
+Apple-Hosted Background Assets for internal testing on iOS, iPadOS, and macOS, tvOS, and visionOS
+Not yet supported:
+Apple-Hosted Background Assets for external testing on all platforms.
+Apps built with the Enhanced Security capability or Enhanced Security extensions.
+Known issues:
+Installation status may not be reflected correctly in the TestFlight app on the macOS 26 beta.
+TestFlight may not load data properly on devices using macOS 26 beta. To prevent this issue, we recommend updating to TestFlight version 3.9.
+If you’ve added an icon made with Icon Composer as part of your watchOS app submission, you may encounter an icon related error upon upload. We are aware of this issue and working to resolve it.
+Self-hosted Managed Background Assets on iOS, iPadOS, macOS, tvOS, and visionOS
+An iOS or iPadOS beta app on a Mac with Apple silicon might appear as openable in TestFlight while its essential assets are still being downloaded. Wait a few minutes to give time for the essential assets to finish being downloaded before attempting to open the app.
+Pausing and resuming a beta app installation or update while the system is downloading essential asset packs could cause the installation or update to stall indefinitely. As a workaround, delete the stalled beta app from the Home Screen (on iOS, iPadOS, or tvOS), from the Home View (on visionOS), or from the Finder (on macOS) and reinstall it.
+The system might not deliver status updates to your beta app for ongoing asset-pack downloads. As a workaround, force-quit and restart your beta app while testing it.
+Downloads of asset-packs with prefetch download policies might stall. Cancel the download in your app’s code to resolve this.
+Apple-Hosted Background Assets installation of large asset packs may fail.
+TestFlight Xcode
+June 10, 2025
+TestFlight update
+TestFlight 3.9 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes:
+Introduction of Managed Background Assets (Self Hosted Assets) and Apple-Hosted Background Assets for testing.
+Stability improvements and bug fixes.
+TestFlight
+June 9, 2025
+TestFlight update
+You can now submit apps built with Xcode 26 beta using the SDK for iOS 26 beta , iPadOS 26 beta, macOS 26 beta, tvOS 26 beta, visionOS 26 beta, and watchOS 26 beta for internal and external testing, with support for the following:
+Apple-Hosted Background Assets for internal testing on iOS, iPadOS, and macOS
+Self-hosted Managed Background Assets on iOS, iPadOS, macOS, tvOS, and visionOS
+FinanceKit Transaction Picker on iOS
+Carrier Messaging Application on iOS
+Hardened Process on iOS, iPadOS, macOS, tvOS, and visionOS
+Accessory Setup Extension on iOS, iPadOS
+Low Latency Streaming on visionOS
+WiFi Aware on iOS
+iCloud Extended Share Access on iOS, iPadOS, macOS, tvOS, and visionOS
+Background GPU Access on iOS
+Hotspot Provider on iOS and visionOS
+Device Discovery Pairing Access on iOS
+Default Dialer App on iOS
+Network Extensions on iOS and macOS
+Declared Age on iOS and macOS
+Wireless Insights Service Predictions on iOS
+EnergyKit on iOS and macOS
+Digital Credentials API - Mobile Document Provider on iOS
+Carrier-Constrained Network - Category & Optimized on iOS
+ID Verifier - Data Transfer on iOS
+Not yet supported:
+Apple-Hosted Background Assets for internal testing on visionOS and tvOS or external testing on all platforms.
+Apps built with the Enhanced Security capability or Enhanced Security extensions.
+Known issues:
+Installation status may not be reflected correctly in the TestFlight app on the macOS 26 beta.
+TestFlight may not load data properly on devices using macOS 26 beta. To prevent this issue, we recommend updating to TestFlight version 3.9.
+If you’ve added an icon made with Icon Composer as part your app submission, you may encounter an icon related error upon upload. We are aware of this issue and working to resolve it.
+Self-hosted Managed Background Assets on iOS, iPadOS, macOS, tvOS, and visionOS
+An iOS or iPadOS beta app on a Mac with Apple silicon might appear as openable in TestFlight while its essential assets are still being downloaded. Wait a few minutes to give time for the essential assets to finish being downloaded before attempting to open the app.
+Pausing and resuming a beta app installation or update while the system is downloading essential asset packs could cause the installation or update to stall indefinitely. As a workaround, delete the stalled beta app from the Home Screen (on iOS, iPadOS, or tvOS), from the Home View (on visionOS), or from the Finder (on macOS) and reinstall it.
+The system might not deliver status updates to your beta app for ongoing asset-pack downloads. As a workaround, force-quit and restart your beta app while testing it.
+Downloads of asset-packs with prefetch download policies might stall. Cancel the download in your app’s code to resolve this.
+TestFlight Xcode
+June 9, 2025
+App Store Connect 3.0 is now available on the App Store for iPhone and iPad. With this update you can:
+View TestFlight screenshot and crash feedback.
+Receive push notifications for TestFlight feedback.
+Enjoy stability improvements and bug fixes.
+App Store Connect for iPhone and iPad
+May 15, 2025
+You can now submit apps built with Xcode 16.4 RC using the SDKs for iOS 18.5 RC, iPadOS 18.5 RC, macOS 15.5 RC, tvOS 18.5 RC, visionOS 2.5 RC, and watchOS 11.5 RC for the App Store, and for internal and external testing through TestFlight.
+TestFlight
+April 28, 2025
+You can now submit apps built with Xcode 16.4 beta using the SDK for iOS 18.5 beta 4, iPadOS 18.5 beta 4, macOS 15.5 beta 4, tvOS 18.5 beta 4, visionOS 2.5 beta 4, and watchOS 11.5 beta 4 for internal and external testing.
+Xcode TestFlight
+April 15, 2025
+You can now publish up to 10 In-App Events on the App Store at a time. Additionally, you can have up to 15 approved In-App Events per app in App Store Connect at a time.
+In-App Event
+Overview of In-App Events
+April 15, 2025
+TestFlight 3.8.1 is now available on the App Store for iPhone, iPad, Mac, Apple TV, and Apple Vision Pro. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+March 25, 2025
+You can now submit apps built with Xcode 16.3 RC using the SDKs for iOS 18.4 RC, iPadOS 18.4 RC, macOS 15.4 RC, tvOS 18.4 RC, visionOS 2.4 RC, and watchOS 11.4 RC for the App Store, and for internal and external testing through TestFlight.
+Xcode TestFlight
+March 21, 2025
+TestFlight 3.8 is now available on the App Store for iPhone, iPad, Mac, Apple TV, and Apple Vision Pro. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+March 18, 2025
+You can now submit apps built with Xcode 16.3 beta 3 using the SDK for iOS 18.4 beta 4, iPadOS 18.4 beta 4, macOS 15.4 beta 4, tvOS 18.4 beta 4, visionOS 2.4 beta 4, and watchOS 11.4 beta 4 for internal and external testing.
+Xcode TestFlight
+January 28, 2025
+App Store Connect 2.1 is now available on the App Store for iPhone and iPad. This update includes:
+Dark mode icon support.
+Resolved issue in Ratings and Reviews to show reviews for macOS-only apps. (FB15786900)
+Resolved issue with sharing marketing videos for certain apps. (FB16019377)
+Resolved issue in Trends to show details for Finance and Sales users.
+Additional stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+January 18, 2025
+TestFlight 3.7.1 is now available on the App Store for iPhone, iPad, Mac, Apple TV, and Apple Vision Pro. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+December 9, 2024
+TestFlight 3.7 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes:
+Dark mode icon support for TestFlight on iOS and iPadOS.
+New language support on visionOS: Italian, Spanish, and Spanish (Latin America).
+Stability improvements and bug fixes on all platforms.
+TestFlight App Store Connect for iPhone and iPad
+December 5, 2024
+You can now submit apps built with Xcode 16.2 RC using the SDKs for iOS 18.2 RC, iPadOS 18.2 RC, macOS 15.2 RC, tvOS 18.2 RC, visionOS 2.2 RC, and watchOS 11.2 RC for the App Store, and for internal and external testing through TestFlight.
+Xcode TestFlight
+November 21, 2024
+You can now submit apps built with Xcode 16.2 beta 3 using the SDK for iOS 18.2 beta 4, iPadOS 18.2 beta 4, macOS 15.2 beta 4, tvOS 18.2 beta 3, visionOS 2.2 beta 3, and watchOS 11.2 beta 3 for internal and external testing.
+Xcode TestFlight
+November 20, 2024
+App Store Connect 2.0.1 is now available on the App Store. This update includes stability improvements and bug fixes.
+App Store Connect for iPhone and iPad
+November 12, 2024
+App Store Connect 2.0 is now available on the App Store. This update includes a refreshed UI and the ability to generate marketing assets and easily share them on social media channels, enabling you to promote key moments like new app launches, version updates, or when your app is featured in select placements on the Today tab in the App Store. You can also receive notifications when your app gets featured in select placements on the Today tab — for example as App of the Day or Game of the Day.
+Additionally, this update includes stability improvements and bug fixes.
+App Store Connect for iPhone and iPad
+November 4, 2024
+You can now submit apps built with Xcode 16.2 beta 2 using the SDK for iOS 18.2 beta 2, iPadOS 18.2 beta 2, macOS 15.2 beta 2, tvOS 18.2 beta, visionOS 2.2 beta, and watchOS 11.2 beta for internal and external testing.
+Xcode TestFlight
+October 24, 2024
+TestFlight 3.6 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes several key improvements, including enhancements to the invitation experience, the introduction of tester criteria, and the addition of new public link metrics for better insights.
+Additionally, this update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+October 21, 2024
+You can now submit apps built with Xcode 16.1 RC using the SDKs for iOS 18.1 RC, iPadOS 18.1 RC, macOS 15.1 RC, tvOS 18.1 RC, visionOS 2.1 RC, and watchOS 11.1 RC for the App Store, and for internal and external testing through TestFlight.
+Xcode TestFlight
+October 10, 2024
+Starting today, the Sales and Trends tool in App Store Connect offers a downloadable win-back eligibility report, which can help you estimate the number of subscriptions eligible for a win-back offer. Existing subscription metrics and reports have also been updated to include win-back offer data, enabling you to better measure the performance of specific offers available in your app.
+Sales and Trends
+Win-back eligibility report
+Download and view reports
+September 17, 2024
+You can now submit apps built with Xcode 16 using the SDKs for iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2, and watchOS 11 for the App Store, and for internal and external testing through TestFlight.
+Note:
+Due to an issue causing apps to crash on launch on an OS version earlier than macOS 15, iOS 18, tvOS 18, watchOS 11, or visionOS 2, you cannot submit apps built with Xcode 16RC.
+Xcode TestFlight
+September 17, 2024
+You can now submit apps built with Xcode 16.1 beta 2 using the SDK for iOS 18.1 beta 4, iPadOS 18.1 beta 4, macOS 15.1 beta 4, tvOS 18.1 beta, visionOS 2.1 beta, and watchOS 11.1 beta for internal and external testing.
+Xcode TestFlight
+September 11, 2024
+Starting today, when
+uploading app screenshots
+, you’re only required to provide a single screenshot (6.5" or 6.9") for iPhone and single screenshot (13") for iPad with your app submission. If you prefer, you can still provide screenshots for any iPhone and iPad display sizes that aren’t required.
+September 9, 2024
+You can now submit apps built with Xcode 16 Release Candidate using the SDKs for iOS 18 RC, iPadOS 18 RC, macOS 15 RC, tvOS 18 RC, visionOS 2 RC, and watchOS 11 RC for the App Store, and for internal and external testing through TestFlight, with support for the following:
+Spatial Audio Profile on iOS, iPadOS, macOS, tvOS, and visionOS
+Head Pose on iOS, iPadOS, macOS, and tvOS
+FSKit Module on macOS
+Format Reader and Video Decoder media extensions on macOS
+RAW Video Processor media extension on macOS
+Xcode TestFlight
+August 20, 2024
+You can now submit apps built with Xcode 16 beta 6 using the SDK for iOS 18 beta 6, iPadOS 18 beta 6, macOS 15 beta 6, tvOS 18 beta 6 visionOS 2 beta 6, and watchOS 11 beta 6 for internal and external testing, with support for the following:
+Spatial Audio Profile on iOS, iPadOS, macOS, tvOS, and visionOS
+Head Pose on iOS, iPadOS, macOS, and tvOS
+FSKit Module on macOS
+Format Reader and Video Decoder media extensions on macOS
+RAW Video Processor media extension on macOS
+Xcode TestFlight
+August 6, 2024
+You can now submit apps built with Xcode 16 beta 5 using the SDK for iOS 18 beta 5, iPadOS 18 beta 5, macOS 15 beta 5, tvOS 18 beta 5 visionOS 2 beta 5, and watchOS 11 beta 5 for internal and external testing, with support for the following:
+Spatial Audio Profile on iOS, iPadOS, macOS, tvOS, and visionOS
+Head Pose on iOS, iPadOS, macOS, and tvOS
+FSKit Module on macOS
+Format Reader and Video Decoder media extensions on macOS
+RAW Video Processor media extension on macOS
+Known issue:
+If you’ve added dark or tinted icons for your app and the light icon is not appearing on the device Home Screen, ensure that the light icon has been added to the app.
+Xcode TestFlight
+July 23, 2024
+You can now submit apps built with Xcode 16 beta 4 using the SDK for iOS 18 beta 4, iPadOS 18 beta 4, macOS 15 beta 4, tvOS 18 beta 4 visionOS 2 beta 4, and watchOS 11 beta 4 for internal and external testing, with support for the following:
+Spatial Audio Profile on iOS, iPadOS, macOS, tvOS, and visionOS
+Head Pose on iOS, iPadOS, macOS, and tvOS
+FSKit Module on macOS
+Format Reader and Video Decoder media extensions on macOS
+RAW Video Processor media extension on macOS
+Known issue:
+If you’ve added dark or tinted icons for your app and the light icon is not appearing on the device Home Screen, ensure that the light icon has been added to the app.
+Xcode TestFlight
+July 17, 2024
+Starting today, App Store Connect no longer supports
+iCloud
+display sets. You can use a single entry in iCloud user settings and share other data among your apps by configuring them to use a single
+CloudKit container
+.
+iCloud display set
+July 9, 2024
+You can now submit apps built with Xcode 16 beta 3 using the SDK for iOS 18 beta 3, iPadOS 18 beta 3, macOS 15 beta 3, tvOS 18 beta 3, visionOS 2 beta 3, and watchOS 11 beta 3 for internal and external testing, with support for the following:
+Spatial Audio Profile on iOS, iPadOS, macOS, tvOS, and visionOS
+Head Pose on iOS, iPadOS, macOS, and tvOS
+FSKit Module on macOS
+Format Reader and Video Decoder media extensions on macOS
+RAW Video Processor media extension on macOS
+Known issue:
+If you’ve added dark or tinted icons for your app and the light icon is not appearing on the device Home Screen, ensure that the light icon has been added to the app.
+Xcode TestFlight
+June 24, 2024
+You can now submit apps built with Xcode 16 beta 2 using the SDK for iOS 18 beta 2, iPadOS 18 beta 2, macOS 15 beta 2, tvOS 18 beta 2, visionOS 2 beta 2, and watchOS 11 beta 2 for internal and external testing, with support for the following:
+Spatial Audio Profile on iOS, iPadOS, macOS, tvOS, and visionOS
+Head Pose on iOS, iPadOS, macOS, and tvOS
+FSKit Module on macOS
+Format Reader and Video Decoder media extensions on macOS
+RAW Video Processor media extension on macOS
+Known issue:
+If you’ve added dark or tinted icons for your app and the light icon is not appearing on the device Home Screen, ensure that the light icon has been added to the app.
+Xcode TestFlight
+June 20, 2024
+TestFlight 3.5.2 is now available on the App Store for iPhone, iPad, Mac, Apple TV, and Apple Vision Pro. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+TestFlight on the App Store
+June 10, 2024
+You can now submit apps built with Xcode 16 beta using the SDK for iOS 18 beta, iPadOS 18 beta, macOS 15 beta, tvOS 18 beta, visionOS 2 beta, and watchOS 11 beta for internal and external testing, with support for the following:
+Spatial Audio Profile on iOS, iPadOS, macOS, tvOS, and visionOS
+Head Pose on iOS, iPadOS, macOS, and tvOS
+FSKit Module on macOS
+Format Reader and Video Decoder media extensions on macOS
+Not yet supported:
+RAW Video Processor media extension on macOS
+Known issues:
+iPhone and iPad apps on Apple Vision Pro may be installed on your Home Screen instead of the Compatible Apps folder.
+If you’ve added dark or tinted icons for your app and the light icon is not appearing on the device Home Screen, ensure that the light icon has been added to the app.
+Xcode TestFlight
+May 9, 2024
+You can now submit apps built with Xcode 15.4 RC using the SDK for iOS 17.5 RC, iPadOS 17.5 RC, macOS 14.5 RC, tvOS 17.5 RC, and watchOS 10.5 RC for the App Store, and for internal and external testing through TestFlight.
+Xcode TestFlight
+April 16, 2024
+You can now submit apps built with Xcode 15.4 beta using the SDK for iOS 17.5 beta 2, iPadOS 17.5 beta 2, macOS 14.5 beta 2, tvOS 17.5 beta 2, visionOS 1.2 beta 2, and watchOS 10.5 beta 2 for internal and external testing.
+Xcode TestFlight
+March 5, 2024
+TestFlight 3.5.1 is now available on the App Store for iPhone, iPad, Mac, Apple TV, and Apple Vision Pro. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+March 5, 2024
+You can now submit apps built with Xcode 15.3 using the SDK for iOS 17.4, iPadOS 17.4, macOS 14.4 Release Candidate, tvOS 17.4 Release Candidate, visionOS 1.1 Release Candidate, and watchOS 10.4 Release Candidate for the App Store, and for internal and external testing through TestFlight.
+Xcode TestFlight
+February 28, 2024
+Payments and proceeds data is now available sooner each fiscal month in Payments and Financial Reports. Starting the first Wednesday: Data starts to appear for the previous fiscal month.
+By the first Friday: Data for the previous fiscal month continues to populate until reports are ready for all regions.
+You can
+sign up to be notified
+by email as soon as your reports are available.
+Payments and Financial report
+Fiscal Year 2024 Accounting Calendar
+February 27, 2024
+You can now submit apps built with Xcode 15.3 Release Candidate using the SDK for iOS 17.4 Release Candidate and iPadOS 17.4 Release Candidate for the App Store, and for internal and external testing through TestFlight.
+Xcode TestFlight
+February 22, 2024
+App Analytics now provides more than a dozen metrics for visionOS apps, including data about user acquisition, engagement, and monetization. Data is available for apps built for visionOS, as well as existing iPadOS and iOS apps running on Apple Vision Pro.
+App Analytics
+February 13, 2024
+You can now submit apps built with Xcode 15.3 beta 3 using the SDK for iOS 17.4 beta 3, iPadOS 17.4 beta 3, macOS 14.4 beta 3, tvOS 17.4 beta 3, visionOS 1.1 beta 2, and watchOS 10.4 beta 3 for internal and external testing.
+Xcode TestFlight
+February 8, 2024
+App Store Connect 1.12.4 is now available on the App Store. This update includes stability improvements and bug fixes.
+App Store Connect for iPhone and iPad
+February 8, 2024
+TestFlight 3.4.4 is now available on the App Store for iPhone and iPad. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+February 8, 2024
+This update includes
+changes to app statuses
+:
+Ready for Sale has been renamed to Ready for Distribution, and now indicates that your app can be published. To view if your app is available on the App Store, visit Pricing and Availability.
+Developer Removed from Sale, Removed from Sale, and Pending Agreement are no longer app statuses.
+This update also provides support for features related to
+alternative app distribution in the European Union
+. You can now:
+Add alternative app marketplaces.
+Generate alternative distribution packages.
+Turn on notifications to automatically inform alternative app marketplaces about package updates.
+Submit iOS apps for Notarization.
+February 7, 2024
+You can now filter to view metrics from visionOS app transactions in Sales and Trends.
+Sales and Trends
+February 7, 2024
+You can now submit apps built with Xcode 15.3 beta 2 using the SDK for iOS 17.4 beta 2, iPadOS 17.4 beta 2, macOS 14.4 beta 2, tvOS 17.4 beta 2, visionOS 1.1 beta, and watchOS 10.4 beta 2 for internal and external testing.
+Xcode TestFlight
+January 8, 2024
+You can now submit apps built with Xcode 15.2 using the SDK for iOS 17.2, iPadOS 17.2, macOS 14.2, tvOS 17.2, visionOS 1, and watchOS 10.2 for the App Store, and for internal and external testing through TestFlight.
+Xcode TestFlight
+January 8, 2024
+TestFlight 3.5 is now available on the App Store for Apple Vision Pro, supporting beta testing of visionOS apps, as well as compatible iPadOS and iOS apps. Testers can easily send app screenshots of issues they encounter and share additional context if an app crashes.
+To learn more about using TestFlight for visionOS, watch
+App Store Connect for spatial computing
+.
+TestFlight App Store Connect for iPhone and iPad
+December 12, 2023
+You can now submit apps built with Xcode 15.2 beta using the SDK for iOS 17.2, iPadOS 17.2, macOS 14.2, tvOS 17.2, visionOS 1 beta 7, and watchOS 10.2 for internal and external testing.
+Xcode TestFlight
+December 5, 2023
+You can now submit apps built with Xcode 15.1 Release Candidate using the SDK for iOS 17.2 Release Candidate, iPadOS 17.2 Release Candidate, macOS 14.2 Release Candidate, tvOS 17.2 Release Candidate, and watchOS 10.2 Release Candidate for the App Store, and for internal and external testing through TestFlight.
+Xcode TestFlight
+November 30, 2023
+App Store Connect 1.12.3 is now available on the App Store. This update includes stability improvements and bug fixes.
+App Store Connect for iPhone and iPad
+November 14, 2023
+You can now submit apps built with Xcode 15.1 beta 3 using the SDK for iOS 17.2 beta 3, iPadOS 17.2 beta 3, macOS 14.2 beta 3, tvOS 17.2 beta 3, visionOS 1 beta 6, and watchOS 10.2 beta 3 for internal and external testing.
+Xcode TestFlight
+November 10, 2023
+The Apple sandbox environment lets you test In-App Purchases on devices using the product information that you set up in App Store Connect. Now you can change a test account’s storefront, adjust subscription renewal rates, clear purchase history, and simulate interrupted purchase flows directly on your iPhone or iPad, in addition to in App Store Connect. You can also test Family Sharing using Sandbox Test Families in App Store Connect, allowing testers to share access to auto-renewable subscriptions and non-consumables with up to five test family members.
+In-App Purchases Sandbox
+Testing In-App Purchases with sandbox
+Manage Sandbox Apple Account settings
+October 26, 2023
+You can now submit apps built with Xcode 15.1 beta 2 using the SDK for iOS 17.2 beta, iPadOS 17.2 beta, macOS 14.2 beta, tvOS 17.2 beta, visionOS 1 beta 5, and watchOS 10.2 beta for internal and external testing.
+Xcode TestFlight
+October 24, 2023
+TestFlight 3.4.3 is now available on the App Store for iPhone and iPad. This update includes stability improvements and bug fixes. Specifically, an issue preventing users from accepting an invitation to test a beta app via redemption code was resolved. Testers on iOS 17.1, iPadOS 17.1, or later will need to use this latest version of TestFlight in order to accept an invitation via redemption code.
+TestFlight App Store Connect for iPhone and iPad
+October 3, 2023
+You can now submit apps built with Xcode 15.1 beta using the SDK for visionOS beta 4 for internal and external testing.
+Xcode TestFlight
+September 13, 2023
+TestFlight 3.4.2 is now available on the App Store for iPhone and iPad. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+September 12, 2023
+You can now submit apps built with Xcode 15 RC using the SDK for iOS 17 RC, iPadOS 17 RC, macOS 14 RC, tvOS 17 RC, and watchOS 10 RC to the App Store, and for internal and external testing through TestFlight.
+Apps using the visionOS beta 3 SDK can continue to be built with Xcode 15 beta 8 for internal and external testing through TestFlight.
+Xcode TestFlight
+August 29, 2023
+You can now submit apps built with Xcode 15 beta 8 using the SDK for iOS 17 beta 8, iPadOS 17 beta 8, macOS 14 beta 6, tvOS 17 beta 8, visionOS beta 3, and watchOS 10 beta 8 for internal and external testing, with support for the following:
+Tap to Present ID on iOS
+Apple Pay Later Merchandising on iOS and iPadOS
+Shallow Depth and Pressure on watchOS
+VMNet on macOS
+Sensitive Content Analysis on iOS, iPadOS, and macOS
+In addition, TestFlight Internal Only distribution from Xcode is now supported.
+Xcode TestFlight
+August 23, 2023
+You can now submit apps built with Xcode 15 beta 7 using the SDK for iOS 17 beta 7, iPadOS 17 beta 7, macOS 14 beta 6, tvOS 17 beta 7, visionOS beta 2, and watchOS 10 beta 7 for internal and external testing, with support for the following:
+Tap to Present ID on iOS
+Apple Pay Later Merchandising on iOS and iPadOS
+Shallow Depth and Pressure on watchOS
+VMNet on macOS
+Sensitive Content Analysis on iOS, iPadOS, and macOS
+In addition, TestFlight Internal Only distribution from Xcode is now supported.
+Xcode TestFlight
+August 9, 2023
+You can now submit apps built with Xcode 15 beta 6 using the SDK for iOS 17 beta 5, iPadOS ;17 beta 5, macOS 14 beta 5, tvOS 17 beta 5, visionOS beta 2, and watchOS 10 beta 5 for internal and external testing, with support for the following:
+Tap to Present ID on iOS
+Apple Pay Later Merchandising on iOS and iPadOS
+Shallow Depth and Pressure on watchOS
+VMNet on macOS
+Sensitive Content Analysis on iOS, iPadOS, and macOS
+In addition, TestFlight Internal Only distribution from Xcode is now supported.
+Xcode TestFlight
+August 7, 2023
+App Store Connect 1.12.2 is now available on the App Store. This update includes stability improvements and bug fixes.
+App Store Connect for iPhone and iPad
+August 2, 2023
+You can now submit apps built with Xcode 15 beta 5 using the SDK for iOS 17 beta 4, iPadOS 17 beta 4, macOS 14 beta 4, tvOS 17 beta 4, visionOS beta 2, and watchOS 10 beta 4 for internal and external testing, with support for the following:
+Tap to Present ID on iOS
+Apple Pay Later Merchandising on iOS and iPadOS
+Shallow Depth and Pressure on watchOS
+Sensitive Content Analysis on iOS, iPadOS, and macOS
+In addition, TestFlight Internal Only distribution from Xcode is now supported.
+Xcode TestFlight
+July 12, 2023
+You can now submit apps built with Xcode 15 beta 4 using the SDK for iOS 17 beta 3, iPadOS 17 beta 3, visionOS 1 beta, macOS 14 beta 3, tvOS 17 beta 3, and watchOS 10 beta 3 for internal and external testing, with support for the following:
+Tap to Present ID on iOS
+Apple Pay Later Merchandising on iOS and iPadOS
+Shallow Depth and Pressure on watchOS
+VMNet on macOS
+Sensitive Content Analysis on iOS, iPadOS, and macOS
+In addition, TestFlight now supports visionOS apps for internal and external testing, as well as testing iOS and iPadOS apps on visionOS.
+Known issues
+TestFlight Internal Only distribution from Xcode is not yet supported.
+Xcode TestFlight
+July 11, 2023
+App Store Connect 1.12.1 is now available on the App Store. This update includes stability improvements and bug fixes.
+App Store Connect for iPhone and iPad
+July 6, 2023
+You can now submit apps built with Xcode 15 beta 3 using the SDK for iOS 17 beta 3, iPadOS 17 beta 3, visionOS 1 beta, macOS 14 beta 3, tvOS 17 beta 3, and watchOS 10 beta 3 for internal and external testing, with support for the following:
+Tap to Present ID on iOS
+Apple Pay Later Merchandising on iOS and iPadOS
+Shallow Depth and Pressure on watchOS
+VMNet on macOS
+Sensitive Content Analysis on iOS, iPadOS, and macOS
+In addition, TestFlight now supports visionOS apps for internal and external testing, as well as testing iOS and iPadOS apps on visionOS.
+Known issues
+TestFlight Internal Only distribution from Xcode is not yet supported.
+Xcode TestFlight
+June 23, 2023
+App Store Connect 1.12 is now available on the App Store. This update includes support for visionOS apps, stability improvements, and bug fixes.
+App Store Connect for iPhone and iPad
+June 21, 2023
+You can now submit apps built with Xcode 15 beta 2 using the SDK for iOS 17 beta 2, iPadOS 17 beta 2, visionOS 1 beta, macOS 14 beta 2, tvOS 17 beta 2, and watchOS 10 beta 2 for internal and external testing, with support for the following:
+Tap to Present ID on iOS
+Apple Pay Later Merchandising on iOS and iPadOS
+Shallow Depth and Pressure on watchOS
+VMNet on macOS
+Sensitive Content Analysis on iOS, iPadOS, and macOS
+In addition, TestFlight now supports visionOS apps for internal and external testing, as well as testing iOS and iPadOS apps on visionOS.
+Known issues
+TestFlight Internal Only distribution from Xcode is not yet supported.
+watchOS apps that have a minimum deployment target below 6.0 may not install properly with TestFlight. To resolve this, temporarily set the minimum deployment target to 6.0 or higher.
+Xcode TestFlight
+June 5, 2023
+You can now submit apps built with Xcode 15 beta using the SDK for iOS 17 beta, iPadOS 17 beta, macOS 14 beta, tvOS 17 beta, and watchOS 10 beta for internal and external testing, with support for the following:
+Tap to Present ID on iOS
+Apple Pay Later Merchandising on iOS and iPadOS
+Shallow Depth and Pressure on watchOS
+VMNet on macOS
+Sensitive Content Analysis on iOS, iPadOS, and macOS
+Known issues
+TestFlight Internal Only distribution from Xcode is not yet supported.
+watchOS apps that have a minimum deployment target below version 6.0 may not install properly with TestFlight. To resolve this, temporarily set the minimum deployment target to version 6.0 or higher.
+Xcode TestFlight
+April 24, 2023
+App Store Connect 1.11.2 is now available on the App Store for iPhone and iPad. This update includes stability improvements and bug fixes.
+App Store Connect for iPhone and iPad
+April 12, 2023
+TestFlight 3.3.1 is now available on the App Store for iPhone, iPad, and Mac. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+March 21, 2023
+Apps built for iOS 16.4 RC, iPadOS 16.4 RC, macOS 13.3 RC, tvOS 16.4 RC, or watchOS 9.4 RC using Xcode 14.3 RC can now be submitted to the App Store, and for internal and external testing through TestFlight.
+Xcode TestFlight
+March 17, 2023
+You can now access a monthly
+Transaction Tax Report
+, which summarizes sales tax, use tax, goods and services tax, and other similar taxes applied on your transactions where Apple
+administers
+tax. This report is available for sales completed on the App Store in the United States and Canada.
+Transaction Tax Report
+March 15, 2023
+Apps built for iOS 16.4 beta 4, iPadOS 16.4 beta 4, macOS 13.3 beta 4, tvOS 16.4 beta 4, or watchOS 9.4 beta 4 using Xcode 14.3 beta 3 can now be submitted for internal and external testing through TestFlight.
+Xcode TestFlight
+March 9, 2023
+TestFlight 3.3 is now available on the App Store for iPhone, iPad, and Mac. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+February 28, 2023
+Apps built for iOS 16.4 beta 2, iPadOS 16.4 beta 2, macOS 13.3 beta 2, tvOS 16.4 beta 2, or watchOS 9.4 beta 2 using Xcode 14.3 beta 2 can now be submitted for internal and external testing through TestFlight.
+Xcode TestFlight
+February 16, 2023
+Apps built for iOS 16.4 beta, iPadOS 16.4 beta, macOS 13.3 beta, tvOS 16.4 beta, or watchOS 9.4 beta using Xcode 14.3 beta can now be submitted for internal and external testing through TestFlight.
+Known issues
+iOS and iPadOS apps that include App Intents are temporarily not supported.
+Xcode TestFlight
+February 14, 2023
+TestFlight 3.2.4 is now available on the App Store for iPhone, iPad, and Mac. This update includes stability improvements and bug fixes.
+TestFlight App Store Connect for iPhone and iPad
+January 30, 2023
+You can now choose to apply
+Billing Grace Period
+only to existing paid renewals or continue applying it to all subscription renewals (existing paid renewals and free offers transitioning to paid renewals). You can also choose a duration of 3, 16, or 28 days instead of having the duration predefined based on your subscription length. When you enable Billing Grace Period in App Store Connect, Apple attempts to address any subscriber billing issues and recover the subscription while subscribers retain access to subscription benefits. If the subscription is recovered within this period, there’s no interruption to the days of paid service or to your revenue.
+Auto-renewable subscriptions
+January 1, 2023
+As of January 1, 2023, the euro (EUR) is the official currency of Croatia, replacing the Croatian kuna (HRK). Price tiers in App Store Connect have be converted to euros using the statutory fixed conversion rate of 7.53450 HRK = 1.00000 EUR established by the Council of the European Union on July 12, 2022.
+View kuna and euro equivalent price tiers
+The following has been automatically updated from kunas to euros:
+Prices on the App Store (customers with auto-renewable subscriptions will be notified)
+Proceeds from sales in Croatia
+Sales and Trends reports and monthly financial reports for Croatia
+Currency for your bank in App Store Connect, if you’ve selected the kuna
+Submit your
+feedback
+Ask questions on the forums
+Contact Apple Developer Support
+Developer Footer
+Help
+App Store Connect
+Platforms
+Open Menu
+Close Menu
+iOS
+iPadOS
+macOS
+tvOS
+visionOS
+watchOS
+App Store
+Tools
+Open Menu
+Close Menu
+Swift
+SwiftUI
+Swift Playground
+TestFlight
+Xcode
+Xcode Cloud
+Icon Composer
+SF Symbols
+Technologies
+Open Menu
+Close Menu
+Accessibility
+Accessories
+Apple Intelligence
+Audio & Video
+Augmented Reality
+Business
+Design
+Distribution
+Education
+Games
+Health & Fitness
+In-App Purchase
+Localization
+Maps & Location
+Machine Learning & AI
+Security
+Safari & Web
+Resources
+Open Menu
+Close Menu
+Documentation
+Downloads
+Sample Code
+Videos
+Support
+Open Menu
+Close Menu
+Help Guides & Articles
+Contact Us
+Forums
+Feedback & Bug Reporting
+System Status
+Account
+Open Menu
+Close Menu
+Apple Developer
+App Store Connect
+Certificates, IDs, & Profiles
+Feedback Assistant
+Programs
+Open Menu
+Close Menu
+Apple Developer Program
+Apple Developer Enterprise Program
+App Store Small Business Program
+MFi Program
+Mini Apps Partner Program
+News Partner Program
+Video Partner Program
+Security Bounty Program
+Security Research Device Program
+Events
+Open Menu
+Close Menu
+Meet with Apple
+Apple Developer Centers
+App Store Awards
+Apple Design Awards
+Apple Developer Academies
+WWDC
+Read the
+latest news
+.
+Get the
+Apple Developer app
+.
+Light
+Dark
+Auto
+Copyright © 2026
+Apple Inc.
+All rights reserved.
+Terms of Use
+Privacy Policy
+Agreements and Guidelines

@@ -1,0 +1,324 @@
+Releases - Apple Developer
+View in English
+Apple Developer
+Get Started
+Explore Get Started
+Overview
+Learn
+Apple Developer Program
+Stay Updated
+Latest News
+Hello Developer
+Platforms
+Explore Platforms
+Apple Platforms
+iOS
+iPadOS
+macOS
+tvOS
+visionOS
+watchOS
+App Store
+Featured
+Design
+Distribution
+Games
+Accessories
+Web
+Home
+CarPlay
+Technologies
+Explore Technologies
+Overview
+Xcode
+Swift
+SwiftUI
+Featured
+Accessibility
+App Intents
+Apple Intelligence
+Games
+Machine Learning & AI
+Security
+Xcode Cloud
+Community
+Explore Community
+Overview
+Meet with Apple events
+Community-driven events
+Developer Forums
+Open Source
+Featured
+WWDC
+Swift Student Challenge
+Developer Stories
+App Store Awards
+Apple Design Awards
+Apple Developer Centers
+Documentation
+Explore Documentation
+Documentation Library
+Technology Overviews
+Sample Code
+Human Interface Guidelines
+Videos
+Release Notes
+Featured Updates
+iOS
+iPadOS
+macOS
+watchOS
+visionOS
+tvOS
+Xcode
+Downloads
+Explore Downloads
+All Downloads
+Operating Systems
+Applications
+Design Resources
+Featured
+Xcode
+TestFlight
+Fonts
+SF Symbols
+Icon Composer
+Support
+Explore Support
+Overview
+Help Guides
+Developer Forums
+Feedback Assistant
+Contact Us
+Featured
+Account Help
+App Review Guidelines
+App Store Connect Help
+Upcoming Requirements
+Agreements and Guidelines
+System Status
+Quick Links
+Events
+News
+Forums
+Sample Code
+Videos
+-->
+News
+Open Menu
+Close Menu
+Hello Developer
+Software Releases
+Site Updates
+Upcoming Requirements
+RSS
+App Store Connect Update
+May 5, 2026
+View release notes
+Xcode 26.5 RC (17F42)
+May 4, 2026
+View downloads
+View release notes
+iOS 26.5 RC (23F75)
+May 4, 2026
+View downloads
+View release notes
+iPadOS 26.5 RC (23F75)
+May 4, 2026
+View downloads
+View release notes
+macOS 26.5 RC (25F71)
+May 4, 2026
+View downloads
+View release notes
+tvOS 26.5 RC (23L471)
+May 4, 2026
+View downloads
+View release notes
+visionOS 26.5 RC (23O471)
+May 4, 2026
+View downloads
+View release notes
+watchOS 26.5 RC (23T570)
+May 4, 2026
+View downloads
+View release notes
+iOS 18.7.9 (22H355)
+May 4, 2026
+View downloads
+iPadOS 18.7.9 (22H355)
+May 4, 2026
+View downloads
+TestFlight 4.2
+April 30, 2026
+Download the app
+View release notes
+TestFlight Update
+April 28, 2026
+View release notes
+iOS 26.4.2 (23E261)
+April 22, 2026
+View downloads
+View release notes
+iPadOS 26.4.2 (23E261)
+April 22, 2026
+View downloads
+View release notes
+Xcode 26.4.1 (17E202)
+April 16, 2026
+View downloads
+View release notes
+macOS 26.4.1 (25E253)
+April 9, 2026
+View downloads
+View release notes
+App Store Connect 3.2
+April 1, 2026
+Download the app
+View release notes
+tvOS 26.4 (23L243)
+March 24, 2026
+View downloads
+View release notes
+visionOS 26.4 (23O247)
+March 24, 2026
+View downloads
+View release notes
+watchOS 26.4 (23T240)
+March 24, 2026
+View downloads
+View release notes
+iOS 16.7.15 (20H380)
+March 11, 2026
+View downloads
+iPadOS 16.7.15 (20H380)
+March 11, 2026
+View downloads
+iOS 15.8.7 (19H411)
+March 11, 2026
+View downloads
+iPadOS 15.8.7 (19H411)
+March 11, 2026
+View downloads
+App Store Connect API 4.3
+March 10, 2026
+Download file
+View release notes
+iOS 12.5.8 (16H88)
+January 26, 2026
+View downloads
+iPadOS 12.5.8 (16H88)
+January 26, 2026
+View downloads
+Icon Composer for Xcode 26.2
+December 12, 2025
+View downloads
+Transporter 1.4
+October 6, 2025
+Download the app
+View release notes
+AirPods Firmware beta 4 (8A5324b)
+July 29, 2025
+View installation instructions
+Developer Footer
+News
+Releases
+Platforms
+Open Menu
+Close Menu
+iOS
+iPadOS
+macOS
+tvOS
+visionOS
+watchOS
+App Store
+Tools
+Open Menu
+Close Menu
+Swift
+SwiftUI
+Swift Playground
+TestFlight
+Xcode
+Xcode Cloud
+Icon Composer
+SF Symbols
+Technologies
+Open Menu
+Close Menu
+Accessibility
+Accessories
+Apple Intelligence
+Audio & Video
+Augmented Reality
+Business
+Design
+Distribution
+Education
+Games
+Health & Fitness
+In-App Purchase
+Localization
+Maps & Location
+Machine Learning & AI
+Security
+Safari & Web
+Resources
+Open Menu
+Close Menu
+Documentation
+Downloads
+Sample Code
+Videos
+Support
+Open Menu
+Close Menu
+Help Guides & Articles
+Contact Us
+Forums
+Feedback & Bug Reporting
+System Status
+Account
+Open Menu
+Close Menu
+Apple Developer
+App Store Connect
+Certificates, IDs, & Profiles
+Feedback Assistant
+Programs
+Open Menu
+Close Menu
+Apple Developer Program
+Apple Developer Enterprise Program
+App Store Small Business Program
+MFi Program
+Mini Apps Partner Program
+News Partner Program
+Video Partner Program
+Security Bounty Program
+Security Research Device Program
+Events
+Open Menu
+Close Menu
+Meet with Apple
+Apple Developer Centers
+App Store Awards
+Apple Design Awards
+Apple Developer Academies
+WWDC
+Read the
+latest news
+.
+Get the
+Apple Developer app
+.
+Light
+Dark
+Auto
+Copyright © 2026
+Apple Inc.
+All rights reserved.
+Terms of Use
+Privacy Policy
+Agreements and Guidelines
