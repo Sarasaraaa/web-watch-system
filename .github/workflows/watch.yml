@@ -655,7 +655,8 @@ jobs:
 
                       f"{html.escape(diff_url)}</a></p>"
 
-                      f"<pre>{html.escape(p['summary'])}</pre>"
+                      f"<br><strong>変更サマリ:</strong><br>"
+                      f"<code>{html.escape(p['summary'])}</code>"
 
                       f"<hr>"
                   )
