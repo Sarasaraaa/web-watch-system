@@ -6,8 +6,62 @@
     "check_last_updated_only": true
   },
   {
+    "name": "Android15",
+    "url": "https://developer.android.com/about/versions/15/summary?hl=ja",
+    "enabled": true,
+    "check_last_updated_only": true
+  },
+  {
+    "name": "Android16",
+    "url": "https://developer.android.com/about/versions/16/summary?hl=ja",
+    "enabled": true,
+    "check_last_updated_only": true
+  },
+  {
     "name": "iOS リリース情報",
     "url": "https://support.apple.com/ja-jp/HT201222",
+    "enabled": true,
+    "check_last_updated_only": false
+  },
+  {
+    "name": "Appleのセキュリティリリース",
+    "url": "https://support.apple.com/ja-jp/100100",
+    "enabled": true,
+    "check_last_updated_only": false
+  },
+  {
+    "name": "iOS_App Store Connect リリースノート",
+    "url": "https://developer.apple.com/app-store-connect/release-notes/",
+    "enabled": true,
+    "check_last_updated_only": false
+  },
+  {
+    "name": "Appleリリース情報",
+    "url": "https://developer.apple.com/news/releases/",
+    "enabled": true,
+    "check_last_updated_only": false
+  },
+  {
+    "name": "iOSの最新情報",
+    "url": "https://developer.apple.com/jp/ios/",
+    "enabled": true,
+    "check_last_updated_only": false
+  },
+  {
+    "name": "Apple_App Review",
+    "url": "https://developer.apple.com/jp/distribute/app-review/",
+    "enabled": true,
+    "check_last_updated_only": false
+  },
+  {
+    "name": "AppleDeveloperNews",
+    "url": "https://developer.apple.com/jp/news/",
+    "enabled": true,
+    "check_last_updated_only": false
+  },
+  {
+    "name": "AppleDeveloperNews（近日適用開始の要件）",
+    "url": "https://developer.apple.com/jp/news/upcoming-requirements/",
     "enabled": true,
     "check_last_updated_only": false
   }
