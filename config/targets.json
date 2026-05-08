@@ -3,19 +3,19 @@
     "name": "Android バージョン情報",
     "url": "https://developer.android.com/about/versions?hl=ja",
     "enabled": true,
-    "check_last_updated_only": true
+    "check_last_updated_only": false
   },
   {
     "name": "Android15",
     "url": "https://developer.android.com/about/versions/15/summary?hl=ja",
     "enabled": true,
-    "check_last_updated_only": true
+    "check_last_updated_only": false
   },
   {
     "name": "Android16",
     "url": "https://developer.android.com/about/versions/16/summary?hl=ja",
     "enabled": true,
-    "check_last_updated_only": true
+    "check_last_updated_only": false
   },
   {
     "name": "iOS リリース情報",
