@@ -1,9 +1,18 @@
-【iOS リリース情報】
-対象URL: https://support.apple.com/ja-jp/HT201222
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
 
 変更サマリ:
--test﻿
+-﻿テスト
 +﻿
+
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
+-テストApp Store Connect - Help - Apple Developer
++App Store Connect - Help - Apple Developer
 

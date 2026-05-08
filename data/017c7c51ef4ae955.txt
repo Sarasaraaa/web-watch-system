@@ -1,4 +1,4 @@
-テストApp Store Connect - Help - Apple Developer
+App Store Connect - Help - Apple Developer
 ' />
 ' />
 ' />
