@@ -112,18 +112,18 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+iOS 26.5 RC 2 (23F77)
+May 8, 2026
+View downloads
+View release notes
+iPadOS 26.5 RC 2 (23F77)
+May 8, 2026
+View downloads
+View release notes
 App Store Connect Update
 May 5, 2026
 View release notes
 Xcode 26.5 RC (17F42)
-May 4, 2026
-View downloads
-View release notes
-iOS 26.5 RC (23F75)
-May 4, 2026
-View downloads
-View release notes
-iPadOS 26.5 RC (23F75)
 May 4, 2026
 View downloads
 View release notes

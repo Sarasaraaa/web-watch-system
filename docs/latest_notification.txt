@@ -1,18 +1,23 @@
-【Appleのセキュリティリリース】
-対象URL: https://support.apple.com/ja-jp/100100
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
--﻿テスト
-+﻿
-
-【iOS_App Store Connect リリースノート】
-対象URL: https://developer.apple.com/app-store-connect/release-notes/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
-
-変更サマリ:
--テストApp Store Connect - Help - Apple Developer
-+App Store Connect - Help - Apple Developer
++iOS 26.5 RC 2 (23F77)
++May 8, 2026
++View downloads
++View release notes
++iPadOS 26.5 RC 2 (23F77)
++May 8, 2026
++View downloads
++View release notes
+-May 4, 2026
+-View downloads
+-View release notes
+-iOS 26.5 RC (23F75)
+-May 4, 2026
+-View downloads
+-View release notes
+-iPadOS 26.5 RC (23F75)
 
