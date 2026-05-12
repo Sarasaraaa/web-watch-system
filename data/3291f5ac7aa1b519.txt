@@ -111,22 +111,6 @@ Hello Developer
 ソフトウェアリリース
 サイトの更新情報
 近日適用開始の要件
-SDKの最小要件
-適用開始日： 2026年4月28日
-App Store Connectにアップロードするアプリは、
-Xcode 26
-以降（
-iOS 26
-、
-iPadOS 26
-、
-tvOS 26
-、
-visionOS 26
-、または
-watchOS 26
-に対応したSDKを使用）でビルドする必要があります。
-アプリの提出について詳しく
 年齢制限指定の更新
 適用開始日： 2026年1月31日
 App Storeのすべてのアプリとゲームに設定されている年齢制限指定が新しい年齢制限指定システムに合わせて自動的に更新され、iOS 26、iPadOS 26、macOS Tahoe 26、tvOS 26、visionOS 26、watchOS 26以降を搭載した各種Appleデバイスに反映されます。

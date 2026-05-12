@@ -112,43 +112,65 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
-iOS 26.5 RC 2 (23F77)
-May 8, 2026
+Xcode 26.5 (17F42)
+May 11, 2026
 View downloads
 View release notes
-iPadOS 26.5 RC 2 (23F77)
-May 8, 2026
+iOS 26.5 (23F77)
+May 11, 2026
+View downloads
+View release notes
+iPadOS 26.5 (23F77)
+May 11, 2026
+View downloads
+View release notes
+macOS 26.5 (25F71)
+May 11, 2026
+View downloads
+View release notes
+tvOS 26.5 (23L471)
+May 11, 2026
+View downloads
+View release notes
+visionOS 26.5 (23O471)
+May 11, 2026
+View downloads
+View release notes
+watchOS 26.5 (23T570)
+May 11, 2026
+View downloads
+View release notes
+iOS 18.7.9 (22H355)
+May 11, 2026
+View downloads
+View release notes
+iPadOS 18.7.9 (22H355)
+May 11, 2026
+View downloads
+View release notes
+iPadOS 17.7.11 (21H461)
+May 11, 2026
+View downloads
+View release notes
+iOS 16.7.16 (20H392)
+May 11, 2026
+View downloads
+View release notes
+iPadOS 16.7.16 (20H392)
+May 11, 2026
+View downloads
+View release notes
+iOS 15.8.8 (19H422)
+May 11, 2026
+View downloads
+View release notes
+iPadOS 15.8.8 (19H422)
+May 11, 2026
 View downloads
 View release notes
 App Store Connect Update
 May 5, 2026
 View release notes
-Xcode 26.5 RC (17F42)
-May 4, 2026
-View downloads
-View release notes
-macOS 26.5 RC (25F71)
-May 4, 2026
-View downloads
-View release notes
-tvOS 26.5 RC (23L471)
-May 4, 2026
-View downloads
-View release notes
-visionOS 26.5 RC (23O471)
-May 4, 2026
-View downloads
-View release notes
-watchOS 26.5 RC (23T570)
-May 4, 2026
-View downloads
-View release notes
-iOS 18.7.9 (22H355)
-May 4, 2026
-View downloads
-iPadOS 18.7.9 (22H355)
-May 4, 2026
-View downloads
 TestFlight 4.2
 April 30, 2026
 Download the app

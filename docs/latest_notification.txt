@@ -4,20 +4,79 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+iOS 26.5 RC 2 (23F77)
-+May 8, 2026
-+View downloads
-+View release notes
-+iPadOS 26.5 RC 2 (23F77)
-+May 8, 2026
-+View downloads
-+View release notes
--May 4, 2026
+-iOS 26.5 RC 2 (23F77)
+-May 8, 2026
 -View downloads
 -View release notes
--iOS 26.5 RC (23F75)
--May 4, 2026
--View downloads
--View release notes
--iPadOS 26.5 RC (23F75)
+-iPadOS 26.5 RC 2 (23F77)
+-May 8, 2026
++Xcode 26.5 (17F42)
++May 11, 2026
++View downloads
++View release notes
++iOS 26.5 (23F77)
++May 11, 2026
++View downloads
++View release notes
++iPadOS 26.5 (23F77)
++May 11, 2026
++View downloads
++View release notes
++macOS 26.5 (25F71)
++May 11, 2026
++View downloads
++View release notes
++tvOS 26.5 (23L471)
++May 11, 2026
++View downloads
++View release notes
++visionOS 26.5 (23O471)
++May 11, 2026
++View downloads
++View release notes
++watchOS 26.5 (23T570)
++May 11, 2026
++View downloads
++View release notes
++iOS 18.7.9 (22H355)
++May 11, 2026
++View downloads
++View release notes
++iPadOS 18.7.9 (22H355)
++May 11, 2026
+... 他 46 行の変更があります。
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
++アプリ、アプリ内課金、およびサブスクリプションに関する税金と価格の更新
++2026年5月11日
++App Storeは、世界各地でデジタル商品やサービスを簡単に販売できるよう設計されており、175のストアフロントで44の通貨に対応しています。税金に関する規制や外国為替レートの変動に応じて、随時価格や収益の調整が必要になります。こうした調整は、アプリおよびアプリ内課金の価格の整合性がストアフロント全体で維持されるように、金融データプロバイダが公開する為替レート情報に基づいて行われます。
++さらに詳しく
+
+【AppleDeveloperNews（近日適用開始の要件）】
+対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
+
+変更サマリ:
+-SDKの最小要件
+-適用開始日： 2026年4月28日
+-App Store Connectにアップロードするアプリは、
+-Xcode 26
+-以降（
+-iOS 26
+-、
+-iPadOS 26
+-、
+-tvOS 26
+-、
+-visionOS 26
+-、または
+-watchOS 26
+-に対応したSDKを使用）でビルドする必要があります。
+-アプリの提出について詳しく
 
