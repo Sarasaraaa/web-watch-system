@@ -1,82 +1,111 @@
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+
+変更サマリ:
+-iOSおよびiPadOSの最新バージョンは26.4.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.4.1です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.5です。Macのソフトウェアをアップデートする方法については
+-、重要なバックグラウンドアップデートを許可する方法については
++を、重要なバックグラウンドアップデートを許可する方法については
+-tvOSの最新バージョンは26.4です。Apple TVのソフトウェアをアップデートする方法については、
++tvOSの最新バージョンは26.5です。Apple TVのソフトウェアをアップデートする方法については、
+-watchOSの最新バージョンは26.4です。Apple Watchのソフトウェアをアップデートする方法については、
++watchOSの最新バージョンは26.5です。Apple Watchのソフトウェアをアップデートする方法については、
+-visionOSの最新バージョンは26.4です。Apple Vision Proのソフトウェアをアップデートする方法については、
++visionOSの最新バージョンは26.5です。Apple Vision Proのソフトウェアをアップデートする方法については、
++iOS 26.5およびiPadOS 26.5
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年5月11日
++iOS 18.7.9およびiPadOS 18.7.9
++iPhone XS、iPhone XS Max、iPhone XR、iPad（第7世代）
++2026年5月11日
++iPadOS 17.7.11
++12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
++2026年5月11日
++iOS 16.7.16およびiPadOS 16.7.16
++iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
++2026年5月11日
++iOS 15.8.8およびiPadOS 15.8.8
++iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
++2026年5月11日
++macOS Tahoe 26.5
++macOS Tahoe
++2026年5月11日
++macOS Sequoia 15.7.7
++macOS Sequoia
++2026年5月11日
++macOS Sonoma 14.8.7
++macOS Sonoma
++2026年5月11日
++tvOS 26.5
++Apple TV HDおよびApple TV 4K（すべてのモデル）
++2026年5月11日
++watchOS 26.5
+... 他 7 行の変更があります。
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
+-iOSおよびiPadOSの最新バージョンは26.4.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.4.1です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.5です。Macのソフトウェアをアップデートする方法については
+-、重要なバックグラウンドアップデートを許可する方法については
++を、重要なバックグラウンドアップデートを許可する方法については
+-tvOSの最新バージョンは26.4です。Apple TVのソフトウェアをアップデートする方法については、
++tvOSの最新バージョンは26.5です。Apple TVのソフトウェアをアップデートする方法については、
+-watchOSの最新バージョンは26.4です。Apple Watchのソフトウェアをアップデートする方法については、
++watchOSの最新バージョンは26.5です。Apple Watchのソフトウェアをアップデートする方法については、
+-visionOSの最新バージョンは26.4です。Apple Vision Proのソフトウェアをアップデートする方法については、
++visionOSの最新バージョンは26.5です。Apple Vision Proのソフトウェアをアップデートする方法については、
++iOS 26.5およびiPadOS 26.5
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年5月11日
++iOS 18.7.9およびiPadOS 18.7.9
++iPhone XS、iPhone XS Max、iPhone XR、iPad（第7世代）
++2026年5月11日
++iPadOS 17.7.11
++12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
++2026年5月11日
++iOS 16.7.16およびiPadOS 16.7.16
++iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
++2026年5月11日
++iOS 15.8.8およびiPadOS 15.8.8
++iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
++2026年5月11日
++macOS Tahoe 26.5
++macOS Tahoe
++2026年5月11日
++macOS Sequoia 15.7.7
++macOS Sequoia
++2026年5月11日
++macOS Sonoma 14.8.7
++macOS Sonoma
++2026年5月11日
++tvOS 26.5
++Apple TV HDおよびApple TV 4K（すべてのモデル）
++2026年5月11日
++watchOS 26.5
+... 他 7 行の変更があります。
+
 【Appleリリース情報】
 対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
--iOS 26.5 RC 2 (23F77)
--May 8, 2026
--View downloads
++App Store Connect API 4.3.1
++May 12, 2026
++Download file
++View release notes
+-App Store Connect API 4.3
+-March 10, 2026
+-Download file
 -View release notes
--iPadOS 26.5 RC 2 (23F77)
--May 8, 2026
-+Xcode 26.5 (17F42)
-+May 11, 2026
-+View downloads
-+View release notes
-+iOS 26.5 (23F77)
-+May 11, 2026
-+View downloads
-+View release notes
-+iPadOS 26.5 (23F77)
-+May 11, 2026
-+View downloads
-+View release notes
-+macOS 26.5 (25F71)
-+May 11, 2026
-+View downloads
-+View release notes
-+tvOS 26.5 (23L471)
-+May 11, 2026
-+View downloads
-+View release notes
-+visionOS 26.5 (23O471)
-+May 11, 2026
-+View downloads
-+View release notes
-+watchOS 26.5 (23T570)
-+May 11, 2026
-+View downloads
-+View release notes
-+iOS 18.7.9 (22H355)
-+May 11, 2026
-+View downloads
-+View release notes
-+iPadOS 18.7.9 (22H355)
-+May 11, 2026
-... 他 46 行の変更があります。
-
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
-
-変更サマリ:
-+アプリ、アプリ内課金、およびサブスクリプションに関する税金と価格の更新
-+2026年5月11日
-+App Storeは、世界各地でデジタル商品やサービスを簡単に販売できるよう設計されており、175のストアフロントで44の通貨に対応しています。税金に関する規制や外国為替レートの変動に応じて、随時価格や収益の調整が必要になります。こうした調整は、アプリおよびアプリ内課金の価格の整合性がストアフロント全体で維持されるように、金融データプロバイダが公開する為替レート情報に基づいて行われます。
-+さらに詳しく
-
-【AppleDeveloperNews（近日適用開始の要件）】
-対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
-
-変更サマリ:
--SDKの最小要件
--適用開始日： 2026年4月28日
--App Store Connectにアップロードするアプリは、
--Xcode 26
--以降（
--iOS 26
--、
--iPadOS 26
--、
--tvOS 26
--、
--visionOS 26
--、または
--watchOS 26
--に対応したSDKを使用）でビルドする必要があります。
--アプリの提出について詳しく
 

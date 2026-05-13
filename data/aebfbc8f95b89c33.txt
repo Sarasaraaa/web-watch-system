@@ -112,6 +112,10 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+App Store Connect API 4.3.1
+May 12, 2026
+Download file
+View release notes
 Xcode 26.5 (17F42)
 May 11, 2026
 View downloads
@@ -222,10 +226,6 @@ View downloads
 iPadOS 15.8.7 (19H411)
 March 11, 2026
 View downloads
-App Store Connect API 4.3
-March 10, 2026
-Download file
-View release notes
 iOS 12.5.8 (16H88)
 January 26, 2026
 View downloads
