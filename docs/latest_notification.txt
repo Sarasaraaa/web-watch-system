@@ -1,111 +1,19 @@
-【iOS リリース情報】
-対象URL: https://support.apple.com/ja-jp/HT201222
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
--iOSおよびiPadOSの最新バージョンは26.4.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSおよびiPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.4.1です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは26.5です。Macのソフトウェアをアップデートする方法については
--、重要なバックグラウンドアップデートを許可する方法については
-+を、重要なバックグラウンドアップデートを許可する方法については
--tvOSの最新バージョンは26.4です。Apple TVのソフトウェアをアップデートする方法については、
-+tvOSの最新バージョンは26.5です。Apple TVのソフトウェアをアップデートする方法については、
--watchOSの最新バージョンは26.4です。Apple Watchのソフトウェアをアップデートする方法については、
-+watchOSの最新バージョンは26.5です。Apple Watchのソフトウェアをアップデートする方法については、
--visionOSの最新バージョンは26.4です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+visionOSの最新バージョンは26.5です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+iOS 26.5およびiPadOS 26.5
-+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
-+2026年5月11日
-+iOS 18.7.9およびiPadOS 18.7.9
-+iPhone XS、iPhone XS Max、iPhone XR、iPad（第7世代）
-+2026年5月11日
-+iPadOS 17.7.11
-+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
-+2026年5月11日
-+iOS 16.7.16およびiPadOS 16.7.16
-+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
-+2026年5月11日
-+iOS 15.8.8およびiPadOS 15.8.8
-+iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
-+2026年5月11日
-+macOS Tahoe 26.5
-+macOS Tahoe
-+2026年5月11日
-+macOS Sequoia 15.7.7
-+macOS Sequoia
-+2026年5月11日
-+macOS Sonoma 14.8.7
-+macOS Sonoma
-+2026年5月11日
-+tvOS 26.5
-+Apple TV HDおよびApple TV 4K（すべてのモデル）
-+2026年5月11日
-+watchOS 26.5
-... 他 7 行の変更があります。
-
-【Appleのセキュリティリリース】
-対象URL: https://support.apple.com/ja-jp/100100
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
-
-変更サマリ:
--iOSおよびiPadOSの最新バージョンは26.4.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSおよびiPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.4.1です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは26.5です。Macのソフトウェアをアップデートする方法については
--、重要なバックグラウンドアップデートを許可する方法については
-+を、重要なバックグラウンドアップデートを許可する方法については
--tvOSの最新バージョンは26.4です。Apple TVのソフトウェアをアップデートする方法については、
-+tvOSの最新バージョンは26.5です。Apple TVのソフトウェアをアップデートする方法については、
--watchOSの最新バージョンは26.4です。Apple Watchのソフトウェアをアップデートする方法については、
-+watchOSの最新バージョンは26.5です。Apple Watchのソフトウェアをアップデートする方法については、
--visionOSの最新バージョンは26.4です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+visionOSの最新バージョンは26.5です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+iOS 26.5およびiPadOS 26.5
-+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
-+2026年5月11日
-+iOS 18.7.9およびiPadOS 18.7.9
-+iPhone XS、iPhone XS Max、iPhone XR、iPad（第7世代）
-+2026年5月11日
-+iPadOS 17.7.11
-+12.9インチiPad Pro（第2世代）、10.5インチiPad Pro、iPad（第6世代）
-+2026年5月11日
-+iOS 16.7.16およびiPadOS 16.7.16
-+iPhone 8、iPhone 8 Plus、iPhone X、iPad（第5世代）、9.7インチiPad Pro、12.9インチiPad Pro（第1世代）
-+2026年5月11日
-+iOS 15.8.8およびiPadOS 15.8.8
-+iPhone 6s（すべてのモデル）、iPhone 7（すべてのモデル）、iPhone SE（第1世代）、iPad Air 2、iPad mini（第4世代）、iPod touch（第7世代）
-+2026年5月11日
-+macOS Tahoe 26.5
-+macOS Tahoe
-+2026年5月11日
-+macOS Sequoia 15.7.7
-+macOS Sequoia
-+2026年5月11日
-+macOS Sonoma 14.8.7
-+macOS Sonoma
-+2026年5月11日
-+tvOS 26.5
-+Apple TV HDおよびApple TV 4K（すべてのモデル）
-+2026年5月11日
-+watchOS 26.5
-... 他 7 行の変更があります。
-
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
-
-変更サマリ:
-+App Store Connect API 4.3.1
-+May 12, 2026
-+Download file
-+View release notes
--App Store Connect API 4.3
--March 10, 2026
--Download file
--View release notes
++App Storeでの配信に必要となるブラジルの賭博ライセンスに関する要件
++2026年5月8日
++ブラジルの固定オッズ賭博規制の変更に伴い、同国の賞金・賭博局（
++Secretariat of Prizes and Bets、SPA
++）が発行する有効な固定オッズ賭博ライセンスを取得している場合、固定オッズ賭博（ギャンブル）機能を含むアプリをブラジルのApp Storeで配信できるようになりました。アプリに該当する機能がある場合（App Store Connectの年齢制限指定に関する質問リストで、賭博に関する質問に「はい」と回答した場合）、上述のライセンスを提出する必要があります。年齢制限指定に関する質問リストで賭博に関する質問に「はい」と回答すると、ブラジルでの年齢制限指定がA18となることにご注意ください。
++ライセンスの検証プロセスを開始するには、アプリの新しいバージョンを提出する必要があります。App Store Connectの「App Reviewに関する情報」セクションを更新するだけでは、審査は開始されません。アプリの新しいバージョンをApp Reviewに提出する際に以下を行ってください。
++App Store Connectの「App Reviewに関する情報」セクションにライセンス情報を入力します。
++ライセンスの詳細を「メモ」欄に入力します。
++ファイル添付欄で必要書類を添付します。
++アプリが、情報開示や警告に関して法律で定められている要件（年齢制限や賭博のリスクに関するものなど）を満たしていることを確認してください。法的義務に関するご質問がある場合は、貴社の法律顧問にご相談ください。
++ブラジルの年齢制限指定について詳しく
++ブラジルの固定オッズ賭博規制について詳しく（英語）
 
