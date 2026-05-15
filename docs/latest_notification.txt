@@ -1,19 +1,45 @@
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+
+変更サマリ:
++Safari 26.5
++macOS SonomaおよびmacOS Sequoia
++2026年5月13日
+-2026 年 05 月 12 日
++2026 年 05 月 14 日
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
++Safari 26.5
++macOS SonomaおよびmacOS Sequoia
++2026年5月13日
+-2026 年 05 月 12 日
++2026 年 05 月 14 日
+
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
++May 12, 2026
++App Store Connect update
++Updates made regarding making payments for multiple invoices.
+
 【AppleDeveloperNews】
 対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
-+App Storeでの配信に必要となるブラジルの賭博ライセンスに関する要件
-+2026年5月8日
-+ブラジルの固定オッズ賭博規制の変更に伴い、同国の賞金・賭博局（
-+Secretariat of Prizes and Bets、SPA
-+）が発行する有効な固定オッズ賭博ライセンスを取得している場合、固定オッズ賭博（ギャンブル）機能を含むアプリをブラジルのApp Storeで配信できるようになりました。アプリに該当する機能がある場合（App Store Connectの年齢制限指定に関する質問リストで、賭博に関する質問に「はい」と回答した場合）、上述のライセンスを提出する必要があります。年齢制限指定に関する質問リストで賭博に関する質問に「はい」と回答すると、ブラジルでの年齢制限指定がA18となることにご注意ください。
-+ライセンスの検証プロセスを開始するには、アプリの新しいバージョンを提出する必要があります。App Store Connectの「App Reviewに関する情報」セクションを更新するだけでは、審査は開始されません。アプリの新しいバージョンをApp Reviewに提出する際に以下を行ってください。
-+App Store Connectの「App Reviewに関する情報」セクションにライセンス情報を入力します。
-+ライセンスの詳細を「メモ」欄に入力します。
-+ファイル添付欄で必要書類を添付します。
-+アプリが、情報開示や警告に関して法律で定められている要件（年齢制限や賭博のリスクに関するものなど）を満たしていることを確認してください。法的義務に関するご質問がある場合は、貴社の法律顧問にご相談ください。
-+ブラジルの年齢制限指定について詳しく
-+ブラジルの固定オッズ賭博規制について詳しく（英語）
+-アプリ、アプリ内課金、およびサブスクリプションに関する税金と価格の更新
++アプリ、アプリ内購入、およびサブスクリプションに関する税金と価格の更新
+-App Storeは、世界各地でデジタル商品やサービスを簡単に販売できるよう設計されており、175のストアフロントで44の通貨に対応しています。税金に関する規制や外国為替レートの変動に応じて、随時価格や収益の調整が必要になります。こうした調整は、アプリおよびアプリ内課金の価格の整合性がストアフロント全体で維持されるように、金融データプロバイダが公開する為替レート情報に基づいて行われます。
++App Storeは、世界各地でデジタル商品やサービスを簡単に販売できるよう設計されており、175のストアフロントで43の通貨に対応しています。税金に関する規制や外国為替レートの変動に応じて、随時価格や収益の調整が必要になる場合があります。こうした調整は、アプリおよびアプリ内購入の価格の整合性がすべてのストアフロントにわたり維持されるように、信用性の高い金融メディア（The Wall Street Journalなど）や金融企業（Bloombergなど）が公開する為替レート情報に基づいて行われます。
 

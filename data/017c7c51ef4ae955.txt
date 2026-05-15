@@ -951,6 +951,9 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+May 12, 2026
+App Store Connect update
+Updates made regarding making payments for multiple invoices.
 May 5, 2026
 App Store Connect update
 You can now upload apps built with Xcode 26.5 RC using the SDK for iOS 26.5 RC, iPadOS 26.5 RC macOS 26.5 RC, visionOS 26.5 RC, tvOS 26.5 RC, and watchOS 26.5 RC for the App Store, and for internal and external testing through TestFlight.
