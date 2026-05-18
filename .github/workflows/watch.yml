@@ -27,7 +27,7 @@ on:
     # │ │ │ │ │
     # * * * * *
     #
-    - cron: '30 21 * * *'
+    - cron: '30 23 * * *'
 
   # GitHub Actions 画面から手動実行できるようにする
   workflow_dispatch:
