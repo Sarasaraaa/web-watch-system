@@ -1,15 +1,34 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
 
 変更サマリ:
-+2026年Apple Design Awardsファイナリストのご紹介
-+2026年5月18日
-+Apple Design Awardsでは、毎年デザインにおけるイノベーションとアイデア、技術面での成果を達成したアプリやゲームを表彰しています。また同時に、コミュニティ全体でAppleデベロッパの日々の努力に想いを馳せ、その優れた成果を称える場でもあります。
-+今年のファイナリストはこちら
-+夜明けは近い
-+2026年5月18日
-+テクノロジー、クリエイティビティ、そしてコミュニティのパワーがあふれる5日間。すべて無料で、オンラインで参加できます。WWDC26でお待ちしています。
-+さらに詳しく
+-を参考に、研究内容をご報告ください。
++を参考に、発見内容をご報告ください。
+-2026 年 05 月 14 日
++2026 年 05 月 19 日
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
+-を参考に、研究内容をご報告ください。
++を参考に、発見内容をご報告ください。
+-2026 年 05 月 14 日
++2026 年 05 月 19 日
+
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
++May 19, 2026
++App Store Connect update
++Minor updates to the
++Manage information for State Council Decree No. 810
++section for clarity.
 

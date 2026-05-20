@@ -951,6 +951,11 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+May 19, 2026
+App Store Connect update
+Minor updates to the
+Manage information for State Council Decree No. 810
+section for clarity.
 May 12, 2026
 App Store Connect update
 Updates made regarding making payments for multiple invoices.
