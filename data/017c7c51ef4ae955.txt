@@ -951,6 +951,9 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+May 26, 2026
+App Store Connect update
+Changes to the process for adding or updating official region-specific ratings and/or descriptors for an app in Brazil as required by the Brazilian Ministry of Justice and Public Security (MJSP).
 May 19, 2026
 App Store Connect update
 Minor updates to the

@@ -1,12 +1,41 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
--新しくなったApple Developer Forumsをご覧ください
--2024年5月23日
--WWDC24に合わせてApple Developer Forumsが刷新されました。デベロッパはAppleのエキスパートやエンジニアとつながり、疑問に対する答えを探したり、アドバイスを得たりすることができます。
--Apple Developer RelationsとAppleのエンジニアが連携し、みなさんの質問に答え、技術的な問題の解決に取り組みます。アプリやゲームの開発と改善を迅速に進められるよう、幅広いナレッジベースにアクセスし、速やかに回答を得ることができます。さらに、Apple Developer Programのメンバーはフォーラムでエキスパートのアドバイスに優先的にアクセスできるようになりました。
--新しいフォーラムを見る（英語）
++May 26, 2026
++App Store Connect update
++Changes to the process for adding or updating official region-specific ratings and/or descriptors for an app in Brazil as required by the Brazilian Ministry of Justice and Public Security (MJSP).
+
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+
+変更サマリ:
++iOS 26.6 beta (23G5028e)
++May 26, 2026
++View downloads
++View release notes
++iPadOS 26.6 beta (23G5028e)
++May 26, 2026
++View downloads
++View release notes
++macOS 26.6 beta (25G5028f)
++May 26, 2026
++View downloads
++View release notes
++tvOS 26.6 beta (23L5729e)
++May 26, 2026
++View downloads
++View release notes
++visionOS 26.6 beta (23O5728e)
++May 26, 2026
++View downloads
++View release notes
++watchOS 26.6 beta (23U5025e)
++May 26, 2026
++View downloads
++View release notes
 
