@@ -968,7 +968,7 @@ You can now upload apps built with Xcode 26.5 RC using the SDK for iOS 26.5 RC, 
 April 30, 2026
 TestFlight update
 TestFlight 4.2 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes:
-Added support for 11 new languages for TestFlight on iPhone and iPad: Bangla, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Slovenian, Tamil, Telugu, and Urdu.
+Added support for 11 new languages: Bangla, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Slovenian, Tamil, Telugu, and Urdu.
 Improvements and bug fixes for accessibility features, including VoiceOver, Voice Control, and Larger Text.
 Stability improvements and bug fixes.
 April 28, 2026

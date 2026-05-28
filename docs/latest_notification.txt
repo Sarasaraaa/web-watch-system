@@ -1,26 +1,25 @@
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
+-Added support for 11 new languages for TestFlight on iPhone and iPad: Bangla, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Slovenian, Tamil, Telugu, and Urdu.
++Added support for 11 new languages: Bangla, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Slovenian, Tamil, Telugu, and Urdu.
+
 【AppleDeveloperNews】
 対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
-+最新のベータ版リリースへの対応準備
-+2026年5月26日
-+iOS 26.6、iPadOS 26.6、macOS 26.6、tvOS 26.6、visionOS 26.6、およびwatchOS 26.6のベータ版が利用可能になりました。これらのリリースでアプリが正常に動作することを確認して、アプリをベータ版に対応させましょう。また、最新のSDKの機能を活用できるよう、Xcode 26.5でビルドとテストを行ってください。
-+ダウンロードとリリースノートを見る（英語）
-+ベータ版OSのテストについて詳しく（英語）
-+フィードバックの送信について詳しく
-+年齢制限指定の変更 - オーストラリアとベトナムで近日実施
-+2026年5月21日
-+2026年6月18日より、オーストラリアとベトナムではApp Storeの年齢制限指定が更新されます。
-+オーストラリア
-+オーストラリアのApp Storeでは、「15+」の年齢制限指定が廃止されます。現在「15+」に分類されており、コンテンツの説明として以下が指定されているアプリは、「16+」に更新されます。
-+無制限のWebアクセス
-+医療情報や治療情報の頻繁な表示
-+ルートボックス
-+新しい年齢制限指定は、オーストラリアで配信されるアプリのプロダクトページに表示されます。App Store Connectで、年齢制限指定に関する質問リストへの回答がアプリのコンテンツを正確に反映していることをご確認ください。
-+ベトナム
-+ベトナム政令147号の第38条に従い、ベトナムのApp Storeで配信されるアプリについては地域固有の年齢制限指定が必要となります。ベトナムでは、App Store Connectの年齢制限指定に関する質問リストへの回答に基づき、4つのうちいずれか（00+（全年齢）、12+、16+、18+）の年齢制限指定がアプリに適用され、アプリのプロダクトページに表示されます。年齢制限指定の値を含む詳細情報は、6月18日よりApp Store Connectおよび
-+App Store Connectヘルプ
-+でご確認いただけます。
+-2024年 Apple Design Awardsファイナリストのご紹介
+-2024年5月28日
+-Apple Design Awardsでは、毎年デザインにおけるイノベーションとアイデア、技術面での成果を達成したアプリやゲームを表彰しています。
+-同時に、多様なApple Developerコミュニティをともにお祝いする場でもあります。今年のファイナリストをぜひご確認ください。
+-今年のファイナリストはこちら
+-未来に急げ。
+-2024年5月28日
+-テクノロジーとクリエイティビティに溢れるエキサイティングな1週間、世界各地のデベロッパコミュニティとつながりましょう。すべて無料で、オンラインでご参加いただけるWWDC24は、6月10〜14日（太平洋時間）に開催されます。
+-WWDC24に向けて準備しましょう
 
