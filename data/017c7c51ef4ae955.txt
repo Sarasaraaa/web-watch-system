@@ -951,6 +951,17 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+May 29, 2026
+TestFlight update
+TestFlight 4.2.1 is now available on the App Store for iPhone and iPad. This update includes stability improvements and bug fixes.
+TestFlight
+May 28, 2026
+App Store Connect update
+You can now view the details of any
+pending payments made to Apple
+under the Payables tab in App Store Connect.
+Minor editorial fixes were also made.
+Business
 May 26, 2026
 App Store Connect update
 Changes to the process for adding or updating official region-specific ratings and/or descriptors for an app in Brazil as required by the Brazilian Ministry of Justice and Public Security (MJSP).
