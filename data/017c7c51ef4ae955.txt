@@ -962,6 +962,9 @@ pending payments made to Apple
 under the Payables tab in App Store Connect.
 Minor editorial fixes were also made.
 Business
+May 28, 2026
+App Store Connect update
+The App Store Connect homepage has been updated. When you sign in to App Store Connect, you go directly to the Apps section. You can navigate among other sections using the navigation bar at the top of the page.
 May 26, 2026
 App Store Connect update
 Changes to the process for adding or updating official region-specific ratings and/or descriptors for an app in Brazil as required by the Brazilian Ministry of Justice and Public Security (MJSP).

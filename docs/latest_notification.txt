@@ -4,30 +4,7 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
-+May 29, 2026
-+TestFlight update
-+TestFlight 4.2.1 is now available on the App Store for iPhone and iPad. This update includes stability improvements and bug fixes.
-+TestFlight
 +May 28, 2026
 +App Store Connect update
-+You can now view the details of any
-+pending payments made to Apple
-+under the Payables tab in App Store Connect.
-+Minor editorial fixes were also made.
-+Business
-
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
-
-変更サマリ:
-+TestFlight 4.2.1
-+May 29, 2026
-+Download the app
-+View release notes
--View release notes
--TestFlight 4.2
--April 30, 2026
--Download the app
++The App Store Connect homepage has been updated. When you sign in to App Store Connect, you go directly to the Apps section. You can navigate among other sections using the navigation bar at the top of the page.
 
