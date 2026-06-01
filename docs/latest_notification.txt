@@ -4,7 +4,42 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
-+May 28, 2026
-+App Store Connect update
-+The App Store Connect homepage has been updated. When you sign in to App Store Connect, you go directly to the Apps section. You can navigate among other sections using the navigation bar at the top of the page.
+-App Store Connect homepage
++App Store Connect sections
+-App Store Connect homepage
++App Store Connect sections
+
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+
+変更サマリ:
++iOS 26.5.1 (23F81)
++June 1, 2026
++View downloads
++View release notes
++macOS 26.5.1 (25F80)
++June 1, 2026
++View downloads
++View release notes
+-iOS 26.5 (23F77)
+-May 11, 2026
+-View downloads
+-View release notes
+-May 11, 2026
+-View downloads
+-View release notes
+-macOS 26.5 (25F71)
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
++夜明けは近い
++2026年6月1日
++WWDC26の開幕まであと1週間！テクノロジー、クリエイティビティ、そしてコミュニティのパワーが溢れる5日間。すべて無料で、オンラインで参加できます。
++さらに詳しく
 

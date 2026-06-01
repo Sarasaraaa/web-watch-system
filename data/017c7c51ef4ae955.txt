@@ -111,7 +111,7 @@ Search
 Search Reset
 Release notes
 Release notes
-App Store Connect homepage
+App Store Connect sections
 Get started
 App Store Connect workflow
 Get started
@@ -641,7 +641,7 @@ Filter
 ⌘K
 Release notes
 Get started
-App Store Connect homepage
+App Store Connect sections
 App Store Connect workflow
 App Store Connect for iPhone and iPad
 Manage your team

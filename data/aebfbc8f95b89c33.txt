@@ -112,6 +112,14 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+iOS 26.5.1 (23F81)
+June 1, 2026
+View downloads
+View release notes
+macOS 26.5.1 (25F80)
+June 1, 2026
+View downloads
+View release notes
 TestFlight 4.2.1
 May 29, 2026
 Download the app
@@ -148,15 +156,7 @@ Xcode 26.5 (17F42)
 May 11, 2026
 View downloads
 View release notes
-iOS 26.5 (23F77)
-May 11, 2026
-View downloads
-View release notes
 iPadOS 26.5 (23F77)
-May 11, 2026
-View downloads
-View release notes
-macOS 26.5 (25F71)
 May 11, 2026
 View downloads
 View release notes
