@@ -1,42 +1,19 @@
-【iOS リリース情報】
-対象URL: https://support.apple.com/ja-jp/HT201222
+【AppleDeveloperNews（近日適用開始の要件）】
+対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
 
 変更サマリ:
--iOSおよびiPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSの最新バージョンは26.5.1（iPhone 17（すべてのモデル）とiPhone Air）および26.5（iPhone 11～iPhone 16e）です。iPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.5です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは26.5.1です。Macのソフトウェアをアップデートする方法については
-+iOS 26.5.1
-+このアップデートにはCVEの公開エントリがありません。
-+iPhone 17（すべてのモデル）およびiPhone Air
-+2026年6月1日
-+macOS Tahoe 26.5.1
-+このアップデートにはCVEの公開エントリがありません。
-+macOS Tahoe
-+2026年6月1日
--2026 年 05 月 19 日
-+2026 年 06 月 02 日
-
-【Appleのセキュリティリリース】
-対象URL: https://support.apple.com/ja-jp/100100
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
-
-変更サマリ:
--iOSおよびiPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSの最新バージョンは26.5.1（iPhone 17（すべてのモデル）とiPhone Air）および26.5（iPhone 11～iPhone 16e）です。iPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.5です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは26.5.1です。Macのソフトウェアをアップデートする方法については
-+iOS 26.5.1
-+このアップデートにはCVEの公開エントリがありません。
-+iPhone 17（すべてのモデル）およびiPhone Air
-+2026年6月1日
-+macOS Tahoe 26.5.1
-+このアップデートにはCVEの公開エントリがありません。
-+macOS Tahoe
-+2026年6月1日
--2026 年 05 月 19 日
-+2026 年 06 月 02 日
+-Xcode 14
+-で、32ビットアプリのサポートが廃止されました
+-適用開始日： 2022年6月6日
+-Xcode 14
+-から、32ビットと64ビットの両方のコードで1つのバイナリをビルドする機能が廃止されました。
+-Xcode 14
+-では、64ビットアプリのみビルドできます。32ビットアプリを実行できるiOSの最後のバージョンは、2016年にリリースされた
+-iOS 10
+-でした。
+-iOS 11
+-以降、デバイスにインストールされた32ビットアプリはすべて起動しなくなっています。
+-Xcodeについてさらに詳しく
 
