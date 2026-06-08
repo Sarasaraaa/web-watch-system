@@ -112,6 +112,42 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+App Store Connect API 4.4
+June 8, 2026
+Download file
+View release notes
+Xcode 27 beta (27A5194q)
+June 8, 2026
+View downloads
+View release notes
+Xcode 26.6 RC (17F109)
+June 8, 2026
+View downloads
+View release notes
+iOS 27 beta (24A5355q)
+June 8, 2026
+View downloads
+View release notes
+iPadOS 27 beta (24A5355q)
+June 8, 2026
+View downloads
+View release notes
+macOS 27 beta (26A5353q)
+June 8, 2026
+View downloads
+View release notes
+tvOS 27 beta (24J5289o)
+June 8, 2026
+View downloads
+View release notes
+visionOS 27 beta (24M5291p)
+June 8, 2026
+View downloads
+View release notes
+watchOS 27 beta (24R5289n)
+June 8, 2026
+View downloads
+View release notes
 iOS 26.5.1 (23F81)
 June 1, 2026
 View downloads
@@ -147,10 +183,6 @@ View release notes
 watchOS 26.6 beta (23U5025e)
 May 26, 2026
 View downloads
-View release notes
-App Store Connect API 4.3.1
-May 12, 2026
-Download file
 View release notes
 Xcode 26.5 (17F42)
 May 11, 2026
@@ -251,9 +283,6 @@ iPadOS 15.8.7 (19H411)
 March 11, 2026
 View downloads
 iOS 12.5.8 (16H88)
-January 26, 2026
-View downloads
-iPadOS 12.5.8 (16H88)
 January 26, 2026
 View downloads
 Icon Composer for Xcode 26.2
