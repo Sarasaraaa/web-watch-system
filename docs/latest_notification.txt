@@ -5,10 +5,9 @@
 
 変更サマリ:
 +June 8, 2026
-+App Store Connect update
-+Apps in tvOS now support the
-+Larger Text Accessibility Nutrition Label
-+.
++TestFlight update
++You can now submit apps built with Xcode 27 beta using the SDK for iOS 27 beta, iPadOS 27 beta, macOS 27 beta, tvOS 27 beta, visionOS 27 beta, and watchOS 27 beta for internal and external testing.
++TestFlight Xcode
 
 【Appleリリース情報】
 対象URL: https://developer.apple.com/news/releases/
@@ -16,114 +15,16 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+App Store Connect API 4.4
++AirPods beta (9A292e)
++June 9, 2026
++View installation instructions
++TestFlight Update
 +June 8, 2026
-+Download file
 +View release notes
-+Xcode 27 beta (27A5194q)
-+June 8, 2026
-+View downloads
-+View release notes
-+Xcode 26.6 RC (17F109)
-+June 8, 2026
-+View downloads
-+View release notes
-+iOS 27 beta (24A5355q)
-+June 8, 2026
-+View downloads
-+View release notes
-+iPadOS 27 beta (24A5355q)
-+June 8, 2026
-+View downloads
-+View release notes
-+macOS 27 beta (26A5353q)
-+June 8, 2026
-+View downloads
-+View release notes
-+tvOS 27 beta (24J5289o)
-+June 8, 2026
-+View downloads
-+View release notes
-+visionOS 27 beta (24M5291p)
-+June 8, 2026
-+View downloads
-+View release notes
-+watchOS 27 beta (24R5289n)
-+June 8, 2026
-+View downloads
-+View release notes
--App Store Connect API 4.3.1
--May 12, 2026
--Download file
+-TestFlight Update
+-April 28, 2026
 -View release notes
-... 他 3 行の変更があります。
-
-【iOSの最新情報】
-対象URL: https://developer.apple.com/jp/ios/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f812165d17c4cc2a.html
-
-変更サマリ:
--新しいデザイン
--Liquid Glassの紹介
--デザインがかつてないほど大幅にアップデートされました。すべてのAppleプラットフォームに共通するこの新デザインは、ユーザーにとって最も重要なコンテンツを引き立てます。また、各プラットフォームのユニークな特徴を維持すると同時に、プラットフォーム間で統一されたデザイン言語を実現しています。
--この印象的な新しいマテリアルがLiquid Glassです。ガラスの光学的特性となめらかな流動感を兼ね備えており、その下にあるコンテンツの表示を屈折させ、周囲の光を反射し、エッジに沿って艶やかなレンズエフェクトをもたらします。
--Apple Intelligence
--オンデバイスの大規模言語モデルを活用
--Appleオペレーティングシステムの中核に組み込まれたApple Intelligenceは、作文ツール、
--ジェン文字
--、Image Playgroundなどの各種機能によってさまざまなタスクを支援する、
--パーソナル
--インテリジェンス
--システム
--です。
--Foundation Modelフレームワークにより、Apple Intelligenceの中核をなす大規模言語モデルを利用できるようになりました。
--この
--フレームワーク
--では、テキストの抽出や要約などのモデル機能を利用して、アプリの
--インテリジェント
--な機能を強化できます。
--オンデバイスのモデルなので、ユーザーデータのプライバシーが確保されます。このモデルは常時デバイスで利用できるので、構築した機能はオフラインでも動作します。しかも、リクエストに制限はなく、すべて無料で利用できます。
--App Intent
--システム全体で利用できるコア機能
--App Intentフレームワークを使うと、ユーザーはアプリを開いていない時でも、アプリの主要な機能を簡単に見つけて利用
--すること
--が
--できます。
--このフレームワークを介して、
--アプリ
--の
--アクション
--やコンテンツがSiri、Spotlight、ウィジェット、コントロールなどのシステム機能と密接に統合されます。App Intentは、コンテキストに応じたアクションボタンの機能、ウィジェットのインタラクティブ機能、ショートカットによる自動化、コントロールセンターでの迅速な操作などに利用できます。
--また、アプリ固有のビジュアル検索ロジックを、ビジュアルインテリジェンスのコンテンツに適用できるようになりました。検索結果にアプリ内コンテンツが直接表示されるため、ユーザーはそこからアプリ内にディープリンクで移動
--すること
--が
--できます。
--ライブアクティビティ
--重要な情報をリアルタイムで確認
--ライブアクティビティを使用すると、ユーザーは、天気予報、野球のスコア、フードデリバリーの配達時間など、アプリの最新情報をロック画面またはDynamic Islandで一目で確認できるようになります。
--ライブアクティビティではデータが頻繁に更新されるだけでなく、ユーザーが情報を対話的に操作できます。既存のプッシュ通知システム以上の頻度でコンテンツやステータスが更新されるアプリの場合、ライブアクティビティを使用することで、ユーザーは、ライブイベント、アクティビティ、数時間にわたるタスクなどの最新情報を柔軟に確認できます。
--ウィジェット
-... 他 88 行の変更があります。
-
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
-
-変更サマリ:
-+Appleデベロッパ向けの最新情報
-+2026年6月8日
-+言語、フレームワーク、ツール、サービスにわたる大幅な機能強化により、すべてのAppleプラットフォームにおける最新の進化を確認し、アプリやゲームでこれまで以上にユニークでインテリジェントな体験を生み出しましょう。最新のSDKには、洗練されたプラットフォームデザイン、強力なApple Intelligenceの機能、新しいAI開発フレームワークなど、革新的な新機能が含まれています。
-+最新情報を確認する（英語）
-+最新のベータソフトウェアをインストール
-+ドキュメントとサンプルコードを見る（英語）
-+「許容時間」の導入
-+2026年6月8日
-+iOS 27、iPadOS 27およびmacOS 27以降の新しい「許容時間(Time Allowance)」により、エンターテインメント、ゲーム、ソーシャルメディアなどのカテゴリにわたって、子どもがアプリを使用する時間を柔軟に管理できるようになります。
-+さらに詳しく
-+Apple Developer Program使用許諾契約およびApp Reviewガイドラインが更新されました
-+2026年6月8日
-+Apple Developer Program使用許諾契約が、新機能のサポート、ポリシーの更新、および明確化を目的として改訂されました。
-+さらに詳しく
+-AirPods Firmware beta 4 (8A5324b)
+-July 29, 2025
+-View installation instructions
 

@@ -112,6 +112,12 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+AirPods beta (9A292e)
+June 9, 2026
+View installation instructions
+TestFlight Update
+June 8, 2026
+View release notes
 App Store Connect API 4.4
 June 8, 2026
 Download file
@@ -235,9 +241,6 @@ View release notes
 App Store Connect Update
 May 5, 2026
 View release notes
-TestFlight Update
-April 28, 2026
-View release notes
 iOS 26.4.2 (23E261)
 April 22, 2026
 View downloads
@@ -292,9 +295,6 @@ Transporter 1.4
 October 6, 2025
 Download the app
 View release notes
-AirPods Firmware beta 4 (8A5324b)
-July 29, 2025
-View installation instructions
 Developer Footer
 News
 Releases
