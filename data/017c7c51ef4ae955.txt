@@ -951,6 +951,17 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+June 10, 2026
+App Store Connect update
+You can now provide localized assets in Apple-hosted asset packs and create up to 200 Apple-hosted asset packs for an app. Additionally, you can create and test non-localized asset packs on the Linux operating system using the
+Managed Background Assets Developer Tools for Linux
+.
+Learn about Apple-hosted asset packs.
+June 10, 2026
+TestFlight update
+You can now submit apps built with Xcode 27 beta using the SDK for iOS 27 beta, iPadOS 27 beta, macOS 27 beta, tvOS 27 beta, visionOS 27 beta, and watchOS 27 beta for internal and external testing, with support for the following:
+Localized asset packs for Apple-Hosted Background Assets to help reduce app size by delivering only the localized assets relevant to the user based on their device settings.
+TestFlight Xcode
 June 8, 2026
 App Store Connect update
 Apps in tvOS now support the
