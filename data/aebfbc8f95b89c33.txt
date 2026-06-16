@@ -112,6 +112,30 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+iOS 26.6 beta 2 (23G5043d)
+June 15, 2026
+View downloads
+View release notes
+iPadOS 26.6 beta 2 (23G5043d)
+June 15, 2026
+View downloads
+View release notes
+macOS 26.6 beta 2 (25G5043d)
+June 15, 2026
+View downloads
+View release notes
+tvOS 26.6 beta 2 (23L5744d)
+June 15, 2026
+View downloads
+View release notes
+visionOS 26.6 beta 2 (23O5743c)
+June 15, 2026
+View downloads
+View release notes
+watchOS 26.6 beta 2 (23U5040d)
+June 15, 2026
+View downloads
+View release notes
 AirPods beta (9A292e)
 June 9, 2026
 View installation instructions
@@ -165,30 +189,6 @@ View release notes
 TestFlight 4.2.1
 May 29, 2026
 Download the app
-View release notes
-iOS 26.6 beta (23G5028e)
-May 26, 2026
-View downloads
-View release notes
-iPadOS 26.6 beta (23G5028e)
-May 26, 2026
-View downloads
-View release notes
-macOS 26.6 beta (25G5028f)
-May 26, 2026
-View downloads
-View release notes
-tvOS 26.6 beta (23L5729e)
-May 26, 2026
-View downloads
-View release notes
-visionOS 26.6 beta (23O5728e)
-May 26, 2026
-View downloads
-View release notes
-watchOS 26.6 beta (23U5025e)
-May 26, 2026
-View downloads
 View release notes
 Xcode 26.5 (17F42)
 May 11, 2026
