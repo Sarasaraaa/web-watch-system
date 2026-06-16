@@ -1,56 +1,11 @@
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
-
-変更サマリ:
-+iOS 26.6 beta 2 (23G5043d)
-+June 15, 2026
-+View downloads
-+View release notes
-+iPadOS 26.6 beta 2 (23G5043d)
-+June 15, 2026
-+View downloads
-+View release notes
-+macOS 26.6 beta 2 (25G5043d)
-+June 15, 2026
-+View downloads
-+View release notes
-+tvOS 26.6 beta 2 (23L5744d)
-+June 15, 2026
-+View downloads
-+View release notes
-+visionOS 26.6 beta 2 (23O5743c)
-+June 15, 2026
-+View downloads
-+View release notes
-+watchOS 26.6 beta 2 (23U5040d)
-+June 15, 2026
-+View downloads
-+View release notes
--View release notes
--iOS 26.6 beta (23G5028e)
--May 26, 2026
--View downloads
--View release notes
--iPadOS 26.6 beta (23G5028e)
--May 26, 2026
--View downloads
--View release notes
--macOS 26.6 beta (25G5028f)
--May 26, 2026
--View downloads
--View release notes
--tvOS 26.6 beta (23L5729e)
--May 26, 2026
--View downloads
-... 他 8 行の変更があります。
-
 【AppleDeveloperNews】
 対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
--グループラボに登録する
++「Appleでサインイン」およびiCloud+の「メールを非公開」の新しいドメイン
++2026年6月15日
++Appleは今年の夏、「Appleでサインイン」とiCloud+の「メールを非公開」で使用されているEメールドメインを「private.icloud.com」という単一の共有ドメインに統合する予定です。
++さらに詳しく
 
