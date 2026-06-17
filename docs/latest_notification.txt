@@ -1,11 +1,24 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
 
 変更サマリ:
-+「Appleでサインイン」およびiCloud+の「メールを非公開」の新しいドメイン
-+2026年6月15日
-+Appleは今年の夏、「Appleでサインイン」とiCloud+の「メールを非公開」で使用されているEメールドメインを「private.icloud.com」という単一の共有ドメインに統合する予定です。
-+さらに詳しく
++Beatsファームウェアアップデート1B211
++Beats Studio Buds
++2026年6月16日
+-2026 年 06 月 02 日
++2026 年 06 月 17 日
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
++Beatsファームウェアアップデート1B211
++Beats Studio Buds
++2026年6月16日
+-2026 年 06 月 02 日
++2026 年 06 月 17 日
 
