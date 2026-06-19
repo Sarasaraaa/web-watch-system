@@ -331,7 +331,7 @@ Provide tax information
 Manage tax information
 Provide tax information for business-to-business status
 Manage tax information
-Provide tax information for alternative payment options
+Provide tax information for commissions and fees related to external purchases and alternative distribution
 Manage tax information
 Provide tax information for Core Technology Fee
 Manage tax information
@@ -769,7 +769,7 @@ Enter banking information
 Manage tax information
 Provide tax information
 Provide tax information for business-to-business status
-Provide tax information for alternative payment options
+Provide tax information for commissions and fees related to external purchases and alternative distribution
 Provide tax information for Core Technology Fee
 Manage invoices and other tax documents
 Manage compliance information
@@ -951,6 +951,24 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+June 18, 2026
+App Store Connect update
+Updates to alternative distribution, alternative app marketplaces, and alternative payment options, including support for Brazil.
+You can now drop support for Intel-based Mac computers if your universal macOS app has a minimum system version of 13 or later. Remove the x86_64 architecture, then upload and submit your build to the Mac App Store.
+Minor editorial fixes were also made.
+June 18, 2026
+App Store Connect update
+Age ratings have been updated in Australia and Vietnam to align with local regulations.
+Australia
+The region-specific age rating of 15+ has been updated to 16+ for apps on the App Store in Australia.
+Learn more about Australia age rating values.
+Vietnam
+App Store Connect now supports Vietnam's age rating system, in accordance with Article 38 of Vietnam Decree 147. Apps distributed on the App Store in Vietnam will be assigned one of four ratings (00+, 12+, 16+, or 18+) based on your existing content descriptor selections.
+Learn more about Vietnam age rating values.
+June 18, 2026
+App Store Connect update
+You can now upload apps built with Xcode 26.6 RC 2 using the SDK for iOS 26.5 RC, iPadOS 26.5 RC, macOS 26.5 RC, visionOS 26.5 RC, tvOS 26.5 RC, and watchOS 26.5 RC for the App Store, and for internal and external testing through TestFlight.
+TestFlight Xcode
 June 10, 2026
 App Store Connect update
 You can now provide localized assets in Apple-hosted asset packs and create up to 200 Apple-hosted asset packs for an app. Additionally, you can create and test non-localized asset packs on the Linux operating system using the
