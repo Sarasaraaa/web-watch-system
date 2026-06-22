@@ -112,6 +112,30 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+Xcode 27 beta 2 (27A5209h)
+June 22, 2026
+View downloads
+View release notes
+iOS 27.0 beta 2 (24A5370h)
+June 22, 2026
+View downloads
+View release notes
+iPadOS 27.0 beta 2 (24A5370h)
+June 22, 2026
+View downloads
+View release notes
+macOS 27.0 beta 2 (26A5368g)
+June 22, 2026
+View downloads
+View release notes
+tvOS 27.0 beta 2 (24J5305f)
+June 22, 2026
+View downloads
+View release notes
+visionOS 27.0 beta 2 (24M5306i)
+June 22, 2026
+View downloads
+View release notes
 App Store Connect Update
 June 18, 2026
 View release notes
@@ -153,31 +177,7 @@ App Store Connect API 4.4
 June 8, 2026
 Download file
 View release notes
-Xcode 27 beta (27A5194q)
-June 8, 2026
-View downloads
-View release notes
-iOS 27 beta (24A5355q)
-June 8, 2026
-View downloads
-View release notes
-iPadOS 27 beta (24A5355q)
-June 8, 2026
-View downloads
-View release notes
-macOS 27 beta (26A5353q)
-June 8, 2026
-View downloads
-View release notes
-tvOS 27 beta (24J5289o)
-June 8, 2026
-View downloads
-View release notes
-visionOS 27 beta (24M5291p)
-June 8, 2026
-View downloads
-View release notes
-watchOS 27 beta (24R5289n)
+watchOS 27.0 beta (24R5289n)
 June 8, 2026
 View downloads
 View release notes

@@ -1,128 +1,48 @@
-【iOS_App Store Connect リリースノート】
-対象URL: https://developer.apple.com/app-store-connect/release-notes/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
-
-変更サマリ:
--Provide tax information for alternative payment options
-+Provide tax information for commissions and fees related to external purchases and alternative distribution
--Provide tax information for alternative payment options
-+Provide tax information for commissions and fees related to external purchases and alternative distribution
-+June 18, 2026
-+App Store Connect update
-+Updates to alternative distribution, alternative app marketplaces, and alternative payment options, including support for Brazil.
-+You can now drop support for Intel-based Mac computers if your universal macOS app has a minimum system version of 13 or later. Remove the x86_64 architecture, then upload and submit your build to the Mac App Store.
-+Minor editorial fixes were also made.
-+June 18, 2026
-+App Store Connect update
-+Age ratings have been updated in Australia and Vietnam to align with local regulations.
-+Australia
-+The region-specific age rating of 15+ has been updated to 16+ for apps on the App Store in Australia.
-+Learn more about Australia age rating values.
-+Vietnam
-+App Store Connect now supports Vietnam&#x27;s age rating system, in accordance with Article 38 of Vietnam Decree 147. Apps distributed on the App Store in Vietnam will be assigned one of four ratings (00+, 12+, 16+, or 18+) based on your existing content descriptor selections.
-+Learn more about Vietnam age rating values.
-+June 18, 2026
-+App Store Connect update
-+You can now upload apps built with Xcode 26.6 RC 2 using the SDK for iOS 26.5 RC, iPadOS 26.5 RC, macOS 26.5 RC, visionOS 26.5 RC, tvOS 26.5 RC, and watchOS 26.5 RC for the App Store, and for internal and external testing through TestFlight.
-+TestFlight Xcode
-
 【Appleリリース情報】
 対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+App Store Connect Update
-+June 18, 2026
-+View release notes
-+Xcode 26.6 RC 2 (17F113)
-+June 18, 2026
++Xcode 27 beta 2 (27A5209h)
++June 22, 2026
 +View downloads
 +View release notes
--Xcode 26.6 RC (17F109)
++iOS 27.0 beta 2 (24A5370h)
++June 22, 2026
++View downloads
++View release notes
++iPadOS 27.0 beta 2 (24A5370h)
++June 22, 2026
++View downloads
++View release notes
++macOS 27.0 beta 2 (26A5368g)
++June 22, 2026
++View downloads
++View release notes
++tvOS 27.0 beta 2 (24J5305f)
++June 22, 2026
++View downloads
++View release notes
++visionOS 27.0 beta 2 (24M5306i)
++June 22, 2026
++View downloads
++View release notes
+-Xcode 27 beta (27A5194q)
 -June 8, 2026
 -View downloads
 -View release notes
+-iOS 27 beta (24A5355q)
+-June 8, 2026
+-View downloads
 -View release notes
--App Store Connect Update
--May 5, 2026
-
-【iOSの最新情報】
-対象URL: https://developer.apple.com/jp/ios/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f812165d17c4cc2a.html
-
-変更サマリ:
--アプリ内課金
-+アプリ内購入
-
-【Apple_App Review】
-対象URL: https://developer.apple.com/jp/distribute/app-review/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/8b2ebfe8d757c986.html
-
-変更サマリ:
--アプリ内課金、
-+アプリ内購入、
--平均すると、提出件数の90%が24時間以内に審査されます。
-+[an error occurred while processing this directive]
--アプリ内課金
-+アプリ内購入
-
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
-
-変更サマリ:
--Apple Vision ProのApp Storeが新しいマーケットに拡大
--2024年6月18日
--Apple Vision Proは、中国本土、香港、日本、シンガポールでは
--6月28日
--に、オーストラリア、カナダ、フランス、ドイツ、英国では
--7月12日
--に提供が開始されます。各デベロッパのアプリとゲームは、App Store Connectで選択した地域のApp Storeで自動的に公開されます。
--ご希望の場合、以下を行うことができます。
--いつでも、
--visionOSアプリ
--および
--互換性のあるiPhone／iPadアプリ
--の配信方法を管理できます。
--アプリに対する
--Apple Vision Proでの直接の互換性評価
--をリクエストできます。
--各地域のユーザー向けに
--プロダクトページのメタデータをローカライズ
--できます。
--また、visionOSの魅力的な機能を最大限に活用するために
--ネイティブアプリをビルド
--する方法を学ぶこともできます。
--オーストラリアと韓国において近日中に適用開始する一部地域での年齢制限
--2024年6月18日
--Appleは、App Storeがすべてのユーザーにとって安全な場所になるよう尽力しています。特に、子どもたちの安全は非常に重要です。ご自身のアプリにユーザーが購入できるルートボックスが含まれている場合、今後数か月以内に、その旨をApp Store Connectで明示していただく必要があります。さらに、オーストラリアと韓国のApp Storeでは、下記に該当するアプリのプロダクトページに、現地の法律に基づく一部地域での年齢制限が自動的に表示されるようになります。上記以外のアクションは必要ありません。一部地域での年齢制限は、Appleの全世界向け年齢制限と併記して表示されます。
--オーストラリア
--App Store Connectで、プライマリカテゴリまたはセカンダリカテゴリとして「ゲーム」が選択されている場合、一部地域での年齢制限が表示されます。
--「15+」の一部地域での年齢制限：
--ユーザーが購入できるルートボックスが含まれるゲーム。
--「18+」の一部地域での年齢制限：
--疑似ギャンブルをユーザーが頻繁または極度な形態で体験することがApp Store Connectに記載されているゲーム。
--韓国
--App Store Connectでプライマリカテゴリまたはセカンダリカテゴリとして「ゲーム」または「エンターテインメント」のいずれかが選択されているアプリ、あるいはカテゴリを問わず、疑似ギャンブルをユーザーが頻繁または極度な形態で体験するアプリについては、一部地域での年齢制限が表示されます。
--「KR-All」の一部地域での年齢制限：
--Appleの「4+」または「9+」の全世界向け年齢制限の対象となるアプリとゲーム。
--「KR-12」の一部地域での年齢制限：
--Appleの「12+」の全世界向け年齢制限の対象となるアプリとゲーム。このグループのアプリとゲームの一部には、韓国のゲーム物管理委員会（GRAC）が規定する「KR-15」の一部地域での年齢制限が適用される場合があります。この場合、影響を受けるデベロッパにApp Reviewから連絡します。
--一部のアプリやゲームに、GRACが規定する「KR-19」の一部地域での年齢制限が適用される場合があります。この制限は、ピクトグラムの代わりにテキストによって表示されます。
--アプリ内課金
-+アプリ内購入
-
-【AppleDeveloperNews（近日適用開始の要件）】
-対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
-
-変更サマリ:
--アプリ内課金
-+アプリ内購入
+-iPadOS 27 beta (24A5355q)
+-June 8, 2026
+-View downloads
+-View release notes
+-macOS 27 beta (26A5353q)
+-June 8, 2026
+-View downloads
+-View release notes
+... 他 10 行の変更があります。
 
