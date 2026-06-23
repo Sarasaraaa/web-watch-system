@@ -112,6 +112,17 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+TestFlight Update
+June 23, 2026
+View release notes
+TestFlight 4.2.2
+June 23, 2026
+Download the app
+View release notes
+watchOS 27.0 beta 2 (24R5305g)
+June 23, 2026
+View downloads
+View release notes
 Xcode 27 beta 2 (27A5209h)
 June 22, 2026
 View downloads
@@ -170,9 +181,6 @@ View release notes
 AirPods beta (9A292e)
 June 9, 2026
 View installation instructions
-TestFlight Update
-June 8, 2026
-View release notes
 App Store Connect API 4.4
 June 8, 2026
 Download file
@@ -188,10 +196,6 @@ View release notes
 macOS 26.5.1 (25F80)
 June 1, 2026
 View downloads
-View release notes
-TestFlight 4.2.1
-May 29, 2026
-Download the app
 View release notes
 Xcode 26.5 (17F42)
 May 11, 2026
@@ -266,10 +270,6 @@ March 24, 2026
 View downloads
 View release notes
 visionOS 26.4 (23O247)
-March 24, 2026
-View downloads
-View release notes
-watchOS 26.4 (23T240)
 March 24, 2026
 View downloads
 View release notes

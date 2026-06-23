@@ -1,48 +1,52 @@
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
++June 23, 2026
++TestFlight updates
++You can now submit apps built with Xcode 27 beta 2 using the SDK for iOS 27.0 beta 2, iPadOS 27.0 beta 2, macOS 27.0 beta 2, tvOS 27.0 beta 2, visionOS 27.0 beta 2, and watchOS 27.0 beta 2 for internal and external testing.
++TestFlight 4.2.2 is now available on the App Store for iPhone, iPad and Mac. This update includes stability improvements and bug fixes.
++TestFlight
+
 【Appleリリース情報】
 対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+Xcode 27 beta 2 (27A5209h)
-+June 22, 2026
++TestFlight Update
++June 23, 2026
++View release notes
++TestFlight 4.2.2
++June 23, 2026
++Download the app
++View release notes
++watchOS 27.0 beta 2 (24R5305g)
++June 23, 2026
 +View downloads
 +View release notes
-+iOS 27.0 beta 2 (24A5370h)
-+June 22, 2026
-+View downloads
-+View release notes
-+iPadOS 27.0 beta 2 (24A5370h)
-+June 22, 2026
-+View downloads
-+View release notes
-+macOS 27.0 beta 2 (26A5368g)
-+June 22, 2026
-+View downloads
-+View release notes
-+tvOS 27.0 beta 2 (24J5305f)
-+June 22, 2026
-+View downloads
-+View release notes
-+visionOS 27.0 beta 2 (24M5306i)
-+June 22, 2026
-+View downloads
-+View release notes
--Xcode 27 beta (27A5194q)
+-TestFlight Update
 -June 8, 2026
+-View release notes
+-TestFlight 4.2.1
+-May 29, 2026
+-Download the app
+-View release notes
+-March 24, 2026
 -View downloads
 -View release notes
--iOS 27 beta (24A5355q)
--June 8, 2026
--View downloads
--View release notes
--iPadOS 27 beta (24A5355q)
--June 8, 2026
--View downloads
--View release notes
--macOS 27 beta (26A5353q)
--June 8, 2026
--View downloads
--View release notes
-... 他 10 行の変更があります。
+-watchOS 26.4 (23T240)
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
++さらに詳しく
++ImageCreatorクラスの非推奨化
++2026年6月11日
++画像生成に対するアプローチの改良のための取り組みに伴い、ImageCreatorクラスは非推奨となり、iOS 27、iPadOS 27、macOS 27、visionOS 27以降では利用できなくなります。ImageCreatorクラスは、Image Playgroundフレームワークを導入した際、アプリでオンデバイスの画像生成モデルを活用し、画像をプログラムによって生成できるように、フレームワークに組み込まれました。
 

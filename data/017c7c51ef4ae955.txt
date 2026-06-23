@@ -951,6 +951,11 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+June 23, 2026
+TestFlight updates
+You can now submit apps built with Xcode 27 beta 2 using the SDK for iOS 27.0 beta 2, iPadOS 27.0 beta 2, macOS 27.0 beta 2, tvOS 27.0 beta 2, visionOS 27.0 beta 2, and watchOS 27.0 beta 2 for internal and external testing.
+TestFlight 4.2.2 is now available on the App Store for iPhone, iPad and Mac. This update includes stability improvements and bug fixes.
+TestFlight
 June 18, 2026
 App Store Connect update
 Updates to alternative distribution, alternative app marketplaces, and alternative payment options, including support for Brazil.
