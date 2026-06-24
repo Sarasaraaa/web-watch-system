@@ -1216,16 +1216,6 @@ EUにおけるvisionOS 1.2での代替決済オプション
 2024年7月1日
 visionOS 1.2 以降、EUのApp Store で配信されているアプリでは、代替決済オプションをご利用いただけます。
 EUでの代替決済について詳しく（英語）
-EU域内のアプリに関する変更点が、iPadOS 18ベータ版2で利用可能に
-2024年6月24日
-現在27のEU加盟国のiOSユーザーが利用できる、
-欧州連合（EU）で配信されるアプリに関する変更点（英語）
-が、Xcode 16ベータ版2を使ってiPadOS 18ベータ版2でテストできるようになりました。
-また、「Web Browser Engine Entitlement Addendum for Apps in the EU」および「Embedded Browser Engine Entitlement Addendum for Apps in the EU」の対象に、iPadOSが含まれるようになりました。これらの追加契約のいずれかをすでに締結している場合は、必ず更新された契約に署名してください。
-以下の最新の変更点をご確認ください。
-Web配信（英語）
-代替マーケットプレイス（英語）
-代替ブラウザエンジン（英語）
 Developer Footer
 ニュース
 プラットフォーム

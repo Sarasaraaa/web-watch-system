@@ -1,52 +1,17 @@
-【iOS_App Store Connect リリースノート】
-対象URL: https://developer.apple.com/app-store-connect/release-notes/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
-
-変更サマリ:
-+June 23, 2026
-+TestFlight updates
-+You can now submit apps built with Xcode 27 beta 2 using the SDK for iOS 27.0 beta 2, iPadOS 27.0 beta 2, macOS 27.0 beta 2, tvOS 27.0 beta 2, visionOS 27.0 beta 2, and watchOS 27.0 beta 2 for internal and external testing.
-+TestFlight 4.2.2 is now available on the App Store for iPhone, iPad and Mac. This update includes stability improvements and bug fixes.
-+TestFlight
-
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
-
-変更サマリ:
-+TestFlight Update
-+June 23, 2026
-+View release notes
-+TestFlight 4.2.2
-+June 23, 2026
-+Download the app
-+View release notes
-+watchOS 27.0 beta 2 (24R5305g)
-+June 23, 2026
-+View downloads
-+View release notes
--TestFlight Update
--June 8, 2026
--View release notes
--TestFlight 4.2.1
--May 29, 2026
--Download the app
--View release notes
--March 24, 2026
--View downloads
--View release notes
--watchOS 26.4 (23T240)
-
 【AppleDeveloperNews】
 対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
-+さらに詳しく
-+ImageCreatorクラスの非推奨化
-+2026年6月11日
-+画像生成に対するアプローチの改良のための取り組みに伴い、ImageCreatorクラスは非推奨となり、iOS 27、iPadOS 27、macOS 27、visionOS 27以降では利用できなくなります。ImageCreatorクラスは、Image Playgroundフレームワークを導入した際、アプリでオンデバイスの画像生成モデルを活用し、画像をプログラムによって生成できるように、フレームワークに組み込まれました。
+-EU域内のアプリに関する変更点が、iPadOS 18ベータ版2で利用可能に
+-2024年6月24日
+-現在27のEU加盟国のiOSユーザーが利用できる、
+-欧州連合（EU）で配信されるアプリに関する変更点（英語）
+-が、Xcode 16ベータ版2を使ってiPadOS 18ベータ版2でテストできるようになりました。
+-また、「Web Browser Engine Entitlement Addendum for Apps in the EU」および「Embedded Browser Engine Entitlement Addendum for Apps in the EU」の対象に、iPadOSが含まれるようになりました。これらの追加契約のいずれかをすでに締結している場合は、必ず更新された契約に署名してください。
+-以下の最新の変更点をご確認ください。
+-Web配信（英語）
+-代替マーケットプレイス（英語）
+-代替ブラウザエンジン（英語）
 
