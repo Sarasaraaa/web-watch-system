@@ -88,9 +88,10 @@ web-watch-system/
 
 | 名称        | URL                                                                                                                            | 比較方法  |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------ | ----- |
-| Android バージョン情報 | [https://developer.android.com/about/versions?hl=ja](https://developer.android.com/about/versions?hl=ja)                       | 最終更新日 |
-| Android15 | [https://developer.android.com/about/versions/15/summary?hl=ja](https://developer.android.com/about/versions/15/summary?hl=ja) | 最終更新日 |
-| Android16 | [https://developer.android.com/about/versions/16/summary?hl=ja](https://developer.android.com/about/versions/16/summary?hl=ja) | 最終更新日 |
+| Android バージョン情報 | [https://developer.android.com/about/versions?hl=ja](https://developer.android.com/about/versions?hl=ja)                       | 全文比較日 |
+| Android15 | [https://developer.android.com/about/versions/15/summary?hl=ja](https://developer.android.com/about/versions/15/summary?hl=ja) | 全文比較 |
+| Android16 | [https://developer.android.com/about/versions/16/summary?hl=ja](https://developer.android.com/about/versions/16/summary?hl=ja) | 全文比較 |
+| Android17 | [https://developer.android.com/about/versions/17/summary?hl=ja](https://developer.android.com/about/versions/17/summary?hl=ja) | 全文比較 |
 
 ## Apple
 | 名称                            | URL                                                                                                                          | 比較方法 |
