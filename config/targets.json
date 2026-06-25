@@ -18,6 +18,12 @@
     "check_last_updated_only": false
   },
   {
+    "name": "Android17",
+    "url": "https://developer.android.com/about/versions/17/summary?hl=ja",
+    "enabled": true,
+    "check_last_updated_only": false
+  },
+  {
     "name": "iOS リリース情報",
     "url": "https://support.apple.com/ja-jp/HT201222",
     "enabled": true,
