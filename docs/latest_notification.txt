@@ -1,17 +1,52 @@
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
++June 25, 2026
++App Store Connect update
++You can now upload apps built with Xcode 26.6 using the SDK for iOS 26.5 RC, iPadOS 26.5 RC, macOS 26.5 RC, visionOS 26.5 RC, tvOS 26.5 RC, and watchOS 26.5 RC for the App Store, and for internal and external testing through TestFlight.
++TestFlight
+
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+
+変更サマリ:
++App Store Connect Update
++June 25, 2026
++View release notes
++Xcode 26.6 (17F113)
++June 25, 2026
++View downloads
++View release notes
+-View downloads
+-View release notes
+-App Store Connect Update
+-June 18, 2026
+-View release notes
+-Xcode 26.6 RC 2 (17F113)
+-June 18, 2026
+
 【AppleDeveloperNews】
 対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
--EU域内のアプリに関する変更点が、iPadOS 18ベータ版2で利用可能に
--2024年6月24日
--現在27のEU加盟国のiOSユーザーが利用できる、
--欧州連合（EU）で配信されるアプリに関する変更点（英語）
--が、Xcode 16ベータ版2を使ってiPadOS 18ベータ版2でテストできるようになりました。
--また、「Web Browser Engine Entitlement Addendum for Apps in the EU」および「Embedded Browser Engine Entitlement Addendum for Apps in the EU」の対象に、iPadOSが含まれるようになりました。これらの追加契約のいずれかをすでに締結している場合は、必ず更新された契約に署名してください。
--以下の最新の変更点をご確認ください。
--Web配信（英語）
--代替マーケットプレイス（英語）
--代替ブラウザエンジン（英語）
++最新のApple Developer Program使用許諾契約が利用可能に
++2026年6月18日
++Apple Developer Program使用許諾契約（英語）
++の付属書12を改訂し、代替配信、代替決済、アプリ外部でのオファー、コアテクノロジー手数料など、ブラジルにおけるiOSアプリに関する各種条項を明記しました。変更内容をご確認のうえ、
++ご自身のアカウントにサインイン
++し、更新された各種契約／規約に同意してください。
++更新された使用許諾契約の翻訳は、1か月以内に
++Apple Developer Webサイト
++でご確認いただけます。
++ブラジルにおけるiOSの変更
++2026年6月18日
++ブラジルの競争規制当局CADE（Conselho Administrativo de Defesa Econômica）と最近締結した契約の一環として、AppleはiOSに変更を行い、ブラジルでアプリを配信するデベロッパに向けて新たなオプションを提供します。iOS 26.5以降では、デベロッパによる代替アプリマーケットプレイスでのアプリの配信、代替アプリマーケットプレイスの運営、iOS上でのAppleアプリ内購入以外の方法によるデジタル商品およびサービスのアプリでの決済処理などが可能になります。
++さらに詳しく
 
