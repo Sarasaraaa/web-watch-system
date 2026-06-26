@@ -191,7 +191,7 @@ jobs:
               req = urllib.request.Request(url)
 
               with opener.open(req, timeout=30) as res:
-              return res.read().decode("utf-8", errors="ignore")
+                return res.read().decode("utf-8", errors="ignore")
 
           def html_to_text(raw_html):
               """
