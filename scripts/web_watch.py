@@ -1,681 +1,316 @@
-# ==================================================
-# 必要ライブラリ読み込み
-# ==================================================
+from __future__ import annotations
 
-# OS操作
-import os
-
-# 正規表現
-import re
-
-# HTMLエスケープ処理
-import html
-
-# JSON読み込み
-import json
-
-# ハッシュ生成
-import hashlib
-
-# 差分生成
 import difflib
-
-# Webアクセス
-import urllib.request
-
-# Android Developers の取得で curl を利用するため
+import hashlib
+import html
+import json
+import os
+import re
 import subprocess
-
-# 日時生成
+import urllib.request
 from datetime import datetime, timezone
-
-import http.cookiejar
-
-# ==================================================
-# config/targets.json を読み込み
-#
-# 監視対象URLをJSONで管理する
-#
-# 例：
-# [
-#   {
-#     "name": "Android バージョン情報",
-#     "url": "https://developer.android.com/about/versions?hl=ja",
-#     "enabled": true,
-#     "check_last_updated_only": true
-#   }
-# ]
-# ==================================================
-
-with open("config/targets.json", "r", encoding="utf-8") as f:
-    PAGES = json.load(f)
-
-# ==================================================
-# ディレクトリ定義
-# ==================================================
-
-# 前回比較用テキスト保存先
-DATA_DIR = "data"
-
-# GitHub Pages 公開用ディレクトリ
-DOCS_DIR = "docs"
-
-# 差分HTML保存先
-DIFF_DIR = os.path.join(DOCS_DIR, "diffs")
-
-# ディレクトリ作成
-os.makedirs(DATA_DIR, exist_ok=True)
-os.makedirs(DOCS_DIR, exist_ok=True)
-os.makedirs(DIFF_DIR, exist_ok=True)
-
-# ==================================================
-# 共通関数
-# ==================================================
-
-def safe_filename(text):
-    """
-    URLを安全なファイル名へ変換する
-
-    URLには:
-    /
-    :
-    ?
-    などファイル名に使えない文字が含まれるため、
-    SHA256ハッシュ値へ変換する
-    """
-
-    return hashlib.sha256(
-        text.encode("utf-8")
-    ).hexdigest()[:16]
+from pathlib import Path
 
 
-def fetch_html(url):
-    """
-    WebページHTML取得
+ROOT_DIR = Path(__file__).resolve().parents[1]
+TARGETS_PATH = ROOT_DIR / "config" / "targets.json"
+DATA_DIR = ROOT_DIR / "data"
+DOCS_DIR = ROOT_DIR / "docs"
+DIFF_DIR = DOCS_DIR / "diffs"
 
-    Android系サイトはリダイレクト時にCookieを要求することがあるため、
-    CookieJar を使ってリダイレクト先の状態を保持する。
-    """
-
-# =====================================================
-# 【追加】
-# Android Developers は curl で取得する
-# =====================================================
-if "developer.android.com" in url:
-
-    print("Using curl:", url)
-
-    result = subprocess.run(
-        [
-            "curl",
-            "-L",                 # リダイレクト追従
-            "-A",
-            (
-                "Mozilla/5.0 "
-                "(Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 "
-                "(KHTML, like Gecko) "
-                "Chrome/122.0.0.0 Safari/537.36"
-            ),
-            url
-        ],
-        capture_output=True,
-        text=True,
-        encoding="utf-8"
-    )
-
-    if result.returncode != 0:
-        raise Exception(result.stderr)
-
-    return result.stdout
-
-# =====================================================
-# Apple系は従来どおり urllib
-# =====================================================
-
-req = urllib.request.Request(
-    url,
-    headers={
-        "User-Agent": (
-            "Mozilla/5.0 "
-            "(Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 "
-            "(KHTML, like Gecko) "
-            "Chrome/122.0.0.0 Safari/537.36"
-        )
-    }
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/122.0.0.0 Safari/537.36"
 )
 
-with urllib.request.urlopen(
-    req,
-    timeout=30
-) as res:
-    return res.read().decode(
-        "utf-8",
-        errors="ignore"
-    )
-    
+LAST_UPDATED_PATTERNS = [
+    r"最終更新日\s*[：: ]\s*\d{4}-\d{2}-\d{2}\s*UTC",
+    r"最終更新日\s*[：: ]\s*\d{4}年\d{1,2}月\d{1,2}日",
+    r"公開日\s*[：: ]\s*\d{4}年\d{1,2}月\d{1,2}日",
+    r"更新日\s*[：: ]\s*\d{4}年\d{1,2}月\d{1,2}日",
+    r"Published\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
+    r"Released\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
+    r"Updated\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
+    r"Last updated\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
+]
 
 
-def html_to_text(raw_html):
-    """
-    HTML → プレーンテキスト変換
-
-    比較時に不要な:
-    - script
-    - style
-    - noscript
-    を除去する
-    """
-
-    # script除去
-    text = re.sub(
-        r"&lt;script[\s\S]*?&lt;/script&gt;",
-        "",
-        raw_html,
-        flags=re.I
-    )
-
-    # style除去
-    text = re.sub(
-        r"&lt;style[\s\S]*?&lt;/style&gt;",
-        "",
-        text,
-        flags=re.I
-    )
-
-    # noscript除去
-    text = re.sub(
-        r"&lt;noscript[\s\S]*?&lt;/noscript&gt;",
-        "",
-        text,
-        flags=re.I
-    )
-
-    # HTMLタグを改行へ変換
-    text = re.sub(
-        r"&lt;[^&gt;]+&gt;",
-        "\n",
-        text
-    )
-
-    # HTMLエスケープ解除
-    #
-    # 例:
-    # &amp;amp; → &amp;
-    #
-    text = html.unescape(text)
-
-    # 改行コード統一
-    text = re.sub(
-        r"\r\n|\r",
-        "\n",
-        text
-    )
-
-    # 連続空白整理
-    text = re.sub(
-        r"[ \t]+",
-        " ",
-        text
-    )
-
-    # 空行整理
-    text = re.sub(
-        r"\n\s*\n+",
-        "\n",
-        text
-    )
-
-    # 行ごとに前後空白削除
-    lines = [
-        line.strip()
-        for line in text.splitlines()
-    ]
-
-    # 空行除去
-    lines = [
-        line
-        for line in lines
-        if line
-    ]
-
-    return "\n".join(lines)
+def load_targets() -> list[dict[str, object]]:
+    with TARGETS_PATH.open("r", encoding="utf-8") as file:
+        return json.load(file)
 
 
-def extract_last_updated(text):
-    """
-    最終更新日らしき文言を抽出
+def ensure_directories() -> None:
+    DATA_DIR.mkdir(exist_ok=True)
+    DOCS_DIR.mkdir(exist_ok=True)
+    DIFF_DIR.mkdir(exist_ok=True)
 
-    通知ノイズを減らすため、
-    ページ全文比較ではなく
-    最終更新日だけ比較したい場合に利用する
-    """
 
-    patterns = [
+def safe_filename(text: str) -> str:
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
 
-        # ===============================
-        # Android Developer
-        # ===============================
 
-        r"最終更新日\s*[0-9]{4}-[0-9]{2}-[0-9]{2}\s*UTC。",
-        r"最終更新日\s*[0-9]{4}-[0-9]{2}-[0-9]{2}\s*UTC",
-
-        # ===============================
-        # Apple Developer
-        # ===============================
-        r"Published\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
-        r"Released\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
-        r"Updated\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
-        r"Updated\s*[A-Za-z]+\s+\d{1,2},\s+\d{4}",
-        r"Last updated\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
-        r"Last updated\s*[A-Za-z]+\s+\d{1,2},\s+\d{4}",
-
-        # ===============================
-        # Apple Support 日本語
-        # ===============================
-        r"公開日[:：]?\s*[0-9]{4}年[0-9]{1,2}月[0-9]{1,2}日",
-        r"更新日[:：]?\s*[0-9]{4}年[0-9]{1,2}月[0-9]{1,2}日",
-
-    ]
-
-    for pattern in patterns:
-        match = re.search(
-            pattern,
-            text
+def fetch_html(url: str) -> str:
+    if "developer.android.com" in url:
+        result = subprocess.run(
+            [
+                "curl",
+                "--fail",
+                "--location",
+                "--silent",
+                "--show-error",
+                "--user-agent",
+                USER_AGENT,
+                url,
+            ],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            check=False,
         )
+        if result.returncode != 0:
+            raise RuntimeError(result.stderr.strip() or "curl failed")
+        return result.stdout
 
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return response.read().decode("utf-8", errors="ignore")
+
+
+def html_to_text(raw_html: str) -> str:
+    text = re.sub(r"<script[\s\S]*?</script>", "", raw_html, flags=re.IGNORECASE)
+    text = re.sub(r"<style[\s\S]*?</style>", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"<noscript[\s\S]*?</noscript>", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", "\n", text)
+    text = html.unescape(text)
+    text = re.sub(r"\r\n|\r", "\n", text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n\s*\n+", "\n", text)
+    lines = [line.strip() for line in text.splitlines()]
+    return "\n".join(line for line in lines if line)
+
+
+def extract_last_updated(text: str) -> str:
+    for pattern in LAST_UPDATED_PATTERNS:
+        match = re.search(pattern, text)
         if match:
             return match.group(0)
-
-    return "検出できませんでした"
+    return "not found"
 
 
 def make_diff_html(
-    page_name,
-    url,
-    old_text,
-    new_text,
-    last_updated
-):
-    """
-    HTML差分生成
-
-    Teams通知に全文を載せると
-    非常に見づらくなるため、
-    差分HTMLをGitHub Pagesで公開する
-    """
-
-    old_lines = old_text.splitlines()
-    new_lines = new_text.splitlines()
-
-    diff_html = difflib.HtmlDiff(
-        wrapcolumn=100
-    ).make_file(
-        old_lines,
-        new_lines,
-        fromdesc="前回取得内容",
-        todesc="今回取得内容",
+    page_name: str,
+    url: str,
+    old_text: str,
+    new_text: str,
+    last_updated: str,
+) -> str:
+    diff_html = difflib.HtmlDiff(wrapcolumn=100).make_file(
+        old_text.splitlines(),
+        new_text.splitlines(),
+        fromdesc="Previous",
+        todesc="Current",
         context=False,
         numlines=3,
-        charset="utf-8"
+        charset="utf-8",
     )
 
-    # 差分ページ上部に情報を追加
     header = (
-        f"&lt;h1&gt;{html.escape(page_name)} の変更差分&lt;/h1&gt;"
-        f"&lt;p&gt;&lt;strong&gt;対象URL:&lt;/strong&gt; "
-        f"&lt;a href='{html.escape(url)}'&gt;"
-        f"{html.escape(url)}&lt;/a&gt;&lt;/p&gt;"
-        f"&lt;p&gt;&lt;strong&gt;検出した最終更新日:&lt;/strong&gt; "
-        f"{html.escape(last_updated)}&lt;/p&gt;"
-        f"&lt;p&gt;&lt;strong&gt;確認日時:&lt;/strong&gt; "
-        f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}&lt;/p&gt;"
-        f"&lt;hr&gt;"
+        f"<h1>{html.escape(page_name)} diff</h1>"
+        f"<p><strong>Source URL:</strong> "
+        f"<a href='{html.escape(url)}'>{html.escape(url)}</a></p>"
+        f"<p><strong>Last updated:</strong> {html.escape(last_updated)}</p>"
+        f"<p><strong>Detected at:</strong> "
+        f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}</p>"
+        "<hr>"
     )
-
-    return diff_html.replace(
-        "&lt;body&gt;",
-        "&lt;body&gt;" + header
-    )
+    return diff_html.replace("<body>", "<body>" + header)
 
 
-
-def make_plain_diff_summary(
-    old_text,
-    new_text,
-    max_lines=40
-):
-    """
-    Teams通知用の簡易差分生成
-
-    Teamsへ全文差分を載せると長すぎるため、
-    一部のみ抜粋する
-    """
-
+def make_plain_diff_summary(old_text: str, new_text: str, max_lines: int = 40) -> str:
     diff_lines = list(
         difflib.unified_diff(
             old_text.splitlines(),
             new_text.splitlines(),
-            fromfile="前回",
-            tofile="今回",
-            lineterm=""
+            fromfile="previous",
+            tofile="current",
+            lineterm="",
         )
     )
 
-    changed_lines = []
+    changed_lines = [
+        line
+        for line in diff_lines
+        if not line.startswith(("+++", "---", "@@")) and line.startswith(("+", "-"))
+    ]
 
-    for line in diff_lines:
+    if not changed_lines:
+        return "No line-level diff summary was generated."
 
-        # diffメタ情報除去
-        if line.startswith("+++") \
-           or line.startswith("---") \
-           or line.startswith("@@"):
+    if len(changed_lines) > max_lines:
+        changed_lines = changed_lines[:max_lines] + [
+            f"... and {len(changed_lines) - max_lines} more lines"
+        ]
 
+    return "<br>".join(html.escape(line) for line in changed_lines)
+
+
+def build_pages_base_url() -> str:
+    repository = os.environ.get("GITHUB_REPOSITORY", "")
+    if "/" not in repository:
+        return ""
+    owner, repo_name = repository.split("/", 1)
+    return f"https://{owner}.github.io/{repo_name}"
+
+
+def write_rss(changed_pages: list[dict[str, str]]) -> None:
+    now = datetime.now(timezone.utc)
+    pub_date = now.strftime("%a, %d %b %Y %H:%M:%S GMT")
+    digest_source = pub_date + "".join(
+        page["name"] + page["summary"] for page in changed_pages
+    )
+    digest = hashlib.sha256(digest_source.encode("utf-8")).hexdigest()[:12]
+    pages_base_url = build_pages_base_url()
+
+    details_html_parts: list[str] = []
+    details_text_parts: list[str] = []
+
+    for page in changed_pages:
+        diff_url = (
+            f"{pages_base_url}/{page['diff_file']}"
+            if pages_base_url
+            else page["diff_file"]
+        )
+
+        details_html_parts.append(
+            (
+                f"<h2>{html.escape(page['name'])}</h2>"
+                f"<p><strong>Source URL:</strong> "
+                f"<a href='{html.escape(page['url'])}'>{html.escape(page['url'])}</a></p>"
+                f"<p><strong>Last updated:</strong> {html.escape(page['last_updated'])}</p>"
+                f"<p><strong>Diff:</strong> "
+                f"<a href='{html.escape(diff_url)}'>{html.escape(diff_url)}</a></p>"
+                f"<br><strong>Summary:</strong><br>"
+                f"<code>{page['summary']}</code>"
+                "<hr>"
+            )
+        )
+
+        details_text_parts.append(
+            "\n".join(
+                [
+                    f"[{page['name']}]",
+                    f"Source URL: {page['url']}",
+                    f"Last updated: {page['last_updated']}",
+                    f"Diff: {diff_url}",
+                    "",
+                    "Summary:",
+                    page["summary"].replace("<br>", "\n"),
+                    "",
+                ]
+            )
+        )
+
+    details_html = "".join(details_html_parts)
+    details_text = "".join(details_text_parts)
+    feed_link = f"{pages_base_url}/rss.xml" if pages_base_url else "rss.xml"
+
+    rss = (
+        '<?xml version="1.0" encoding="UTF-8" ?>'
+        '<rss version="2.0"><channel>'
+        "<title>OS Release Page Watch</title>"
+        f"<link>{feed_link}</link>"
+        "<description>Watch release information pages for changes.</description>"
+        "<item>"
+        f"<title>{len(changed_pages)} watched page(s) changed</title>"
+        f"<link>{feed_link}</link>"
+        f"<guid>{digest}</guid>"
+        f"<pubDate>{pub_date}</pubDate>"
+        "<description><![CDATA["
+        "<p>Detected updates on watched pages.</p>"
+        f"<p><strong>Changed pages:</strong> {len(changed_pages)}</p>"
+        f"{details_html}"
+        "]]></description>"
+        "</item>"
+        "</channel></rss>"
+    )
+
+    (DOCS_DIR / "rss.xml").write_text(rss, encoding="utf-8")
+    (DOCS_DIR / "latest_notification.txt").write_text(details_text, encoding="utf-8")
+
+
+def main() -> int:
+    ensure_directories()
+    changed_pages: list[dict[str, str]] = []
+
+    for page in load_targets():
+        if page.get("enabled", True) is False:
             continue
 
-# ==================================================
-# 監視処理本体
-# ==================================================
+        page_name = str(page["name"])
+        page_url = str(page["url"])
+        check_last_updated_only = bool(page.get("check_last_updated_only", False))
 
-# 変更があったページ一覧
-changed_pages = []
+        print(f"Checking: {page_name}")
 
-# targets.json の各ページを処理
-for page in PAGES:
+        filename_key = safe_filename(page_url)
+        previous_path = DATA_DIR / f"{filename_key}.txt"
+        diff_path = DIFF_DIR / f"{filename_key}.html"
 
-    # enabled=false の場合はスキップ
-    if page.get("enabled", True) is False:
-        continue
-
-    page_name = page["name"]
-    page_url = page["url"]
-
-    print(f"Checking: {page_name}")
-
-    # URLから安全なファイル名生成
-    filename_key = safe_filename(page_url)
-
-    # 前回比較用ファイル
-    previous_path = os.path.join(
-        DATA_DIR,
-        f"{filename_key}.txt"
-    )
-
-    # 差分HTML保存先
-    diff_path = os.path.join(
-        DIFF_DIR,
-        f"{filename_key}.html"
-    )
-
-    try:
-
-        # ==========================================
-        # Webページ取得
-        # ==========================================
-
-        raw_html = fetch_html(page_url)
-
-        # HTML → テキスト化
-        current_text = html_to_text(raw_html)
-
-        # 最終更新日抽出
-        current_last_updated = extract_last_updated(
-            current_text
-        )
-
-        # ==========================================
-        # 前回内容読み込み
-        # ==========================================
-
-        previous_text = ""
-
-        if os.path.exists(previous_path):
-
-            with open(
-                previous_path,
-                "r",
-                encoding="utf-8"
-            ) as f:
-
-                previous_text = f.read()
-
-        # ==========================================
-        # 比較方法判定
-        # ==========================================
-
-        # 最終更新日だけ比較するか
-        check_last_updated_only = page.get(
-            "check_last_updated_only",
-            False
-        )
-
-        if check_last_updated_only:
-
-            # 前回ファイルは全文保存にするので、前回テキストから最終更新日を抽出して比較する
-            previous_last_updated = extract_last_updated(previous_text)
-
-            changed = (
-                previous_text != current_last_updated
+        try:
+            raw_html = fetch_html(page_url)
+            current_text = html_to_text(raw_html)
+            current_last_updated = extract_last_updated(current_text)
+            previous_text = (
+                previous_path.read_text(encoding="utf-8")
+                if previous_path.exists()
+                else ""
             )
+        except Exception as error:
+            print(f"Error: {page_name}")
+            print(error)
+            continue
 
-        else:
-
-            changed = (
-                previous_text != current_text
-            )
-
-        # 初回実行時は通知しない
-        is_first_run = (previous_text == "")
-
-        if is_first_run:
+        if not previous_text:
             changed = False
-
-        # ==========================================
-        # 変更検知時処理
-        # ==========================================
+        elif check_last_updated_only:
+            previous_last_updated = extract_last_updated(previous_text)
+            changed = previous_last_updated != current_last_updated
+        else:
+            changed = previous_text != current_text
 
         if changed:
-
-            print(f"Changed detected: {page_name}")
-
-            # 差分HTML生成
+            print(f"Change detected: {page_name}")
             diff_html = make_diff_html(
-                page_name,
-                page_url,
-                previous_text,
-                current_text,
-                current_last_updated
+                page_name=page_name,
+                url=page_url,
+                old_text=previous_text,
+                new_text=current_text,
+                last_updated=current_last_updated,
+            )
+            diff_path.write_text(diff_html, encoding="utf-8")
+
+            changed_pages.append(
+                {
+                    "name": page_name,
+                    "url": page_url,
+                    "last_updated": current_last_updated,
+                    "summary": make_plain_diff_summary(previous_text, current_text),
+                    "diff_file": f"diffs/{filename_key}.html",
+                }
             )
 
-            with open(
-                diff_path,
-                "w",
-                encoding="utf-8"
-            ) as f:
+        previous_path.write_text(current_text, encoding="utf-8")
 
-                f.write(diff_html)
+    if changed_pages:
+        write_rss(changed_pages)
+        print(f"Changed pages count: {len(changed_pages)}")
+    else:
+        print("No changes detected.")
 
-            # Teams通知用サマリ生成
-            diff_summary = make_plain_diff_summary(
-                previous_text,
-                current_text
-            )
+    return 0
 
-            changed_pages.append({
-                "name": page_name,
-                "url": page_url,
-                "last_updated": current_last_updated,
-                "summary": diff_summary,
-                "diff_file": f"diffs/{filename_key}.html"
-            })
 
-        # ==========================================
-        # 次回比較用保存
-        # ==========================================
-
-        # 前回データはすべて全文で保存する
-        save_value = current_text
-
-        #if check_last_updated_only:
-        #    save_value = current_last_updated
-        #else:
-        #    save_value = current_text
-
-        with open(
-            previous_path,
-            "w",
-            encoding="utf-8"
-        ) as f:
-
-            f.write(save_value)
-
-    except Exception as e:
-
-        # 1サイト失敗しても全体停止しない
-        print(f"Error: {page_name}")
-        print(e)
-        
-        
-        
-# ==================================================
-# RSS生成
-# ==================================================
-
-if changed_pages:
-
-    now = datetime.now(timezone.utc)
-
-    pub_date = now.strftime(
-        "%a, %d %b %Y %H:%M:%S GMT"
-    )
-
-    # RSS item 一意化用ハッシュ
-    digest_source = (
-        pub_date
-        + "".join([
-            p["name"] + p["summary"]
-            for p in changed_pages
-        ])
-    )
-
-    digest = hashlib.sha256(
-        digest_source.encode("utf-8")
-    ).hexdigest()[:12]
-
-    # GitHub Pages URL生成
-    repo = os.environ.get(
-        "GITHUB_REPOSITORY",
-        ""
-    )
-
-    owner = repo.split("/")[0]
-    repo_name = repo.split("/")[1]
-
-    pages_base_url = (
-        f"https://{owner}.github.io/{repo_name}"
-    )
-
-    details_html = ""
-    details_text = ""
-
-    for p in changed_pages:
-
-        diff_url = (
-            f"{pages_base_url}/{p['diff_file']}"
-        )
-
-        # RSS本文用HTML生成
-        details_html += (
-            f"&lt;h2&gt;{html.escape(p['name'])}&lt;/h2&gt;"
-            f"&lt;p&gt;&lt;strong&gt;対象URL:&lt;/strong&gt; "
-            f"&lt;a href='{html.escape(p['url'])}'&gt;"
-            f"{html.escape(p['url'])}&lt;/a&gt;&lt;/p&gt;"
-            f"&lt;p&gt;&lt;strong&gt;検出した最終更新日:&lt;/strong&gt; "
-            f"{html.escape(p['last_updated'])}&lt;/p&gt;"
-            f"&lt;p&gt;&lt;strong&gt;差分詳細:&lt;/strong&gt; "
-            f"&lt;a href='{html.escape(diff_url)}'&gt;"
-            f"{html.escape(diff_url)}&lt;/a&gt;&lt;/p&gt;"
-            f"&lt;br&gt;&lt;strong&gt;変更サマリ:&lt;/strong&gt;&lt;br&gt;"
-            # 【修正】p["summary"] は make_plain_diff_summary() 側で
-            # html.escape() 済み、かつ <br> を含むHTML文字列のため、
-            # ここで html.escape(p["summary"]) を実行すると
-            # <br> が文字として表示され、改行されなくなる。
-            #
-            # そのため、ここでは再エスケープせず、そのまま埋め込む。
-            f"&lt;code&gt;{p['summary']}&lt;/code&gt;"
-            f"&lt;hr&gt;"
-        )
-
-        # テキスト通知内容生成
-        details_text += (
-            f"【{p['name']}】\n"
-            f"対象URL: {p['url']}\n"
-            f"検出した最終更新日: {p['last_updated']}\n"
-            f"差分詳細: {diff_url}\n\n"
-            f"変更サマリ:\n"
-            # 【修正】latest_notification.txt はテキスト確認用のため、
-            # RSS/Teams用の <br> を改行へ戻して保存する
-            f"{p['summary'].replace('&lt;br&gt;', chr(10))}\n\n"
-        )
-
-    # RSS XML生成
-    rss = (
-        f'&lt;?xml version="1.0" encoding="UTF-8" ?&gt;'
-        f'&lt;rss version="2.0"&gt;'
-        f'&lt;channel&gt;'
-        f'&lt;title&gt;OS Release Page Watch&lt;/title&gt;'
-        f'&lt;link&gt;{pages_base_url}/rss.xml&lt;/link&gt;'
-        f'&lt;description&gt;'
-        f'Android/iOSなどのリリース情報ページ変更監視'
-        f'&lt;/description&gt;'
-        f'&lt;item&gt;'
-        f'&lt;title&gt;'
-        f'監視対象ページに変更がありました（{len(changed_pages)}件）'
-        f'&lt;/title&gt;'
-        f'&lt;link&gt;{pages_base_url}/rss.xml&lt;/link&gt;'
-        f'&lt;guid&gt;{digest}&lt;/guid&gt;'
-        f'&lt;pubDate&gt;{pub_date}&lt;/pubDate&gt;'
-        f'&lt;description&gt;&lt;![CDATA['
-        f'&lt;p&gt;'
-        f'監視対象ページに変更がありました。'
-        f'&lt;/p&gt;'
-        f'&lt;p&gt;'
-        f'&lt;strong&gt;変更ページ数:&lt;/strong&gt; '
-        f'{len(changed_pages)}件'
-        f'&lt;/p&gt;'
-        f'{details_html}'
-        f']]&gt;&lt;/description&gt;'
-        f'&lt;/item&gt;'
-        f'&lt;/channel&gt;'
-        f'&lt;/rss&gt;'
-    )
-
-    # RSS XML保存
-    with open(
-        os.path.join(DOCS_DIR, "rss.xml"),
-        "w",
-        encoding="utf-8"
-    ) as f:
-
-        f.write(rss)
-
-    # デバッグ・確認用テキスト保存
-    with open(
-        os.path.join(
-            DOCS_DIR,
-            "latest_notification.txt"
-        ),
-        "w",
-        encoding="utf-8"
-    ) as f:
-
-        f.write(details_text)
-
-    print(
-        f"Changed pages count: {len(changed_pages)}"
-    )
-
-else:
-
-    print("No changes detected.")
+if __name__ == "__main__":
+    raise SystemExit(main())
