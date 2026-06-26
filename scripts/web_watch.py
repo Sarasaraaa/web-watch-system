@@ -3,10 +3,12 @@ from __future__ import annotations
 import difflib
 import hashlib
 import html
+import http.cookiejar
 import json
 import os
 import re
 import subprocess
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -23,14 +25,14 @@ USER_AGENT = (
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/122.0.0.0 Safari/537.36"
 )
-
-LAST_UPDATED_NOT_FOUND = "検出できませんでした"
+ACCEPT_LANGUAGE = "ja,en-US;q=0.9,en;q=0.8"
+LAST_UPDATED_NOT_FOUND = "\u691c\u51fa\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f"
 
 LAST_UPDATED_PATTERNS = [
-    r"最終更新日\s*[：: ]\s*\d{4}-\d{2}-\d{2}\s*UTC",
-    r"最終更新日\s*[：: ]\s*\d{4}年\d{1,2}月\d{1,2}日",
-    r"公開日\s*[：: ]\s*\d{4}年\d{1,2}月\d{1,2}日",
-    r"更新日\s*[：: ]\s*\d{4}年\d{1,2}月\d{1,2}日",
+    r"\u6700\u7d42\u66f4\u65b0\u65e5\s*[：: ]\s*\d{4}-\d{2}-\d{2}\s*UTC",
+    r"\u6700\u7d42\u66f4\u65b0\u65e5\s*[：: ]\s*\d{4}\u5e74\d{1,2}\u6708\d{1,2}\u65e5",
+    r"\u516c\u958b\u65e5\s*[：: ]\s*\d{4}\u5e74\d{1,2}\u6708\d{1,2}\u65e5",
+    r"\u66f4\u65b0\u65e5\s*[：: ]\s*\d{4}\u5e74\d{1,2}\u6708\d{1,2}\u65e5",
     r"Published\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
     r"Released\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
     r"Updated\s+[A-Za-z]{3,9}\s+\d{1,2},\s+\d{4}",
@@ -53,31 +55,79 @@ def safe_filename(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
 
 
-def fetch_html(url: str) -> str:
-    if "developer.android.com" in url:
-        result = subprocess.run(
-            [
-                "curl",
-                "--fail",
-                "--location",
-                "--silent",
-                "--show-error",
-                "--user-agent",
-                USER_AGENT,
-                url,
-            ],
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            check=False,
-        )
-        if result.returncode != 0:
-            raise RuntimeError(result.stderr.strip() or "curl failed")
-        return result.stdout
+def fetch_with_curl(url: str) -> str:
+    result = subprocess.run(
+        [
+            "curl",
+            "-L",
+            "-A",
+            USER_AGENT,
+            "-H",
+            f"Accept-Language: {ACCEPT_LANGUAGE}",
+            url,
+        ],
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        check=False,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(result.stderr.strip() or "curl failed")
+    return result.stdout
 
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=30) as response:
+
+def build_opener() -> urllib.request.OpenerDirector:
+    cookie_jar = http.cookiejar.CookieJar()
+    opener = urllib.request.build_opener(
+        urllib.request.HTTPCookieProcessor(cookie_jar)
+    )
+    opener.addheaders = [
+        ("User-Agent", USER_AGENT),
+        ("Accept-Language", ACCEPT_LANGUAGE),
+    ]
+    return opener
+
+
+def fetch_with_urllib(url: str) -> str:
+    opener = build_opener()
+    with opener.open(url, timeout=30) as response:
         return response.read().decode("utf-8", errors="ignore")
+
+
+def strip_hl_query(url: str) -> str:
+    parsed = urllib.parse.urlsplit(url)
+    query = urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)
+    filtered_query = [(key, value) for key, value in query if key.lower() != "hl"]
+    return urllib.parse.urlunsplit(
+        (
+            parsed.scheme,
+            parsed.netloc,
+            parsed.path,
+            urllib.parse.urlencode(filtered_query),
+            parsed.fragment,
+        )
+    )
+
+
+def fetch_html(url: str) -> str:
+    if "developer.android.com" not in url:
+        return fetch_with_urllib(url)
+
+    try:
+        return fetch_with_curl(url)
+    except Exception as error:
+        print(f"Android curl fallback: {error}")
+
+    try:
+        return fetch_with_urllib(url)
+    except Exception as error:
+        print(f"Android urllib retry failed: {error}")
+
+    normalized_url = strip_hl_query(url)
+    if normalized_url != url:
+        return fetch_with_urllib(normalized_url)
+
+    raise RuntimeError("Android page fetch failed after retries")
 
 
 def html_to_text(raw_html: str) -> str:
@@ -111,19 +161,20 @@ def make_diff_html(
     diff_html = difflib.HtmlDiff(wrapcolumn=100).make_file(
         old_text.splitlines(),
         new_text.splitlines(),
-        fromdesc="前回取得内容",
-        todesc="今回取得内容",
+        fromdesc="\u524d\u56de\u53d6\u5f97\u5185\u5bb9",
+        todesc="\u4eca\u56de\u53d6\u5f97\u5185\u5bb9",
         context=False,
         numlines=3,
         charset="utf-8",
     )
 
     header = (
-        f"<h1>{html.escape(page_name)} の変更差分</h1>"
-        f"<p><strong>対象URL:</strong> "
+        f"<h1>{html.escape(page_name)} \u306e\u5909\u66f4\u5dee\u5206</h1>"
+        f"<p><strong>\u5bfe\u8c61URL:</strong> "
         f"<a href='{html.escape(url)}'>{html.escape(url)}</a></p>"
-        f"<p><strong>検出した最終更新日:</strong> {html.escape(last_updated)}</p>"
-        f"<p><strong>確認日時:</strong> "
+        f"<p><strong>\u691c\u51fa\u3057\u305f\u6700\u7d42\u66f4\u65b0\u65e5:</strong> "
+        f"{html.escape(last_updated)}</p>"
+        f"<p><strong>\u78ba\u8a8d\u65e5\u6642:</strong> "
         f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}</p>"
         "<hr>"
     )
@@ -135,8 +186,8 @@ def make_plain_diff_summary(old_text: str, new_text: str, max_lines: int = 40) -
         difflib.unified_diff(
             old_text.splitlines(),
             new_text.splitlines(),
-            fromfile="前回",
-            tofile="今回",
+            fromfile="\u524d\u56de",
+            tofile="\u4eca\u56de",
             lineterm="",
         )
     )
@@ -148,11 +199,14 @@ def make_plain_diff_summary(old_text: str, new_text: str, max_lines: int = 40) -
     ]
 
     if not changed_lines:
-        return "差分は検出されましたが、行単位の要約は生成できませんでした。"
+        return (
+            "\u5dee\u5206\u306f\u691c\u51fa\u3055\u308c\u307e\u3057\u305f\u304c\u3001"
+            "\u884c\u5358\u4f4d\u306e\u8981\u7d04\u306f\u751f\u6210\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f\u3002"
+        )
 
     if len(changed_lines) > max_lines:
         changed_lines = changed_lines[:max_lines] + [
-            f"... ほか {len(changed_lines) - max_lines} 行"
+            f"... \u307b\u304b {len(changed_lines) - max_lines} \u884c"
         ]
 
     return "<br>".join(html.escape(line) for line in changed_lines)
@@ -188,13 +242,13 @@ def write_rss(changed_pages: list[dict[str, str]]) -> None:
         details_html_parts.append(
             (
                 f"<h2>{html.escape(page['name'])}</h2>"
-                f"<p><strong>対象URL:</strong> "
+                f"<p><strong>\u5bfe\u8c61URL:</strong> "
                 f"<a href='{html.escape(page['url'])}'>{html.escape(page['url'])}</a></p>"
-                f"<p><strong>検出した最終更新日:</strong> "
+                f"<p><strong>\u691c\u51fa\u3057\u305f\u6700\u7d42\u66f4\u65b0\u65e5:</strong> "
                 f"{html.escape(page['last_updated'])}</p>"
-                f"<p><strong>差分詳細:</strong> "
+                f"<p><strong>\u5dee\u5206\u8a73\u7d30:</strong> "
                 f"<a href='{html.escape(diff_url)}'>{html.escape(diff_url)}</a></p>"
-                f"<br><strong>変更サマリ:</strong><br>"
+                f"<br><strong>\u5909\u66f4\u30b5\u30de\u30ea:</strong><br>"
                 f"<code>{page['summary']}</code>"
                 "<hr>"
             )
@@ -203,12 +257,12 @@ def write_rss(changed_pages: list[dict[str, str]]) -> None:
         details_text_parts.append(
             "\n".join(
                 [
-                    f"【{page['name']}】",
-                    f"対象URL: {page['url']}",
-                    f"検出した最終更新日: {page['last_updated']}",
-                    f"差分詳細: {diff_url}",
+                    f"\u3010{page['name']}\u3011",
+                    f"\u5bfe\u8c61URL: {page['url']}",
+                    f"\u691c\u51fa\u3057\u305f\u6700\u7d42\u66f4\u65b0\u65e5: {page['last_updated']}",
+                    f"\u5dee\u5206\u8a73\u7d30: {diff_url}",
                     "",
-                    "変更サマリ:",
+                    "\u5909\u66f4\u30b5\u30de\u30ea:",
                     page["summary"].replace("<br>", "\n"),
                     "",
                 ]
@@ -224,15 +278,15 @@ def write_rss(changed_pages: list[dict[str, str]]) -> None:
         '<rss version="2.0"><channel>'
         "<title>OS Release Page Watch</title>"
         f"<link>{feed_link}</link>"
-        "<description>Android/iOS などのリリース情報ページ変更監視</description>"
+        "<description>Android/iOS \u306a\u3069\u306e\u30ea\u30ea\u30fc\u30b9\u60c5\u5831\u30da\u30fc\u30b8\u5909\u66f4\u76e3\u8996</description>"
         "<item>"
-        f"<title>監視対象ページに変更がありました（{len(changed_pages)}件）</title>"
+        f"<title>\u76e3\u8996\u5bfe\u8c61\u30da\u30fc\u30b8\u306b\u5909\u66f4\u304c\u3042\u308a\u307e\u3057\u305f\uff08{len(changed_pages)}\u4ef6\uff09</title>"
         f"<link>{feed_link}</link>"
         f"<guid>{digest}</guid>"
         f"<pubDate>{pub_date}</pubDate>"
         "<description><![CDATA["
-        "<p>監視対象ページに変更がありました。</p>"
-        f"<p><strong>変更ページ数:</strong> {len(changed_pages)}件</p>"
+        "<p>\u76e3\u8996\u5bfe\u8c61\u30da\u30fc\u30b8\u306b\u5909\u66f4\u304c\u3042\u308a\u307e\u3057\u305f\u3002</p>"
+        f"<p><strong>\u5909\u66f4\u30da\u30fc\u30b8\u6570:</strong> {len(changed_pages)}\u4ef6</p>"
         f"{details_html}"
         "]]></description>"
         "</item>"
@@ -255,7 +309,7 @@ def main() -> int:
         page_url = str(page["url"])
         check_last_updated_only = bool(page.get("check_last_updated_only", False))
 
-        print(f"確認中: {page_name}")
+        print(f"\u78ba\u8a8d\u4e2d: {page_name}")
 
         filename_key = safe_filename(page_url)
         previous_path = DATA_DIR / f"{filename_key}.txt"
@@ -271,7 +325,7 @@ def main() -> int:
                 else ""
             )
         except Exception as error:
-            print(f"取得エラー: {page_name}")
+            print(f"\u53d6\u5f97\u30a8\u30e9\u30fc: {page_name}")
             print(error)
             continue
 
@@ -284,7 +338,7 @@ def main() -> int:
             changed = previous_text != current_text
 
         if changed:
-            print(f"変更を検出: {page_name}")
+            print(f"\u5909\u66f4\u3092\u691c\u51fa: {page_name}")
             diff_html = make_diff_html(
                 page_name=page_name,
                 url=page_url,
@@ -308,9 +362,9 @@ def main() -> int:
 
     if changed_pages:
         write_rss(changed_pages)
-        print(f"変更ページ数: {len(changed_pages)}")
+        print(f"\u5909\u66f4\u30da\u30fc\u30b8\u6570: {len(changed_pages)}")
     else:
-        print("変更はありませんでした。")
+        print("\u5909\u66f4\u306f\u3042\u308a\u307e\u305b\u3093\u3067\u3057\u305f\u3002")
 
     return 0
 

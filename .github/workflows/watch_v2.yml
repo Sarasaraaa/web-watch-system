@@ -16,13 +16,8 @@ jobs:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v5
 
-      - name: Python をセットアップ
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
       - name: Web 監視スクリプトを実行
-        run: python scripts/web_watch.py
+        run: python3 scripts/web_watch.py
 
       - name: 生成ファイルをコミット
         run: |
