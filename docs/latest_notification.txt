@@ -1,8 +1,7 @@
-[Appleのセキュリティリリース]
-Source URL: https://support.apple.com/ja-jp/100100
-Last updated: not found
-Diff: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
-Summary:
--﻿変更
-+﻿
+変更サマリ:
+-追加点

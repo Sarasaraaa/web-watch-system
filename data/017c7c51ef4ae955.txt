@@ -2,7 +2,6 @@ App Store Connect - Help - Apple Developer
 ' />
 ' />
 ' />
-追加点
 View in English
 Apple Developer
 Get Started
