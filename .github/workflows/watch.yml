@@ -175,7 +175,7 @@ jobs:
               # =====================================================
               if "developer.android.com" in url:
 
-              print("Using curl:", url)
+                  print("Using curl:", url)
 
                   result = subprocess.run(
                       [
@@ -196,10 +196,10 @@ jobs:
                       encoding="utf-8"
                   )
 
-              if result.returncode != 0:
-                  raise Exception(result.stderr)
+                  if result.returncode != 0:
+                      raise Exception(result.stderr)
 
-              return result.stdout
+                  return result.stdout
 
               # =====================================================
               # Apple系は従来どおり urllib
