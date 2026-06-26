@@ -96,7 +96,7 @@ jobs:
           import urllib.request
 
           # Android Developers の取得で curl を利用するため
-            import subprocess
+          import subprocess
 
           # 日時生成
           from datetime import datetime, timezone
