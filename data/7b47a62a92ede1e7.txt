@@ -1,0 +1,494 @@
+Android リリース  |  Platform  |  Android Developers
+メイン コンテンツにスキップ
+Essentials
+AI エクスペリエンスの構築
+Gemini API などを使用して、AI 搭載の Android アプリを構築します。
+使ってみる
+使ってみる
+最初のアプリを作成します。UI とアダプティブ アプリの開発に Compose を使用して、複数のデバイス フォーム ファクタに対応します。
+Hello, world!
+デベロッパーの確認
+アダプティブ アプリ
+UI 用の Compose
+AI を活用した IDE
+トレーニング
+Google Play での収益化 ↗️
+フォーム ファクタ別に最適化する
+スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを作成します。
+スマートフォン、タブレット、折りたたみ式デバイス
+自動車向け Android
+Android TV
+Android XR
+Googlebook
+ChromeOS
+Wear OS
+カテゴリ別に作成する
+Google 独自の規範となるガイダンスに沿って、ユースケース向けにビルドする方法を学習します。
+ゲーム
+カメラ＆メディア
+ソーシャル＆メッセージ
+健康＆フィットネス
+仕事効率化
+エンタープライズ アプリ
+最新情報を確認する
+年間を通して最新リリースのお知らせをお届けします。プレビュー プログラムにご参加いただき、ご意見をお寄せください。
+最新情報
+試験運用版の最新情報
+Android Studio プレビュー
+Jetpack ライブラリと Compose ライブラリ
+Wear OS 向けリリース
+プライバシー サンドボックス ↗️
+設計とプランニング
+優れたエクスペリエンス
+ベストユーザーに向けた最良のエクスペリエンスを構築します。
+詳細
+UI デザイン
+Android のベスト プラクティスに沿って、美しいユーザー インターフェースをデザインします。
+Android 向けのデザイン
+モバイル
+パソコンでのエクスペリエンス
+XR ヘッドセットと XR グラス
+AI グラス
+ウィジェット
+Wear OS
+Android TV
+自動車向け Android
+アーキテクチャ
+堅牢かつテストと保守が容易なアプリのロジックとサービスを設計します。
+はじめに
+ライブラリ
+ナビゲーション
+モジュール化
+テスト
+Kotlin マルチプラットフォーム
+品質
+Play ストアのガイドラインに沿って、アプリの品質をプランニングします。
+概要
+コアバリュー
+ユーザー エクスペリエンス
+ユーザー補助
+技術的な品質
+優れたエクスペリエンス
+セキュリティ
+ユーザーを脅威から保護し、安全な Android エクスペリエンスを実現します。
+概要
+プライバシー
+権限
+ID
+不正の防止
+開発
+Gemini in Android Studio
+Android 開発のための AI アシスタント。
+詳細
+Android Studio を入手する
+主要分野
+必要な機能に関するサンプルとドキュメントを入手します。
+サンプル
+マルチデバイスに対応
+ユーザー インターフェース
+バックグラウンド処理
+データとファイル
+接続
+すべての主要分野 ⤵️
+ツールとワークフロー
+IDE を使用してアプリを作成、ビルドするか、独自のパイプラインを作成します。
+コードの記述とデバッグ
+プロジェクトをビルドする
+アプリをテストする
+パフォーマンス
+コマンドライン ツール
+Gradle プラグイン API
+Android Bench
+デバイスの技術
+フォーム ファクタのコードを作成します。デバイスを接続してデータを共有します。
+スマートフォン、タブレット、折りたたみ式デバイス
+ChromeOS
+自動車向け Android
+Android TV
+Android XR
+Wear OS
+Android Health
+Better Together
+すべてのデバイス ⤵️
+ライブラリ
+詳細が記載された API リファレンス ドキュメントを確認します。
+Android プラットフォーム
+Jetpack ライブラリ
+Compose ライブラリ
+Google Play 開発者サービス ↗️
+Google Play SDK Index ↗️
+Google Play
+Google Play Console
+アプリやゲームを公開し、Google Play でビジネスを拡大しましょう。
+Google Play Console に移動
+詳細 ↗️
+基本
+ユーザーのエンゲージメントを高め、アプリを収益化し、安全性を確保する方法をご確認ください。
+Google Play での収益化
+Play Integrity
+Play ポリシー
+Google Play のプログラム ↗️
+ゲーム デベロッパー センター
+ゲームを開発して配信できます。ツールの利用、ダウンロード、サンプルの入手が可能です。
+概要
+Play Asset Delivery
+Play Games サービス
+PC 版 Google Play Games
+Google Play のすべてのガイド ⤵️
+ライブラリ
+詳細が記載された API リファレンス ドキュメントを確認します。
+Play Feature Delivery
+Google Play アプリ内アップデート
+Google Play アプリ内レビュー
+Play のインストール リファラー
+Google Play 開発者サービス ↗️
+Google Play SDK Index ↗️
+Google Play のすべてのライブラリ ⤵️
+ツールとリソース
+アプリの公開、プロモーション、管理に役立つツールです。
+Android App Bundle
+ブランドとマーケティング
+Google Play Console API ↗️
+ブログ
+Android デベロッパーのブログ
+最新記事をチェック
+著者を見る →
+カテゴリを探索
+事例紹介
+実際のユーザーによる実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
+イベントとプログラム
+デベロッパーの成長を支援するための今後のウェブセミナー、ワークショップ、ミートアップ、特別な取り組みの詳細をご覧ください。
+プロダクト ニュース
+最新のアップデート、機能リリース、進化の舞台裏に関する情報をお届けします。
+コミュニティ
+ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をお届けします。
+ハウツー
+簡単なヒントから詳細なチュートリアルまで、これらの手順ガイドは、よりスマートかつ迅速に作業を進めるのに役立つように設計されています。
+/
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Polski
+Português – Brasil
+Tiếng Việt
+Türkçe
+Русский
+עברית
+العربيّة
+فارسی
+हिंदी
+বাংলা
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
+Android Studio
+ログイン
+Platform
+概要
+リリース
+テクノロジー
+Essentials
+その他
+概要
+リリース
+テクノロジー
+設計とプランニング
+その他
+開発
+その他
+Google Play
+その他
+ブログ
+その他
+Android Studio
+すべての Android リリース
+Android 17
+Android 16
+Android 15
+Android 14
+Android 13
+過去のリリース
+Android 12
+Android 11
+Android 10
+Pie
+Oreo
+Nougat
+Marshmallow
+Lollipop
+KitKat
+Android プレビュー
+Android ベータ版
+Android Canary
+アプリの互換性
+アプリの互換性について
+互換性フレームワーク ツール
+非 SDK インターフェースの制限
+詳細
+ダッシュボード
+AI エクスペリエンスの構築
+使ってみる
+使ってみる
+Hello, world!
+デベロッパーの確認
+アダプティブ アプリ
+UI 用の Compose
+AI を活用した IDE
+トレーニング
+Google Play での収益化 ↗️
+フォーム ファクタ別に最適化する
+スマートフォン、タブレット、折りたたみ式デバイス
+自動車向け Android
+Android TV
+Android XR
+Googlebook
+ChromeOS
+Wear OS
+カテゴリ別に作成する
+ゲーム
+カメラ＆メディア
+ソーシャル＆メッセージ
+健康＆フィットネス
+仕事効率化
+エンタープライズ アプリ
+最新情報を確認する
+最新情報
+試験運用版の最新情報
+Android Studio プレビュー
+Jetpack ライブラリと Compose ライブラリ
+Wear OS 向けリリース
+プライバシー サンドボックス ↗️
+優れたエクスペリエンス
+詳細
+UI デザイン
+Android 向けのデザイン
+モバイル
+パソコンでのエクスペリエンス
+XR ヘッドセットと XR グラス
+AI グラス
+ウィジェット
+Wear OS
+Android TV
+自動車向け Android
+アーキテクチャ
+はじめに
+ライブラリ
+ナビゲーション
+モジュール化
+テスト
+Kotlin マルチプラットフォーム
+品質
+概要
+コアバリュー
+ユーザー エクスペリエンス
+ユーザー補助
+技術的な品質
+優れたエクスペリエンス
+セキュリティ
+概要
+プライバシー
+権限
+ID
+不正の防止
+Gemini in Android Studio
+詳細
+Android Studio を入手する
+主要分野
+サンプル
+マルチデバイスに対応
+ユーザー インターフェース
+バックグラウンド処理
+データとファイル
+接続
+すべての主要分野 ⤵️
+ツールとワークフロー
+コードの記述とデバッグ
+プロジェクトをビルドする
+アプリをテストする
+パフォーマンス
+コマンドライン ツール
+Gradle プラグイン API
+Android Bench
+デバイスの技術
+スマートフォン、タブレット、折りたたみ式デバイス
+ChromeOS
+自動車向け Android
+Android TV
+Android XR
+Wear OS
+Android Health
+Better Together
+すべてのデバイス ⤵️
+ライブラリ
+Android プラットフォーム
+Jetpack ライブラリ
+Compose ライブラリ
+Google Play 開発者サービス ↗️
+Google Play SDK Index ↗️
+Google Play Console
+Google Play Console に移動
+詳細 ↗️
+基本
+Google Play での収益化
+Play Integrity
+Play ポリシー
+Google Play のプログラム ↗️
+ゲーム デベロッパー センター
+概要
+Play Asset Delivery
+Play Games サービス
+PC 版 Google Play Games
+Google Play のすべてのガイド ⤵️
+ライブラリ
+Play Feature Delivery
+Google Play アプリ内アップデート
+Google Play アプリ内レビュー
+Play のインストール リファラー
+Google Play 開発者サービス ↗️
+Google Play SDK Index ↗️
+Google Play のすべてのライブラリ ⤵️
+ツールとリソース
+Android App Bundle
+ブランドとマーケティング
+Google Play Console API ↗️
+Android デベロッパーのブログ
+最新記事をチェック
+著者を見る →
+カテゴリを探索
+事例紹介
+イベントとプログラム
+プロダクト ニュース
+コミュニティ
+ハウツー
+Google uses AI technology to translate content into your preferred language. AI translations can contain errors.
+Android Developers
+Essentials
+Platform
+リリース
+コレクションでコンテンツを整理
+必要に応じて、コンテンツの保存と分類を行います。
+Android 16 は、Google が常に重視しているプライバシーとセキュリティに配慮して構築されたプラットフォームの最新バージョンです。生産性の向上はもちろんのこと、特にタブレットや折りたたみ式デバイスにおいて、美しいアプリ、メディアやカメラの上質なエクスペリエンス、直感的なユーザー エクスペリエンスを実現するための新機能が追加されています。
+ホーム
+Android 15 は、Google が常に重視しているプライバシーとセキュリティに配慮して構築されたプラットフォームの最新バージョンです。生産性の向上はもちろんのこと、特にタブレットや折りたたみ式デバイスにおいて、美しいアプリ、メディアやカメラの上質なエクスペリエンス、直感的なユーザー エクスペリエンスを実現するための新機能が追加されています。
+ホーム
+ウルトラ HDR、追加のカメラ拡張機能、ロスレス USB オーディオにより、より充実したカメラ エクスペリエンスとメディア エクスペリエンスを実現できます。認証情報マネージャーを使用してログインを簡素化し、ヘルスコネクトを使用して健康とフィットネスに関する分析情報を安全に提供できます。予測型「戻る」、アプリ別の言語、文法の変曲などを活用して、アプリの表現力を高め、個性を発揮できます。大画面で魅力的で差別化されたエクスペリエンスを提供します。
+ホーム
+過去のリリース
+Android 13
+写真選択ツールと通知権限を使用して、ユーザーのプライバシーを保護します。テーマ別アプリアイコン、アプリ別の言語、クリップボードのプレビューで生産性を高めます。Bluetooth LE Audio や USB 経由の MIDI 2.0 など、最新の標準に合わせて構築しています。タブレットと大画面でのユーザー エクスペリエンスを向上させます。
+詳細
+Android 12
+表現力とダイナミズムに優れたパーソナルな Material You を活用した、新しいシステム UI です。ウィジェットのデザイン刷新、AppSearch、ゲームモード、新しいコーデックによって、アプリが生まれ変わります。プライバシー ダッシュボードやおおよその位置情報など、新しい保護機能もサポートされています。リッチ コンテンツ挿入、ぼかしの容易化、ネイティブ デバッグの改善など、さまざまな特長によって生産性が向上します。
+詳細
+Android 11
+人とのつながりを表現豊かに、新しいコントロール スペース、より多彩なプライバシー機能で実現。会話通知やバブルによるアプリの拡張、1 回だけのアクセス許可、デバイス コントロールとメディア コントロールが用意されています。互換性切り替えや ADB の増分インストールなどのツールで、より迅速に作業できます。
+詳細
+Android 10
+ダークテーマおよびジェスチャー ナビゲーションによるアプリ エクスペリエンスの構築、ユーザーのプライバシーとセキュリティに対する新しい保護のサポート、高性能コーデック、強化された生体認証システム、アプリ起動の高速化、Vulkan 1.1、NNAPI 1.2、折りたたみ式デバイス、5G などでアプリを拡張しましょう。
+詳細
+Android 9 Pie
+Android 9 により、人工知能のパワーを活用してスマートフォンでより多くのことができるようになります。スマートフォンはもっと賢く高速になり、使用するにつれてどんどん馴染んでいきます。
+詳細
+Android 8 Oreo
+より速く、よりスムーズに、よりパワフルに。世界中で大人気のクッキーが、新たに Android の仲間に加わりました。
+詳細
+Android 7 Nougat
+Android 7.0 では、パフォーマンス、生産性、セキュリティを高める新しい機能が追加されました。新しいシステム動作を使用するアプリをテストして、電力やメモリの使用量を削減しましょう。マルチウィンドウ UI、ダイレクト リプライ通知なども活用できます。
+詳細
+Android 6 Marshmallow
+Android 6.0 Marshmallow 向けにアプリを用意しましょう。実行時パーミッション、Doze、アプリ スタンバイ省電力機能、新しいサポート テクノロジーなどの新機能をお試しください。
+詳細
+Android 5 Lollipop
+このリリースには、ユーザー向けの新しい機能だけでなく、デベロッパー向けに数多くの新しい API が追加されています。これらの API を使用することで、スマートフォン、タブレット、ウェアラブルに加え、TV や自動車用にも Android を拡張できます。
+詳細
+Android 4.4 KitKat
+Android KitKat によって、Android の最も革新的で、最も美しく、最も便利な機能のすべてを、世界中のより多くのデバイスでお楽しみいただけるようになりました。
+詳細
+このページのコンテンツやコードサンプルは、
+コンテンツ ライセンス
+に記載のライセンスに従います。Java および OpenJDK は Oracle および関連会社の商標または登録商標です。
+最終更新日 2025-06-11 UTC。
+[[["わかりやすい","easyToUnderstand","thumb-up"],["問題の解決に役立った","solvedMyProblem","thumb-up"],["その他","otherUp","thumb-up"]],[["必要な情報がない","missingTheInformationINeed","thumb-down"],["複雑すぎる / 手順が多すぎる","tooComplicatedTooManySteps","thumb-down"],["最新ではない","outOfDate","thumb-down"],["翻訳に関する問題","translationIssue","thumb-down"],["サンプル / コードに問題がある","samplesCodeIssue","thumb-down"],["その他","otherDown","thumb-down"]],["最終更新日 2025-06-11 UTC。"],[],[]]
+X
+@AndroidDev を X でフォロー
+YouTube
+Android デベロッパーを YouTube でチェック
+LinkedIn
+Connect with the Android Developers community on LinkedIn
+Android の詳細
+Android
+エンタープライズ向け Android
+セキュリティ
+ソース
+ニュース
+ブログ
+ポッドキャスト
+探索
+ゲーム
+機械学習
+健康＆フィットネス
+カメラ＆メディア
+プライバシー
+5G
+Android デバイス
+大画面
+Wear OS
+ChromeOS デバイス
+自動車向け Android
+Android TV
+リリース
+Android 17
+Android 16
+Android 15
+Android 14
+Android 13
+Android 12
+Android 11
+ドキュメントとダウンロード
+Android Studio ガイド
+デベロッパー ガイド
+API リファレンス
+Studio をダウンロード
+Android NDK
+サポート
+プラットフォームのバグを報告
+ドキュメントのバグを報告
+Google Play support
+調査に参加
+Android
+Chrome
+Firebase
+Google Cloud Platform
+すべてのプロダクト
+プライバシー
+ライセンス
+ブランドの取り扱いガイドライン
+Manage cookies
+ニュースやヒントをメールで受け取る
+購読
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Polski
+Português – Brasil
+Tiếng Việt
+Türkçe
+Русский
+עברית
+العربيّة
+فارسی
+हिंदी
+বাংলা
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
