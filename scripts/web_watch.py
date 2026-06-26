@@ -1,81 +1,9 @@
-# ============================================================
-# GitHub Actions のワークフロー名
-# GitHub Actions 画面に表示される名称
-# ============================================================
-name: Watch release information pages
-
-# ============================================================
-# ワークフローを実行するタイミング
-# ============================================================
-on:
-
-  # 定期実行設定
-  schedule:
-
-    # GitHub Actions の cron は UTC 時間で指定する
-    #
-    # 日本時間 9:30 に実行したい場合：
-    # JST 09:30 = UTC 00:30 （実行時間が変なので、9:30表記に変更）
-    #
-    # cron の形式：
-    # ┌───────────── 分 (0 - 59)
-    # │ ┌─────────── 時 (0 - 23)
-    # │ │ ┌───────── 日 (1 - 31)
-    # │ │ │ ┌─────── 月 (1 - 12)
-    # │ │ │ │ ┌───── 曜日 (0 - 6)
-    # │ │ │ │ │
-    # │ │ │ │ │
-    # * * * * *
-    #
-    - cron: '30 22 * * *'
-
-  # GitHub Actions 画面から手動実行できるようにする
-  workflow_dispatch:
-
-# ============================================================
-# ワークフローへ付与する権限
-# ============================================================
-permissions:
-
-  # GitHub Actions から
-  # RSS XML、差分HTML、前回比較用ファイル
-  # を commit/push するため、 write 権限が必要
-  contents: write
-
-# ============================================================
-# 実行するジョブ
-# ============================================================
-jobs:
-
-  watch:
-
-    # GitHub が提供する Ubuntu 環境を利用
-    runs-on: ubuntu-latest
-
-    steps:
-
-      # ======================================================
-      # リポジトリ内容を実行環境へ取得
-      # ======================================================
-      - name: Checkout repository
-        uses: actions/checkout@v5
-
-      # ======================================================
-      # Webページ取得・比較・RSS生成
-      # ======================================================
-      - name: Fetch pages and generate notifications
-
-        run: |
-
-          # Pythonスクリプトを直接実行
-          python3 << 'PY'
-
-          # ==================================================
+# ==================================================
           # 必要ライブラリ読み込み
           # ==================================================
 
           # OS操作
-          import os
+import os
 
           # 正規表現
           import re
@@ -177,56 +105,56 @@ jobs:
 
               print("Using curl:", url)
 
-              result = subprocess.run(
-                  [
-                      "curl",
-                      "-L",                 # リダイレクト追従
-                      "-A",
-                      (
-                          "Mozilla/5.0 "
-                          "(Windows NT 10.0; Win64; x64) "
-                          "AppleWebKit/537.36 "
-                          "(KHTML, like Gecko) "
-                          "Chrome/122.0.0.0 Safari/537.36"
-                      ),
-                      url
-                  ],
-                  capture_output=True,
-                  text=True,
-                  encoding="utf-8"
-              )
+                result = subprocess.run(
+                    [
+                        "curl",
+                        "-L",                 # リダイレクト追従
+                        "-A",
+                        (
+                            "Mozilla/5.0 "
+                            "(Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 "
+                            "(KHTML, like Gecko) "
+                            "Chrome/122.0.0.0 Safari/537.36"
+                        ),
+                        url
+                    ],
+                    capture_output=True,
+                    text=True,
+                    encoding="utf-8"
+                )
 
-              if result.returncode != 0:
-                  raise Exception(result.stderr)
+                if result.returncode != 0:
+                    raise Exception(result.stderr)
 
-              return result.stdout
+                return result.stdout
 
-              # =====================================================
-              # Apple系は従来どおり urllib
-              # =====================================================
+                # =====================================================
+                # Apple系は従来どおり urllib
+                # =====================================================
 
-              req = urllib.request.Request(
-                  url,
-                  headers={
-                      "User-Agent": (
-                          "Mozilla/5.0 "
-                          "(Windows NT 10.0; Win64; x64) "
-                          "AppleWebKit/537.36 "
-                          "(KHTML, like Gecko) "
-                          "Chrome/122.0.0.0 Safari/537.36"
-                      )
-                  }
-              )
+                req = urllib.request.Request(
+                    url,
+                    headers={
+                        "User-Agent": (
+                            "Mozilla/5.0 "
+                            "(Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 "
+                            "(KHTML, like Gecko) "
+                            "Chrome/122.0.0.0 Safari/537.36"
+                        )
+                    }
+                )
 
-              with urllib.request.urlopen(
-                  req,
-                  timeout=30
-              ) as res:
+                with urllib.request.urlopen(
+                    req,
+                    timeout=30
+                ) as res:
 
-                  return res.read().decode(
-                      "utf-8",
-                      errors="ignore"
-                  )
+                    return res.read().decode(
+                        "utf-8",
+                        errors="ignore"
+                    )
 
 
           def html_to_text(raw_html):
@@ -827,39 +755,3 @@ jobs:
 
               print("No changes detected.")
 
-          PY
-
-      # ======================================================
-      # GitHubへ変更反映
-      # ======================================================
-      - name: Commit generated files
-
-        run: |
-
-          # GitHub Actions 用ユーザー情報設定
-          git config user.name "github-actions"
-
-          git config user.email "github-actions@github.com"
-
-          # data:
-          # 前回比較用データ
-          #
-          # docs:
-          # RSS XML
-          # 差分HTML
-          #
-          git add data docs
-
-          # commit対象があるか確認
-          if git diff --cached --quiet; then
-
-            echo "No repository changes"
-
-          else
-
-            # 差分がある場合のみ commit / push
-            git commit -m "Update web watch results"
-
-            git push
-
-          fi
