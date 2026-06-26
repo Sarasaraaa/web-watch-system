@@ -537,6 +537,9 @@ jobs:
 
                   if check_last_updated_only:
 
+                      # 前回ファイルは全文保存にするので、前回テキストから最終更新日を抽出して比較する
+                      previous_last_updated = extract_last_updated(previous_text)
+                      
                       changed = (
                           previous_text != current_last_updated
                       )
@@ -596,13 +599,13 @@ jobs:
                   # 次回比較用保存
                   # ==========================================
 
-                  if check_last_updated_only:
-
-                      save_value = current_last_updated
-
-                  else:
-
-                      save_value = current_text
+                  # 前回データはすべて全文で保存する
+                  save_value = current_text
+                  
+                  #if check_last_updated_only:
+                  #    save_value = current_last_updated
+                  #else:
+                  #    save_value = current_text
 
                   with open(
                       previous_path,
