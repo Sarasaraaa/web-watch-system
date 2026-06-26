@@ -1,7 +1,107 @@
+【Android バージョン情報】
+対象URL: https://developer.android.com/about/versions?hl=ja
+検出した最終更新日: 最終更新日 2025-06-11 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
+
+変更サマリ:
+-■変更点
+
+【Android15】
+対象URL: https://developer.android.com/about/versions/15/summary?hl=ja
+検出した最終更新日: 最終更新日 2026-06-25 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/0905a72fa238b2ea.html
+
+変更サマリ:
+-■変更点
+-
+
+【Android16】
+対象URL: https://developer.android.com/about/versions/16/summary?hl=ja
+検出した最終更新日: 最終更新日 2026-03-03 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f8f9e1ea510138af.html
+
+変更サマリ:
+-■変更点
+-
+
+【Android17】
+対象URL: https://developer.android.com/about/versions/17/summary?hl=ja
+検出した最終更新日: 最終更新日 2026-06-19 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/fab2fa9345b01938.html
+
+変更サマリ:
+-■変更点
+-
+
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+
+変更サマリ:
+-﻿■変更点
++﻿
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
+-﻿■変更点
++﻿
+
 【iOS_App Store Connect リリースノート】
 対象URL: https://developer.apple.com/app-store-connect/release-notes/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
--追加点
+-■変更点
+-
+
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+
+変更サマリ:
+-■変更点
+-
+
+【iOSの最新情報】
+対象URL: https://developer.apple.com/jp/ios/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f812165d17c4cc2a.html
+
+変更サマリ:
+-■変更点
+-
+
+【Apple_App Review】
+対象URL: https://developer.apple.com/jp/distribute/app-review/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/8b2ebfe8d757c986.html
+
+変更サマリ:
+-■変更点
+-
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
+-■変更点
+-
+
+【AppleDeveloperNews（近日適用開始の要件）】
+対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
+
+変更サマリ:
+-■変更点
+-
+
