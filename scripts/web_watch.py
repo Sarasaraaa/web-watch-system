@@ -24,6 +24,8 @@ USER_AGENT = (
     "Chrome/122.0.0.0 Safari/537.36"
 )
 
+LAST_UPDATED_NOT_FOUND = "検出できませんでした"
+
 LAST_UPDATED_PATTERNS = [
     r"最終更新日\s*[：: ]\s*\d{4}-\d{2}-\d{2}\s*UTC",
     r"最終更新日\s*[：: ]\s*\d{4}年\d{1,2}月\d{1,2}日",
@@ -96,7 +98,7 @@ def extract_last_updated(text: str) -> str:
         match = re.search(pattern, text)
         if match:
             return match.group(0)
-    return "not found"
+    return LAST_UPDATED_NOT_FOUND
 
 
 def make_diff_html(
@@ -109,19 +111,19 @@ def make_diff_html(
     diff_html = difflib.HtmlDiff(wrapcolumn=100).make_file(
         old_text.splitlines(),
         new_text.splitlines(),
-        fromdesc="Previous",
-        todesc="Current",
+        fromdesc="前回取得内容",
+        todesc="今回取得内容",
         context=False,
         numlines=3,
         charset="utf-8",
     )
 
     header = (
-        f"<h1>{html.escape(page_name)} diff</h1>"
-        f"<p><strong>Source URL:</strong> "
+        f"<h1>{html.escape(page_name)} の変更差分</h1>"
+        f"<p><strong>対象URL:</strong> "
         f"<a href='{html.escape(url)}'>{html.escape(url)}</a></p>"
-        f"<p><strong>Last updated:</strong> {html.escape(last_updated)}</p>"
-        f"<p><strong>Detected at:</strong> "
+        f"<p><strong>検出した最終更新日:</strong> {html.escape(last_updated)}</p>"
+        f"<p><strong>確認日時:</strong> "
         f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}</p>"
         "<hr>"
     )
@@ -133,8 +135,8 @@ def make_plain_diff_summary(old_text: str, new_text: str, max_lines: int = 40) -
         difflib.unified_diff(
             old_text.splitlines(),
             new_text.splitlines(),
-            fromfile="previous",
-            tofile="current",
+            fromfile="前回",
+            tofile="今回",
             lineterm="",
         )
     )
@@ -146,11 +148,11 @@ def make_plain_diff_summary(old_text: str, new_text: str, max_lines: int = 40) -
     ]
 
     if not changed_lines:
-        return "No line-level diff summary was generated."
+        return "差分は検出されましたが、行単位の要約は生成できませんでした。"
 
     if len(changed_lines) > max_lines:
         changed_lines = changed_lines[:max_lines] + [
-            f"... and {len(changed_lines) - max_lines} more lines"
+            f"... ほか {len(changed_lines) - max_lines} 行"
         ]
 
     return "<br>".join(html.escape(line) for line in changed_lines)
@@ -186,12 +188,13 @@ def write_rss(changed_pages: list[dict[str, str]]) -> None:
         details_html_parts.append(
             (
                 f"<h2>{html.escape(page['name'])}</h2>"
-                f"<p><strong>Source URL:</strong> "
+                f"<p><strong>対象URL:</strong> "
                 f"<a href='{html.escape(page['url'])}'>{html.escape(page['url'])}</a></p>"
-                f"<p><strong>Last updated:</strong> {html.escape(page['last_updated'])}</p>"
-                f"<p><strong>Diff:</strong> "
+                f"<p><strong>検出した最終更新日:</strong> "
+                f"{html.escape(page['last_updated'])}</p>"
+                f"<p><strong>差分詳細:</strong> "
                 f"<a href='{html.escape(diff_url)}'>{html.escape(diff_url)}</a></p>"
-                f"<br><strong>Summary:</strong><br>"
+                f"<br><strong>変更サマリ:</strong><br>"
                 f"<code>{page['summary']}</code>"
                 "<hr>"
             )
@@ -200,12 +203,12 @@ def write_rss(changed_pages: list[dict[str, str]]) -> None:
         details_text_parts.append(
             "\n".join(
                 [
-                    f"[{page['name']}]",
-                    f"Source URL: {page['url']}",
-                    f"Last updated: {page['last_updated']}",
-                    f"Diff: {diff_url}",
+                    f"【{page['name']}】",
+                    f"対象URL: {page['url']}",
+                    f"検出した最終更新日: {page['last_updated']}",
+                    f"差分詳細: {diff_url}",
                     "",
-                    "Summary:",
+                    "変更サマリ:",
                     page["summary"].replace("<br>", "\n"),
                     "",
                 ]
@@ -221,15 +224,15 @@ def write_rss(changed_pages: list[dict[str, str]]) -> None:
         '<rss version="2.0"><channel>'
         "<title>OS Release Page Watch</title>"
         f"<link>{feed_link}</link>"
-        "<description>Watch release information pages for changes.</description>"
+        "<description>Android/iOS などのリリース情報ページ変更監視</description>"
         "<item>"
-        f"<title>{len(changed_pages)} watched page(s) changed</title>"
+        f"<title>監視対象ページに変更がありました（{len(changed_pages)}件）</title>"
         f"<link>{feed_link}</link>"
         f"<guid>{digest}</guid>"
         f"<pubDate>{pub_date}</pubDate>"
         "<description><![CDATA["
-        "<p>Detected updates on watched pages.</p>"
-        f"<p><strong>Changed pages:</strong> {len(changed_pages)}</p>"
+        "<p>監視対象ページに変更がありました。</p>"
+        f"<p><strong>変更ページ数:</strong> {len(changed_pages)}件</p>"
         f"{details_html}"
         "]]></description>"
         "</item>"
@@ -252,7 +255,7 @@ def main() -> int:
         page_url = str(page["url"])
         check_last_updated_only = bool(page.get("check_last_updated_only", False))
 
-        print(f"Checking: {page_name}")
+        print(f"確認中: {page_name}")
 
         filename_key = safe_filename(page_url)
         previous_path = DATA_DIR / f"{filename_key}.txt"
@@ -268,7 +271,7 @@ def main() -> int:
                 else ""
             )
         except Exception as error:
-            print(f"Error: {page_name}")
+            print(f"取得エラー: {page_name}")
             print(error)
             continue
 
@@ -281,7 +284,7 @@ def main() -> int:
             changed = previous_text != current_text
 
         if changed:
-            print(f"Change detected: {page_name}")
+            print(f"変更を検出: {page_name}")
             diff_html = make_diff_html(
                 page_name=page_name,
                 url=page_url,
@@ -305,9 +308,9 @@ def main() -> int:
 
     if changed_pages:
         write_rss(changed_pages)
-        print(f"Changed pages count: {len(changed_pages)}")
+        print(f"変更ページ数: {len(changed_pages)}")
     else:
-        print("No changes detected.")
+        print("変更はありませんでした。")
 
     return 0
 

@@ -1,6 +1,6 @@
-Android変更
 Android 16 features and changes list  |  Android Developers
 Skip to main content
+■Android変更
 Essentials
 Build AI experiences
 Build AI-powered Android apps with Gemini APIs and more.

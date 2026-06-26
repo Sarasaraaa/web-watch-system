@@ -1,4 +1,4 @@
-name: Web Watch System
+name: Web Watch System v2
 
 on:
   schedule:
@@ -13,25 +13,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: リポジトリをチェックアウト
         uses: actions/checkout@v5
 
-      - name: Setup Python
+      - name: Python をセットアップ
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Run web watch script
+      - name: Web 監視スクリプトを実行
         run: python scripts/web_watch.py
 
-      - name: Commit generated files
+      - name: 生成ファイルをコミット
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data docs
 
           if git diff --cached --quiet; then
-            echo "No repository changes"
+            echo "変更はありません"
           else
             git commit -m "Update web watch results"
             git push
