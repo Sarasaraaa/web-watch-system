@@ -1,3 +1,5 @@
+■変更点
+
 Android 17 の機能と変更点のリスト  |  Android Developers
 メイン コンテンツにスキップ
 Essentials

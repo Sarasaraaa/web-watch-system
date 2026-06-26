@@ -13,20 +13,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: リポジトリをチェックアウト
+      - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Web 監視スクリプトを実行
+      - name: Run web watch script
         run: python3 scripts/web_watch.py
 
-      - name: 生成ファイルをコミット
+      - name: Commit generated files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data docs
 
           if git diff --cached --quiet; then
-            echo "変更はありません"
+            echo "No repository changes"
           else
             git commit -m "Update web watch results"
             git push

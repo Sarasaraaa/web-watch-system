@@ -1,5 +1,6 @@
 Android 17 features and changes list  |  Android Developers
 Skip to main content
+■変更点
 Essentials
 Build AI experiences
 Build AI-powered Android apps with Gemini APIs and more.
