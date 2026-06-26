@@ -38,10 +38,8 @@ on:
 permissions:
 
   # GitHub Actions から
-  # RSS XML
-  # 差分HTML
-  # 前回比較用ファイル
-  # を commit/push するため write 権限が必要
+  # RSS XML、差分HTML、前回比較用ファイル
+  # を commit/push するため、 write 権限が必要
   contents: write
 
 # ============================================================
@@ -96,6 +94,9 @@ jobs:
 
           # Webアクセス
           import urllib.request
+
+          # Android Developers の取得で curl を利用するため
+            import subprocess
 
           # 日時生成
           from datetime import datetime, timezone
@@ -168,30 +169,65 @@ jobs:
               CookieJar を使ってリダイレクト先の状態を保持する。
               """
 
-              # Cookie を保持するための入れ物
-              cookie_jar = http.cookiejar.CookieJar()
+                # =====================================================
+                # 【追加】
+                # Android Developers は curl で取得する
+                # =====================================================
+                if "developer.android.com" in url:
 
-              # Cookie 対応の opener を作成
-              opener = urllib.request.build_opener(
-                urllib.request.HTTPCookieProcessor(cookie_jar),
-                urllib.request.HTTPRedirectHandler()
-              )
-              
-              # ブラウザっぽいヘッダーを付与
-              opener.addheaders = [
-                (
-                  "User-Agent",
-                  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/122.0.0.0 Safari/537.36"
+                print("Using curl:", url)
+
+                result = subprocess.run(
+                    [
+                        "curl",
+                        "-L",                 # リダイレクト追従
+                        "-A",
+                        (
+                            "Mozilla/5.0 "
+                            "(Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 "
+                            "(KHTML, like Gecko) "
+                            "Chrome/122.0.0.0 Safari/537.36"
+                        ),
+                        url
+                    ],
+                    capture_output=True,
+                    text=True,
+                    encoding="utf-8"
                 )
-              ]
 
-              # リクエストを送る
-              req = urllib.request.Request(url)
+                if result.returncode != 0:
+                    raise Exception(result.stderr)
 
-              with opener.open(req, timeout=30) as res:
-                return res.read().decode("utf-8", errors="ignore")
+                return result.stdout
+
+                # =====================================================
+                # Apple系は従来どおり urllib
+                # =====================================================
+
+                req = urllib.request.Request(
+                    url,
+                    headers={
+                        "User-Agent": (
+                            "Mozilla/5.0 "
+                            "(Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 "
+                            "(KHTML, like Gecko) "
+                            "Chrome/122.0.0.0 Safari/537.36"
+                        )
+                    }
+                )
+
+                with urllib.request.urlopen(
+                    req,
+                    timeout=30
+                ) as res:
+
+                    return res.read().decode(
+                        "utf-8",
+                        errors="ignore"
+                    )
+
 
           def html_to_text(raw_html):
               """
