@@ -1,0 +1,644 @@
+Android 17 features and changes list  |  Android Developers
+Skip to main content
+Essentials
+Build AI experiences
+Build AI-powered Android apps with Gemini APIs and more.
+Get started
+Get started
+Create your first app. Use Compose for UI and adaptive app development to support multiple device form factors.
+Hello, world!
+Developer Verification
+Adaptive apps
+Compose for UI
+AI-powered IDE
+Training
+Monetization with Play ↗️
+Optimize by form factor
+Build apps that optimize the user experience on phones, tablets, foldables, cars, XR, and more.
+Phones, tablets, foldables
+Android for Cars
+Android TV
+Android XR
+Googlebook
+ChromeOS
+Wear OS
+Build by category
+Learn to build for your use case by following Google's prescriptive and opinionated guidance.
+Games
+Camera & media
+Social & messaging
+Health & fitness
+Productivity
+Enterprise apps
+Get the latest
+Stay in touch with the latest releases throughout the year, join our preview programs, and give us your feedback.
+Latest updates
+Experimental updates
+Android Studio preview
+Jetpack & Compose libraries
+Wear OS releases
+Privacy Sandbox ↗️
+Design & Plan
+Excellent Experiences
+Build the best experiences for your best users.
+Learn more
+UI Design
+Design a beautiful user interface using Android best practices.
+Design for Android
+Mobile
+Desktop experiences
+XR Headsets & XR Glasses
+AI Glasses
+Widgets
+Wear OS
+Android TV
+Android for Cars
+Architecture
+Design robust, testable, and maintainable app logic and services.
+Introduction
+Libraries
+Navigation
+Modularization
+Testing
+Kotlin Multiplatform
+Quality
+Plan for app quality and align with Play store guidelines.
+Overview
+Core value
+User experience
+Accessibility
+Technical quality
+Excellent Experiences
+Security
+Safeguard users against threats and ensure a secure Android experience.
+Overview
+Privacy
+Permissions
+Identity
+Fraud prevention
+Develop
+Gemini in Android Studio
+Your AI development companion for Android development.
+Learn more
+Get Android Studio
+Core areas
+Get the samples and docs for the features you need.
+Samples
+Multidevice support
+User interfaces
+Background work
+Data and files
+Connectivity
+All core areas ⤵️
+Tools and workflow
+Use the IDE to write and build your app, or create your own pipeline.
+Write and debug code
+Build projects
+Test your app
+Performance
+Command-line tools
+Gradle plugin API
+Android Bench
+Device tech
+Write code for form factors. Connect devices and share data.
+Phones, tablets, foldables
+ChromeOS
+Android for Cars
+Android TV
+Android XR
+Wear OS
+Android Health
+Better Together
+All devices ⤵️
+Libraries
+Browse API reference documentation with all the details.
+Android platform
+Jetpack libraries
+Compose libraries
+Google Play services ↗️
+Google Play SDK index ↗️
+Google Play
+Play Console
+Publish your app or game and grow your business on Google Play.
+Go to Play Console
+Learn more ↗️
+Fundamentals
+Learn how to engage users, monitize, and secure your app.
+Play Monetization
+Play Integrity
+Play Policies
+Play Programs ↗️
+Games Dev Center
+Develop and deliver games. Get tools, downloads, and samples.
+Overview
+Play Asset Delivery
+Play Games Services
+Play Games on PC
+Level Up guidelines
+All Play guides ⤵️
+Libraries
+Browse API reference documentation with all the details.
+Play Feature Delivery
+Play In-app Updates
+Play In-app Reviews
+Play Install Referrer
+Google Play services ↗️
+Google Play SDK index ↗️
+All Play libraries ⤵️
+Tools & resources
+Tools for publishing, promoting, and managing your app.
+Android App Bundles
+Brand & marketing
+Play Console APIs ↗️
+Blog
+the Android Developer's Blog
+Read the latest
+Explore the authors →
+Explore categories
+Case Studies
+Real-world results from real-world users. Explore how different teams use our tools to achieve their goals.
+Events & Programs
+Get the details on upcoming webinars, workshops, meetups, and special initiatives designed to help you grow.
+Product News
+Stay in the loop with the latest updates, feature releases, and behind-the-scenes looks at how we’re evolving.
+Community
+Discover stories from our users, spotlight features, and the collaborative projects that bring us all together.
+How-tos
+From quick tips to deep-dive tutorials, these step-by-step guides are designed to help you work smarter and faster.
+/
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Polski
+Português – Brasil
+Tiếng Việt
+Türkçe
+Русский
+עברית
+العربيّة
+فارسی
+हिंदी
+বাংলা
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
+Android Studio
+Sign in
+Platform
+Overview
+Releases
+Technology
+Essentials
+More
+Overview
+Releases
+Technology
+Design & Plan
+More
+Develop
+More
+Google Play
+More
+Blog
+More
+Android Studio
+All Android releases
+Android 17
+Home
+Features and changes list
+Get your apps ready
+Migrate your apps
+Get Android 17
+Set up the Android 17 SDK
+Android 17 Beta devices
+Feedback and issue tracker
+Flash a factory image
+Apply an OTA image
+Get a Generic System Image (GSI)
+Review behavior changes for apps
+All apps
+Apps targeting Android 17
+Background audio hardening
+MessageQueue behavior change guidance
+Restrictions on orientation and resizability are ignored
+Explore new features and APIs
+Overview
+Contact picker
+Release notes
+Reference updates
+API diffs - Beta 2 → API 37 ⍈
+API diffs - API 36 → API 37 ⍈
+QPR1 Beta
+Release notes
+Get QPR beta builds
+Feedback and issue tracker
+Flash a factory image
+OTA images
+Generic System Images (GSIs)
+Reference updates
+API diffs - Beta 4 → Beta 5 ⍈
+API diffs - API 37 → Beta 5 ⍈
+Build AI experiences
+Get started
+Get started
+Hello, world!
+Developer Verification
+Adaptive apps
+Compose for UI
+AI-powered IDE
+Training
+Monetization with Play ↗️
+Optimize by form factor
+Phones, tablets, foldables
+Android for Cars
+Android TV
+Android XR
+Googlebook
+ChromeOS
+Wear OS
+Build by category
+Games
+Camera & media
+Social & messaging
+Health & fitness
+Productivity
+Enterprise apps
+Get the latest
+Latest updates
+Experimental updates
+Android Studio preview
+Jetpack & Compose libraries
+Wear OS releases
+Privacy Sandbox ↗️
+Excellent Experiences
+Learn more
+UI Design
+Design for Android
+Mobile
+Desktop experiences
+XR Headsets & XR Glasses
+AI Glasses
+Widgets
+Wear OS
+Android TV
+Android for Cars
+Architecture
+Introduction
+Libraries
+Navigation
+Modularization
+Testing
+Kotlin Multiplatform
+Quality
+Overview
+Core value
+User experience
+Accessibility
+Technical quality
+Excellent Experiences
+Security
+Overview
+Privacy
+Permissions
+Identity
+Fraud prevention
+Gemini in Android Studio
+Learn more
+Get Android Studio
+Core areas
+Samples
+Multidevice support
+User interfaces
+Background work
+Data and files
+Connectivity
+All core areas ⤵️
+Tools and workflow
+Write and debug code
+Build projects
+Test your app
+Performance
+Command-line tools
+Gradle plugin API
+Android Bench
+Device tech
+Phones, tablets, foldables
+ChromeOS
+Android for Cars
+Android TV
+Android XR
+Wear OS
+Android Health
+Better Together
+All devices ⤵️
+Libraries
+Android platform
+Jetpack libraries
+Compose libraries
+Google Play services ↗️
+Google Play SDK index ↗️
+Play Console
+Go to Play Console
+Learn more ↗️
+Fundamentals
+Play Monetization
+Play Integrity
+Play Policies
+Play Programs ↗️
+Games Dev Center
+Overview
+Play Asset Delivery
+Play Games Services
+Play Games on PC
+Level Up guidelines
+All Play guides ⤵️
+Libraries
+Play Feature Delivery
+Play In-app Updates
+Play In-app Reviews
+Play Install Referrer
+Google Play services ↗️
+Google Play SDK index ↗️
+All Play libraries ⤵️
+Tools & resources
+Android App Bundles
+Brand & marketing
+Play Console APIs ↗️
+the Android Developer's Blog
+Read the latest
+Explore the authors →
+Explore categories
+Case Studies
+Events & Programs
+Product News
+Community
+How-tos
+Android Developers
+Essentials
+Releases
+Android 17 features and changes list
+Stay organized with collections
+Save and categorize content based on your preferences.
+The following table lists all documented features and behavior changes that
+might affect app developers. Use this list to find changes that affect you,
+and then click the corresponding link to read the documentation.
+Accessibility
+Connectivity
+Core functionality
+Graphics
+Human input
+Device form factors
+Media
+Privacy
+Security
+User experience and system UI
+New features and APIs
+Change (all apps)
+Change (apps targeting 17+)
+Category
+Type
+Name
+Security
+Change (all apps)
+Block cross profile loopback traffic
+Cross-profile loopback traffic is no longer permitted by default.
+Security
+Change (all apps)
+Per-app keystore limits
+Apps have a limit on the number of keystore keys they can create, depending on their target API level; creating more keys causes an exception.
+Security
+Change (all apps)
+Restrict implicit URI grants
+If Android apps initiate intents with URIs, we recommend that they explicitly preallocate all necessary URI permissions instead of relying on the system to automatically grant them.
+Security
+Change (apps targeting 17+)
+Enable CT by default
+In Android 16 we allowed apps to opt-in to the Certificate Transparency feature. For Android 17, we are planning to enable Certificate Transparency for all TLS connections performed by the device.
+Security
+Change (apps targeting 17+)
+Safer Native DCL—C
+Apps must ensure DCL modules cannot be overwritten without being detected.
+Security
+Change (apps targeting 17+)
+Restrict PII fields in CP2 data view
+Apps that target Android 17 or higher can't access certain PII fields in the CP2 data view.
+Security
+Change (apps targeting 17+)
+Enforce strict SQL checks in CP2
+For apps targeting Android 17 or higher, Contacts Provider 2 enforces strict SQL query validation when the ContactsContract.Data table is accessed without READ_CONTACTS permission.
+Security
+New features and APIs
+Android Advanced Protection Mode (AAPM)
+Offers Android users a powerful new set of security features.
+Security
+New features and APIs
+PQC APK Signing
+Adds support for APKs to be signed with a new post-quantum crypto (PQC) signing key.
+Core functionality
+Change (all apps)
+App memory limits
+Android 17 introduces new app memory limits based on the device's total RAM.
+Core functionality
+Change (all apps)
+App memory runtime limits
+The system will be more rigorous in enforcing app memory limits. Exceeding these limits can cause apps to crash.
+Core functionality
+Change (all apps)
+usesClearTraffic deprecation plan
+We plan to deprecate usesClearTraffic in a future release. Apps that need to make HTTP connections should migrate to using network security configuration files instead.
+Core functionality
+Change (apps targeting 17+)
+New NPU feature flag
+Apps that target Android 17 must declare the android.hardware.npu feature if they need to access NPUs.
+Core functionality
+Change (apps targeting 17+)
+Memory restrictions for notification custom views
+Android 17 (API level 37) introduces stricter memory usage checks for notifications using custom views
+Core functionality
+Change (apps targeting 17+)
+Static final fields are now unmodifiable
+Apps that target Android 17 or higher cannot modify static final fields. Attempting to do so causes an exception.
+Core functionality
+Change (apps targeting 17+)
+New lock-free implementation of MessageQueue
+Apps targeting Android 17 or higher get a new lock-free implementation of MessageQueue.
+Core functionality
+New features and APIs
+New ProfilingManager triggers
+Android 17 several new system triggers to ProfilingManager to help you collect in-depth data to debug performance issues.
+Core functionality
+New features and APIs
+JobDebugInfo APIs
+New `JobDebugInfo` APIs to help developers debug their JobScheduler jobs.
+Privacy
+Change (all apps)
+Restricted message access
+Most apps now cannot access end-to-end encrypted messages.
+Privacy
+Change (apps targeting 17+)
+OTP protection for standard SMS messages
+Non-priority apps do not have immediate access to one-time passwords (OTP) even if users have granted them SMS permission.
+Privacy
+Change (apps targeting 17+)
+Local network permission required for apps targeting Android 17
+Apps that target Android 17 cannot access local devices unless they have an appropriate permission in the nearby devices group. This requirement was opt-in in Android 16.
+Privacy
+Change (apps targeting 17+)
+ECH (Encrypted Client Hello) enabled
+For apps targeting Android 17 or higher, ECH is enabled for TLS connections.
+Privacy
+Change (apps targeting 17+)
+Hiding passwords from physical devices
+Device no longer shows last-typed password entered from a physical device.
+Privacy
+New features and APIs
+Android contacts picker
+Android 17 introduces a new contacts picker as a permission-free way to give apps access to the user's contacts.
+Human input
+Change (all apps)
+Touchpads deliver relative events by default during pointer capture
+Beginning with Android 17, touchpads deliver relative pointer events (like with mouse events), instead of absolute events.
+User experience and system UI
+Change (all apps)
+Restoring default IME visibility after rotation
+When the device is rotated or the configuration is changed, the system uses the default visibility mode to determine whether to show the IME.
+User experience and system UI
+Change (apps targeting 17+)
+User-agent reduction for WebView
+Beginning with Android 17, the default user-agent string for WebView is shorter.
+User experience and system UI
+New features and APIs
+Dedicated Assistant volume stream
+Android 17 introduces a dedicated Assistant volume stream for Assistant apps, enabling independent control from media volume. Assistant apps with access to the new MODE_ASSISTANT_CONVERSATION can enable further volume improvements - control outside of an active playback or via Bluetooth peripherals.
+User experience and system UI
+New features and APIs
+MetricStyle template
+Android 17 introduces the MetricStyle template to support health and fitness, timers, stopwatch, and travel use cases.
+User experience and system UI
+New features and APIs
+Live Update - Semantic color API
+Live Updates introduces a Semantic color API to support colors with strong associations with safety, danger, and caution.
+User experience and system UI
+New features and APIs
+Handoff
+Handoff allows the user to begin a task on one device then continue it onanother device.
+Media
+Change (all apps)
+Background audio hardening
+Apps cannot play audio or use other disruptive audio APIs unless they are visible or have a foreground service.
+Media
+New features and APIs
+New BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION permission to capture sensitive audio
+Introduces new BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION permission for concurrent audio capture during calls and other sensitive audio use cases.
+Connectivity
+Change (all apps)
+Autonomous re-pairing for Bluetooth bond losses
+The system will automatically re-establish Bluetooth bonds in the background after a bond loss occurs, eliminating the need for users to manually unpair and re-pair devices in Settings
+Connectivity
+Change (apps targeting 17+)
+Consistent BluetoothSocket read() behavior for RFCOMM
+Apps targeting Android 17 or higher will have the BluetoothSocket RFCOMM implementation align with the standard Java InputStream behavior.
+Connectivity
+New features and APIs
+Constrained satellite networks
+Focuses on enabling Android apps to function effectively over low-bandwidth satellite networks.
+Accessibility
+Change (apps targeting 17+)
+Accessibility support of complex IME physical keyboard typing
+By allowing IMEs to convey more text-change information through the editor to accessibility service, this feature helps screen readers deliver more consistent, natural, and reliable feedback for complex IMEs.
+Device form factors
+Change (apps targeting 17+)
+Platform API changes to ignore orientation, resizability and aspect ratio constraints on large screens (sw>=600dp)
+Android 16 introduced platform API changes to ignore orientation, resizability, and aspect ratio constraints on large screens (sw >= 600dp). Apps that target Android 17 will no longer be able to opt out of these changes.
+Graphics
+New features and APIs
+WebGPU on Android
+WebGPU offers idiomatic Kotlin and Java graphics and compute APIs that provide access to Vulkan, part of Android's transition to Vulkan as the primary low-level GPU API.
+Content and code samples on this page are subject to the licenses described in the
+Content License
+. Java and OpenJDK are trademarks or registered trademarks of Oracle and/or its affiliates.
+Last updated 2026-06-19 UTC.
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-06-19 UTC."],[],[]]
+X
+Follow @AndroidDev on X
+YouTube
+Check out Android Developers on YouTube
+LinkedIn
+Connect with the Android Developers community on LinkedIn
+More Android
+Android
+Android for Enterprise
+Security
+Source
+News
+Blog
+Podcasts
+Discover
+Gaming
+Machine Learning
+Health & Fitness
+Camera & Media
+Privacy
+5G
+Android Devices
+Large screens
+Wear OS
+ChromeOS devices
+Android for cars
+Android TV
+Releases
+Android 17
+Android 16
+Android 15
+Android 14
+Android 13
+Android 12
+Android 11
+Documentation and Downloads
+Android Studio guide
+Developers guides
+API reference
+Download Studio
+Android NDK
+Support
+Report platform bug
+Report documentation bug
+Google Play support
+Join research studies
+Android
+Chrome
+Firebase
+Google Cloud Platform
+All products
+Privacy
+License
+Brand guidelines
+Manage cookies
+Get news and tips by email
+Subscribe
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Polski
+Português – Brasil
+Tiếng Việt
+Türkçe
+Русский
+עברית
+العربيّة
+فارسی
+हिंदी
+বাংলা
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어

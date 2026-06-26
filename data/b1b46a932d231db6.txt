@@ -1,0 +1,885 @@
+Android 15 features and changes list  |  Android Developers
+Skip to main content
+Essentials
+Build AI experiences
+Build AI-powered Android apps with Gemini APIs and more.
+Get started
+Get started
+Create your first app. Use Compose for UI and adaptive app development to support multiple device form factors.
+Hello, world!
+Developer Verification
+Adaptive apps
+Compose for UI
+AI-powered IDE
+Training
+Monetization with Play ↗️
+Optimize by form factor
+Build apps that optimize the user experience on phones, tablets, foldables, cars, XR, and more.
+Phones, tablets, foldables
+Android for Cars
+Android TV
+Android XR
+Googlebook
+ChromeOS
+Wear OS
+Build by category
+Learn to build for your use case by following Google's prescriptive and opinionated guidance.
+Games
+Camera & media
+Social & messaging
+Health & fitness
+Productivity
+Enterprise apps
+Get the latest
+Stay in touch with the latest releases throughout the year, join our preview programs, and give us your feedback.
+Latest updates
+Experimental updates
+Android Studio preview
+Jetpack & Compose libraries
+Wear OS releases
+Privacy Sandbox ↗️
+Design & Plan
+Excellent Experiences
+Build the best experiences for your best users.
+Learn more
+UI Design
+Design a beautiful user interface using Android best practices.
+Design for Android
+Mobile
+Desktop experiences
+XR Headsets & XR Glasses
+AI Glasses
+Widgets
+Wear OS
+Android TV
+Android for Cars
+Architecture
+Design robust, testable, and maintainable app logic and services.
+Introduction
+Libraries
+Navigation
+Modularization
+Testing
+Kotlin Multiplatform
+Quality
+Plan for app quality and align with Play store guidelines.
+Overview
+Core value
+User experience
+Accessibility
+Technical quality
+Excellent Experiences
+Security
+Safeguard users against threats and ensure a secure Android experience.
+Overview
+Privacy
+Permissions
+Identity
+Fraud prevention
+Develop
+Gemini in Android Studio
+Your AI development companion for Android development.
+Learn more
+Get Android Studio
+Core areas
+Get the samples and docs for the features you need.
+Samples
+Multidevice support
+User interfaces
+Background work
+Data and files
+Connectivity
+All core areas ⤵️
+Tools and workflow
+Use the IDE to write and build your app, or create your own pipeline.
+Write and debug code
+Build projects
+Test your app
+Performance
+Command-line tools
+Gradle plugin API
+Android Bench
+Device tech
+Write code for form factors. Connect devices and share data.
+Phones, tablets, foldables
+ChromeOS
+Android for Cars
+Android TV
+Android XR
+Wear OS
+Android Health
+Better Together
+All devices ⤵️
+Libraries
+Browse API reference documentation with all the details.
+Android platform
+Jetpack libraries
+Compose libraries
+Google Play services ↗️
+Google Play SDK index ↗️
+Google Play
+Play Console
+Publish your app or game and grow your business on Google Play.
+Go to Play Console
+Learn more ↗️
+Fundamentals
+Learn how to engage users, monitize, and secure your app.
+Play Monetization
+Play Integrity
+Play Policies
+Play Programs ↗️
+Games Dev Center
+Develop and deliver games. Get tools, downloads, and samples.
+Overview
+Play Asset Delivery
+Play Games Services
+Play Games on PC
+Level Up guidelines
+All Play guides ⤵️
+Libraries
+Browse API reference documentation with all the details.
+Play Feature Delivery
+Play In-app Updates
+Play In-app Reviews
+Play Install Referrer
+Google Play services ↗️
+Google Play SDK index ↗️
+All Play libraries ⤵️
+Tools & resources
+Tools for publishing, promoting, and managing your app.
+Android App Bundles
+Brand & marketing
+Play Console APIs ↗️
+Blog
+the Android Developer's Blog
+Read the latest
+Explore the authors →
+Explore categories
+Case Studies
+Real-world results from real-world users. Explore how different teams use our tools to achieve their goals.
+Events & Programs
+Get the details on upcoming webinars, workshops, meetups, and special initiatives designed to help you grow.
+Product News
+Stay in the loop with the latest updates, feature releases, and behind-the-scenes looks at how we’re evolving.
+Community
+Discover stories from our users, spotlight features, and the collaborative projects that bring us all together.
+How-tos
+From quick tips to deep-dive tutorials, these step-by-step guides are designed to help you work smarter and faster.
+/
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Polski
+Português – Brasil
+Tiếng Việt
+Türkçe
+Русский
+עברית
+العربيّة
+فارسی
+हिंदी
+বাংলা
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
+Android Studio
+Sign in
+Platform
+Overview
+Releases
+Technology
+Essentials
+More
+Overview
+Releases
+Technology
+Design & Plan
+More
+Develop
+More
+Google Play
+More
+Blog
+More
+Android Studio
+All Android releases
+Android 15
+Home
+Features and changes list
+Get your apps ready
+Migrate your apps
+Get Android 15
+Set up the Android 15 SDK
+Review behavior changes for apps
+All apps
+Apps targeting Android 15
+Changes to foreground service types
+Deprecations
+Non-SDK restrictions
+Explore new features and APIs
+Overview
+What's new in enterprise
+Reference updates
+API diffs - API 34 → API 35
+Compatibility framework changes
+QPR2 Beta
+Release notes
+Get QPR beta builds
+Feedback and issue tracker
+Flash a factory image
+Apply an OTA image
+Get a Generic System Image (GSI)
+App compatibility
+About app compatibility ⍈
+Compatibility framework tools ⍈
+Restrictions on non-SDK interfaces ⍈
+More
+Dashboards ⍈
+Build AI experiences
+Get started
+Get started
+Hello, world!
+Developer Verification
+Adaptive apps
+Compose for UI
+AI-powered IDE
+Training
+Monetization with Play ↗️
+Optimize by form factor
+Phones, tablets, foldables
+Android for Cars
+Android TV
+Android XR
+Googlebook
+ChromeOS
+Wear OS
+Build by category
+Games
+Camera & media
+Social & messaging
+Health & fitness
+Productivity
+Enterprise apps
+Get the latest
+Latest updates
+Experimental updates
+Android Studio preview
+Jetpack & Compose libraries
+Wear OS releases
+Privacy Sandbox ↗️
+Excellent Experiences
+Learn more
+UI Design
+Design for Android
+Mobile
+Desktop experiences
+XR Headsets & XR Glasses
+AI Glasses
+Widgets
+Wear OS
+Android TV
+Android for Cars
+Architecture
+Introduction
+Libraries
+Navigation
+Modularization
+Testing
+Kotlin Multiplatform
+Quality
+Overview
+Core value
+User experience
+Accessibility
+Technical quality
+Excellent Experiences
+Security
+Overview
+Privacy
+Permissions
+Identity
+Fraud prevention
+Gemini in Android Studio
+Learn more
+Get Android Studio
+Core areas
+Samples
+Multidevice support
+User interfaces
+Background work
+Data and files
+Connectivity
+All core areas ⤵️
+Tools and workflow
+Write and debug code
+Build projects
+Test your app
+Performance
+Command-line tools
+Gradle plugin API
+Android Bench
+Device tech
+Phones, tablets, foldables
+ChromeOS
+Android for Cars
+Android TV
+Android XR
+Wear OS
+Android Health
+Better Together
+All devices ⤵️
+Libraries
+Android platform
+Jetpack libraries
+Compose libraries
+Google Play services ↗️
+Google Play SDK index ↗️
+Play Console
+Go to Play Console
+Learn more ↗️
+Fundamentals
+Play Monetization
+Play Integrity
+Play Policies
+Play Programs ↗️
+Games Dev Center
+Overview
+Play Asset Delivery
+Play Games Services
+Play Games on PC
+Level Up guidelines
+All Play guides ⤵️
+Libraries
+Play Feature Delivery
+Play In-app Updates
+Play In-app Reviews
+Play Install Referrer
+Google Play services ↗️
+Google Play SDK index ↗️
+All Play libraries ⤵️
+Tools & resources
+Android App Bundles
+Brand & marketing
+Play Console APIs ↗️
+the Android Developer's Blog
+Read the latest
+Explore the authors →
+Explore categories
+Case Studies
+Events & Programs
+Product News
+Community
+How-tos
+Android Developers
+Essentials
+Releases
+Android 15 features and changes list
+Stay organized with collections
+Save and categorize content based on your preferences.
+The following table lists all documented features and behavior changes that
+might affect app developers. Use this list to find changes that affect you,
+and then click the corresponding link to read the documentation.
+Accessibility
+Camera and media
+Connectivity
+Core functionality
+Developer productivity and tools
+Graphics
+Internationalization
+Large screens and form factors
+Non-SDK interface restrictions
+Performance and battery
+Privacy
+Security
+User experience and system UI
+New features and APIs
+Change (all apps)
+Change (apps targeting 15+)
+Deprecation
+Category
+Type
+Name
+Accessibility
+New features and APIs
+Better Braille
+In Android 15, we've made it possible for
+TalkBack
+to support Braille displays that are using the HID standard over both USB and secure Bluetooth.
+Camera and media
+Change (all apps)
+Direct and offload audio playback invalidates previously open
+direct or offload audio
+tracks when resource limits are reached
+Beginning with Android 15, when an app requests direct playback, the system
+invalidates any currently open direct
+AudioTrack
+objects which
+prevent fulfilling the new track request.
+Camera and media
+Change (apps targeting 15+)
+Restrictions on requesting audio focus
+Apps that target Android 15 must be the top app or running an
+audio-related foreground service in order to request audio focus.
+Camera and media
+New features and APIs
+Low Light Boost
+Android 15 introduces Low Light Boost, an auto-exposure mode available to both
+Camera 2
+and the
+night mode camera extension
+.
+Camera and media
+New features and APIs
+In-app Camera Controls
+Android 15 adds extensions for more control over the camera hardware and its algorithms on supported devices.
+Camera and media
+New features and APIs
+HDR headroom control
+Android 15 lets you control the HDR headroom with
+setDesiredHdrHeadroom
+to strike a balance between SDR and HDR content.
+Camera and media
+New features and APIs
+Loudness control
+Android 15 introduces the
+LoudnessCodecController
+API, based on the
+CTA-2075
+loudness standard. This API can help you manage audio loudness inconsistencies to make sure users don't have to constantly adjust volume when switching between content or apps.
+Camera and media
+New features and APIs
+Virtual MIDI 2.0 Devices
+Android 15 extends UMP support to virtual MIDI apps, enabling composition apps to control synthesizer apps as a virtual MIDI 2.0 device just like they would with an USB MIDI 2.0 device.
+Camera and media
+New features and APIs
+More efficient AV1 software decoding
+dav1d
+, the popular AV1 software decoder from VideoLAN is now available for Android devices that don't support AV1 decode in hardware.
+Camera and media
+Deprecation
+Use
+Spatializer
+instead of
+Virtualizer
+In Android 15, we're deprecating the
+Virtualizer
+class.
+Connectivity
+New features and APIs
+Satellite support
+Android 15 continues to extend platform support for satellite connectivity and includes some UI elements to ensure a consistent user experience across the satellite connectivity landscape.
+Connectivity
+New features and APIs
+Smoother NFC experiences
+Android 15 is working to make the tap to pay experience more seamless and reliable while continuing to support Android's robust NFC app ecosystem.
+Connectivity
+New features and APIs
+Wallet role
+Android 15 introduces a Wallet role that allows tighter integration with the user's preferred wallet app.
+Core functionality
+Change (all apps)
+Changes to package stopped state
+In Android 15, apps are only be removed from the
+FLAG_STOPPED
+state through direct or indirect user action. In addition to the existing restrictions, the system also cancels all
+pending intents
+when the app enters the stopped state on Android 15.
+Core functionality
+Change (all apps)
+Support for 16 KB page sizes
+Beginning with Android 15, the Android system supports development devices that are configured to use a page size of 16 KB. If you use native code in your app, you should rebuild your app with support for 16 KB devices, and all developers should test their apps using a 16 KB environment to verify that there are no unexpected regressions in app behavior.
+Core functionality
+Change (all apps)
+Required changes for some apps to support private space
+Private space
+is a feature in Android 15 that lets users create a separate space on their device where they can keep sensitive apps away from prying eyes, under an additional layer of authentication. Because apps in the private space have restricted visibility, some types of apps need to take additional steps to be able to see and interact with apps in a user's private space.
+Core functionality
+Change (all apps)
+PNG-based emoji font removed
+The legacy, PNG-based emoji font file (
+NotoColorEmojiLegacy.ttf
+) has been removed, leaving just the vector-based file.
+Core functionality
+Change (all apps)
+Minimum installable target API level
+Apps with a
+targetSdkVersion
+lower than
+24
+can't be installed.
+Core functionality
+Change (apps targeting 15+)
+Media processing foreground service type
+Android 15 introduces a new foreground service type,
+mediaProcessing
+. This service type is appropriate for operations like transcoding media files.
+Core functionality
+Change (apps targeting 15+)
+Restrictions on
+BOOT_COMPLETED
+broadcast receivers launching foreground services
+For apps targeting Android 15,
+BOOT_COMPLETED
+receivers are not allowed to launch some types of foreground services.
+Core functionality
+Change (apps targeting 15+)
+Changes to when apps can modify the global state of Do Not Disturb mode
+Apps that target Android 15 can no longer change the global state or policy of Do Not Disturb (DND) on a device (either by modifying user settings, or turning off DND mode).
+Core functionality
+Change (apps targeting 15+)
+OpenJDK API changes
+As part of the OpenJDK API updates, there are some changes that can affect app compatibility, such as changes to some string
+formatting APIs, language code handling, and random int sequences.
+Core functionality
+Deprecation
+WebSQL deprecated in Android WebView
+WebSQL-related methods from
+WebSettings
+are deprecated.
+Developer productivity and tools
+New features and APIs
+OpenJDK 17 updates
+Android 15 continues the work of refreshing Android's core libraries to align with the features in the latest OpenJDK LTS releases.
+Developer productivity and tools
+New features and APIs
+PDF improvements
+Android 15 includes substantial improvements to the
+PdfRenderer
+APIs.
+Developer productivity and tools
+New features and APIs
+Automatic language switching refinements
+Android 15 adds additional controls to help apps tune automatic language switching to their use case.
+Developer productivity and tools
+New features and APIs
+Improved OpenType Variable Font API
+Android 15 improves the usability of the OpenType variable font.
+Developer productivity and tools
+New features and APIs
+Granular line break controls
+Starting in Android 15, a
+TextView
+and the underlying line breaker can preserve the given portion of text in the same line to improve readability.
+Developer productivity and tools
+New features and APIs
+App archiving
+Android 15 includes OS level support for app archiving and unarchiving, making it easier for all app stores to implement it.
+Graphics
+New features and APIs
+Modernizing Android's GPU access
+Android 15 includes
+ANGLE
+as an optional layer for running OpenGL® ES on top of Vulkan; ANGLE is already shipping as the GL system driver on some new devices, and new Android devices will move to only support OpenGL through ANGLE.
+Graphics
+New features and APIs
+Improvements for
+Canvas
+Android 15 continues our modernization of Android's
+Canvas
+graphics system with new capabilities.
+Internationalization
+New features and APIs
+CJK variable font
+Starting with Android 15, the font file for Chinese, Japanese, and Korean (CJK) languages, NotoSansCJK, is a variable font.
+Internationalization
+New features and APIs
+Inter-character justification
+Starting with Android 15, text can be justified utilizing letter spacing by using
+JUSTIFICATION_MODE_INTER_CHARACTER
+.
+Internationalization
+New features and APIs
+Automatic line break configuration
+In Android 15, apps can apply phrase-based line breaks only for short lines of text, using the
+LINE_BREAK_WORD_STYLE_AUTO
+option.
+Internationalization
+New features and APIs
+Additional Japanese Hentaigana Font
+In Android 15, a font file for old Japanese Hiragana (known as Hentaigana) is bundled by default.
+Large screens and form factors
+New features and APIs
+Improved large screen multitasking
+Android 15 gives users better ways to multitask on large screen devices.
+Large screens and form factors
+New features and APIs
+Cover screen support
+Your app can
+declare a property
+that Android 15 uses to allow your
+Application
+or
+Activity
+to be presented on the small cover screens of supported flippable devices.
+Non-SDK interface restrictions
+Change (apps targeting 15+)
+Updates to non-SDK interface restrictions
+Android 15 includes updated lists of restricted non-SDK interfaces based on collaboration with Android developers and the latest internal testing.
+Performance and battery
+New features and APIs
+ApplicationStartInfo
+API
+The
+ApplicationStartInfo
+API on Android 15 helps provide insight into app startup including startup state, time spent in launch phases, how your app was started when your
+Application
+class was instantiated, and more.
+Performance and battery
+New features and APIs
+Detailed app size information
+Android 15 adds the
+StorageStats.getAppBytesByDataType([type])
+API, which lets you get insight into how your app is using up all that space, including APK file splits, AOT and speedup related code, dex metadata, libraries, and guided profiles.
+Performance and battery
+New features and APIs
+App-managed profiling
+Android 15 includes the
+ProfilingManager
+class, which lets you collect profiling information from within your app.
+Performance and battery
+New features and APIs
+SQLite database improvements
+Android 15 introduces SQLite APIs that expose advanced features from the underlying SQLite engine that target specific performance issues that can manifest in apps.
+Performance and battery
+New features and APIs
+Android Dynamic Performance Framework updates
+Android 15 continues our investment in the Android Dynamic Performance Framework (ADPF), a set of APIs that allow games and performance intensive apps to interact more directly with power and thermal systems of Android devices.
+Privacy
+New features and APIs
+Screen recording detection
+Android 15 adds
+support for apps
+to detect that they are being recorded.
+Privacy
+New features and APIs
+Expanded
+IntentFilter
+capabilities
+Android 15 builds in support for more precise
+Intent
+resolution through
+UriRelativeFilterGroup
+, which contains a set of
+UriRelativeFilter
+objects that form a set of
+Intent
+matching rules that must each be satisfied, including URL query parameters, URL fragments, and blocking or exclusion rules.
+Privacy
+New features and APIs
+Private space
+Private space lets users create a separate space on their device where they can keep sensitive apps away from prying eyes, under an additional layer of authentication. Apps in the private space show up in a separate container in the launcher, and are hidden from the recents view, notifications, settings, and from other apps when the private space is locked.
+Privacy
+New features and APIs
+Query most-recent user selection for Selected Photos Access
+Apps can highlight only the most-recently-selected photos and videos when
+partial access
+to media permissions is granted.
+Privacy
+New features and APIs
+Privacy Sandbox on Android
+Android 15 includes the latest Android Ad Services extensions, incorporating the latest version of the Privacy Sandbox on Android. This addition is part of our work to develop technologies that improve user privacy and enable effective, personalized advertising experiences for mobile apps.
+Privacy
+New features and APIs
+Health Connect
+Android 15 integrates the latest extensions around Health Connect by Android, a secure and centralized platform to manage and share app-collected health and fitness data. This update adds support for data types across fitness, nutrition, skin temperature, training plans, and more.
+Privacy
+New features and APIs
+Partial screen sharing
+Android 15 supports partial screen sharing so users can share or record just an app window rather than the entire device screen. This feature, first enabled in Android 14 QPR2, includes
+MediaProjection
+callbacks that allow your app to customize the partial screen sharing experience.
+Security
+Change (apps targeting 15+)
+Restricted TLS versions
+Android 15 restricts the usage of TLS versions 1.0 and 1.1.
+These versions had previously been deprecated in Android, but
+are now disallowed for apps targeting Android 15.
+Security
+Change (apps targeting 15+)
+Secured background activity launches
+For apps targeting Android 15, we've included further changes to prevent malicious background apps from bringing other apps to the foreground, elevating their privileges, and abusing user interaction.
+Security
+Change (apps targeting 15+)
+Safer intents
+For apps targeting Android 15, intents that target specific components must accurately match the target's intent-filter specifications, and intents without an action no longer match any intent filters.
+Security
+New features and APIs
+Integrate Credential Manager with autofill
+Starting with Android 15, developers can
+link specific views like username or password fields with Credential Manager requests
+, making it easier to provide a tailored user experience during the sign-in process.
+Security
+New features and APIs
+Integrate single tap sign-up and sign-in with biometric prompts
+Credential Manager
+integrates biometric prompts into the credential creation and sign-in processes
+, eliminating the need for providers to manage biometric prompts.
+Security
+New features and APIs
+Key management for end-to-end encryption
+Use the
+E2eeContactKeysManager
+class to facilitate
+end-to-end encryption (E2EE) in your Android apps.
+Security
+New features and APIs
+Permission checks on content URIs
+Android 15 introduces a set of APIs that perform permission checks on content URIs.
+User experience and system UI
+Change (all apps)
+Predictive back animations enabled for apps that opted in
+The developer option for
+predictive back animations
+has been removed. Instead, system animations such as back-to-home, cross-task, and cross-activity appear for apps that have opted in to the predictive back gesture either entirely or at an activity level.
+User experience and system UI
+Change (apps targeting 15+)
+Edge-to-edge enforcement
+For apps that target Android 15, we're including several changes related to edge-to-edge. Your app's user experience might be negatively impacted by these changes if your app has UI elements near the top or bottom of the screen and your app doesn't handle insets.
+User experience and system UI
+Change (apps targeting 15+)
+Stable configuration
+If your app targets Android 15 or higher,
+Configuration
+no longer excludes the system bars.
+User experience and system UI
+Change (apps targeting 15+)
+elegantTextHeight
+attribute defaults to
+true
+For apps targeting Android 15, the
+elegantTextHeight
+TextView
+attribute becomes
+true
+by default, replacing the compact font used by default with some scripts that have large vertical metrics with one that is much more readable.
+User experience and system UI
+Change (apps targeting 15+)
+TextView
+width changes for complex letter shapes
+In previous versions of Android, some cursive fonts or languages that have complex shaping might draw the letters in the previous or next character's area. In some cases, such letters were clipped at the beginning or ending position. Starting in Android 15, a
+TextView
+allocates width for drawing enough space for such letters and allows apps to request extra paddings to the left to prevent clipping.
+User experience and system UI
+Change (apps targeting 15+)
+Locale-aware default line height for
+EditText
+For apps targeting Android 15, a minimum line height is reserved for
+EditText
+to match the reference font for the specified
+Locale
+.
+User experience and system UI
+New features and APIs
+Richer widget previews with Generated Previews API
+Beginning in Android 15 we are adding support for generated previews. This means that app widget providers can generate
+RemoteViews
+to use as the picker preview, instead of a static resource.
+User experience and system UI
+New features and APIs
+Picture-in-picture
+Starting from Android 15, the
+Activity#onPictureInPictureUiStateChanged
+callback now gets triggered as soon as the picture-in-picture animation starts.
+User experience and system UI
+New features and APIs
+Improved Do Not Disturb rules
+AutomaticZenRule
+lets apps customize Attention Management (Do Not Disturb) rules and decide when to activate or deactivate them. Android 15 greatly enhances these rules with the goal of improving the user experience.
+User experience and system UI
+New features and APIs
+Set
+VibrationEffect
+for notification channels
+Android 15 supports setting rich vibrations for incoming notifications by channel.
+User experience and system UI
+New features and APIs
+Media projection status bar chip and auto stop
+Android 15 QPR1 adds a prominent status bar indicator for media projection (screen sharing, casting, and recording) to ensure users are aware of ongoing media projection and to provide an accessible control for stopping the projection. Also, in-progress media projection is automatically stopped when the device screen is locked.
+Content and code samples on this page are subject to the licenses described in the
+Content License
+. Java and OpenJDK are trademarks or registered trademarks of Oracle and/or its affiliates.
+Last updated 2026-06-24 UTC.
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-06-24 UTC."],[],[]]
+X
+Follow @AndroidDev on X
+YouTube
+Check out Android Developers on YouTube
+LinkedIn
+Connect with the Android Developers community on LinkedIn
+More Android
+Android
+Android for Enterprise
+Security
+Source
+News
+Blog
+Podcasts
+Discover
+Gaming
+Machine Learning
+Health & Fitness
+Camera & Media
+Privacy
+5G
+Android Devices
+Large screens
+Wear OS
+ChromeOS devices
+Android for cars
+Android TV
+Releases
+Android 17
+Android 16
+Android 15
+Android 14
+Android 13
+Android 12
+Android 11
+Documentation and Downloads
+Android Studio guide
+Developers guides
+API reference
+Download Studio
+Android NDK
+Support
+Report platform bug
+Report documentation bug
+Google Play support
+Join research studies
+Android
+Chrome
+Firebase
+Google Cloud Platform
+All products
+Privacy
+License
+Brand guidelines
+Manage cookies
+Get news and tips by email
+Subscribe
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Polski
+Português – Brasil
+Tiếng Việt
+Türkçe
+Русский
+עברית
+العربيّة
+فارسی
+हिंदी
+বাংলা
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
