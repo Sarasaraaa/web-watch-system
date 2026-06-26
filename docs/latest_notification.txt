@@ -1,8 +1,8 @@
-【Android16】
-対象URL: https://developer.android.com/about/versions/16/summary
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/10357af90d6d6f74.html
+[Appleのセキュリティリリース]
+Source URL: https://support.apple.com/ja-jp/100100
+Last updated: not found
+Diff: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
 
-変更サマリ:
--変更テスト
-
+Summary:
+-﻿変更
++﻿
