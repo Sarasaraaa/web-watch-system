@@ -112,6 +112,39 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+iOS 26.6 beta 3 (23G5052d)
+June 29, 2026
+View downloads
+View release notes
+iPadOS 26.6 beta 3 (23G5052d)
+June 29, 2026
+View downloads
+View release notes
+macOS 26.6 beta 3 (25G5052e)
+June 29, 2026
+View downloads
+View release notes
+tvOS 26.6 beta 3 (23L5753c)
+June 29, 2026
+View downloads
+View release notes
+visionOS 26.6 beta 3 (23O5752d)
+June 29, 2026
+View downloads
+View release notes
+watchOS 26.6 beta 3 (23U5049c)
+June 29, 2026
+View downloads
+View release notes
+iOS 26.5.2 (23F84)
+June 29, 2026
+View downloads
+iPadOS 26.5.2 (23F84)
+June 29, 2026
+View downloads
+macOS 26.5.2 (25F84)
+June 29, 2026
+View downloads
 App Store Connect Update
 June 25, 2026
 View release notes
@@ -154,28 +187,11 @@ visionOS 27.0 beta 2 (24M5306i)
 June 22, 2026
 View downloads
 View release notes
-iOS 26.6 beta 2 (23G5043d)
-June 15, 2026
-View downloads
+App Store Connect Update
+June 18, 2026
 View release notes
-iPadOS 26.6 beta 2 (23G5043d)
-June 15, 2026
-View downloads
-View release notes
-macOS 26.6 beta 2 (25G5043d)
-June 15, 2026
-View downloads
-View release notes
-tvOS 26.6 beta 2 (23L5744d)
-June 15, 2026
-View downloads
-View release notes
-visionOS 26.6 beta 2 (23O5743c)
-June 15, 2026
-View downloads
-View release notes
-watchOS 26.6 beta 2 (23U5040d)
-June 15, 2026
+Xcode 26.6 RC 2 (17F113)
+June 18, 2026
 View downloads
 View release notes
 AirPods beta (9A292e)
@@ -185,35 +201,59 @@ App Store Connect API 4.4
 June 8, 2026
 Download file
 View release notes
+Xcode 27 beta (27A5194q)
+June 8, 2026
+View downloads
+View release notes
+Xcode 26.6 RC (17F109)
+June 8, 2026
+View downloads
+View release notes
+iOS 27.0 beta (24A5355q)
+June 8, 2026
+View downloads
+iPadOS 27.0 beta (24A5355q)
+June 8, 2026
+View downloads
+macOS 27.0 beta (26A5353q)
+June 8, 2026
+View downloads
+View release notes
+tvOS 27.0 beta (24J5289o)
+June 8, 2026
+View downloads
+View release notes
+visionOS 27.0 beta (24M5291p)
+June 8, 2026
+View downloads
+View release notes
 watchOS 27.0 beta (24R5289n)
 June 8, 2026
 View downloads
 View release notes
-iOS 26.5.1 (23F81)
-June 1, 2026
+iOS 26.6 beta (23G5028e)
+May 26, 2026
+View downloads
+iPadOS 26.6 beta (23G5028e)
+May 26, 2026
+View downloads
+tvOS 26.6 beta (23L5729e)
+May 26, 2026
 View downloads
 View release notes
-macOS 26.5.1 (25F80)
-June 1, 2026
+visionOS 26.6 beta (23O5728e)
+May 26, 2026
 View downloads
 View release notes
-Xcode 26.5 (17F42)
-May 11, 2026
+watchOS 26.6 beta (23U5025e)
+May 26, 2026
 View downloads
 View release notes
-iPadOS 26.5 (23F77)
-May 11, 2026
-View downloads
-View release notes
-tvOS 26.5 (23L471)
-May 11, 2026
-View downloads
+App Store Connect API 4.3.1
+May 12, 2026
+Download file
 View release notes
 visionOS 26.5 (23O471)
-May 11, 2026
-View downloads
-View release notes
-watchOS 26.5 (23T570)
 May 11, 2026
 View downloads
 View release notes
@@ -245,52 +285,26 @@ iPadOS 15.8.8 (19H422)
 May 11, 2026
 View downloads
 View release notes
-iOS 26.4.2 (23E261)
-April 22, 2026
+iOS 26.5 RC 2 (23F77)
+May 8, 2026
+View downloads
+iPadOS 26.5 RC 2 (23F77)
+May 8, 2026
+View downloads
+App Store Connect Update
+May 5, 2026
+View release notes
+iOS 26.5 RC (23F75)
+May 4, 2026
 View downloads
 View release notes
-iPadOS 26.4.2 (23E261)
-April 22, 2026
-View downloads
-View release notes
-Xcode 26.4.1 (17E202)
+App Store Connect Update
 April 16, 2026
-View downloads
-View release notes
-macOS 26.4.1 (25E253)
-April 9, 2026
-View downloads
 View release notes
 App Store Connect 3.2
 April 1, 2026
 Download the app
 View release notes
-tvOS 26.4 (23L243)
-March 24, 2026
-View downloads
-View release notes
-visionOS 26.4 (23O247)
-March 24, 2026
-View downloads
-View release notes
-iOS 16.7.15 (20H380)
-March 11, 2026
-View downloads
-iPadOS 16.7.15 (20H380)
-March 11, 2026
-View downloads
-iOS 15.8.7 (19H411)
-March 11, 2026
-View downloads
-iPadOS 15.8.7 (19H411)
-March 11, 2026
-View downloads
-iOS 12.5.8 (16H88)
-January 26, 2026
-View downloads
-Icon Composer for Xcode 26.2
-December 12, 2025
-View downloads
 Transporter 1.4
 October 6, 2025
 Download the app

@@ -112,6 +112,15 @@ Hello Developer
 サイトの更新情報
 近日適用開始の要件
 RSS
+iOS、iPadOS、macOS 27向けのデザインキットが登場
+2026年6月23日
+FigmaおよびSketch用のAppleのデザインキットがiOS、iPadOS、macOS 27で利用可能になりました。キットには以下の内容が含まれます。
+Liquid Glassのアップデート
+コンポーネントと状態のサポートの拡大
+コードになじむ名前への変更
+サイズ変更の改善
+macOS用のダークモードの追加
+Appleのデザインリソースからデザインキットをダウンロード
 最新のApple Developer Program使用許諾契約が利用可能に
 2026年6月18日
 Apple Developer Program使用許諾契約（英語）
