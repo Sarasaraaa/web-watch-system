@@ -1,50 +1,46 @@
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
 
 変更サマリ:
-+iOS 26.6 beta 3 (23G5052d)
-+June 29, 2026
-+View downloads
-+View release notes
-+iPadOS 26.6 beta 3 (23G5052d)
-+June 29, 2026
-+View downloads
-+View release notes
-+macOS 26.6 beta 3 (25G5052e)
-+June 29, 2026
-+View downloads
-+View release notes
-+tvOS 26.6 beta 3 (23L5753c)
-+June 29, 2026
-+View downloads
-+View release notes
-+visionOS 26.6 beta 3 (23O5752d)
-+June 29, 2026
-+View downloads
-+View release notes
-+watchOS 26.6 beta 3 (23U5049c)
-+June 29, 2026
-+View downloads
-+View release notes
-+iOS 26.5.2 (23F84)
-+June 29, 2026
-+View downloads
-+iPadOS 26.5.2 (23F84)
-+June 29, 2026
-+View downloads
-+macOS 26.5.2 (25F84)
-+June 29, 2026
-+View downloads
--iOS 26.6 beta 2 (23G5043d)
--June 15, 2026
--View downloads
--View release notes
--iPadOS 26.6 beta 2 (23G5043d)
--June 15, 2026
--View downloads
-... ほか 144 行
+-iOSの最新バージョンは26.5.1（iPhone 17（すべてのモデル）とiPhone Air）および26.5（iPhone 11～iPhone 16e）です。iPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.5.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.5.1です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.5.2です。Macのソフトウェアをアップデートする方法については
++iOS 26.5.2およびiPadOS 26.5.2
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年6月29日
++macOS Tahoe 26.5.2
++macOS Tahoe
++2026年6月29日
++Safari 26.5.2
++macOS SonomaおよびmacOS Sequoia
++2026年6月29日
+-2026 年 06 月 17 日
++2026 年 07 月 01 日
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
+-iOSの最新バージョンは26.5.1（iPhone 17（すべてのモデル）とiPhone Air）および26.5（iPhone 11～iPhone 16e）です。iPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.5.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.5.1です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.5.2です。Macのソフトウェアをアップデートする方法については
++iOS 26.5.2およびiPadOS 26.5.2
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年6月29日
++macOS Tahoe 26.5.2
++macOS Tahoe
++2026年6月29日
++Safari 26.5.2
++macOS SonomaおよびmacOS Sequoia
++2026年6月29日
+-2026 年 06 月 17 日
++2026 年 07 月 01 日
 
 【AppleDeveloperNews】
 対象URL: https://developer.apple.com/jp/news/
@@ -52,36 +48,8 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
-+iOS、iPadOS、macOS 27向けのデザインキットが登場
-+2026年6月23日
-+FigmaおよびSketch用のAppleのデザインキットがiOS、iPadOS、macOS 27で利用可能になりました。キットには以下の内容が含まれます。
-+Liquid Glassのアップデート
-+コンポーネントと状態のサポートの拡大
-+コードになじむ名前への変更
-+サイズ変更の改善
-+macOS用のダークモードの追加
-+Appleのデザインリソースからデザインキットをダウンロード
-
-【AppleDeveloperNews（近日適用開始の要件）】
-対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
-
-変更サマリ:
--オンラインのグループイベントの
--アプリ内課金
--適用開始日： 2022年6月30日
--App Store
--Reviewガイドライン3.11では、アプリがオンラインで有料グループサービスを提供する場合、アプリ内課金を通じてそれを提供することが求められています。
--新型コロナ感染症の最近の再拡大による対面型サービスへの継続的な影響を考慮し、この要件の適用開始日を
--2022年6月30日
--に延長しました。
--さらに詳しく
--アプリ内のアカウント削除機能の提供
--適用開始日： 2022年6月30日
--App Store
--Reviewガイドライン5.1.1において、アカウント作成に対応しているすべてのアプリを対象に、アプリ内でアカウントを削除できるようにしなければならないという要件が追加されました。これは、ユーザー自身による個人データの管理をさらに強化するものです。この要件の遵守が複雑なことから、適用開始日を
--2022年6月30日
--に延長しました。
--さらに詳しく
+-EUにおけるvisionOS 1.2での代替決済オプション
+-2024年7月1日
+-visionOS 1.2 以降、EUのApp Store で配信されているアプリでは、代替決済オプションをご利用いただけます。
+-EUでの代替決済について詳しく（英語）
 
