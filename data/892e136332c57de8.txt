@@ -1,5 +1,3 @@
-■変更点
-
 最新ニュース - Apple Developer
 View in English
 Apple Developer
@@ -114,6 +112,15 @@ Hello Developer
 サイトの更新情報
 近日適用開始の要件
 RSS
+iOS、iPadOS、macOS 27向けのデザインキットが登場
+2026年6月23日
+FigmaおよびSketch用のAppleのデザインキットがiOS、iPadOS、macOS 27で利用可能になりました。キットには以下の内容が含まれます。
+Liquid Glassのアップデート
+コンポーネントと状態のサポートの拡大
+コードになじむ名前への変更
+サイズ変更の改善
+macOS用のダークモードの追加
+Appleのデザインリソースからデザインキットをダウンロード
 最新のApple Developer Program使用許諾契約が利用可能に
 2026年6月18日
 Apple Developer Program使用許諾契約（英語）
@@ -1227,10 +1234,6 @@ App Reviewに向けた準備のためのリソースとサポートを入手す
 ガイドラインの翻訳は、更新の1か月以内に
 Apple Developer Webサイト
 にて提供されます。
-EUにおけるvisionOS 1.2での代替決済オプション
-2024年7月1日
-visionOS 1.2 以降、EUのApp Store で配信されているアプリでは、代替決済オプションをご利用いただけます。
-EUでの代替決済について詳しく（英語）
 Developer Footer
 ニュース
 プラットフォーム

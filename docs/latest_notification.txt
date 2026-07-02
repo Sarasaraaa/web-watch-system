@@ -1,7 +1,55 @@
-【iOS_App Store Connect リリースノート】
-対象URL: https://developer.apple.com/app-store-connect/release-notes/
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
 
 変更サマリ:
--追加点
+-iOSの最新バージョンは26.5.1（iPhone 17（すべてのモデル）とiPhone Air）および26.5（iPhone 11～iPhone 16e）です。iPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.5.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.5.1です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.5.2です。Macのソフトウェアをアップデートする方法については
++iOS 26.5.2およびiPadOS 26.5.2
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年6月29日
++macOS Tahoe 26.5.2
++macOS Tahoe
++2026年6月29日
++Safari 26.5.2
++macOS SonomaおよびmacOS Sequoia
++2026年6月29日
+-2026 年 06 月 17 日
++2026 年 07 月 01 日
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
+-iOSの最新バージョンは26.5.1（iPhone 17（すべてのモデル）とiPhone Air）および26.5（iPhone 11～iPhone 16e）です。iPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.5.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.5.1です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.5.2です。Macのソフトウェアをアップデートする方法については
++iOS 26.5.2およびiPadOS 26.5.2
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年6月29日
++macOS Tahoe 26.5.2
++macOS Tahoe
++2026年6月29日
++Safari 26.5.2
++macOS SonomaおよびmacOS Sequoia
++2026年6月29日
+-2026 年 06 月 17 日
++2026 年 07 月 01 日
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
+-EUにおけるvisionOS 1.2での代替決済オプション
+-2024年7月1日
+-visionOS 1.2 以降、EUのApp Store で配信されているアプリでは、代替決済オプションをご利用いただけます。
+-EUでの代替決済について詳しく（英語）
+
