@@ -1,46 +1,19 @@
-【iOS リリース情報】
-対象URL: https://support.apple.com/ja-jp/HT201222
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+【Android17】
+対象URL: https://developer.android.com/about/versions/17/summary?hl=ja
+検出した最終更新日: 最終更新日 2026-06-19 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/fab2fa9345b01938.html
 
 変更サマリ:
--iOSの最新バージョンは26.5.1（iPhone 17（すべてのモデル）とiPhone Air）および26.5（iPhone 11～iPhone 16e）です。iPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSおよびiPadOSの最新バージョンは26.5.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.5.1です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは26.5.2です。Macのソフトウェアをアップデートする方法については
-+iOS 26.5.2およびiPadOS 26.5.2
-+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
-+2026年6月29日
-+macOS Tahoe 26.5.2
-+macOS Tahoe
-+2026年6月29日
-+Safari 26.5.2
-+macOS SonomaおよびmacOS Sequoia
-+2026年6月29日
--2026 年 06 月 17 日
-+2026 年 07 月 01 日
-
-【Appleのセキュリティリリース】
-対象URL: https://support.apple.com/ja-jp/100100
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
-
-変更サマリ:
--iOSの最新バージョンは26.5.1（iPhone 17（すべてのモデル）とiPhone Air）および26.5（iPhone 11～iPhone 16e）です。iPadOSの最新バージョンは26.5です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSおよびiPadOSの最新バージョンは26.5.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.5.1です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは26.5.2です。Macのソフトウェアをアップデートする方法については
-+iOS 26.5.2およびiPadOS 26.5.2
-+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
-+2026年6月29日
-+macOS Tahoe 26.5.2
-+macOS Tahoe
-+2026年6月29日
-+Safari 26.5.2
-+macOS SonomaおよびmacOS Sequoia
-+2026年6月29日
--2026 年 06 月 17 日
-+2026 年 07 月 01 日
+-スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを作成します。
++スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを構築します。
++Level Up のガイドライン
+-ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をお届けします。
++ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をご紹介します。
+-API 差分 - ベータ版 4 → ベータ版 5 ⍈
+-API 差分 - API 37 → ベータ版 5 ⍈
++API 差分 - ベータ版 5 → API 37.1 ⍈
++API 差分 - API 37 → API 37.1 ⍈
++Level Up のガイドライン
 
 【AppleDeveloperNews】
 対象URL: https://developer.apple.com/jp/news/
@@ -48,8 +21,6 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
--EUにおけるvisionOS 1.2での代替決済オプション
--2024年7月1日
--visionOS 1.2 以降、EUのApp Store で配信されているアプリでは、代替決済オプションをご利用いただけます。
--EUでの代替決済について詳しく（英語）
+-最新情報を確認する（英語）
++最新情報を確認する
 
