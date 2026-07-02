@@ -9,8 +9,8 @@ name: Watch release information pages
 # ============================================================
 on:
 
-  # 定期実行設定
-  schedule:
+  # 定期実行設定（定期実行停止中　L13,30をコメントアウト）
+#  schedule:
 
     # GitHub Actions の cron は UTC 時間で指定する
     #
@@ -27,7 +27,7 @@ on:
     # │ │ │ │ │
     # * * * * *
     #
-    - cron: '30 22 * * *'
+#    - cron: '30 22 * * *'
 
   # GitHub Actions 画面から手動実行できるようにする
   workflow_dispatch:
