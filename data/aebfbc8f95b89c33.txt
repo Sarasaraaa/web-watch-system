@@ -112,28 +112,52 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
-iOS 26.6 beta 3 (23G5052d)
-June 29, 2026
+iOS 27.0 beta 3 (24A5380h)
+July 6, 2026
 View downloads
 View release notes
-iPadOS 26.6 beta 3 (23G5052d)
-June 29, 2026
+iPadOS 27.0 beta 3 (24A5380h)
+July 6, 2026
 View downloads
 View release notes
-macOS 26.6 beta 3 (25G5052e)
-June 29, 2026
+macOS 27.0 beta 3 (26A5378j)
+July 6, 2026
 View downloads
 View release notes
-tvOS 26.6 beta 3 (23L5753c)
-June 29, 2026
+tvOS 27.0 beta 3 (24J5315i)
+July 6, 2026
 View downloads
 View release notes
-visionOS 26.6 beta 3 (23O5752d)
-June 29, 2026
+visionOS 27.0 beta 3 (24M5316k)
+July 6, 2026
 View downloads
 View release notes
-watchOS 26.6 beta 3 (23U5049c)
-June 29, 2026
+watchOS 27.0 beta 3 (24R5315i)
+July 6, 2026
+View downloads
+View release notes
+iOS 26.6 beta 4 (23G5057c)
+July 6, 2026
+View downloads
+View release notes
+iPadOS 26.6 beta 4 (23G5057c)
+July 6, 2026
+View downloads
+View release notes
+macOS 26.6 beta 4 (25G5057c)
+July 6, 2026
+View downloads
+View release notes
+tvOS 26.6 beta 4 (23L5758b)
+July 6, 2026
+View downloads
+View release notes
+visionOS 26.6 beta 4 (23O5757c)
+July 6, 2026
+View downloads
+View release notes
+watchOS 26.6 beta 4 (23U5054b)
+July 6, 2026
 View downloads
 View release notes
 iOS 26.5.2 (23F84)
@@ -159,31 +183,7 @@ TestFlight 4.2.2
 June 23, 2026
 Download the app
 View release notes
-watchOS 27.0 beta 2 (24R5305g)
-June 23, 2026
-View downloads
-View release notes
 Xcode 27 beta 2 (27A5209h)
-June 22, 2026
-View downloads
-View release notes
-iOS 27.0 beta 2 (24A5370h)
-June 22, 2026
-View downloads
-View release notes
-iPadOS 27.0 beta 2 (24A5370h)
-June 22, 2026
-View downloads
-View release notes
-macOS 27.0 beta 2 (26A5368g)
-June 22, 2026
-View downloads
-View release notes
-tvOS 27.0 beta 2 (24J5305f)
-June 22, 2026
-View downloads
-View release notes
-visionOS 27.0 beta 2 (24M5306i)
 June 22, 2026
 View downloads
 View release notes

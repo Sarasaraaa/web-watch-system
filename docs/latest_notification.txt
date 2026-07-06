@@ -1,26 +1,96 @@
-【Android17】
-対象URL: https://developer.android.com/about/versions/17/summary?hl=ja
-検出した最終更新日: 最終更新日 2026-06-19 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/fab2fa9345b01938.html
-
-変更サマリ:
--スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを作成します。
-+スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを構築します。
-+Level Up のガイドライン
--ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をお届けします。
-+ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をご紹介します。
--API 差分 - ベータ版 4 → ベータ版 5 ⍈
--API 差分 - API 37 → ベータ版 5 ⍈
-+API 差分 - ベータ版 5 → API 37.1 ⍈
-+API 差分 - API 37 → API 37.1 ⍈
-+Level Up のガイドライン
-
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
--最新情報を確認する（英語）
-+最新情報を確認する
+-iOS 26.6 beta 3 (23G5052d)
+-June 29, 2026
+-View downloads
+-View release notes
+-iPadOS 26.6 beta 3 (23G5052d)
+-June 29, 2026
+-View downloads
+-View release notes
+-macOS 26.6 beta 3 (25G5052e)
+-June 29, 2026
+-View downloads
+-View release notes
+-tvOS 26.6 beta 3 (23L5753c)
+-June 29, 2026
+-View downloads
+-View release notes
+-visionOS 26.6 beta 3 (23O5752d)
+-June 29, 2026
+-View downloads
+-View release notes
+-watchOS 26.6 beta 3 (23U5049c)
+-June 29, 2026
++iOS 27.0 beta 3 (24A5380h)
++July 6, 2026
++View downloads
++View release notes
++iPadOS 27.0 beta 3 (24A5380h)
++July 6, 2026
++View downloads
++View release notes
++macOS 27.0 beta 3 (26A5378j)
++July 6, 2026
++View downloads
++View release notes
++tvOS 27.0 beta 3 (24J5315i)
++July 6, 2026
++View downloads
++View release notes
++visionOS 27.0 beta 3 (24M5316k)
++July 6, 2026
+... ほか 52 行
+
+【iOSの最新情報】
+対象URL: https://developer.apple.com/jp/ios/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f812165d17c4cc2a.html
+
+変更サマリ:
+-iOS向けの開発
+-世界最先端のモバイルオペレーティングシステム向けに魅力的なアプリやゲームを作成しましょう。新しいデザインを取り入れることで、ユーザーにとって最も重要なコンテンツを引き立て、すべてのAppleプラットフォームにわたって統一感あるデザインを実現できます。また、Apple Intelligenceにより、優れたパフォーマンスとプライバシー機能を兼ね備えた
+-パーソナル
+-インテリジェンス
+-をアプリに取り入れ、新しい機能を提供
+-すること
+-が
+-できます。
+-iOS 27の
+-最新情報
++iOS向けアプリの開発
++世界最先端のモバイルオペレーティングシステム向けに魅力的なアプリやゲームを作成しましょう。新しいデザインを取り入れることで、ユーザーにとって最も重要なコンテンツを引き立て、すべてのAppleプラットフォームにわたって統一感あるデザインを実現できます。また、Apple Intelligenceにより、優れたパフォーマンスとプライバシー機能を兼ね備えたパーソナルインテリジェンスをアプリに取り入れ、新しい機能を提供することができます。
++iOS 27の最新情報
+-ください。
+-開発
+-を
++ください。開発を
+-際に
+-役立つ
+-リソース
+-をまとめた使いやすい
+-コレクション
+-です。
++際に役立つリソースをまとめた
++使いやすい
++コレクションです。
+-新しいデザイン言語
+-デザインがかつてないほど大幅にアップデートされました。すべてのAppleプラットフォームに共通するこの新デザインは、ユーザーにとって最も重要なコンテンツを引き立てます。また、各プラットフォームのユニークな特徴を維持すると同時に、プラットフォーム間で統一されたデザイン言語を実現しています。
+-この印象的な新しいマテリアルがLiquid Glassです。ガラスの光学的特性となめらかな流動感を兼ね備えており、その下にあるコンテンツの表示を屈折させ、周囲の光を反射し、エッジに沿って艶やかなレンズエフェクトをもたらします。
+-Appleオペレーティングシステムの中核に組み込まれたApple Intelligenceは、作文ツール、
+-ジェン文字
+-、Image Playgroundなどの各種機能によってさまざまなタスクを支援する、
+-パーソナル
+-インテリジェンス
+-システム
+-です。
+-Foundation Modelフレームワークにより、Apple Intelligenceの中核をなす大規模言語モデルを利用できるようになりました。
+-この
+-フレームワーク
+-では、テキストの抽出や要約などのモデル機能を利用して、アプリの
+... ほか 96 行
 
