@@ -112,6 +112,13 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+TestFlight Update
+July 7, 2026
+View release notes
+Xcode 27 beta 3 (27A5218g)
+July 6, 2026
+View downloads
+View release notes
 iOS 27.0 beta 3 (24A5380h)
 July 6, 2026
 View downloads
@@ -176,16 +183,9 @@ Xcode 26.6 (17F113)
 June 25, 2026
 View downloads
 View release notes
-TestFlight Update
-June 23, 2026
-View release notes
 TestFlight 4.2.2
 June 23, 2026
 Download the app
-View release notes
-Xcode 27 beta 2 (27A5209h)
-June 22, 2026
-View downloads
 View release notes
 App Store Connect Update
 June 18, 2026
