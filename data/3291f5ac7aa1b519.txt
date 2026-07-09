@@ -35,10 +35,10 @@ Swift
 SwiftUI
 特集
 アクセシビリティ
+AIと機械学習
 App Intent
 Apple Intelligence
 ゲーム
-機械学習とAI
 セキュリティ
 Xcode Cloud
 コミュニティ
@@ -246,7 +246,7 @@ XMLからApp Store Connect APIへの移行について
 早ければ2022年11月9日より、XMLフィードはアプリ内課金、サブスクリプション、メタデータ、アプリの価格設定に対応しなくなります。これらのコンテンツはApp Store Connect REST APIを使用して管理できます。このAPIでは、ワークフローのカスタマイズや自動化を簡単に行うことができます。
 なお、XMLフィードは、既存のGame Centerの管理機能には引き続き対応します。
 APIについてさらに詳しく
-Developer Footer
+デベロッパ向けフッタ
 近日適用開始の要件
 プラットフォーム
 メニューを開く
@@ -286,7 +286,7 @@ App Store
 アプリ内購入
 ローカリゼーション
 マップと位置情報
-機械学習とAI
+AIと機械学習
 オープンソース（英語）
 セキュリティ
 SafariとWeb（英語）

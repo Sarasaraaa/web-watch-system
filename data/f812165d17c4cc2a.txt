@@ -36,10 +36,10 @@ Swift
 SwiftUI
 特集
 アクセシビリティ
+AIと機械学習
 App Intent
 Apple Intelligence
 ゲーム
-機械学習とAI
 セキュリティ
 Xcode Cloud
 コミュニティ
@@ -195,7 +195,7 @@ tvOS
 visionOS
 watchOS
 ゲーム
-Developer Footer
+デベロッパ向けフッタ
 *App Store Small Business Programに登録済みで、App Storeでのアプリの初回ダウンロード総数が200万回未満のデベロッパは、
 プライベートクラウドコンピューティング
 上で実行される次世代のApple Foundation Modelを、クラウドAPIコストなしで利用できます。
@@ -239,7 +239,7 @@ App Store
 アプリ内購入
 ローカリゼーション
 マップと位置情報
-機械学習とAI
+AIと機械学習
 オープンソース（英語）
 セキュリティ
 SafariとWeb（英語）

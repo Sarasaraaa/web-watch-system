@@ -35,10 +35,10 @@ Swift
 SwiftUI
 特集
 アクセシビリティ
+AIと機械学習
 App Intent
 Apple Intelligence
 ゲーム
-機械学習とAI
 セキュリティ
 Xcode Cloud
 コミュニティ
@@ -298,7 +298,7 @@ App Store Connectを表示する
 その他の質問
 アプリの却下や削除など未解決の問題についてサポートが必要な場合は、Appleまでご連絡ください。
 お問い合わせ
-Developer Footer
+デベロッパ向けフッタ
 配信
 App Review
 プラットフォーム
@@ -339,7 +339,7 @@ App Store
 アプリ内購入
 ローカリゼーション
 マップと位置情報
-機械学習とAI
+AIと機械学習
 オープンソース（英語）
 セキュリティ
 SafariとWeb（英語）

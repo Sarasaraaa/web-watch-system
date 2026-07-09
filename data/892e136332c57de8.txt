@@ -35,10 +35,10 @@ Swift
 SwiftUI
 特集
 アクセシビリティ
+AIと機械学習
 App Intent
 Apple Intelligence
 ゲーム
-機械学習とAI
 セキュリティ
 Xcode Cloud
 コミュニティ
@@ -1234,7 +1234,7 @@ App Reviewに向けた準備のためのリソースとサポートを入手す
 ガイドラインの翻訳は、更新の1か月以内に
 Apple Developer Webサイト
 にて提供されます。
-Developer Footer
+デベロッパ向けフッタ
 ニュース
 プラットフォーム
 メニューを開く
@@ -1274,7 +1274,7 @@ App Store
 アプリ内購入
 ローカリゼーション
 マップと位置情報
-機械学習とAI
+AIと機械学習
 オープンソース（英語）
 セキュリティ
 SafariとWeb（英語）

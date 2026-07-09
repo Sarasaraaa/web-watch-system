@@ -35,10 +35,10 @@ Swift
 SwiftUI
 Featured
 Accessibility
+AI & Machine Learning
 App Intents
 Apple Intelligence
 Games
-Machine Learning & AI
 Security
 Xcode Cloud
 Community
@@ -338,6 +338,7 @@ Open Menu
 Close Menu
 Accessibility
 Accessories
+AI & Machine Learning
 Apple Intelligence
 Audio & Video
 Augmented Reality
@@ -350,7 +351,6 @@ Health & Fitness
 In-App Purchase
 Localization
 Maps & Location
-Machine Learning & AI
 Security
 Safari & Web
 Resources
@@ -360,6 +360,7 @@ Documentation
 Downloads
 Sample Code
 Videos
+Documentation Archive
 Support
 Open Menu
 Close Menu
