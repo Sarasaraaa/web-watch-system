@@ -957,6 +957,9 @@ As
 announced in June
 , the age rating questionnaire in App Store Connect now includes questions about your app's social media capabilities to help ensure your app appears correctly in Time Allowances. You can review and answer these questions starting today.
 Learn more.
+July 8, 2026
+Editorial update
+Screenshots can’t include alpha channels or transparencies.
 July 7, 2026
 TestFlight update
 You can now submit apps built with Xcode 27 beta 3 using the SDK for iOS 27.0 beta 3, iPadOS 27.0 beta 3, macOS 27.0 beta 3, tvOS 27.0 beta 3, visionOS 27.0 beta 3, and watchOS 27.0 beta 3 for internal and external testing.
