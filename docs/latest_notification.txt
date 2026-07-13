@@ -1,10 +1,98 @@
-【iOS_App Store Connect リリースノート】
-対象URL: https://developer.apple.com/app-store-connect/release-notes/
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+July 8, 2026
-+Editorial update
-+Screenshots can’t include alpha channels or transparencies.
++iPadOS 27.0 beta 3 v.2 (24A5380l)
++July 13, 2026
++View downloads
++View release notes
++macOS 27.0 beta 3 v.2 (26A5378n)
++July 13, 2026
++View downloads
++View release notes
++iOS 26.6 beta 5 (23G5065a)
++July 13, 2026
++View downloads
++View release notes
++iPadOS 26.6 beta 5 (23G5065a)
++July 13, 2026
++View downloads
++View release notes
++macOS 26.6 beta 5 (25G5065a)
++July 13, 2026
++View downloads
++View release notes
++tvOS 26.6 beta 5 (23L5766a)
++July 13, 2026
++View downloads
++View release notes
++visionOS 26.6 beta 5 (23O5765a)
++July 13, 2026
++View downloads
++View release notes
++watchOS 26.6 beta 5 (23U5062b)
++July 13, 2026
++View downloads
++View release notes
+-iPadOS 27.0 beta 3 (24A5380h)
+-July 6, 2026
+-View downloads
+-View release notes
+-macOS 27.0 beta 3 (26A5378j)
+-July 6, 2026
+-View downloads
+-View release notes
+... ほか 24 行
+
+【iOSの最新情報】
+対象URL: https://developer.apple.com/jp/ios/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f812165d17c4cc2a.html
+
+変更サマリ:
+-世界最先端のモバイルオペレーティングシステム向けに魅力的なアプリやゲームを作成しましょう。新しいデザインを取り入れることで、ユーザーにとって最も重要なコンテンツを引き立て、すべてのAppleプラットフォームにわたって統一感あるデザインを実現できます。また、Apple Intelligenceにより、優れたパフォーマンスとプライバシー機能を兼ね備えたパーソナルインテリジェンスをアプリに取り入れ、新しい機能を提供することができます。
++世界最先端のモバイルオペレーティングシステム向けに魅力的なアプリやゲームを作成しましょう。新しいデザインを取り入れることで、
++ユーザー
++にとって最も重要なコンテンツを引き立て、すべてのAppleプラットフォームにわたって統一感あるデザインを実現できます。また、Apple Intelligenceにより、優れたパフォーマンスとプライバシー機能を兼ね備えたパーソナルインテリジェンスをアプリに取り入れ、新しい機能を提供することができます。
+-iOS向け開発の
+-最初のステップ
++iOSの
++開発を
++はじめる方へ
+-際に役立つリソースをまとめた
++際に役立つ
++リソース
++をまとめた
+-すべてのAppleプラットフォームで統一感あるデザインを採用し、ユーザーにとって最も重要なコンテンツを引き立てています。各プラットフォームの特性を維持しながら、表現力豊かで、楽しく、作業に集中しやすいアプリを実現できます。
++すべてのAppleプラットフォームで統一感あるデザインを採用し、
++ユーザー
++にとって最も重要なコンテンツを引き立てています。各プラットフォームの特性を維持しながら、表現力豊かで、楽しく、作業に集中しやすいアプリを実現できます。
+-やプッシュ通知を作成して価値あるタイムリーな情報を表示し、ユーザーが一目で理解できるようにしましょう。通知では、アプリがバックグラウンドで実行されているか、非アクティブかにかかわらず、関連性の高いコンテンツの最新情報をユーザーに知らせることができます。通知の方法には、メッセージを表示する、音を鳴らす、アプリアイコンのバッジをアップデートする、などがあります。また、Apple Push Notification service（APNs）のブロードキャスト機能を使用すれば、ライブアクティビティを大規模に更新し、1回のプッシュ通知送信で登録しているすべてのユーザーに情報を配信できます。
++やプッシュ通知を作成して価値あるタイムリーな情報を表示し、ユーザーが一目で理解できるようにしましょう。通知では、アプリがバックグラウンドで実行されているか、非アクティブかにかかわらず、関連性の高いコンテンツの最新情報を
++ユーザー
++に知らせることができます。通知の方法には、メッセージを表示する、音を鳴らす、アプリアイコンのバッジをアップデートする、などがあります。また、Apple Push Notification service（APNs）のブロードキャスト機能を使用すれば、ライブアクティビティを大規模に更新し、1回のプッシュ通知送信で登録しているすべての
++ユーザー
++に情報を配信できます。
+-ユーザーに寄り添ったアプローチ
++ユーザー
++に寄り添ったアプローチ
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
++年齢制限指定に関する質問リストにソーシャルメディアに関する質問が追加
++2026年7月9日
++6月に発表
++したように、iOS 27、iPadOS 27、macOS 27以降に導入される新しい許容時間機能により、エンターテインメント、ゲーム、ソーシャルメディアなどのカテゴリにわたって、子どもがアプリを使用する時間を保護者が柔軟に管理できるようになります。
++これに対応するため、App Store Connectの年齢制限指定に関する質問リストにアプリのソーシャルメディア機能に関する質問が追加されました。ソーシャルメディア機能とは、ソーシャルフィードやその他類似する発見方法を通じて、ユーザー生成コンテンツを配信、拡散、またはそれとインタラクトする機能を指します。ソーシャルメディアの「許容時間」カテゴリは、App Store Connectで選択されたアプリカテゴリにかかわらず、アプリやゲームにソーシャルメディア機能が含まれているかどうかに基づいて決まります。これらの機能を備えたアプリでは、App Storeのプロダクトページに新しいソーシャルメディアコンテンツの記述子が表示されます。アプリやゲームにソーシャルメディア機能が含まれているが、13歳未満のユーザーに対しては無効になっていると申告した場合、そのアプリやゲームは13歳未満のユーザー向けのソーシャルメディアの「許容時間」カテゴリには含まれません。詳しくは、
++「許容時間」の導入
++をご参照ください。
++これらの質問は、本日よりご確認およびご回答いただけます。以前お知らせしたように、2026年09月より、新しいアプリやアップデートをApp Storeに提出する際や、代替配信のための公証を受ける際に、回答が義務付けられます。
++アプリの年齢制限指定の設定
++年齢制限指定の値と定義
 
