@@ -310,61 +310,60 @@ macOS
 tvOS
 visionOS
 watchOS
+App Store
 ツール
-Open Menu
-Close Menu
+メニューを開く
+メニューを閉じる
 Swift
 SwiftUI
 Swift Playground
 TestFlight
 Xcode
 Xcode Cloud
+Icon Composer
 SF Symbols
-トピックとテクノロジー
+テクノロジー
 メニューを開く
 メニューを閉じる
 アクセシビリティ
 アクセサリ
+AIと機械学習
 Apple Intelligence
-App Extension
-App Store
-オーディオとビデオ（英語）
+オーディオとビデオ
 拡張現実
+ビジネス
 デザイン
 配信
 教育
-フォント（英語）
 ゲーム
 ヘルスケアとフィットネス
 アプリ内購入
 ローカリゼーション
 マップと位置情報
-AIと機械学習
-オープンソース（英語）
 セキュリティ
-SafariとWeb（英語）
+Safari／Web
 リソース
 メニューを開く
 メニューを閉じる
-英語ドキュメント（完全版）
-日本語ドキュメント（一部トピック）
-チュートリアル
+ドキュメント
 ダウンロード
-フォーラム（英語）
+サンプルコード
 ビデオ
+ドキュメントのアーカイブ
 サポート
-Open Menu
-Close Menu
-サポートドキュメント
+メニューを開く
+メニューを閉じる
+ヘルプガイドと記事
 お問い合わせ
-バグ報告
-システム状況（英語）
+フォーラム
+フィードバックとバグの報告
+システムステータス
 アカウント
 メニューを開く
 メニューを閉じる
 Apple Developer
 App Store Connect
-Certificates, IDs, & Profiles（英語）
+Certificates, IDs, & Profiles（証明書、ID、プロファイル）
 フィードバックアシスタント
 プログラム
 メニューを開く
@@ -372,21 +371,20 @@ Certificates, IDs, & Profiles（英語）
 Apple Developer Program
 Apple Developer Enterprise Program
 App Store Small Business Program
-MFi Program（英語）
+MFi Program
 Mini Apps Partner Program
-News Partner Program（英語）
-Video Partner Program（英語）
-セキュリティ報奨金プログラム（英語）
+News Partner Program
+Video Partner Program
+セキュリティ報奨金プログラム
 Security Research Device Program
-（英語）
 イベント
-Open Menu
-Close Menu
+メニューを開く
+メニューを閉じる
 Appleに相談
 Apple Developer Center
-App Store Awards（英語）
+App Store Awards
 Apple Design Awards
-Apple Developer Academy（英語）
+Apple Developer Academy
 WWDC
 最新ニュースを読む
 。
