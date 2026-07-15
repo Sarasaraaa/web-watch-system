@@ -339,7 +339,7 @@ Manage invoices and other tax documents
 Manage tax information
 Manage European Union Digital Services Act trader requirements
 Manage compliance information
-View Mainland China compliance information
+View China mainland compliance information
 Manage compliance information
 Manage Korea compliance information
 Manage compliance information
@@ -425,8 +425,6 @@ Promote In-App Purchases
 Configure In-App Purchase settings
 Create consumable or non-consumable In-App Purchases
 Manage In-App Purchases
-Create non-renewing subscriptions
-Manage In-App Purchases
 View and edit In-App Purchase information
 Manage In-App Purchases
 Set a price for an In-App Purchase
@@ -454,6 +452,8 @@ Manage subscriptions
 Manage Streamlined Purchasing
 Manage subscriptions
 Enable billing grace period for auto-renewable subscriptions
+Manage subscriptions
+Create non-renewing subscriptions
 Manage subscriptions
 Overview of testing in sandbox
 Test In-App Purchases
@@ -774,7 +774,7 @@ Provide tax information for Core Technology Fee
 Manage invoices and other tax documents
 Manage compliance information
 Manage European Union Digital Services Act trader requirements
-View Mainland China compliance information
+View China mainland compliance information
 Manage Korea compliance information
 Manage information for DAC7
 Manage information for ITA
@@ -827,7 +827,6 @@ Turn on Family Sharing for In-App Purchases
 Promote In-App Purchases
 Manage In-App Purchases
 Create consumable or non-consumable In-App Purchases
-Create non-renewing subscriptions
 View and edit In-App Purchase information
 Set a price for an In-App Purchase
 Schedule price changes for In-App Purchases
@@ -843,6 +842,7 @@ Set up subscription offer codes
 Set up win-back offers
 Manage Streamlined Purchasing
 Enable billing grace period for auto-renewable subscriptions
+Create non-renewing subscriptions
 Test In-App Purchases
 Overview of testing in sandbox
 Create Sandbox Apple Account
@@ -951,6 +951,11 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+July 15, 2026
+App Store Connect update
+The submission process for In-App Purchases and subscriptions has been updated. You can now submit In-App Purchases, subscriptions, subscription groups, and non-renewing subscriptions directly from the In-App Purchases and Subscriptions sections in App Store Connect using Add for Review.
+Learn more about submitting an In-App Purchase or subscription.
+In-App Purchase
 July 9, 2026
 App Store Connect update
 As

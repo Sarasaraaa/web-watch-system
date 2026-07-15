@@ -1,192 +1,37 @@
-【iOSの最新情報】
-対象URL: https://developer.apple.com/jp/ios/
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f812165d17c4cc2a.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
-+App Store
--Open Menu
--Close Menu
-+メニューを開く
-+メニューを閉じる
-+Icon Composer
--トピックとテクノロジー
-+テクノロジー
-+AIと機械学習
--App Extension
--App Store
--オーディオとビデオ（英語）
-+オーディオとビデオ
-+ビジネス
--フォント（英語）
--AIと機械学習
--オープンソース（英語）
--SafariとWeb（英語）
-+Safari／Web
--英語ドキュメント（完全版）
--日本語ドキュメント（一部トピック）
--チュートリアル
-+ドキュメント
--フォーラム（英語）
-+サンプルコード
-+ドキュメントのアーカイブ
--Open Menu
--Close Menu
--サポートドキュメント
-+メニューを開く
-+メニューを閉じる
-+ヘルプガイドと記事
--バグ報告
--システム状況（英語）
-+フォーラム
-+フィードバックとバグの報告
-+システムステータス
--Certificates, IDs, &amp; Profiles（英語）
-+Certificates, IDs, &amp; Profiles（証明書、ID、プロファイル）
--MFi Program（英語）
-... ほか 16 行
+-View Mainland China compliance information
++View China mainland compliance information
+-Create non-renewing subscriptions
+-Manage In-App Purchases
++Manage subscriptions
++Create non-renewing subscriptions
+-View Mainland China compliance information
++View China mainland compliance information
+-Create non-renewing subscriptions
++Create non-renewing subscriptions
++July 15, 2026
++App Store Connect update
++The submission process for In-App Purchases and subscriptions has been updated. You can now submit In-App Purchases, subscriptions, subscription groups, and non-renewing subscriptions directly from the In-App Purchases and Subscriptions sections in App Store Connect using Add for Review.
++Learn more about submitting an In-App Purchase or subscription.
++In-App Purchase
 
-【Apple_App Review】
-対象URL: https://developer.apple.com/jp/distribute/app-review/
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/8b2ebfe8d757c986.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+App Store
--Open Menu
--Close Menu
-+メニューを開く
-+メニューを閉じる
-+Icon Composer
--トピックとテクノロジー
-+テクノロジー
-+AIと機械学習
--App Extension
--App Store
--オーディオとビデオ（英語）
-+オーディオとビデオ
-+ビジネス
--フォント（英語）
--AIと機械学習
--オープンソース（英語）
--SafariとWeb（英語）
-+Safari／Web
--英語ドキュメント（完全版）
--日本語ドキュメント（一部トピック）
--チュートリアル
-+ドキュメント
--フォーラム（英語）
-+サンプルコード
-+ドキュメントのアーカイブ
--Open Menu
--Close Menu
--サポートドキュメント
-+メニューを開く
-+メニューを閉じる
-+ヘルプガイドと記事
--バグ報告
--システム状況（英語）
-+フォーラム
-+フィードバックとバグの報告
-+システムステータス
--Certificates, IDs, &amp; Profiles（英語）
-+Certificates, IDs, &amp; Profiles（証明書、ID、プロファイル）
--MFi Program（英語）
-... ほか 16 行
-
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
-
-変更サマリ:
-+App Store
--Open Menu
--Close Menu
-+メニューを開く
-+メニューを閉じる
-+Icon Composer
--トピックとテクノロジー
-+テクノロジー
-+AIと機械学習
--App Extension
--App Store
--オーディオとビデオ（英語）
-+オーディオとビデオ
-+ビジネス
--フォント（英語）
--AIと機械学習
--オープンソース（英語）
--SafariとWeb（英語）
-+Safari／Web
--英語ドキュメント（完全版）
--日本語ドキュメント（一部トピック）
--チュートリアル
-+ドキュメント
--フォーラム（英語）
-+サンプルコード
-+ドキュメントのアーカイブ
--Open Menu
--Close Menu
--サポートドキュメント
-+メニューを開く
-+メニューを閉じる
-+ヘルプガイドと記事
--バグ報告
--システム状況（英語）
-+フォーラム
-+フィードバックとバグの報告
-+システムステータス
--Certificates, IDs, &amp; Profiles（英語）
-+Certificates, IDs, &amp; Profiles（証明書、ID、プロファイル）
--MFi Program（英語）
-... ほか 16 行
-
-【AppleDeveloperNews（近日適用開始の要件）】
-対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
-
-変更サマリ:
-+App Store
--Open Menu
--Close Menu
-+メニューを開く
-+メニューを閉じる
-+Icon Composer
--トピックとテクノロジー
-+テクノロジー
-+AIと機械学習
--App Extension
--App Store
--オーディオとビデオ（英語）
-+オーディオとビデオ
-+ビジネス
--フォント（英語）
--AIと機械学習
--オープンソース（英語）
--SafariとWeb（英語）
-+Safari／Web
--英語ドキュメント（完全版）
--日本語ドキュメント（一部トピック）
--チュートリアル
-+ドキュメント
--フォーラム（英語）
-+サンプルコード
-+ドキュメントのアーカイブ
--Open Menu
--Close Menu
--サポートドキュメント
-+メニューを開く
-+メニューを閉じる
-+ヘルプガイドと記事
--バグ報告
--システム状況（英語）
-+フォーラム
-+フィードバックとバグの報告
-+システムステータス
--Certificates, IDs, &amp; Profiles（英語）
-+Certificates, IDs, &amp; Profiles（証明書、ID、プロファイル）
--MFi Program（英語）
-... ほか 16 行
++App Store Connect API 4.4.1
++July 15, 2026
++Download file
++View release notes
+-App Store Connect API 4.4
+-June 8, 2026
+-Download file
+-View release notes
 

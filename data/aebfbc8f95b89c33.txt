@@ -112,6 +112,10 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+App Store Connect API 4.4.1
+July 15, 2026
+Download file
+View release notes
 iPadOS 27.0 beta 3 v.2 (24A5380l)
 July 13, 2026
 View downloads
@@ -197,10 +201,6 @@ View release notes
 AirPods beta (9A292e)
 June 9, 2026
 View installation instructions
-App Store Connect API 4.4
-June 8, 2026
-Download file
-View release notes
 Xcode 27 beta (27A5194q)
 June 8, 2026
 View downloads
