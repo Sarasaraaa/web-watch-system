@@ -1007,15 +1007,15 @@ TestFlight update
 You can now submit apps built with Xcode 27 beta using the SDK for iOS 27 beta, iPadOS 27 beta, macOS 27 beta, tvOS 27 beta, visionOS 27 beta, and watchOS 27 beta for internal and external testing, with support for the following:
 Localized asset packs for Apple-Hosted Background Assets to help reduce app size by delivering only the localized assets relevant to the user based on their device settings.
 TestFlight Xcode
+June 9, 2026
+TestFlight update
+You can now submit apps built with Xcode 27 beta using the SDK for iOS 27 beta, iPadOS 27 beta, macOS 27 beta, tvOS 27 beta, visionOS 27 beta, and watchOS 27 beta for internal and external testing.
+TestFlight Xcode
 June 8, 2026
 App Store Connect update
 Apps in tvOS now support the
 Larger Text Accessibility Nutrition Label
 .
-June 8, 2026
-TestFlight update
-You can now submit apps built with Xcode 27 beta using the SDK for iOS 27 beta, iPadOS 27 beta, macOS 27 beta, tvOS 27 beta, visionOS 27 beta, and watchOS 27 beta for internal and external testing.
-TestFlight Xcode
 May 29, 2026
 TestFlight update
 TestFlight 4.2.1 is now available on the App Store for iPhone and iPad. This update includes stability improvements and bug fixes.

@@ -4,34 +4,12 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
--View Mainland China compliance information
-+View China mainland compliance information
--Create non-renewing subscriptions
--Manage In-App Purchases
-+Manage subscriptions
-+Create non-renewing subscriptions
--View Mainland China compliance information
-+View China mainland compliance information
--Create non-renewing subscriptions
-+Create non-renewing subscriptions
-+July 15, 2026
-+App Store Connect update
-+The submission process for In-App Purchases and subscriptions has been updated. You can now submit In-App Purchases, subscriptions, subscription groups, and non-renewing subscriptions directly from the In-App Purchases and Subscriptions sections in App Store Connect using Add for Review.
-+Learn more about submitting an In-App Purchase or subscription.
-+In-App Purchase
-
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
-
-変更サマリ:
-+App Store Connect API 4.4.1
-+July 15, 2026
-+Download file
-+View release notes
--App Store Connect API 4.4
++June 9, 2026
++TestFlight update
++You can now submit apps built with Xcode 27 beta using the SDK for iOS 27 beta, iPadOS 27 beta, macOS 27 beta, tvOS 27 beta, visionOS 27 beta, and watchOS 27 beta for internal and external testing.
++TestFlight Xcode
 -June 8, 2026
--Download file
--View release notes
+-TestFlight update
+-You can now submit apps built with Xcode 27 beta using the SDK for iOS 27 beta, iPadOS 27 beta, macOS 27 beta, tvOS 27 beta, visionOS 27 beta, and watchOS 27 beta for internal and external testing.
+-TestFlight Xcode
 
