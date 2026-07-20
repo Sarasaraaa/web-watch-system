@@ -112,64 +112,64 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+Xcode 27 beta 4 (27A5228h)
+July 20, 2026
+View downloads
+View release notes
+visionOS 27.0 beta 4 (24M5326g)
+July 20, 2026
+View downloads
+View release notes
+watchOS 27.0 beta 4 (24R5325h)
+July 20, 2026
+View downloads
+View release notes
+iOS 27.0 beta 4 (24A5390f)
+July 20, 2026
+View downloads
+View release notes
+iPadOS 27.0 beta 4 (24A5390f)
+July 20, 2026
+View downloads
+View release notes
+macOS 27.0 beta 4 (26A5388g)
+July 20, 2026
+View downloads
+View release notes
+tvOS 27.0 beta 4 (24J5325d)
+July 20, 2026
+View downloads
+View release notes
+iOS 26.6 RC (23G71)
+July 20, 2026
+View downloads
+View release notes
+iPadOS 26.6 RC (23G71)
+July 20, 2026
+View downloads
+View release notes
+macOS 26.6 RC (25G70)
+July 20, 2026
+View downloads
+View release notes
+tvOS 26.6 RC (23L772)
+July 20, 2026
+View downloads
+View release notes
+visionOS 26.6 RC (23O770)
+July 20, 2026
+View downloads
+View release notes
+watchOS 26.6 RC (23U67)
+July 20, 2026
+View downloads
+View release notes
 App Store Connect API 4.4.1
 July 15, 2026
 Download file
 View release notes
-iPadOS 27.0 beta 3 v.2 (24A5380l)
-July 13, 2026
-View downloads
-View release notes
-macOS 27.0 beta 3 v.2 (26A5378n)
-July 13, 2026
-View downloads
-View release notes
-iOS 26.6 beta 5 (23G5065a)
-July 13, 2026
-View downloads
-View release notes
-iPadOS 26.6 beta 5 (23G5065a)
-July 13, 2026
-View downloads
-View release notes
-macOS 26.6 beta 5 (25G5065a)
-July 13, 2026
-View downloads
-View release notes
-tvOS 26.6 beta 5 (23L5766a)
-July 13, 2026
-View downloads
-View release notes
-visionOS 26.6 beta 5 (23O5765a)
-July 13, 2026
-View downloads
-View release notes
-watchOS 26.6 beta 5 (23U5062b)
-July 13, 2026
-View downloads
-View release notes
 TestFlight Update
 July 7, 2026
-View release notes
-Xcode 27 beta 3 (27A5218g)
-July 6, 2026
-View downloads
-View release notes
-iOS 27.0 beta 3 (24A5380h)
-July 6, 2026
-View downloads
-View release notes
-tvOS 27.0 beta 3 (24J5315i)
-July 6, 2026
-View downloads
-View release notes
-visionOS 27.0 beta 3 (24M5316k)
-July 6, 2026
-View downloads
-View release notes
-watchOS 27.0 beta 3 (24R5315i)
-July 6, 2026
-View downloads
 View release notes
 iOS 26.5.2 (23F84)
 June 29, 2026
