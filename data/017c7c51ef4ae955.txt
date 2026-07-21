@@ -951,6 +951,13 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+July 21, 2026
+TestFlight updates
+TestFlight 4.3 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes:
+A search field to quickly find apps
+Stability improvements, performance enhancements, and bug fixes
+You can now submit apps built with Xcode 27 beta 4 using the SDK for iOS 27.0 beta 4, iPadOS 27.0 beta 4, macOS 27.0 beta 4, tvOS 27.0 beta 4, visionOS 27.0 beta 4, and watchOS 27.0 beta 4 for internal and external testing.
+TestFlight Xcode
 July 15, 2026
 App Store Connect update
 The submission process for In-App Purchases and subscriptions has been updated. You can now submit In-App Purchases, subscriptions, subscription groups, and non-renewing subscriptions directly from the In-App Purchases and Subscriptions sections in App Store Connect using Add for Review.

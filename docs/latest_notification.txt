@@ -1,48 +1,35 @@
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
++July 21, 2026
++TestFlight updates
++TestFlight 4.3 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes:
++A search field to quickly find apps
++Stability improvements, performance enhancements, and bug fixes
++You can now submit apps built with Xcode 27 beta 4 using the SDK for iOS 27.0 beta 4, iPadOS 27.0 beta 4, macOS 27.0 beta 4, tvOS 27.0 beta 4, visionOS 27.0 beta 4, and watchOS 27.0 beta 4 for internal and external testing.
++TestFlight Xcode
+
 【Appleリリース情報】
 対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+Xcode 27 beta 4 (27A5228h)
-+July 20, 2026
-+View downloads
++TestFlight Update
++July 21, 2026
 +View release notes
-+visionOS 27.0 beta 4 (24M5326g)
-+July 20, 2026
-+View downloads
++TestFlight 4.3
++July 21, 2026
++Download the app
 +View release notes
-+watchOS 27.0 beta 4 (24R5325h)
-+July 20, 2026
-+View downloads
-+View release notes
-+iOS 27.0 beta 4 (24A5390f)
-+July 20, 2026
-+View downloads
-+View release notes
-+iPadOS 27.0 beta 4 (24A5390f)
-+July 20, 2026
-+View downloads
-+View release notes
-+macOS 27.0 beta 4 (26A5388g)
-+July 20, 2026
-+View downloads
-+View release notes
-+tvOS 27.0 beta 4 (24J5325d)
-+July 20, 2026
-+View downloads
-+View release notes
-+iOS 26.6 RC (23G71)
-+July 20, 2026
-+View downloads
-+View release notes
-+iPadOS 26.6 RC (23G71)
-+July 20, 2026
-+View downloads
-+View release notes
-+macOS 26.6 RC (25G70)
-+July 20, 2026
-+View downloads
-+View release notes
-... ほか 64 行
+-TestFlight Update
+-July 7, 2026
+-View release notes
+-View release notes
+-TestFlight 4.2.2
+-June 23, 2026
+-Download the app
 
