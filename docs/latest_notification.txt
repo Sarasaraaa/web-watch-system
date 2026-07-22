@@ -1,35 +1,48 @@
-【iOS_App Store Connect リリースノート】
-対象URL: https://developer.apple.com/app-store-connect/release-notes/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+【Android17】
+対象URL: https://developer.android.com/about/versions/17/summary?hl=ja
+検出した最終更新日: 最終更新日 2026-07-21 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/fab2fa9345b01938.html
 
 変更サマリ:
-+July 21, 2026
-+TestFlight updates
-+TestFlight 4.3 is now available on the App Store for iPhone, iPad, Mac, and Apple Vision Pro. This update includes:
-+A search field to quickly find apps
-+Stability improvements, performance enhancements, and bug fixes
-+You can now submit apps built with Xcode 27 beta 4 using the SDK for iOS 27.0 beta 4, iPadOS 27.0 beta 4, macOS 27.0 beta 4, tvOS 27.0 beta 4, visionOS 27.0 beta 4, and watchOS 27.0 beta 4 for internal and external testing.
-+TestFlight Xcode
-
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
-
-変更サマリ:
-+TestFlight Update
-+July 21, 2026
-+View release notes
-+TestFlight 4.3
-+July 21, 2026
-+Download the app
-+View release notes
--TestFlight Update
--July 7, 2026
--View release notes
--View release notes
--TestFlight 4.2.2
--June 23, 2026
--Download the app
+-デバイス フォーム ファクタ
++デバイスのフォーム ファクタ
+-セキュリティ
+-変更（すべてのアプリ）
+-クロス プロファイル ループバック トラフィックのブロック
+-クロス プロファイル ループバック トラフィックは、デフォルトでは許可されなくなりました。
++ユーザー エクスペリエンスとシステム UI
++変更（すべてのアプリ）
++新しいグローバル キーボード ナビゲーション ショートカット
++第 3 四半期より、Meta+Back（F1）と Meta+Shift+Back（F1）がグローバル キーボード ナビゲーション ショートカットとなり、アプリ固有のショートカットよりも優先されます。
++ユーザー エクスペリエンスとシステム UI
++変更（すべてのアプリ）
++回転後の IME の可視性に関するデフォルトを復元
++デバイスの回転や構成変更が発生したときに、システムはデフォルトの可視性モードを使用して、IME を表示するかどうかを決定します。
++ユーザー エクスペリエンスとシステム UI
++変更（17 以降をターゲットとするアプリ）
++WebView のユーザー エージェントの削減
++Android 17 以降、WebView のデフォルトのユーザー エージェント文字列が短くなりました。
++ユーザー エクスペリエンスとシステム UI
++新機能と API
++アシスタント専用の音量ストリーム
++Android 17 では、アシスタント アプリ専用のアシスタント音量ストリームが導入され、メディアの音量とは別に制御できるようになりました。新しい MODE_ASSISTANT_CONVERSATION にアクセスできるアシスタント アプリは、音量のさらなる改善（アクティブな再生外での制御や Bluetooth 周辺機器経由での制御）を有効にできます。
++ユーザー エクスペリエンスとシステム UI
++新機能と API
++MetricStyle テンプレート
++Android 17 では、健康とフィットネス、タイマー、ストップウォッチ、旅行のユースケースをサポートするための MetricStyle テンプレートが導入されています。
++ユーザー エクスペリエンスとシステム UI
++新機能と API
++ライブ情報 - セマンティック カラー API
++安全性、危険性、注意を強く連想させる色をサポートするセマンティック カラー API を、ライブ情報に導入しました。
++ユーザー エクスペリエンスとシステム UI
++新機能と API
++ハンドオフ
++ハンドオフは、ユーザーがあるデバイスで開始したタスクを別のデバイスで続行できるようにする機能です。
++セキュリティ
++変更（すべてのアプリ）
++クロス プロファイル ループバック トラフィックをブロック
++デフォルトでクロス プロファイル ループバック トラフィックが許可されなくなりました。
+-アプリが作成できるキーストア鍵の数には、対象 API レベルに応じて上限があります。上限を超えて鍵を作成すると例外が発生します。
++アプリが作成できるキーストア キーの数には、対象 API レベルに応じて上限があります。上限を超えてキーを作成すると、例外が発生します。
+... ほか 118 行
 
