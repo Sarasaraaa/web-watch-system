@@ -112,6 +112,30 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+iOS 26.6 (23G71)
+July 27, 2026
+View downloads
+View release notes
+iPadOS 26.6 (23G71)
+July 27, 2026
+View downloads
+View release notes
+macOS 26.6 (25G72)
+July 27, 2026
+View downloads
+View release notes
+tvOS 26.6 (23L773)
+July 27, 2026
+View downloads
+View release notes
+visionOS 26.6 (23O770)
+July 27, 2026
+View downloads
+View release notes
+watchOS 26.6 (23U67)
+July 27, 2026
+View downloads
+View release notes
 TestFlight Update
 July 21, 2026
 View release notes
@@ -144,30 +168,6 @@ July 20, 2026
 View downloads
 View release notes
 tvOS 27.0 beta 4 (24J5325d)
-July 20, 2026
-View downloads
-View release notes
-iOS 26.6 RC (23G71)
-July 20, 2026
-View downloads
-View release notes
-iPadOS 26.6 RC (23G71)
-July 20, 2026
-View downloads
-View release notes
-macOS 26.6 RC (25G70)
-July 20, 2026
-View downloads
-View release notes
-tvOS 26.6 RC (23L772)
-July 20, 2026
-View downloads
-View release notes
-visionOS 26.6 RC (23O770)
-July 20, 2026
-View downloads
-View release notes
-watchOS 26.6 RC (23U67)
 July 20, 2026
 View downloads
 View release notes
