@@ -371,7 +371,7 @@ Android デベロッパー ブログ
 プロダクト ニュース
 Community
 ハウツー
-Google uses AI technology to translate content into your preferred language. AI translations can contain errors.
+Google は AI 技術を使用して、コンテンツをご希望の言語に翻訳しています。AI 翻訳には誤りが含まれる場合があります。
 Android Developers
 Essentials
 リリース
