@@ -1,122 +1,17 @@
-【Android バージョン情報】
-対象URL: https://developer.android.com/about/versions?hl=ja
-検出した最終更新日: 最終更新日 2025-06-11 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
-
-変更サマリ:
--Google uses AI technology to translate content into your preferred language. AI translations can contain errors.
-+Google は AI 技術を使用して、コンテンツをご希望の言語に翻訳しています。AI 翻訳には誤りが含まれる場合があります。
-
-【Android15】
-対象URL: https://developer.android.com/about/versions/15/summary?hl=ja
-検出した最終更新日: 最終更新日 2026-06-25 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/0905a72fa238b2ea.html
-
-変更サマリ:
--Google uses AI technology to translate content into your preferred language. AI translations can contain errors.
-+Google は AI 技術を使用して、コンテンツをご希望の言語に翻訳しています。AI 翻訳には誤りが含まれる場合があります。
-
-【Android16】
-対象URL: https://developer.android.com/about/versions/16/summary?hl=ja
-検出した最終更新日: 最終更新日 2026-03-03 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f8f9e1ea510138af.html
-
-変更サマリ:
--Google uses AI technology to translate content into your preferred language. AI translations can contain errors.
-+Google は AI 技術を使用して、コンテンツをご希望の言語に翻訳しています。AI 翻訳には誤りが含まれる場合があります。
-
-【Android17】
-対象URL: https://developer.android.com/about/versions/17/summary?hl=ja
-検出した最終更新日: 最終更新日 2026-07-21 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/fab2fa9345b01938.html
-
-変更サマリ:
--Google uses AI technology to translate content into your preferred language. AI translations can contain errors.
-+Google は AI 技術を使用して、コンテンツをご希望の言語に翻訳しています。AI 翻訳には誤りが含まれる場合があります。
-
-【iOS リリース情報】
-対象URL: https://support.apple.com/ja-jp/HT201222
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
--iOSおよびiPadOSの最新バージョンは26.5.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSおよびiPadOSの最新バージョンは26.6です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.5.2です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは26.6です。Macのソフトウェアをアップデートする方法については
--tvOSの最新バージョンは26.5です。Apple TVのソフトウェアをアップデートする方法については、
-+tvOSの最新バージョンは26.6です。Apple TVのソフトウェアをアップデートする方法については、
--watchOSの最新バージョンは26.5です。Apple Watchのソフトウェアをアップデートする方法については、
-+watchOSの最新バージョンは26.6です。Apple Watchのソフトウェアをアップデートする方法については、
--visionOSの最新バージョンは26.5です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+visionOSの最新バージョンは26.6です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+iOS 26.6およびiPadOS 26.6
-+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
-+2026年7月27日
-+macOS Tahoe 26.6
-+macOS Tahoe
-+2026年7月27日
-+macOS Sequoia 15.7.8
-+macOS Sequoia
-+2026年7月27日
-+macOS Sonoma 14.8.8
-+macOS Sonoma
-+2026年7月27日
-+tvOS 26.6
-+Apple TV HDおよびApple TV 4K（すべてのモデル）
-+2026年7月27日
-+watchOS 26.6
-+Apple Watch Series 6以降
-+2026年7月27日
-+visionOS 26.6
-+Apple Vision Pro（すべてのモデル）
-+2026年7月27日
-+Safari 26.6
-+macOS SonomaおよびmacOS Sequoia
-+2026年7月27日
--2026 年 07 月 01 日
-+2026 年 07 月 28 日
-
-【Appleのセキュリティリリース】
-対象URL: https://support.apple.com/ja-jp/100100
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
-
-変更サマリ:
--iOSおよびiPadOSの最新バージョンは26.5.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSおよびiPadOSの最新バージョンは26.6です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.5.2です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは26.6です。Macのソフトウェアをアップデートする方法については
--tvOSの最新バージョンは26.5です。Apple TVのソフトウェアをアップデートする方法については、
-+tvOSの最新バージョンは26.6です。Apple TVのソフトウェアをアップデートする方法については、
--watchOSの最新バージョンは26.5です。Apple Watchのソフトウェアをアップデートする方法については、
-+watchOSの最新バージョンは26.6です。Apple Watchのソフトウェアをアップデートする方法については、
--visionOSの最新バージョンは26.5です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+visionOSの最新バージョンは26.6です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+iOS 26.6およびiPadOS 26.6
-+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
-+2026年7月27日
-+macOS Tahoe 26.6
-+macOS Tahoe
-+2026年7月27日
-+macOS Sequoia 15.7.8
-+macOS Sequoia
-+2026年7月27日
-+macOS Sonoma 14.8.8
-+macOS Sonoma
-+2026年7月27日
-+tvOS 26.6
-+Apple TV HDおよびApple TV 4K（すべてのモデル）
-+2026年7月27日
-+watchOS 26.6
-+Apple Watch Series 6以降
-+2026年7月27日
-+visionOS 26.6
-+Apple Vision Pro（すべてのモデル）
-+2026年7月27日
-+Safari 26.6
-+macOS SonomaおよびmacOS Sequoia
-+2026年7月27日
--2026 年 07 月 01 日
-+2026 年 07 月 28 日
+-ガイドラインの更新版を公開
+-2024年8月1日
+-App Reviewガイドラインがポリシーの更新や近日公開する機能に対応したものに改訂され、複数の項目がより明確になりました。
+-4.7をアップデートし、PCのエミュレータアプリでゲームのダウンロードを提供できることを明記しました。
+-4.7、4.7.2、4.7.3を公証に関するガイドラインに追加しました。
+-App Reviewガイドラインを見る
+-App Reviewに向けた準備のためのリソースとサポートを入手する
+-ガイドラインの翻訳は、更新の1か月以内に
+-Apple Developer Webサイト
+-にて提供されます。
 
