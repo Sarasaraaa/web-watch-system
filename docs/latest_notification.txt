@@ -1,17 +1,35 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
--ガイドラインの更新版を公開
--2024年8月1日
--App Reviewガイドラインがポリシーの更新や近日公開する機能に対応したものに改訂され、複数の項目がより明確になりました。
--4.7をアップデートし、PCのエミュレータアプリでゲームのダウンロードを提供できることを明記しました。
--4.7、4.7.2、4.7.3を公証に関するガイドラインに追加しました。
--App Reviewガイドラインを見る
--App Reviewに向けた準備のためのリソースとサポートを入手する
--ガイドラインの翻訳は、更新の1か月以内に
--Apple Developer Webサイト
--にて提供されます。
+-iOS 26.5.2 (23F84)
+-June 29, 2026
+-View downloads
+-iPadOS 26.5.2 (23F84)
+-June 29, 2026
+-View downloads
+-macOS 26.5.2 (25F84)
+-June 29, 2026
+-View downloads
++macOS 26.6 beta (25G5028f)
++May 26, 2026
++View downloads
++View release notes
+-visionOS 26.5 (23O471)
+-May 11, 2026
+-View downloads
+-View release notes
++iPadOS 26.5 RC (23F75)
++May 4, 2026
++View downloads
++View release notes
++visionOS 26.5 RC (23O471)
++May 4, 2026
++View downloads
++View release notes
++iOS 18.7.9 (22H355)
++May 4, 2026
++View downloads
 
