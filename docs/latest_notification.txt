@@ -1,14 +1,44 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
 
 変更サマリ:
--macOS Sequoiaのランタイム保護のアップデート
--2024年8月6日
--macOS Sequoiaでは、ユーザーが正しく署名されていない、または公証されていないソフトウェアを開くと、「control」キーを押しながらクリックしても
--Gatekeeper
--をオーバーライドできなくなります。ユーザーはソフトウェアの実行を許可する前に、「システム設定」 &gt; 「プライバシーとセキュリティ」の順に移動してソフトウェアのセキュリティ情報を確認する必要があります。
--Mac App Store以外でソフトウェアを配信する場合は、ソフトウェアを提出して公証を受けることを推奨します。Apple公証サービスは、Developer IDで署名されたソフトウェアを自動的にスキャンし、セキュリティチェックを実行します。配信の準備が完了すると、ソフトウェアにチケットが割り当てられ、公証済みであることをGatekeeperが認識するため、ユーザーは安心してソフトウェアを実行できます。
--macOSソフトウェアの公証方法について詳しく（英語）
+-macOSの最新バージョンは26.6です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.6.1です。Macのソフトウェアをアップデートする方法については
+-を、重要なバックグラウンドアップデートを許可する方法については
++、重要なバックグラウンドアップデートを許可する方法については
++macOS Tahoe 26.6.1
++macOS Tahoe
++2026年8月6日
++macOS Sequoia 15.7.9
++macOS Sequoia
++2026年8月6日
++macOS Sonoma 14.8.9
++macOS Sonoma
++2026年8月6日
+-2026 年 07 月 28 日
++2026 年 08 月 07 日
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
+-macOSの最新バージョンは26.6です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.6.1です。Macのソフトウェアをアップデートする方法については
+-を、重要なバックグラウンドアップデートを許可する方法については
++、重要なバックグラウンドアップデートを許可する方法については
++macOS Tahoe 26.6.1
++macOS Tahoe
++2026年8月6日
++macOS Sequoia 15.7.9
++macOS Sequoia
++2026年8月6日
++macOS Sonoma 14.8.9
++macOS Sonoma
++2026年8月6日
+-2026 年 07 月 28 日
++2026 年 08 月 07 日
 
