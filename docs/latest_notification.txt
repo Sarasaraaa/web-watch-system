@@ -1,35 +1,14 @@
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
--iOS 26.5.2 (23F84)
--June 29, 2026
--View downloads
--iPadOS 26.5.2 (23F84)
--June 29, 2026
--View downloads
--macOS 26.5.2 (25F84)
--June 29, 2026
--View downloads
-+macOS 26.6 beta (25G5028f)
-+May 26, 2026
-+View downloads
-+View release notes
--visionOS 26.5 (23O471)
--May 11, 2026
--View downloads
--View release notes
-+iPadOS 26.5 RC (23F75)
-+May 4, 2026
-+View downloads
-+View release notes
-+visionOS 26.5 RC (23O471)
-+May 4, 2026
-+View downloads
-+View release notes
-+iOS 18.7.9 (22H355)
-+May 4, 2026
-+View downloads
+-macOS Sequoiaのランタイム保護のアップデート
+-2024年8月6日
+-macOS Sequoiaでは、ユーザーが正しく署名されていない、または公証されていないソフトウェアを開くと、「control」キーを押しながらクリックしても
+-Gatekeeper
+-をオーバーライドできなくなります。ユーザーはソフトウェアの実行を許可する前に、「システム設定」 &gt; 「プライバシーとセキュリティ」の順に移動してソフトウェアのセキュリティ情報を確認する必要があります。
+-Mac App Store以外でソフトウェアを配信する場合は、ソフトウェアを提出して公証を受けることを推奨します。Apple公証サービスは、Developer IDで署名されたソフトウェアを自動的にスキャンし、セキュリティチェックを実行します。配信の準備が完了すると、ソフトウェアにチケットが割り当てられ、公証済みであることをGatekeeperが認識するため、ユーザーは安心してソフトウェアを実行できます。
+-macOSソフトウェアの公証方法について詳しく（英語）
 
