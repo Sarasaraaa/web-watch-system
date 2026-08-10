@@ -112,16 +112,52 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
-iOS 26.6 (23G71)
-July 27, 2026
+Xcode 27 beta 5 (27A5237l)
+August 10, 2026
 View downloads
 View release notes
-iPadOS 26.6 (23G71)
-July 27, 2026
+iOS 27.0 beta 5 (24A5408d)
+August 10, 2026
 View downloads
 View release notes
-macOS 26.6 (25G72)
-July 27, 2026
+iPadOS 27.0 beta 5 (24A5408d)
+August 10, 2026
+View downloads
+View release notes
+macOS 27.0 beta 5 (26A5406e)
+August 10, 2026
+View downloads
+View release notes
+tvOS 27.0 beta 5 (24J5346a)
+August 10, 2026
+View downloads
+View release notes
+visionOS 27.0 beta 5 (24M5348b)
+August 10, 2026
+View downloads
+View release notes
+watchOS 27.0 beta 5 (24R5347a)
+August 10, 2026
+View downloads
+View release notes
+iOS 26.6.1 (23G82)
+August 10, 2026
+View downloads
+View release notes
+iPadOS 26.6.1 (23G82)
+August 10, 2026
+View downloads
+View release notes
+macOS 26.6.2 (25G82)
+August 10, 2026
+View downloads
+View release notes
+iOS 18.7.10 (22H373)
+August 10, 2026
+View downloads
+View release notes
+iPadOS 18.7.10 (22H373)
+August 10, 2026
 View downloads
 View release notes
 tvOS 26.6 (23L773)
@@ -142,34 +178,6 @@ View release notes
 TestFlight 4.3
 July 21, 2026
 Download the app
-View release notes
-Xcode 27 beta 4 (27A5228h)
-July 20, 2026
-View downloads
-View release notes
-visionOS 27.0 beta 4 (24M5326g)
-July 20, 2026
-View downloads
-View release notes
-watchOS 27.0 beta 4 (24R5325h)
-July 20, 2026
-View downloads
-View release notes
-iOS 27.0 beta 4 (24A5390f)
-July 20, 2026
-View downloads
-View release notes
-iPadOS 27.0 beta 4 (24A5390f)
-July 20, 2026
-View downloads
-View release notes
-macOS 27.0 beta 4 (26A5388g)
-July 20, 2026
-View downloads
-View release notes
-tvOS 27.0 beta 4 (24J5325d)
-July 20, 2026
-View downloads
 View release notes
 App Store Connect API 4.4.1
 July 15, 2026
@@ -247,14 +255,6 @@ View release notes
 App Store Connect API 4.3.1
 May 12, 2026
 Download file
-View release notes
-iOS 18.7.9 (22H355)
-May 11, 2026
-View downloads
-View release notes
-iPadOS 18.7.9 (22H355)
-May 11, 2026
-View downloads
 View release notes
 iPadOS 17.7.11 (21H461)
 May 11, 2026

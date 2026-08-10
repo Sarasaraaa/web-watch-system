@@ -1,27 +1,48 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+App Storeの新しいクリエイティブアセットに向けた準備
-+2026年8月5日
-+6月に発表
-+した通り、AppleはApp Storeでアプリやゲームのマーケティングを行う新たな方法を導入します。これらの新しいアセットを活用することで、実際のビジュアルを表示するだけにとどまらず、ブランド、季節限定オファー、注目の新コンテンツなどをハイライトできるようになります。クリエイティブアセットは、プロダクトページのヘッダー、検索結果、アプリ内イベントなどApp Storeのさまざまな場所で使用できます。
-+秋のリリースに向けて画像やビデオの計画を立てる際は、新たなApp Storeアセットのベストプラクティスや推奨事項をご確認ください。Figma、Photoshop、Pixelmator向けのデザインテンプレートも用意されているので、ユーザーを引き付ける魅力的なアセットの作成にご活用いただけます。
-+ベストプラクティスとリソースについて詳しく（英語）
--StoreKit External Purchase Link Entitlementに関するアップデート
--2024年8月8日
--6月の欧州委員会の発表を受けて、Appleのデジタル市場法コンプライアンス計画に以下の変更を行います。StoreKit External Purchase Link Entitlementを使用するアプリをApp Storeの欧州連合（EU）のストアフロントで配信するデベロッパに対し、更新版の規約が今秋より適用されます。主な変更点は次の通りです。
--デベロッパは、デベロッパ自身が選択した場所でユーザーが購入できるオファーについて通知および宣伝できます。選択できる場所は代替のアプリマーケットプレイス、別のアプリ、Webサイトであり、これらの場所にはアプリの外部、またはアプリ内で表示されるWebビューからアクセスできます。
--デベロッパは、自身のアプリ内でオファーの通知や宣伝をデザインして実施できます。この通知や宣伝には、アプリの内外で購入できるサブスクリプションやその他のオファーの価格に関する情報の提供や、アプリの外部でのオファーのサブスクリプション購入方法に関する説明や手順の表示が含まれます。これらの通知では、購入対象のデジタル製品やデジタルサービスに関する正確な情報を提供する必要があります。
--デベロッパは、選択した場所にユーザーを誘導するための方法として、タップ、クリック、またはスキャンでアクセスできるリンクを使用できます。
--デベロッパが使用できるURLの数に上限はなく、アプリのInfo.plistでこれらのURLを宣言する必要はありません。
--パラメータを設定したリンク、リダイレクト、ランディングページへの中間リンクの使用は認められます。
--これらの変更に対応するため、External Purchase Link Entitlementを使用するアプリを対象とする更新版のビジネス規約が導入されます。
--詳細については、
--欧州連合におけるApp Storeの代替決済オプションの使用（英語）
--を参照するか、
--30分間のオンラインコンサルテーション
--をリクエストして疑問を解決できます。また、これらの変更に関するフィードバックもお寄せいただけます。
+-iOS 26.6 (23G71)
+-July 27, 2026
+-View downloads
+-View release notes
+-iPadOS 26.6 (23G71)
+-July 27, 2026
+-View downloads
+-View release notes
+-macOS 26.6 (25G72)
+-July 27, 2026
++Xcode 27 beta 5 (27A5237l)
++August 10, 2026
++View downloads
++View release notes
++iOS 27.0 beta 5 (24A5408d)
++August 10, 2026
++View downloads
++View release notes
++iPadOS 27.0 beta 5 (24A5408d)
++August 10, 2026
++View downloads
++View release notes
++macOS 27.0 beta 5 (26A5406e)
++August 10, 2026
++View downloads
++View release notes
++tvOS 27.0 beta 5 (24J5346a)
++August 10, 2026
++View downloads
++View release notes
++visionOS 27.0 beta 5 (24M5348b)
++August 10, 2026
++View downloads
++View release notes
++watchOS 27.0 beta 5 (24R5347a)
++August 10, 2026
++View downloads
++View release notes
++iOS 26.6.1 (23G82)
++August 10, 2026
+... ほか 52 行
 
