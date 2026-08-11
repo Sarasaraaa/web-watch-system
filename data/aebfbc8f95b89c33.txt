@@ -112,6 +112,9 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+TestFlight Update
+August 11, 2026
+View release notes
 Xcode 27 beta 5 (27A5237l)
 August 10, 2026
 View downloads
@@ -171,9 +174,6 @@ View release notes
 watchOS 26.6 (23U67)
 July 27, 2026
 View downloads
-View release notes
-TestFlight Update
-July 21, 2026
 View release notes
 TestFlight 4.3
 July 21, 2026
