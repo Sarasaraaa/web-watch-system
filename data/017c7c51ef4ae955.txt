@@ -951,6 +951,11 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+August 12, 2026
+App Store Connect update
+You can now override your app’s age rating for the App Store in Korea to all available region-specific age ratings (All, 12+, 15+, or 19+) in App Store Connect.
+Learn more.
+Minor editorial fixes were also made.
 August 11, 2026
 TestFlight update
 You can now submit apps built with Xcode 27 beta 5 using the SDK for iOS 27.0 beta 5, iPadOS 27.0 beta 5, macOS 27.0 beta 5, tvOS 27.0 beta 5, visionOS 27.0 beta 5, and watchOS 27.0 beta 5 for internal and external testing.

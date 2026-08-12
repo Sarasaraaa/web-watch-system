@@ -4,21 +4,9 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
-+August 11, 2026
-+TestFlight update
-+You can now submit apps built with Xcode 27 beta 5 using the SDK for iOS 27.0 beta 5, iPadOS 27.0 beta 5, macOS 27.0 beta 5, tvOS 27.0 beta 5, visionOS 27.0 beta 5, and watchOS 27.0 beta 5 for internal and external testing.
-+TestFlight
-
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
-
-変更サマリ:
-+TestFlight Update
-+August 11, 2026
-+View release notes
--View release notes
--TestFlight Update
--July 21, 2026
++August 12, 2026
++App Store Connect update
++You can now override your app’s age rating for the App Store in Korea to all available region-specific age ratings (All, 12+, 15+, or 19+) in App Store Connect.
++Learn more.
++Minor editorial fixes were also made.
 
