@@ -1,12 +1,14 @@
-【iOS_App Store Connect リリースノート】
-対象URL: https://developer.apple.com/app-store-connect/release-notes/
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
-+August 12, 2026
-+App Store Connect update
-+You can now override your app’s age rating for the App Store in Korea to all available region-specific age ratings (All, 12+, 15+, or 19+) in App Store Connect.
-+Learn more.
-+Minor editorial fixes were also made.
+-Apple Entrepreneur Campへの応募受付を開始しました
+-2024年8月13日
+-Apple Entrepreneur Campでは、社会的少数派の創立者やデベロッパを応援し、テクノロジーの分野でマイノリティの起業家が増え、持続的に成功していけるよう支援しています。参加者は、1 on 1でのコードレベルのガイダンスに加え、他にはないAppleのエンジニアやエキスパートとの交流の機会を得ることができ、Apple Entrepreneur Campの過去参加者の広範なグローバルネットワークの一員となります。
+-現在、女性*、アフリカ系、ヒスパニック／ラテンアメリカ系、先住民の創立者やデベロッパからの応募を受け付けています。今年は、クパティーノのAppleキャンパスで実施していた対面形式のプログラムを再開します。また、直接会場にお越しいただけない方のために、すべてのプログラムを引き続きオンラインでも提供します。アプリを活用したビジネスを展開している起業家のみなさまは、参加資格をご確認のうえ、今すぐご応募ください。
+-2024年9月3日（太平洋時間）までにご応募ください。
+-さらに詳しく（英語）
+-* Appleは、ジェンダー表現は基本的な権利であると考えています。すべての女性にこのプログラムへの応募をご検討いただけます。
 
