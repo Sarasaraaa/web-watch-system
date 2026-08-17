@@ -1,20 +1,48 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
--欧州連合におけるアプリ配信に関して近日適用される要件
--2024年8月15日
--以前にもお知らせした通り、
--デジタルサービス法（英語）
--に準拠するため、Apple Developer ProgramのAccount HolderまたはAdminは、欧州連合（EU）のApp Storeで配信するアプリについて、
--App Store Connect
--でトレーダーステータスを入力する必要があります。
--新しい日付と要件は次の通りです。
--2024年10月16日
--：アップデートを提出する際に、トレーダーステータスが必要になります。トレーダーは、自身のアプリを提出して審査を受ける前に、トレーダー情報を提供する必要があります。
--2025年2月17日
--：トレーダーステータスのないアプリは、トレーダーステータスが提供および確認されるまで、EUのApp Storeから削除されます。
--トレーダーの概要とステータスの入力方法を確認する
++iOS 27.0 beta 6 (24A5418b)
++August 17, 2026
++View downloads
++View release notes
++iPadOS 27.0 beta 6 (24A5418b)
++August 17, 2026
++View downloads
++View release notes
++macOS 27.0 beta 6 (26A5416b)
++August 17, 2026
++View downloads
++View release notes
++tvOS 27.0 beta 6 (24J5353b)
++August 17, 2026
++View downloads
++View release notes
++visionOS 27.0 beta 6 (24M5355a)
++August 17, 2026
++View downloads
++View release notes
++watchOS 27.0 beta 6 (24R5353a)
++August 17, 2026
++View downloads
++View release notes
++iOS 26.6.1 (23G83)
++August 17, 2026
++View downloads
++View release notes
++iPadOS 26.6.1 (23G83)
++August 17, 2026
++View downloads
++View release notes
++visionOS 26.6.1 (23O780)
++August 17, 2026
++View downloads
++View release notes
++macOS 26.6.2 (25G83)
++August 17, 2026
++View downloads
++View release notes
+... ほか 56 行
 

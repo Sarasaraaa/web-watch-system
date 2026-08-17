@@ -112,6 +112,54 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+iOS 27.0 beta 6 (24A5418b)
+August 17, 2026
+View downloads
+View release notes
+iPadOS 27.0 beta 6 (24A5418b)
+August 17, 2026
+View downloads
+View release notes
+macOS 27.0 beta 6 (26A5416b)
+August 17, 2026
+View downloads
+View release notes
+tvOS 27.0 beta 6 (24J5353b)
+August 17, 2026
+View downloads
+View release notes
+visionOS 27.0 beta 6 (24M5355a)
+August 17, 2026
+View downloads
+View release notes
+watchOS 27.0 beta 6 (24R5353a)
+August 17, 2026
+View downloads
+View release notes
+iOS 26.6.1 (23G83)
+August 17, 2026
+View downloads
+View release notes
+iPadOS 26.6.1 (23G83)
+August 17, 2026
+View downloads
+View release notes
+visionOS 26.6.1 (23O780)
+August 17, 2026
+View downloads
+View release notes
+macOS 26.6.2 (25G83)
+August 17, 2026
+View downloads
+View release notes
+iOS 18.7.10 (22H374)
+August 17, 2026
+View downloads
+View release notes
+iPadOS 18.7.10 (22H374)
+August 17, 2026
+View downloads
+View release notes
 TestFlight Update
 August 11, 2026
 View release notes
@@ -119,55 +167,7 @@ Xcode 27 beta 5 (27A5237l)
 August 10, 2026
 View downloads
 View release notes
-iOS 27.0 beta 5 (24A5408d)
-August 10, 2026
-View downloads
-View release notes
-iPadOS 27.0 beta 5 (24A5408d)
-August 10, 2026
-View downloads
-View release notes
-macOS 27.0 beta 5 (26A5406e)
-August 10, 2026
-View downloads
-View release notes
-tvOS 27.0 beta 5 (24J5346a)
-August 10, 2026
-View downloads
-View release notes
-visionOS 27.0 beta 5 (24M5348b)
-August 10, 2026
-View downloads
-View release notes
-watchOS 27.0 beta 5 (24R5347a)
-August 10, 2026
-View downloads
-View release notes
-iOS 26.6.1 (23G82)
-August 10, 2026
-View downloads
-View release notes
-iPadOS 26.6.1 (23G82)
-August 10, 2026
-View downloads
-View release notes
-macOS 26.6.2 (25G82)
-August 10, 2026
-View downloads
-View release notes
-iOS 18.7.10 (22H373)
-August 10, 2026
-View downloads
-View release notes
-iPadOS 18.7.10 (22H373)
-August 10, 2026
-View downloads
-View release notes
 tvOS 26.6 (23L773)
-July 27, 2026
-View downloads
-View release notes
-visionOS 26.6 (23O770)
 July 27, 2026
 View downloads
 View release notes
