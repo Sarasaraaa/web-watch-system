@@ -1,48 +1,16 @@
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
-+iOS 27.0 beta 6 (24A5418b)
-+August 17, 2026
-+View downloads
-+View release notes
-+iPadOS 27.0 beta 6 (24A5418b)
-+August 17, 2026
-+View downloads
-+View release notes
-+macOS 27.0 beta 6 (26A5416b)
-+August 17, 2026
-+View downloads
-+View release notes
-+tvOS 27.0 beta 6 (24J5353b)
-+August 17, 2026
-+View downloads
-+View release notes
-+visionOS 27.0 beta 6 (24M5355a)
-+August 17, 2026
-+View downloads
-+View release notes
-+watchOS 27.0 beta 6 (24R5353a)
-+August 17, 2026
-+View downloads
-+View release notes
-+iOS 26.6.1 (23G83)
-+August 17, 2026
-+View downloads
-+View release notes
-+iPadOS 26.6.1 (23G83)
-+August 17, 2026
-+View downloads
-+View release notes
-+visionOS 26.6.1 (23O780)
-+August 17, 2026
-+View downloads
-+View release notes
-+macOS 26.6.2 (25G83)
-+August 17, 2026
-+View downloads
-+View release notes
-... ほか 56 行
+-Store Services tiers
++Store Services tiers in the EU
+-Store Services tiers
++Store Services tiers in the EU
++August 18, 2026
++App Store Connect update
++Updates regarding alternative distribution, alternative app marketplaces, and alternative payment options in the European Union (EU) related to
++changes for apps in the European Union
++.
 

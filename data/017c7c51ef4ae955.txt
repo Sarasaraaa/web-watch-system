@@ -631,7 +631,7 @@ Sales and Trends reports availability
 Reference > Reporting
 Banking information
 Reference > Reporting
-Store Services tiers
+Store Services tiers in the EU
 Reference
 No results
 If you have any questions about membership, your account, or App Store Connect, please review developer support.
@@ -945,12 +945,17 @@ Cancellation reasons
 Sales and Trends metrics and dimensions
 Sales and Trends reports availability
 Banking information
-Store Services tiers
+Store Services tiers in the EU
 Filter
 ⌘K
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+August 18, 2026
+App Store Connect update
+Updates regarding alternative distribution, alternative app marketplaces, and alternative payment options in the European Union (EU) related to
+changes for apps in the European Union
+.
 August 12, 2026
 App Store Connect update
 You can now override your app’s age rating for the App Store in Korea to all available region-specific age ratings (All, 12+, 15+, or 19+) in App Store Connect.
