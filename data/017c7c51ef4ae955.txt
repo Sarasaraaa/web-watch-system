@@ -48,7 +48,7 @@ Community
 Explore Community
 Overview
 Meet with Apple events
-Community-driven events
+Community events
 Developer Forums
 Open Source
 Featured
@@ -951,6 +951,27 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+August 19, 2026
+Editorial updates
+Added requirement that the
+App Review contact phone number
+must be entered in international format (e.g., +852), not digits-only.
+List of the
+Apple Watch screenshot size specifications
+is now up to date.
+Clarified that you must
+submit the first consumable, non-consumable, auto-renewable subscription, and non-renewing subscription with a new app version
+— after that, additional items of the same type don't require one (as long as the app has an approved version).
+Clarified
+price increase
+notification timing and added detail on how billing retry/grace period recovery affects pricing.
+Clarified how
+Analytics campaign links
+work, including new guidance on minimum data thresholds.
+Added troubleshooting
+FAQ
+covering common issues: why campaigns don't appear, campaign vs. provider tokens, missing report data, and storefront redirects.
+Minor editorial fixes were also made.
 August 18, 2026
 App Store Connect update
 Updates regarding alternative distribution, alternative app marketplaces, and alternative payment options in the European Union (EU) related to
@@ -1960,6 +1981,15 @@ latest news
 .
 Get the
 Apple Developer app
+.
+Follow us on
+bilibili
+,
+LinkedIn
+,
+WeChat
+, and
+YouTube
 .
 Light
 Dark

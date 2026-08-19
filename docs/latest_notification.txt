@@ -1,16 +1,213 @@
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+
+変更サマリ:
+-iOSおよびiPadOSの最新バージョンは26.6です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.6.1です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.6.1です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.6.2です。Macのソフトウェアをアップデートする方法については
+-、重要なバックグラウンドアップデートを許可する方法については
++を、重要なバックグラウンドアップデートを許可する方法については
+-visionOSの最新バージョンは26.6です。Apple Vision Proのソフトウェアをアップデートする方法については、
++visionOSの最新バージョンは26.6.1です。Apple Vision Proのソフトウェアをアップデートする方法については、
++Safari 26.6.1
++macOS SonomaおよびmacOS Sequoia
++2026年8月18日
++iOS 26.6.1およびiPadOS 26.6.1
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年8月17日
++iOS 18.7.10およびiPadOS 18.7.10
++iPhone XS、iPhone XS Max、iPhone XR、iPad（第7世代）
++2026年8月17日
++macOS Tahoe 26.6.2
++macOS Tahoe
++2026年8月17日
++visionOS 26.6.1
++詳細は後日公開
++2026年8月17日
+-2026 年 08 月 07 日
++2026 年 08 月 19 日
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
+-iOSおよびiPadOSの最新バージョンは26.6です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.6.1です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.6.1です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは26.6.2です。Macのソフトウェアをアップデートする方法については
+-、重要なバックグラウンドアップデートを許可する方法については
++を、重要なバックグラウンドアップデートを許可する方法については
+-visionOSの最新バージョンは26.6です。Apple Vision Proのソフトウェアをアップデートする方法については、
++visionOSの最新バージョンは26.6.1です。Apple Vision Proのソフトウェアをアップデートする方法については、
++Safari 26.6.1
++macOS SonomaおよびmacOS Sequoia
++2026年8月18日
++iOS 26.6.1およびiPadOS 26.6.1
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年8月17日
++iOS 18.7.10およびiPadOS 18.7.10
++iPhone XS、iPhone XS Max、iPhone XR、iPad（第7世代）
++2026年8月17日
++macOS Tahoe 26.6.2
++macOS Tahoe
++2026年8月17日
++visionOS 26.6.1
++詳細は後日公開
++2026年8月17日
+-2026 年 08 月 07 日
++2026 年 08 月 19 日
+
 【iOS_App Store Connect リリースノート】
 対象URL: https://developer.apple.com/app-store-connect/release-notes/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
--Store Services tiers
-+Store Services tiers in the EU
--Store Services tiers
-+Store Services tiers in the EU
-+August 18, 2026
-+App Store Connect update
-+Updates regarding alternative distribution, alternative app marketplaces, and alternative payment options in the European Union (EU) related to
-+changes for apps in the European Union
+-Community-driven events
++Community events
++August 19, 2026
++Editorial updates
++Added requirement that the
++App Review contact phone number
++must be entered in international format (e.g., +852), not digits-only.
++List of the
++Apple Watch screenshot size specifications
++is now up to date.
++Clarified that you must
++submit the first consumable, non-consumable, auto-renewable subscription, and non-renewing subscription with a new app version
++— after that, additional items of the same type don&#x27;t require one (as long as the app has an approved version).
++Clarified
++price increase
++notification timing and added detail on how billing retry/grace period recovery affects pricing.
++Clarified how
++Analytics campaign links
++work, including new guidance on minimum data thresholds.
++Added troubleshooting
++FAQ
++covering common issues: why campaigns don&#x27;t appear, campaign vs. provider tokens, missing report data, and storefront redirects.
++Minor editorial fixes were also made.
++Follow us on
++bilibili
++,
++LinkedIn
++,
++WeChat
++, and
++YouTube
 +.
+
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+
+変更サマリ:
+-Community-driven events
++Community events
++Follow us on
++bilibili
++,
++LinkedIn
++,
++WeChat
++, and
++YouTube
++.
+
+【iOSの最新情報】
+対象URL: https://developer.apple.com/jp/ios/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f812165d17c4cc2a.html
+
+変更サマリ:
+-コミュニティによるイベント
++コミュニティイベント
+-最新ニュースを読む
+-。
++最新ニュース
++を読む
+-を入手する。
++を入手
++bilibili
++、
++LinkedIn
++、
++WeChat
++、
++YouTube
++でフォロー
+
+【Apple_App Review】
+対象URL: https://developer.apple.com/jp/distribute/app-review/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/8b2ebfe8d757c986.html
+
+変更サマリ:
+-コミュニティによるイベント
++コミュニティイベント
+-最新ニュースを読む
+-。
++最新ニュース
++を読む
+-を入手する。
++を入手
++bilibili
++、
++LinkedIn
++、
++WeChat
++、
++YouTube
++でフォロー
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
+-コミュニティによるイベント
++コミュニティイベント
+-最新ニュースを読む
+-。
++最新ニュース
++を読む
+-を入手する。
++を入手
++bilibili
++、
++LinkedIn
++、
++WeChat
++、
++YouTube
++でフォロー
+
+【AppleDeveloperNews（近日適用開始の要件）】
+対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
+
+変更サマリ:
+-コミュニティによるイベント
++コミュニティイベント
+-最新ニュースを読む
+-。
++最新ニュース
++を読む
+-を入手する。
++を入手
++bilibili
++、
++LinkedIn
++、
++WeChat
++、
++YouTube
++でフォロー
 

@@ -45,7 +45,7 @@ Community
 Explore Community
 Overview
 Meet with Apple events
-Community-driven events
+Community events
 Developer Forums
 Open Source
 Featured
@@ -404,6 +404,15 @@ latest news
 .
 Get the
 Apple Developer app
+.
+Follow us on
+bilibili
+,
+LinkedIn
+,
+WeChat
+, and
+YouTube
 .
 Light
 Dark

@@ -46,7 +46,7 @@ Xcode Cloud
 コミュニティを詳しく見る
 概要
 「Appleに相談」イベント
-コミュニティによるイベント
+コミュニティイベント
 デベロッパフォーラム
 オープンソース
 特集
@@ -298,10 +298,18 @@ App Store Awards
 Apple Design Awards
 Apple Developer Academy
 WWDC
-最新ニュースを読む
-。
+最新ニュース
+を読む
 Apple Developerアプリ
-を入手する。
+を入手
+bilibili
+、
+LinkedIn
+、
+WeChat
+、
+YouTube
+でフォロー
 Light
 Dark
 Auto
