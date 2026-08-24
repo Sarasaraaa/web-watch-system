@@ -1,17 +1,48 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
--ブラウザ選択画面、デフォルトのアプリ、およびアプリの削除に関するEUのユーザーを対象とした近日中の変更
--2024年8月22日
--今年末までに、EUのユーザーを対象にiOSとiPadOSでブラウザの選択画面、デフォルトのアプリ、アプリの削除に関する変更を実施します。これらのアップデートは、各該当分野におけるデジタル市場法の要件遵守に関する欧州委員会との継続的な協議に基づいて実施されるものです。
--EUにおいてブラウザの選択画面に掲載されるブラウザのデベロッパは、選択画面上でユーザーにブラウザに関する追加情報を表示できるほか、選択画面のパフォーマンスに関するデータを入手できます。新しい選択画面は、Safariをデフォルトのブラウザに設定しているEUのすべてのユーザーに表示されます。ブラウザの選択画面の変更点について詳しくは、
--EUにおけるブラウザの選択画面について（英語）
--をご確認ください。
--EUのユーザーを対象に、iOS 18とiPadOS 18の「設定」に新しく「デフォルトのアプリ」セクションが追加され、各ユーザーがデフォルトに設定できるアプリの一覧が表示されます。今後のソフトウェアアップデートにより、電話番号のダイヤル、メッセージの送信、テキストの翻訳、ナビゲーション、パスワードの管理、キーボード、通話スパムフィルタで新しいデフォルト設定を利用できるようになります。詳しくは、
--EUで配信されるアプリに関するアップデート（英語）
--をご確認ください。
--さらに、EUのユーザーはApp Store、メッセージ、写真、カメラ、Safariの各アプリを削除できるようになります。
+-iOS 27.0 beta 6 (24A5418b)
+-August 17, 2026
+-View downloads
+-View release notes
+-iPadOS 27.0 beta 6 (24A5418b)
+-August 17, 2026
+-View downloads
+-View release notes
+-macOS 27.0 beta 6 (26A5416b)
+-August 17, 2026
+-View downloads
+-View release notes
+-tvOS 27.0 beta 6 (24J5353b)
+-August 17, 2026
+-View downloads
+-View release notes
+-visionOS 27.0 beta 6 (24M5355a)
+-August 17, 2026
+-View downloads
+-View release notes
+-watchOS 27.0 beta 6 (24R5353a)
+-August 17, 2026
++Xcode 27 beta 6 (27A5252f)
++August 24, 2026
++View downloads
++View release notes
++iOS 27.0 beta 7 (24A5424a)
++August 24, 2026
++View downloads
++View release notes
++iPadOS 27.0 beta 7 (24A5424a)
++August 24, 2026
++View downloads
++View release notes
++macOS 27.0 beta 7 (26A5421a)
++August 24, 2026
++View downloads
++View release notes
++tvOS 27.0 beta 7 (24J5358a)
++August 24, 2026
+... ほか 12 行
 

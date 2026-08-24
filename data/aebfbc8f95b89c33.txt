@@ -112,28 +112,32 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
-iOS 27.0 beta 6 (24A5418b)
-August 17, 2026
+Xcode 27 beta 6 (27A5252f)
+August 24, 2026
 View downloads
 View release notes
-iPadOS 27.0 beta 6 (24A5418b)
-August 17, 2026
+iOS 27.0 beta 7 (24A5424a)
+August 24, 2026
 View downloads
 View release notes
-macOS 27.0 beta 6 (26A5416b)
-August 17, 2026
+iPadOS 27.0 beta 7 (24A5424a)
+August 24, 2026
 View downloads
 View release notes
-tvOS 27.0 beta 6 (24J5353b)
-August 17, 2026
+macOS 27.0 beta 7 (26A5421a)
+August 24, 2026
 View downloads
 View release notes
-visionOS 27.0 beta 6 (24M5355a)
-August 17, 2026
+tvOS 27.0 beta 7 (24J5358a)
+August 24, 2026
 View downloads
 View release notes
-watchOS 27.0 beta 6 (24R5353a)
-August 17, 2026
+visionOS 27.0 beta 7 (24M5359a)
+August 24, 2026
+View downloads
+View release notes
+watchOS 27.0 beta 7 (24R5358a)
+August 24, 2026
 View downloads
 View release notes
 iOS 26.6.1 (23G83)
@@ -162,10 +166,6 @@ View downloads
 View release notes
 TestFlight Update
 August 11, 2026
-View release notes
-Xcode 27 beta 5 (27A5237l)
-August 10, 2026
-View downloads
 View release notes
 tvOS 26.6 (23L773)
 July 27, 2026
