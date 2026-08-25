@@ -112,6 +112,9 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+TestFlight Update
+August 25, 2026
+View release notes
 Xcode 27 beta 6 (27A5252f)
 August 24, 2026
 View downloads
@@ -163,9 +166,6 @@ View release notes
 iPadOS 18.7.10 (22H374)
 August 17, 2026
 View downloads
-View release notes
-TestFlight Update
-August 11, 2026
 View release notes
 tvOS 26.6 (23L773)
 July 27, 2026

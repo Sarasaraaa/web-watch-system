@@ -1,48 +1,24 @@
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
++August 25, 2026
++TestFlight update
++You can now submit apps built with Xcode 27 beta 6 using the SDK for iOS 27.0 beta 6, iPadOS 27.0 beta 6, macOS 27.0 beta 6, tvOS 27.0 beta 6, visionOS 27.0 beta 6, and watchOS 27.0 beta 6 for internal and external testing.
++TestFlight
+
 【Appleリリース情報】
 対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
--iOS 27.0 beta 6 (24A5418b)
--August 17, 2026
--View downloads
--View release notes
--iPadOS 27.0 beta 6 (24A5418b)
--August 17, 2026
--View downloads
--View release notes
--macOS 27.0 beta 6 (26A5416b)
--August 17, 2026
--View downloads
--View release notes
--tvOS 27.0 beta 6 (24J5353b)
--August 17, 2026
--View downloads
--View release notes
--visionOS 27.0 beta 6 (24M5355a)
--August 17, 2026
--View downloads
--View release notes
--watchOS 27.0 beta 6 (24R5353a)
--August 17, 2026
-+Xcode 27 beta 6 (27A5252f)
-+August 24, 2026
-+View downloads
++TestFlight Update
++August 25, 2026
 +View release notes
-+iOS 27.0 beta 7 (24A5424a)
-+August 24, 2026
-+View downloads
-+View release notes
-+iPadOS 27.0 beta 7 (24A5424a)
-+August 24, 2026
-+View downloads
-+View release notes
-+macOS 27.0 beta 7 (26A5421a)
-+August 24, 2026
-+View downloads
-+View release notes
-+tvOS 27.0 beta 7 (24J5358a)
-+August 24, 2026
-... ほか 12 行
+-View release notes
+-TestFlight Update
+-August 11, 2026
 
