@@ -1,38 +1,48 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
--アプリ、アプリ内課金、およびサブスクリプションに関する価格と税金の更新
--2024年8月29日
--App Storeは、世界各地でデジタル商品やサービスを簡単に販売できるよう設計されており、175のストアフロントで44の通貨に対応しています。
--税金に関する規制や外国為替レートの変動に応じて、随時価格や収益の調整が必要になる場合があります。こうした調整は、アプリおよびアプリ内課金の価格の整合性がストアフロント全体で維持されるように、金融データプロバイダが公開する為替レート情報に基づいて行われます。
--価格の更新
--9月16日
--チリ、ラオス、セネガルのいずれかのストアフロントをアプリおよびアプリ内課金¹の基準となる国または地域として選択していない場合、これらのストアフロントにおけるアプリおよびアプリ内課金¹の価格が更新されます。また、この更新は以下の「税金の更新」に記載される付加価値税（VAT）の導入を反映するものです。
--チリ、ラオス、セネガルのいずれかのストアフロントをアプリまたはアプリ内課金の基準として選択している場合、価格の変更はありません。それ以外でのストアフロントでは、デベロッパが選択した基本価格との平準化を維持するため、価格が調整されます。
--アプリ内課金が自動更新サブスクリプションで提供されている場合、いずれの地域でも価格は更新されません。また、価格を自動平準化ではなく手動で管理しているストアフロントでも、価格が更新されることはありません。
--App Store Connect
--の「アプリ」 の 「価格および配信状況」セクションでの表示は、近日中に実施されるこれらの価格変更を反映しています。通常どおり、デベロッパはアプリ、アプリ内課金、および自動更新サブスクリプションの価格をいつでも変更することができます。
--価格の管理についてさらに詳しく
--価格変更予定の確認と編集
--アプリの基準となる国または地域の編集
--国または地域別の価格および配信開始時刻
--アプリ内課金の価格の設定
--税金の更新
--8月29日時点
--対象となるアプリおよびアプリ内課金からの収益は以下の国／地域で変更されています。
--ラオス：10%のVATの導入
--セネガル：18%のVATの導入
--インド：2%の平衡税が以後該当外に変更
--有料アプリケーション契約の添付書類Bは、Appleがラオスとセネガルで該当税を徴収し、納税する旨を反映するため更新されました。
--9月に開始
--対象となるアプリおよびアプリ内課金からの収益は以下の国／地域で変更されます。
--カナダ：3%のデジタルサービス税を導入
--フィンランド：VATが24%から25.5%に引き上げ
--収益についてさらに詳しく
--支払いと収益の表示
--財務レポートのダウンロード
--1：自動更新サブスクリプションを除く。
++iOS 27.0 beta 8 (24A5430a)
++August 31, 2026
++View downloads
++View release notes
++iPadOS 27.0 beta 8 (24A5430a)
++August 31, 2026
++View downloads
++View release notes
++macOS 27.0 beta 8 (26A5425a)
++August 31, 2026
++View downloads
++View release notes
++tvOS 27.0 beta 8 (24J5360a)
++August 31, 2026
++View downloads
++View release notes
++visionOS 27.0 beta 8 (24M5361a)
++August 31, 2026
++View downloads
++View release notes
++watchOS 27.0 beta 8 (24R5360a)
++August 31, 2026
++View downloads
++View release notes
+-August 24, 2026
+-View downloads
+-View release notes
+-iOS 27.0 beta 7 (24A5424a)
+-August 24, 2026
+-View downloads
+-View release notes
+-iPadOS 27.0 beta 7 (24A5424a)
+-August 24, 2026
+-View downloads
+-View release notes
+-macOS 27.0 beta 7 (26A5421a)
+-August 24, 2026
+-View downloads
+-View release notes
+-tvOS 27.0 beta 7 (24J5358a)
+... ほか 8 行
 
