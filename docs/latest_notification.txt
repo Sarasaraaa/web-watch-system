@@ -1,48 +1,25 @@
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
-+iOS 27.0 beta 8 (24A5430a)
-+August 31, 2026
-+View downloads
-+View release notes
-+iPadOS 27.0 beta 8 (24A5430a)
-+August 31, 2026
-+View downloads
-+View release notes
-+macOS 27.0 beta 8 (26A5425a)
-+August 31, 2026
-+View downloads
-+View release notes
-+tvOS 27.0 beta 8 (24J5360a)
-+August 31, 2026
-+View downloads
-+View release notes
-+visionOS 27.0 beta 8 (24M5361a)
-+August 31, 2026
-+View downloads
-+View release notes
-+watchOS 27.0 beta 8 (24R5360a)
-+August 31, 2026
-+View downloads
-+View release notes
--August 24, 2026
--View downloads
--View release notes
--iOS 27.0 beta 7 (24A5424a)
--August 24, 2026
--View downloads
--View release notes
--iPadOS 27.0 beta 7 (24A5424a)
--August 24, 2026
--View downloads
--View release notes
--macOS 27.0 beta 7 (26A5421a)
--August 24, 2026
--View downloads
--View release notes
--tvOS 27.0 beta 7 (24J5358a)
-... ほか 8 行
++IntelベースのmacOSアプリにおけるRosettaサポートに関する今後の変更
++2026年9月1日
++Appleは2020年、Macコンピュータ向けにAppleシリコンを導入し、移行期間中の変換レイヤーとしてRosettaの提供を開始しました。
++昨年のWWDCで発表した通り（英語）
++、移行はまもなく完了します。
++macOSアプリを提供するデベロッパが知っておくべきこと：
++macOS 26.4以降：ユーザーがRosettaを利用するアプリを起動すると、Appleシリコンのネイティブバージョンへのアップデートを促すシステム通知が表示される場合があります。
++macOS 27：Rosettaをサポートする最終リリースとなります。本バージョンより後のmacOSでは、Intel専用アプリはAppleシリコン搭載のMacコンピュータで実行できなくなります。
++なお、Intelベースのフレームワークに依存する、アップデートが行われていない古いゲームタイトルについては、Rosetta機能が引き続きサポートされます。
++必要な対応：
++アプリを継続的に利用できる状態に維持し、システム通知によってユーザーの作業が妨げられないようにするために、今すぐアプリでAppleシリコンへの対応を進めてください。
++アプリをまだアップデートしていない場合：
++早急に移行を開始しましょう。Appleシリコン搭載およびIntelベースのMacコンピュータの両方でネイティブに実行できるよう、アプリをユニバーサルバイナリとしてビルドし、配信してください。
++Appleシリコン向けにアプリを最適化する（英語）
++macOSアプリをAppleシリコンにポーティングする（英語）
++Apple Developer Forumsを確認する（英語）
++すでにAppleシリコンバージョンを提供している場合：
++ユーザーに直接アプローチしましょう。macOS 26.4以降で通知が表示されないようにし、今秋にmacOS 27がリリースされた際にもアプリが確実に動作するよう、最新のネイティブバージョンのダウンロードとインストールを促してください。
 
