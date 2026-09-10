@@ -1,29 +1,159 @@
+【Android17】
+対象URL: https://developer.android.com/about/versions/17/summary?hl=ja
+検出した最終更新日: 最終更新日 2026-09-09 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/fab2fa9345b01938.html
+
+変更サマリ:
+-アプリ デベロッパーに影響を与える可能性のある、機能と動作の変更点を次の表に示します。このリストを使用して影響のある変更点を探し、対応するリンクをクリックしてドキュメントをご覧ください。
++アプリ デベロッパーに影響を与える可能性のある、機能と動作の変更点を次の表に示します。このリストで該当する変更点を見つけ、対応するリンクをクリックしてドキュメントをご覧ください。
+-手入力
++ヒューマン入力
++インテリジェンス
+-第 3 四半期より、Meta+Back（F1）と Meta+Shift+Back（F1）がグローバル キーボード ナビゲーション ショートカットとなり、アプリ固有のショートカットよりも優先されます。
++第 3 四半期以降、Meta+Back（F1）と Meta+Shift+Back（F1）がグローバル キーボード ナビゲーション ショートカットになり、アプリ固有のショートカットよりも優先されます。
+-Android 17 以降、WebView のデフォルトのユーザー エージェント文字列が短くなりました。
++Android 17 以降、WebView のデフォルトのユーザー エージェント文字列が短くなります。
++ユーザー エクスペリエンスとシステム UI
++変更（17 以降をターゲットとするアプリ）
++メモリ上限ウィジェット
++Android 17 以降をターゲットとするアプリでは、RemoteViews パーセルに存在するビットマップとアイコンのメモリ上限が厳格に適用されます。
+-Android 17 では、アシスタント アプリ専用のアシスタント音量ストリームが導入され、メディアの音量とは別に制御できるようになりました。新しい MODE_ASSISTANT_CONVERSATION にアクセスできるアシスタント アプリは、音量のさらなる改善（アクティブな再生外での制御や Bluetooth 周辺機器経由での制御）を有効にできます。
++Android 17 では、アシスタント アプリ専用のアシスタント音量ストリームが導入され、メディア音量とは別に制御できるようになりました。新しい MODE_ASSISTANT_CONVERSATION にアクセスできるアシスタント アプリでは、再生中以外や Bluetooth 周辺機器を介して音量をさらに調整できます。
+-クロス プロファイル ループバック トラフィックをブロック
+-デフォルトでクロス プロファイル ループバック トラフィックが許可されなくなりました。
++クロス プロファイル ループバック トラフィックをブロックする
++クロス プロファイル ループバック トラフィックは、デフォルトでは許可されなくなりました。
+-アプリが作成できるキーストア キーの数には、対象 API レベルに応じて上限があります。上限を超えてキーを作成すると、例外が発生します。
++アプリが作成できるキーストア鍵の数には、ターゲット API レベルに応じて上限があります。上限を超えて鍵を作成すると例外が発生します。
+-CP2 データビューの PII フィールドを制限
+-Android 17 以上をターゲットとするアプリは、CP2 データビューの特定の PII フィールドにアクセスできません。
+-セキュリティ
+-変更（17 以降をターゲットとするアプリ）
+-CP2 で厳格な SQL チェックを適用
+-Android 17 以降をターゲットとするアプリでは、READ_CONTACTS 権限なしで ContactsContract.Data テーブルにアクセスする際に、連絡先プロバイダ 2 が厳格な SQL クエリ検証を適用します。
++CP2 データビューの PII フィールドを制限する
++Android 17 以降をターゲットとするアプリは、CP2 データビューの一部の PII フィールドにアクセスできません。
++セキュリティ
++変更（17 以降をターゲットとするアプリ）
++CP2 で厳格な SQL チェックを適用する
++Android 17 以降をターゲットとするアプリの場合、READ_CONTACTS 権限なしで ContactsContract.Data テーブルにアクセスすると、Contacts Provider 2 で厳格な SQL クエリ検証が適用されます。
+-新しいポスト量子暗号（PQC）署名鍵で APK に署名するためのサポートを追加します。
++新しい耐量子暗号（PQC）署名鍵で APK に署名するサポートを追加します。
+-Android 17 では、デバイスの合計 RAM に基づく新しいアプリのメモリ上限が導入されました。
+-コア機能
+-変更（すべてのアプリ）
+-アプリのメモリ ランタイムの上限
+-アプリのメモリ上限の適用がより厳格になります。これらの上限を超えると、アプリがクラッシュする可能性があります。
+... ほか 79 行
+
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+
+変更サマリ:
+-iOSおよびiPadOSの最新バージョンは26.6.1です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.6.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOS 26.6.2およびiPadOS 26.6.2
++このアップデートにはCVEの公開エントリがありません。
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年9月8日
+-2026 年 08 月 19 日
++2026 年 09 月 09 日
+
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+
+変更サマリ:
+-iOSおよびiPadOSの最新バージョンは26.6.1です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは26.6.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOS 26.6.2およびiPadOS 26.6.2
++このアップデートにはCVEの公開エントリがありません。
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年9月8日
+-2026 年 08 月 19 日
++2026 年 09 月 09 日
+
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
++September 9, 2026
++App Store Connect update
++You can now upload apps built with Xcode 27 RC using the SDK for iOS 27.0 RC, iPadOS 27.0 RC, macOS 27.0 RC, tvOS 27.0 RC, visionOS 27.0 RC, and watchOS 27.0 RC for the App Store, and for internal and external testing through TestFlight.
+
 【Appleリリース情報】
 対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+Transporter 1.4.5
-+September 8, 2026
-+Download the app
++App Store Connect Update
++September 9, 2026
 +View release notes
-+iOS 26.6.2 (23G90)
-+September 8, 2026
++Xcode 27 RC (27A266a)
++September 9, 2026
 +View downloads
-+iPadOS 26.6.2 (23G90)
-+September 8, 2026
++View release notes
++iOS 27.0 RC (24A435)
++September 9, 2026
 +View downloads
++View release notes
++iPadOS 27.0 RC (24A435)
++September 9, 2026
++View downloads
++View release notes
++macOS 27.0 RC (26A428)
++September 9, 2026
++View downloads
++View release notes
++tvOS 27.0 RC (24J360)
++September 9, 2026
++View downloads
++View release notes
++visionOS 27.0 RC (24M362)
++September 9, 2026
++View downloads
++View release notes
++watchOS 27.0 RC (24R363)
++September 9, 2026
++View downloads
++View release notes
++iPadOS 26.7 (23H24)
++September 9, 2026
++View downloads
+-iOS 27.0 beta 8 (24A5430a)
+-August 31, 2026
 -View downloads
 -View release notes
--iOS 26.6.1 (23G83)
--August 17, 2026
--View downloads
--View release notes
--iPadOS 26.6.1 (23G83)
--August 17, 2026
--Download the app
--View release notes
--Transporter 1.4
--October 6, 2025
+-iPadOS 27.0 beta 8 (24A5430a)
+-August 31, 2026
+... ほか 40 行
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
++iPhone Duoに向けた準備
++2026年9月9日
++今すぐiPhone Duoに向けた準備を始めましょう。新しいビデオを視聴し、グループラボに申し込み、Apple Developer ForumsでのQ&amp;Aに参加しましょう。
++最新情報を確認する（英語）
+-最新OSリリース向けアプリのApp Storeへの提出の受付開始
+-2024年9月9日
+-iOS 18、iPadOS 18、macOS Sequoia、tvOS 18、visionOS 2、watchOS 11が、世界各地のユーザーに近日中に公開されます。Xcode 16リリース候補版と最新のSDKを使ってアプリやゲームをビルドしたら、TestFlightでテストし、App Storeに提出して審査を受けましょう。Xcode CloudからシームレスにTestFlightおよびApp Storeにアプリをデプロイできます。
+-watchOSでのライブアクティビティ
+-や
+-アプリアイコンのカスタマイズ
+-などの優れた新機能に加え、Swift、Siri、コントロール、Core MLのパワフルなアップデートにより、Appleプラットフォームでさらにユニークな体験を提供できます。
+-来月より、
+-Apple Intelligence
+-をアプリで利用できるようになります。驚くような新機能が、ユーザーのコミュニケーションや仕事、自己表現の方法にインスピレーションをもたらします。
+-2025年4月以降、App Store ConnectにアップロードするアプリはiOS 18、iPadOS 18、tvOS 18、visionOS 2、またはwatchOS 11に対応したSDKでビルドする必要があります。
+-アプリの提出について詳しく
 
