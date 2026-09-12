@@ -1,29 +1,46 @@
+【Android バージョン情報】
+対象URL: https://developer.android.com/about/versions?hl=ja
+検出した最終更新日: 最終更新日 2025-06-11 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
+
+変更サマリ:
+-スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを作成します。
++スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを構築します。
+-Better Together
++つながってもっと便利
++Level Up のガイドライン
+-事例紹介
+-実際のユーザーによる実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
+-イベントとプログラム
+-デベロッパーの成長を支援するための今後のウェブセミナー、ワークショップ、ミートアップ、特別な取り組みの詳細をご覧ください。
+-ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をお届けします。
+-ハウツー
++ユーザーのストーリー、注目の機能、私たちを一つにする共同プロジェクトをご覧ください。
++入門ガイド
++事例紹介
++実際のユーザーから得られた実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
++イベントとプログラム
++デベロッパーの成長を支援するための今後のウェブセミナー、ワークショップ、ミートアップ、特別な取り組みの詳細をご覧ください。
++ドキュメント
++詳細なマニュアル、API リファレンス、技術仕様にアクセスして、自信を持って構築と統合を行うことができます。
+-Better Together
++つながってもっと便利
++Level Up のガイドライン
++プロダクト ニュース
++コミュニティ
++入門ガイド
+-プロダクト ニュース
+-コミュニティ
+-ハウツー
++ドキュメント
+
 【iOS_App Store Connect リリースノート】
 対象URL: https://developer.apple.com/app-store-connect/release-notes/
 検出した最終更新日: 検出できませんでした
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
-+September 9, 2026
-+App Store Connect update
-+The app preview and screenshot specifications for iPhone Duo, iPhone 18 Pro Max, iPhone 18 Pro, Apple Watch Ultra 4, and Apple Watch Series 12 have been added. Support for uploading assets for iPhone Duo in App Store Connect will be available later this year.
-+App preview specifications
-+Screenshot specifications
-
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
-
-変更サマリ:
--自動更新サブスクリプションの再獲得オファーが利用可能に
--2024年9月10日
--App Store Connectで新しいタイプのオファーである再獲得オファーを設定できるようになりました。再獲得オファーでは、以前サブスクリプションに登録していたユーザーにリーチし、アプリやゲームの再登録を促すことができます。例えば、6か月で9.99ドルというサブスクリプションの割引価格の前払いオファーを作成し、その後の標準更新価格を年間39.99ドルに設定することができます。オファーの設定に応じて、以下を含むさまざまな場所で対象ユーザーに表示されます。
--App Store各所（プロダクトページのほか、「Today」、「ゲーム」、「アプリ」タブのパーソナライズされたおすすめやエディターのおすすめなど）
--アプリまたゲーム内
--独自のマーケティングチャネルで共有するダイレクトリンク
--サブスクリプションの設定
--App Store Connectで再獲得オファーを作成する際に、対象とするユーザーを判断し、配信する地域や割引の種類を選択します。この秋から、対象ユーザーに再獲得オファーを提示できるようになります。
--再獲得オファーを設定する
--再獲得オファーについて詳しく（英語）
++September 10, 2026
++Editorial update
++Minor editorial fixes were made.
 
