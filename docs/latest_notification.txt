@@ -1,46 +1,26 @@
-【Android バージョン情報】
-対象URL: https://developer.android.com/about/versions?hl=ja
-検出した最終更新日: 最終更新日 2025-06-11 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
-
-変更サマリ:
--スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを作成します。
-+スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを構築します。
--Better Together
-+つながってもっと便利
-+Level Up のガイドライン
--事例紹介
--実際のユーザーによる実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
--イベントとプログラム
--デベロッパーの成長を支援するための今後のウェブセミナー、ワークショップ、ミートアップ、特別な取り組みの詳細をご覧ください。
--ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をお届けします。
--ハウツー
-+ユーザーのストーリー、注目の機能、私たちを一つにする共同プロジェクトをご覧ください。
-+入門ガイド
-+事例紹介
-+実際のユーザーから得られた実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
-+イベントとプログラム
-+デベロッパーの成長を支援するための今後のウェブセミナー、ワークショップ、ミートアップ、特別な取り組みの詳細をご覧ください。
-+ドキュメント
-+詳細なマニュアル、API リファレンス、技術仕様にアクセスして、自信を持って構築と統合を行うことができます。
--Better Together
-+つながってもっと便利
-+Level Up のガイドライン
-+プロダクト ニュース
-+コミュニティ
-+入門ガイド
--プロダクト ニュース
--コミュニティ
--ハウツー
-+ドキュメント
-
-【iOS_App Store Connect リリースノート】
-対象URL: https://developer.apple.com/app-store-connect/release-notes/
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
-+September 10, 2026
-+Editorial update
-+Minor editorial fixes were made.
+-欧州連合で配信されるiPadOS 18向けのアプリに関するアップデート
+-2024年9月13日
+-App Reviewガイドライン
+-が改訂され、公証の対象にiPadOSが追加されました。
+-9月16日以降
+-EUのユーザーは、App Storeまたは代替配信を通じてiPadOSアプリをダウンロードできます。5月に
+-お知らせ
+-したように、「Alternative Terms Addendum for Apps in the EU」に同意した場合、デベロッパのiPadOSアプリの年間初回インストール数の累計が開始され、App Storeでの低い手数料率が適用されます。
+-iPadOSアプリで代替ブラウザエンジンを使用できます。
+-手数料計算ツール（英語）
+-とともにご利用いただけるApp Store Connectのアプリインストール履歴レポートにiPadOSが加わります。
+-以下の契約の旧版を締結している場合は、必ず最新版に署名してください。最新版はiPadOSに対応しています。
+-Alternative Terms Addendum for Apps in the EU（英語）
+-Web Browser Engine Entitlement Addendum for Apps in the EU（英語）
+-Embedded Browser Engine Entitlement Addendum for Apps in the EU（英語）
+-EUで配信されるアプリに関するアップデートについてさらに詳しく（英語）
+-ガイドラインの翻訳は、更新の1か月以内に
+-Apple Developer Webサイト
+-にて提供されます。
 
