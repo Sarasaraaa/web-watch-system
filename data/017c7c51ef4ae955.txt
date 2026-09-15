@@ -951,6 +951,9 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+September 14, 2026
+App Store Connect update
+You can now upload apps built with Xcode 27 using the SDK for iOS 27.0, iPadOS 27.0, macOS 27.0, tvOS 27.0, visionOS 27.0, and watchOS 27.0 for the App Store, and for internal and external testing through TestFlight.
 September 10, 2026
 Editorial update
 Minor editorial fixes were made.

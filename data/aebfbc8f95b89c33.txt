@@ -113,34 +113,38 @@ Site Updates
 Upcoming Requirements
 RSS
 App Store Connect Update
-September 9, 2026
+September 14, 2026
 View release notes
-Xcode 27 RC (27A266a)
-September 9, 2026
+Xcode 27 (27A266a)
+September 14, 2026
 View downloads
 View release notes
-iOS 27.0 RC (24A435)
-September 9, 2026
+iOS 27.0 (24A437)
+September 14, 2026
 View downloads
 View release notes
-iPadOS 27.0 RC (24A435)
-September 9, 2026
+iPadOS 27.0 (24A437)
+September 14, 2026
 View downloads
 View release notes
-macOS 27.0 RC (26A428)
-September 9, 2026
+macOS 27.0 (26A428)
+September 14, 2026
 View downloads
 View release notes
-tvOS 27.0 RC (24J360)
-September 9, 2026
+tvOS 27.0 (24J361)
+September 14, 2026
 View downloads
 View release notes
-visionOS 27.0 RC (24M362)
-September 9, 2026
+visionOS 27.0 (24M362)
+September 14, 2026
 View downloads
 View release notes
-watchOS 27.0 RC (24R363)
-September 9, 2026
+watchOS 27.0 (24R364)
+September 14, 2026
+View downloads
+View release notes
+iOS 27.0 RC (24A437)
+September 11, 2026
 View downloads
 View release notes
 iPadOS 26.7 (23H24)
@@ -285,10 +289,6 @@ iPadOS 26.5 RC 2 (23F77)
 May 8, 2026
 View downloads
 iOS 26.5 RC (23F75)
-May 4, 2026
-View downloads
-View release notes
-iPadOS 26.5 RC (23F75)
 May 4, 2026
 View downloads
 View release notes

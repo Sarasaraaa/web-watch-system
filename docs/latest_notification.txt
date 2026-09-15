@@ -1,26 +1,186 @@
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+【Android バージョン情報】
+対象URL: https://developer.android.com/about/versions?hl=ja
+検出した最終更新日: 最終更新日 2025-06-11 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
 
 変更サマリ:
--欧州連合で配信されるiPadOS 18向けのアプリに関するアップデート
--2024年9月13日
--App Reviewガイドライン
--が改訂され、公証の対象にiPadOSが追加されました。
--9月16日以降
--EUのユーザーは、App Storeまたは代替配信を通じてiPadOSアプリをダウンロードできます。5月に
--お知らせ
--したように、「Alternative Terms Addendum for Apps in the EU」に同意した場合、デベロッパのiPadOSアプリの年間初回インストール数の累計が開始され、App Storeでの低い手数料率が適用されます。
--iPadOSアプリで代替ブラウザエンジンを使用できます。
--手数料計算ツール（英語）
--とともにご利用いただけるApp Store Connectのアプリインストール履歴レポートにiPadOSが加わります。
--以下の契約の旧版を締結している場合は、必ず最新版に署名してください。最新版はiPadOSに対応しています。
--Alternative Terms Addendum for Apps in the EU（英語）
--Web Browser Engine Entitlement Addendum for Apps in the EU（英語）
--Embedded Browser Engine Entitlement Addendum for Apps in the EU（英語）
--EUで配信されるアプリに関するアップデートについてさらに詳しく（英語）
--ガイドラインの翻訳は、更新の1か月以内に
--Apple Developer Webサイト
--にて提供されます。
+-AI を活用した IDE
++AI 駆動の IDE
+-スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを構築します。
++スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などのユーザー エクスペリエンスを最適化するアプリを構築しましょう。
+-つながってもっと便利
++Better Together
+-Level Up のガイドライン
++Level Up ガイドライン
+-著者を見る →
++著者を探索 →
+-ユーザーのストーリー、注目の機能、私たちを一つにする共同プロジェクトをご覧ください。
++ユーザーのストーリー、注目の新機能、私たち全員をつなぐコラボレーション プロジェクトをご覧ください。
+-実際のユーザーから得られた実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
++現場のユーザーが生み出した現実の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
+-ドキュメント
+-詳細なマニュアル、API リファレンス、技術仕様にアクセスして、自信を持って構築と統合を行うことができます。
+-AI を活用した IDE
++AI 駆動の IDE
+-つながってもっと便利
++Better Together
+-Level Up のガイドライン
++Level Up ガイドライン
+-著者を見る →
++著者を探索 →
+-ドキュメント
+
+【Android15】
+対象URL: https://developer.android.com/about/versions/15/summary?hl=ja
+検出した最終更新日: 最終更新日 2026-06-25 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/0905a72fa238b2ea.html
+
+変更サマリ:
+-最初のアプリを作成します。Compose を UI とアダプティブ アプリ開発に使用して、複数のデバイス フォーム ファクタをサポートします。
++最初のアプリを作成します。UI とアダプティブ アプリの開発に Compose を使用して、複数のデバイス フォーム ファクタに対応します。
+-マルチデバイスのサポート
++デベロッパーの確認
+-AI を活用した IDE
++AI 駆動の IDE
+-デバイスごとに拡張する
+-スマートフォン、タブレット、スマートウォッチ、ヘッドセットなど、さまざまなデバイスでシームレスなエクスペリエンスをユーザーに提供するアプリを作成します。
+-アダプティブ アプリ
+-Android XR
+-Wear OS
++フォーム ファクタ別に最適化する
++スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などのユーザー エクスペリエンスを最適化するアプリを構築しましょう。
++スマートフォン、タブレット、折りたたみ式デバイス
++Android XR
++Wear OS
++マルチデバイスに対応
++Level Up ガイドライン
+-Android デベロッパー ブログ
++Android デベロッパーのブログ
+-著者を見る →
+-カテゴリで探索
++著者を探索 →
++カテゴリを探索
++プロダクト ニュース
++最新のアップデート、機能リリース、進化の舞台裏に関する情報をお届けします。
++コミュニティ
++ユーザーのストーリー、注目の新機能、私たち全員をつなぐコラボレーション プロジェクトをご覧ください。
++入門ガイド
++簡単なヒントから詳細なチュートリアルまで、これらの手順ガイドは、よりスマートかつ迅速に作業を進めるのに役立つように設計されています。
+-実際のユーザーによる実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
++現場のユーザーが生み出した現実の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
+-プロダクト ニュース
+-最新のアップデート、機能リリース、進化の舞台裏に関する情報をお届けします。
+-Community
+-ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をご紹介します。
+-ハウツー
+-簡単なヒントから詳細なチュートリアルまで、これらの手順ガイドは、よりスマートかつ迅速に作業を進めるのに役立つように設計されています。
+-マルチデバイスのサポート
++デベロッパーの確認
+... ほか 24 行
+
+【Android16】
+対象URL: https://developer.android.com/about/versions/16/summary?hl=ja
+検出した最終更新日: 最終更新日 2026-03-03 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f8f9e1ea510138af.html
+
+変更サマリ:
+-最初のアプリを作成します。Compose を UI とアダプティブ アプリ開発に使用して、複数のデバイス フォーム ファクタをサポートします。
++最初のアプリを作成します。UI とアダプティブ アプリの開発に Compose を使用して、複数のデバイス フォーム ファクタに対応します。
+-マルチデバイスのサポート
++デベロッパーの確認
+-AI を活用した IDE
++AI 駆動の IDE
+-デバイスごとに拡張する
+-スマートフォン、タブレット、スマートウォッチ、ヘッドセットなど、さまざまなデバイスでシームレスなエクスペリエンスをユーザーに提供するアプリを作成します。
+-アダプティブ アプリ
+-Android XR
+-Wear OS
++フォーム ファクタ別に最適化する
++スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などのユーザー エクスペリエンスを最適化するアプリを構築しましょう。
++スマートフォン、タブレット、折りたたみ式デバイス
++Android XR
++Wear OS
++マルチデバイスに対応
++Level Up ガイドライン
+-Android デベロッパー ブログ
++Android デベロッパーのブログ
+-著者を見る →
+-カテゴリで探索
++著者を探索 →
++カテゴリを探索
++プロダクト ニュース
++最新のアップデート、機能リリース、進化の舞台裏に関する情報をお届けします。
++コミュニティ
++ユーザーのストーリー、注目の新機能、私たち全員をつなぐコラボレーション プロジェクトをご覧ください。
++入門ガイド
++簡単なヒントから詳細なチュートリアルまで、これらの手順ガイドは、よりスマートかつ迅速に作業を進めるのに役立つように設計されています。
+-実際のユーザーによる実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
++現場のユーザーが生み出した現実の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
+-プロダクト ニュース
+-最新のアップデート、機能リリース、進化の舞台裏に関する情報をお届けします。
+-Community
+-ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をご紹介します。
+-ハウツー
+-簡単なヒントから詳細なチュートリアルまで、これらの手順ガイドは、よりスマートかつ迅速に作業を進めるのに役立つように設計されています。
+-マルチデバイスのサポート
++デベロッパーの確認
+... ほか 24 行
+
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+
+変更サマリ:
++September 14, 2026
++App Store Connect update
++You can now upload apps built with Xcode 27 using the SDK for iOS 27.0, iPadOS 27.0, macOS 27.0, tvOS 27.0, visionOS 27.0, and watchOS 27.0 for the App Store, and for internal and external testing through TestFlight.
+
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+
+変更サマリ:
+-September 9, 2026
+-View release notes
+-Xcode 27 RC (27A266a)
+-September 9, 2026
+-View downloads
+-View release notes
+-iOS 27.0 RC (24A435)
+-September 9, 2026
+-View downloads
+-View release notes
+-iPadOS 27.0 RC (24A435)
+-September 9, 2026
+-View downloads
+-View release notes
+-macOS 27.0 RC (26A428)
+-September 9, 2026
+-View downloads
+-View release notes
+-tvOS 27.0 RC (24J360)
+-September 9, 2026
+-View downloads
+-View release notes
+-visionOS 27.0 RC (24M362)
+-September 9, 2026
+-View downloads
+-View release notes
+-watchOS 27.0 RC (24R363)
+-September 9, 2026
++September 14, 2026
++View release notes
++Xcode 27 (27A266a)
++September 14, 2026
++View downloads
++View release notes
++iOS 27.0 (24A437)
++September 14, 2026
++View downloads
++View release notes
++iPadOS 27.0 (24A437)
++September 14, 2026
+... ほか 24 行
 
