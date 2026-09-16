@@ -1,186 +1,96 @@
-【Android バージョン情報】
-対象URL: https://developer.android.com/about/versions?hl=ja
-検出した最終更新日: 最終更新日 2025-06-11 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
-
-変更サマリ:
--AI を活用した IDE
-+AI 駆動の IDE
--スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを構築します。
-+スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などのユーザー エクスペリエンスを最適化するアプリを構築しましょう。
--つながってもっと便利
-+Better Together
--Level Up のガイドライン
-+Level Up ガイドライン
--著者を見る →
-+著者を探索 →
--ユーザーのストーリー、注目の機能、私たちを一つにする共同プロジェクトをご覧ください。
-+ユーザーのストーリー、注目の新機能、私たち全員をつなぐコラボレーション プロジェクトをご覧ください。
--実際のユーザーから得られた実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
-+現場のユーザーが生み出した現実の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
--ドキュメント
--詳細なマニュアル、API リファレンス、技術仕様にアクセスして、自信を持って構築と統合を行うことができます。
--AI を活用した IDE
-+AI 駆動の IDE
--つながってもっと便利
-+Better Together
--Level Up のガイドライン
-+Level Up ガイドライン
--著者を見る →
-+著者を探索 →
--ドキュメント
-
-【Android15】
-対象URL: https://developer.android.com/about/versions/15/summary?hl=ja
-検出した最終更新日: 最終更新日 2026-06-25 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/0905a72fa238b2ea.html
-
-変更サマリ:
--最初のアプリを作成します。Compose を UI とアダプティブ アプリ開発に使用して、複数のデバイス フォーム ファクタをサポートします。
-+最初のアプリを作成します。UI とアダプティブ アプリの開発に Compose を使用して、複数のデバイス フォーム ファクタに対応します。
--マルチデバイスのサポート
-+デベロッパーの確認
--AI を活用した IDE
-+AI 駆動の IDE
--デバイスごとに拡張する
--スマートフォン、タブレット、スマートウォッチ、ヘッドセットなど、さまざまなデバイスでシームレスなエクスペリエンスをユーザーに提供するアプリを作成します。
--アダプティブ アプリ
--Android XR
--Wear OS
-+フォーム ファクタ別に最適化する
-+スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などのユーザー エクスペリエンスを最適化するアプリを構築しましょう。
-+スマートフォン、タブレット、折りたたみ式デバイス
-+Android XR
-+Wear OS
-+マルチデバイスに対応
-+Level Up ガイドライン
--Android デベロッパー ブログ
-+Android デベロッパーのブログ
--著者を見る →
--カテゴリで探索
-+著者を探索 →
-+カテゴリを探索
-+プロダクト ニュース
-+最新のアップデート、機能リリース、進化の舞台裏に関する情報をお届けします。
-+コミュニティ
-+ユーザーのストーリー、注目の新機能、私たち全員をつなぐコラボレーション プロジェクトをご覧ください。
-+入門ガイド
-+簡単なヒントから詳細なチュートリアルまで、これらの手順ガイドは、よりスマートかつ迅速に作業を進めるのに役立つように設計されています。
--実際のユーザーによる実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
-+現場のユーザーが生み出した現実の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
--プロダクト ニュース
--最新のアップデート、機能リリース、進化の舞台裏に関する情報をお届けします。
--Community
--ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をご紹介します。
--ハウツー
--簡単なヒントから詳細なチュートリアルまで、これらの手順ガイドは、よりスマートかつ迅速に作業を進めるのに役立つように設計されています。
--マルチデバイスのサポート
-+デベロッパーの確認
-... ほか 24 行
-
-【Android16】
-対象URL: https://developer.android.com/about/versions/16/summary?hl=ja
-検出した最終更新日: 最終更新日 2026-03-03 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f8f9e1ea510138af.html
-
-変更サマリ:
--最初のアプリを作成します。Compose を UI とアダプティブ アプリ開発に使用して、複数のデバイス フォーム ファクタをサポートします。
-+最初のアプリを作成します。UI とアダプティブ アプリの開発に Compose を使用して、複数のデバイス フォーム ファクタに対応します。
--マルチデバイスのサポート
-+デベロッパーの確認
--AI を活用した IDE
-+AI 駆動の IDE
--デバイスごとに拡張する
--スマートフォン、タブレット、スマートウォッチ、ヘッドセットなど、さまざまなデバイスでシームレスなエクスペリエンスをユーザーに提供するアプリを作成します。
--アダプティブ アプリ
--Android XR
--Wear OS
-+フォーム ファクタ別に最適化する
-+スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などのユーザー エクスペリエンスを最適化するアプリを構築しましょう。
-+スマートフォン、タブレット、折りたたみ式デバイス
-+Android XR
-+Wear OS
-+マルチデバイスに対応
-+Level Up ガイドライン
--Android デベロッパー ブログ
-+Android デベロッパーのブログ
--著者を見る →
--カテゴリで探索
-+著者を探索 →
-+カテゴリを探索
-+プロダクト ニュース
-+最新のアップデート、機能リリース、進化の舞台裏に関する情報をお届けします。
-+コミュニティ
-+ユーザーのストーリー、注目の新機能、私たち全員をつなぐコラボレーション プロジェクトをご覧ください。
-+入門ガイド
-+簡単なヒントから詳細なチュートリアルまで、これらの手順ガイドは、よりスマートかつ迅速に作業を進めるのに役立つように設計されています。
--実際のユーザーによる実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
-+現場のユーザーが生み出した現実の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
--プロダクト ニュース
--最新のアップデート、機能リリース、進化の舞台裏に関する情報をお届けします。
--Community
--ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をご紹介します。
--ハウツー
--簡単なヒントから詳細なチュートリアルまで、これらの手順ガイドは、よりスマートかつ迅速に作業を進めるのに役立つように設計されています。
--マルチデバイスのサポート
-+デベロッパーの確認
-... ほか 24 行
-
-【iOS_App Store Connect リリースノート】
-対象URL: https://developer.apple.com/app-store-connect/release-notes/
+【iOS リリース情報】
+対象URL: https://support.apple.com/ja-jp/HT201222
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
 
 変更サマリ:
-+September 14, 2026
-+App Store Connect update
-+You can now upload apps built with Xcode 27 using the SDK for iOS 27.0, iPadOS 27.0, macOS 27.0, tvOS 27.0, visionOS 27.0, and watchOS 27.0 for the App Store, and for internal and external testing through TestFlight.
+-iOSおよびiPadOSの最新バージョンは26.6.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは27です。iPhone、iPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.6.2です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは27です。Macのソフトウェアをアップデートする方法については
+-を、重要なバックグラウンドアップデートを許可する方法については
++、重要なバックグラウンドアップデートを許可する方法については
+-tvOSの最新バージョンは26.6です。Apple TVのソフトウェアをアップデートする方法については、
++tvOSの最新バージョンは27です。Apple TVのソフトウェアをアップデートする方法については、
+-watchOSの最新バージョンは26.6です。Apple Watchのソフトウェアをアップデートする方法については、
++watchOSの最新バージョンは27です。Apple Watchのソフトウェアをアップデートする方法については、
+-visionOSの最新バージョンは26.6.1です。Apple Vision Proのソフトウェアをアップデートする方法については、
++visionOSの最新バージョンは27です。Apple Vision Proのソフトウェアをアップデートする方法については、
++iOS 27およびiPadOS 27
++iPhone 11以降、iPad Pro 12.9インチ（第4世代）以降、iPad Pro 11インチ（第2世代）以降、iPad Air（第4世代）以降、iPad（第9世代）以降、iPad mini（第6世代）以降
++2026年9月14日
++iOS 26.7およびiPadOS 26.7
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年9月14日
++macOS Golden Gate 27
++MacBook Neo（2026）、Appleシリコン搭載MacBook Air（2020年以降）、Appleシリコン搭載MacBook Pro（2020年以降）、Appleシリコン搭載iMac（2021年以降）、Appleシリコン搭載Mac mini（2020年以降）、Mac Studio（2022年以降）、Appleシリコン搭載Mac Pro（2023）
++2026年9月14日
++macOS Tahoe 26.7
++macOS Tahoe
++2026年9月14日
++macOS Sequoia 15.8
++macOS Sequoia
++2026年9月14日
++tvOS 27
++Apple TV 4K（第2世代）以降
++2026年9月14日
++watchOS 27
++Apple Watch Series 9以降
++2026年9月14日
++visionOS 27
++Apple Vision Pro（すべてのモデル）
++2026年9月14日
++Safari 27
++macOS SequoiaおよびmacOS Tahoe
++2026年9月14日
++Xcode 27
+... ほか 6 行
 
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
+【Appleのセキュリティリリース】
+対象URL: https://support.apple.com/ja-jp/100100
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
 
 変更サマリ:
--September 9, 2026
--View release notes
--Xcode 27 RC (27A266a)
--September 9, 2026
--View downloads
--View release notes
--iOS 27.0 RC (24A435)
--September 9, 2026
--View downloads
--View release notes
--iPadOS 27.0 RC (24A435)
--September 9, 2026
--View downloads
--View release notes
--macOS 27.0 RC (26A428)
--September 9, 2026
--View downloads
--View release notes
--tvOS 27.0 RC (24J360)
--September 9, 2026
--View downloads
--View release notes
--visionOS 27.0 RC (24M362)
--September 9, 2026
--View downloads
--View release notes
--watchOS 27.0 RC (24R363)
--September 9, 2026
-+September 14, 2026
-+View release notes
-+Xcode 27 (27A266a)
-+September 14, 2026
-+View downloads
-+View release notes
-+iOS 27.0 (24A437)
-+September 14, 2026
-+View downloads
-+View release notes
-+iPadOS 27.0 (24A437)
-+September 14, 2026
-... ほか 24 行
+-iOSおよびiPadOSの最新バージョンは26.6.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
++iOSおよびiPadOSの最新バージョンは27です。iPhone、iPadのソフトウェアをアップデートする方法については、
+-macOSの最新バージョンは26.6.2です。Macのソフトウェアをアップデートする方法については
++macOSの最新バージョンは27です。Macのソフトウェアをアップデートする方法については
+-を、重要なバックグラウンドアップデートを許可する方法については
++、重要なバックグラウンドアップデートを許可する方法については
+-tvOSの最新バージョンは26.6です。Apple TVのソフトウェアをアップデートする方法については、
++tvOSの最新バージョンは27です。Apple TVのソフトウェアをアップデートする方法については、
+-watchOSの最新バージョンは26.6です。Apple Watchのソフトウェアをアップデートする方法については、
++watchOSの最新バージョンは27です。Apple Watchのソフトウェアをアップデートする方法については、
+-visionOSの最新バージョンは26.6.1です。Apple Vision Proのソフトウェアをアップデートする方法については、
++visionOSの最新バージョンは27です。Apple Vision Proのソフトウェアをアップデートする方法については、
++iOS 27およびiPadOS 27
++iPhone 11以降、iPad Pro 12.9インチ（第4世代）以降、iPad Pro 11インチ（第2世代）以降、iPad Air（第4世代）以降、iPad（第9世代）以降、iPad mini（第6世代）以降
++2026年9月14日
++iOS 26.7およびiPadOS 26.7
++iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
++2026年9月14日
++macOS Golden Gate 27
++MacBook Neo（2026）、Appleシリコン搭載MacBook Air（2020年以降）、Appleシリコン搭載MacBook Pro（2020年以降）、Appleシリコン搭載iMac（2021年以降）、Appleシリコン搭載Mac mini（2020年以降）、Mac Studio（2022年以降）、Appleシリコン搭載Mac Pro（2023）
++2026年9月14日
++macOS Tahoe 26.7
++macOS Tahoe
++2026年9月14日
++macOS Sequoia 15.8
++macOS Sequoia
++2026年9月14日
++tvOS 27
++Apple TV 4K（第2世代）以降
++2026年9月14日
++watchOS 27
++Apple Watch Series 9以降
++2026年9月14日
++visionOS 27
++Apple Vision Pro（すべてのモデル）
++2026年9月14日
++Safari 27
++macOS SequoiaおよびmacOS Tahoe
++2026年9月14日
++Xcode 27
+... ほか 6 行
 

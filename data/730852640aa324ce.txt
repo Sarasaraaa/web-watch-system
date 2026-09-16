@@ -30,21 +30,21 @@ Appleの製品にセキュリティやプライバシーに関わる脆弱性を
 を参考に、発見内容をご報告ください。
 Appleから最新のソフトウェア・アップデートを入手する
 ソフトウェアを常に最新の状態にしておくことは、Apple製品を安全にお使いいただくための最も重要な方策の1つです。
-iOSおよびiPadOSの最新バージョンは26.6.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
+iOSおよびiPadOSの最新バージョンは27です。iPhone、iPadのソフトウェアをアップデートする方法については、
 こちらの記事
 を参照してください。
-macOSの最新バージョンは26.6.2です。Macのソフトウェアをアップデートする方法については
+macOSの最新バージョンは27です。Macのソフトウェアをアップデートする方法については
 こちらの記事
-を、重要なバックグラウンドアップデートを許可する方法については
-こちらの記事
-を参照してください。
-tvOSの最新バージョンは26.6です。Apple TVのソフトウェアをアップデートする方法については、
+、重要なバックグラウンドアップデートを許可する方法については
 こちらの記事
 を参照してください。
-watchOSの最新バージョンは26.6です。Apple Watchのソフトウェアをアップデートする方法については、
+tvOSの最新バージョンは27です。Apple TVのソフトウェアをアップデートする方法については、
 こちらの記事
 を参照してください。
-visionOSの最新バージョンは26.6.1です。Apple Vision Proのソフトウェアをアップデートする方法については、
+watchOSの最新バージョンは27です。Apple Watchのソフトウェアをアップデートする方法については、
+こちらの記事
+を参照してください。
+visionOSの最新バージョンは27です。Apple Vision Proのソフトウェアをアップデートする方法については、
 こちらの記事
 を参照してください。
 iOS、iPadOS、tvOS、watchOS、visionOSのソフトウェア・アップデートをインストールした後で、それ以前のバージョンにダウングレードすることはできません。
@@ -52,6 +52,36 @@ Appleセキュリティアップデート（Apple Security Update）
 名前と情報リンク
 対象
 リリース日
+iOS 27およびiPadOS 27
+iPhone 11以降、iPad Pro 12.9インチ（第4世代）以降、iPad Pro 11インチ（第2世代）以降、iPad Air（第4世代）以降、iPad（第9世代）以降、iPad mini（第6世代）以降
+2026年9月14日
+iOS 26.7およびiPadOS 26.7
+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
+2026年9月14日
+macOS Golden Gate 27
+MacBook Neo（2026）、Appleシリコン搭載MacBook Air（2020年以降）、Appleシリコン搭載MacBook Pro（2020年以降）、Appleシリコン搭載iMac（2021年以降）、Appleシリコン搭載Mac mini（2020年以降）、Mac Studio（2022年以降）、Appleシリコン搭載Mac Pro（2023）
+2026年9月14日
+macOS Tahoe 26.7
+macOS Tahoe
+2026年9月14日
+macOS Sequoia 15.8
+macOS Sequoia
+2026年9月14日
+tvOS 27
+Apple TV 4K（第2世代）以降
+2026年9月14日
+watchOS 27
+Apple Watch Series 9以降
+2026年9月14日
+visionOS 27
+Apple Vision Pro（すべてのモデル）
+2026年9月14日
+Safari 27
+macOS SequoiaおよびmacOS Tahoe
+2026年9月14日
+Xcode 27
+macOS Tahoe 26.6以降
+2026年9月14日
 iOS 26.6.2およびiPadOS 26.6.2
 このアップデートにはCVEの公開エントリがありません。
 iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
@@ -69,7 +99,7 @@ macOS Tahoe 26.6.2
 macOS Tahoe
 2026年8月17日
 visionOS 26.6.1
-詳細は後日公開
+Apple Vision Pro（すべてのモデル）
 2026年8月17日
 macOS Tahoe 26.6.1
 macOS Tahoe
@@ -1024,7 +1054,7 @@ Apple が製造していない製品に関する情報や、Apple が管理ま�
 各メーカーや開発元にお問い合わせ
 ください。
 公開日：
-2026 年 09 月 09 日
+2026 年 09 月 15 日
 役に立ちましたか？
 はい
 いいえ
