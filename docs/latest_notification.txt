@@ -1,96 +1,115 @@
-【iOS リリース情報】
-対象URL: https://support.apple.com/ja-jp/HT201222
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/b9d512b5afa1c98a.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
--iOSおよびiPadOSの最新バージョンは26.6.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSおよびiPadOSの最新バージョンは27です。iPhone、iPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.6.2です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは27です。Macのソフトウェアをアップデートする方法については
--を、重要なバックグラウンドアップデートを許可する方法については
-+、重要なバックグラウンドアップデートを許可する方法については
--tvOSの最新バージョンは26.6です。Apple TVのソフトウェアをアップデートする方法については、
-+tvOSの最新バージョンは27です。Apple TVのソフトウェアをアップデートする方法については、
--watchOSの最新バージョンは26.6です。Apple Watchのソフトウェアをアップデートする方法については、
-+watchOSの最新バージョンは27です。Apple Watchのソフトウェアをアップデートする方法については、
--visionOSの最新バージョンは26.6.1です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+visionOSの最新バージョンは27です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+iOS 27およびiPadOS 27
-+iPhone 11以降、iPad Pro 12.9インチ（第4世代）以降、iPad Pro 11インチ（第2世代）以降、iPad Air（第4世代）以降、iPad（第9世代）以降、iPad mini（第6世代）以降
-+2026年9月14日
-+iOS 26.7およびiPadOS 26.7
-+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
-+2026年9月14日
-+macOS Golden Gate 27
-+MacBook Neo（2026）、Appleシリコン搭載MacBook Air（2020年以降）、Appleシリコン搭載MacBook Pro（2020年以降）、Appleシリコン搭載iMac（2021年以降）、Appleシリコン搭載Mac mini（2020年以降）、Mac Studio（2022年以降）、Appleシリコン搭載Mac Pro（2023）
-+2026年9月14日
-+macOS Tahoe 26.7
-+macOS Tahoe
-+2026年9月14日
-+macOS Sequoia 15.8
-+macOS Sequoia
-+2026年9月14日
-+tvOS 27
-+Apple TV 4K（第2世代）以降
-+2026年9月14日
-+watchOS 27
-+Apple Watch Series 9以降
-+2026年9月14日
-+visionOS 27
-+Apple Vision Pro（すべてのモデル）
-+2026年9月14日
-+Safari 27
-+macOS SequoiaおよびmacOS Tahoe
-+2026年9月14日
-+Xcode 27
-... ほか 6 行
++Manage purchase options for an auto-renewable subscription
++Manage subscriptions
++Manage purchase options for an auto-renewable subscription
++September 16, 2026
++App Store Connect update
++You can now submit localized Apple-hosted asset packs for distribution on the App Store.
++Learn more about submitting Apple-hosted asset packs
++.
++September 16, 2026
++TestFlight update
++You can now submit apps built with Xcode 27.2 beta using the SDK for iOS 27.2 beta, iPadOS 27.2 beta, macOS 27.2 beta, tvOS 27.2 beta, visionOS 27.2 beta, and watchOS 27.2 beta for internal and external testing.
++TestFlight
 
-【Appleのセキュリティリリース】
-対象URL: https://support.apple.com/ja-jp/100100
+【Appleリリース情報】
+対象URL: https://developer.apple.com/news/releases/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/730852640aa324ce.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
--iOSおよびiPadOSの最新バージョンは26.6.2です。iPhoneまたはiPadのソフトウェアをアップデートする方法については、
-+iOSおよびiPadOSの最新バージョンは27です。iPhone、iPadのソフトウェアをアップデートする方法については、
--macOSの最新バージョンは26.6.2です。Macのソフトウェアをアップデートする方法については
-+macOSの最新バージョンは27です。Macのソフトウェアをアップデートする方法については
--を、重要なバックグラウンドアップデートを許可する方法については
-+、重要なバックグラウンドアップデートを許可する方法については
--tvOSの最新バージョンは26.6です。Apple TVのソフトウェアをアップデートする方法については、
-+tvOSの最新バージョンは27です。Apple TVのソフトウェアをアップデートする方法については、
--watchOSの最新バージョンは26.6です。Apple Watchのソフトウェアをアップデートする方法については、
-+watchOSの最新バージョンは27です。Apple Watchのソフトウェアをアップデートする方法については、
--visionOSの最新バージョンは26.6.1です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+visionOSの最新バージョンは27です。Apple Vision Proのソフトウェアをアップデートする方法については、
-+iOS 27およびiPadOS 27
-+iPhone 11以降、iPad Pro 12.9インチ（第4世代）以降、iPad Pro 11インチ（第2世代）以降、iPad Air（第4世代）以降、iPad（第9世代）以降、iPad mini（第6世代）以降
-+2026年9月14日
-+iOS 26.7およびiPadOS 26.7
-+iPhone 11以降、iPad Pro 12.9インチ（第3世代）以降、iPad Pro 11インチ（第1世代）以降、iPad Air（第3世代）以降、iPad（第8世代）以降、iPad mini（第5世代）以降
-+2026年9月14日
-+macOS Golden Gate 27
-+MacBook Neo（2026）、Appleシリコン搭載MacBook Air（2020年以降）、Appleシリコン搭載MacBook Pro（2020年以降）、Appleシリコン搭載iMac（2021年以降）、Appleシリコン搭載Mac mini（2020年以降）、Mac Studio（2022年以降）、Appleシリコン搭載Mac Pro（2023）
-+2026年9月14日
-+macOS Tahoe 26.7
-+macOS Tahoe
-+2026年9月14日
-+macOS Sequoia 15.8
-+macOS Sequoia
-+2026年9月14日
-+tvOS 27
-+Apple TV 4K（第2世代）以降
-+2026年9月14日
-+watchOS 27
-+Apple Watch Series 9以降
-+2026年9月14日
-+visionOS 27
-+Apple Vision Pro（すべてのモデル）
-+2026年9月14日
-+Safari 27
-+macOS SequoiaおよびmacOS Tahoe
-+2026年9月14日
-+Xcode 27
-... ほか 6 行
++TestFlight Update
++September 16, 2026
++View release notes
++Xcode 27.2 beta (27B5019j)
++September 16, 2026
++View downloads
++View release notes
++iOS 27.2 beta (24B5084k)
++September 16, 2026
++View downloads
++View release notes
++iPadOS 27.2 beta (24B5084k)
++September 16, 2026
++View downloads
++View release notes
++macOS 27.2 beta (26B5086k)
++September 16, 2026
++View downloads
++View release notes
++tvOS 27.2 beta (24K5088l)
++September 16, 2026
++View downloads
++View release notes
++visionOS 27.2 beta (24N5088l)
++September 16, 2026
++View downloads
++View release notes
++watchOS 27.2 beta (24S5086l)
++September 16, 2026
++View downloads
++View release notes
+-View downloads
+-View release notes
+-iOS 27.0 RC (24A437)
+-September 11, 2026
+-TestFlight Update
+-August 25, 2026
+-View release notes
+-Xcode 26.6 RC 2 (17F113)
+-June 18, 2026
+... ほか 85 行
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
++iOS 27に向けたサブスクリプションの準備
++2026年9月16日
++iOS 27の新機能を使って、サブスクリプションのリーチを拡大する方法をご確認ください。今すぐ準備を開始し、アプリでStoreKit 2を使ってAppleアプリ内購入を処理できるようにしましょう。
++「バンドル」と「スイート」へのアクセスをリクエスト
++新しい「バンドル」および「スイート」機能を利用して、アプリ内で複数のサブスクリプションを1つのAppleアプリ内購入として提供しましょう。「バンドル」機能を利用すれば、ユーザーは1回の購入で複数のサブスクリプションを利用できるようになります。1つのアプリ内だけでなく、同一デベロッパによる複数のアプリ、さらには複数の異なるデベロッパのアプリにまたがるサブスクリプションをまとめて提供できます。「スイート」機能を利用すれば、同一デベロッパが提供する対象のアプリ群すべてでシームレスに機能する、1つのサブスクリプションをユーザーに提供できます。
++App Storeが購入手続きを提供し、「バンドル」または「スイート」に含まれるすべてのアプリが表示されるため、ユーザーはサブスクリプションのコンテンツをすぐにダウンロードして利用できます。
++まずは
++「バンドル」と「スイート」のページ（英語）
++で、対象となる構成、 技術的な要件、申請フォームの提出方法をご確認ください。「バンドル」と「スイート」は、 今年後半にリリース予定のiOS 27、iPadOS 27、macOS 27、tvOS 27、およびそれ以降のバージョンでご利用いただけるようになります。
++「バンドル」と「スイート」の提供（英語）
++「バンドル」と「スイート」に関するビデオ
++App Store Connectでのマルチシート購入の有効化
++マルチシート購入により、組織やグループは一括購入やグループ購入を通じて、サブスクリプションをまとめて購入できるようになります。これにより、小規模企業や特定のワークグループ、部署なども、 追加の管理手続きを行うことなくサブスクリプションを利用できるようになり、サブスクリプションを個人ユーザー以外にも広げるチャンスが生まれます。
++一括購入により、Apple BusinessおよびApple School Managerを利用する組織は、1回のAppleアプリ内購入を通じてサブスクリプションを購入し、デバイス管理プロバイダを使用してシートを割り当てることができます。
++グループ購入を利用すれば、サブスクリプション登録者は1回のAppleアプリ内購入で複数のシートを購入し、他のユーザーを招待することができます。シートの割り当てや招待フローはAppleがすべて処理するため、小規模企業、個々の部門、チームなど、対象のグループがサブスクリプションを簡単に利用できるようになります。
++これにより、従来の単一契約の枠にとどまらない、幅広いユーザーにサブスクリプションを届けることができます。例えば、生産性向上アプリのコストを分担するワークチーム、 少数の従業員にツールを導入したい小規模企業、大企業内の1つの部門、あるいは クリエイティブツールへのアクセスを共有して共同作業を行うグループなどがこれに該当します。これらのグループは、IT部門や調達部門を通さなくても、今すぐ有料サブスクリプションに登録できます。
++App Store Connectでは、本日よりサブスクリプションのマルチシート購入がデフォルトで有効になります。デベロッパはマルチシート購入の提供状況を管理でき、完全に無効にすることも、App Store、Apple Business、および Apple School Managerでの提供状況を個別に管理することもできます。
++一括購入は2026年10月22日に、グループ購入はこの冬に提供が開始される予定です。
++自動更新サブスクリプションの購入オプションの管理
++グループや組織へのサブスクリプションの提供
++最新OSリリース向けアプリのApp Storeへの提出の受付開始
++2026年9月9日
++iOS 27、iPadOS 27、macOS 27、tvOS 27、visionOS 27、watchOS 27が世界各地のユーザーにまもなく提供されます。これに伴い、Apple Intelligence、Foundation Modelフレームワーク、デザインのアップデート、新しいApp Store機能など、Appleの最新テクノロジーやイノベーションを活用してアプリやゲームを提出できるようになります。
++Xcode 27リリース候補版をダウンロードする
++：最新のSDKを使ってアプリやゲームをビルドしたら、TestFlightでテストし、App Storeに提出して審査を受けましょう。
++アプリをmacOS 27向けに最適化する
++：macOS 26は、IntelベースのMacコンピュータおよびRosettaをサポートする最終リリースとなります。macOS 27はAppleシリコン専用となります。アプリをAppleシリコン搭載Macに制限するには、Xcodeのビルドアーキテクチャをarm64のみに指定し、再ビルドして再提出してください。Intelベースのアプリへのサポートを削除することで、開発をさらに簡素化し、
++Appleシリコン向けにアプリを最適化
++できます。
++年齢制限指定に関する質問に回答する
++：新しい
++許容時間
++により、保護者はエンターテインメント、ゲーム、ソーシャルメディアなどのカテゴリにわたって、お子様のアプリ利用時間をより柔軟に管理できるようになります。アプリやゲームにソーシャルメディア機能が含まれている場合は、App Store Connectにその旨を記載してください。
++App Storeアセットを準備する
++：プロダクトページの新しいヘッダーや検索結果用のアセットを活用し、アプリやゲームをApp Storeで強く印象付けましょう。プロダクトページのヘッダー、検索結果用アセット、スクリーンショット、アプリプレビュー、アプリ内イベントを魅力的に仕上げるには、デザインのガイダンスとテンプレートが役立ちます。公開する前に、App Store Connectにある新しいプロダクトページプレビューツールを使って、App Storeでページがどのように表示されるかを確認しましょう。まもなく提供開始予定です。
++2027年4月以降
++、アプリやゲームをApp Store Connectにアップロードする際は、以下の最小要件を満たす必要があります。
++iOSおよびiPadOSアプリは、iOS 27およびiPadOS 27 SDK以降でビルドする必要があります
++tvOSアプリは、tvOS 27 SDK以降でビルドする必要があります
++visionOSアプリは、visionOS 27 SDK以降でビルドする必要があります
+... ほか 2 行
 

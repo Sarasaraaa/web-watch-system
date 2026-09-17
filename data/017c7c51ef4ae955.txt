@@ -441,6 +441,8 @@ Set availability for an auto-renewable subscription
 Manage subscriptions
 Manage pricing for auto-renewable subscriptions
 Manage subscriptions
+Manage purchase options for an auto-renewable subscription
+Manage subscriptions
 Set up introductory offers for auto-renewable subscriptions
 Manage subscriptions
 Set up promotional offers for auto-renewable subscriptions
@@ -836,6 +838,7 @@ Manage subscriptions
 Offer auto-renewable subscriptions
 Set availability for an auto-renewable subscription
 Manage pricing for auto-renewable subscriptions
+Manage purchase options for an auto-renewable subscription
 Set up introductory offers for auto-renewable subscriptions
 Set up promotional offers for auto-renewable subscriptions
 Set up subscription offer codes
@@ -951,6 +954,15 @@ Filter
 Release notes
 Release Notes
 Learn about new features and updates in App Store Connect.
+September 16, 2026
+App Store Connect update
+You can now submit localized Apple-hosted asset packs for distribution on the App Store.
+Learn more about submitting Apple-hosted asset packs
+.
+September 16, 2026
+TestFlight update
+You can now submit apps built with Xcode 27.2 beta using the SDK for iOS 27.2 beta, iPadOS 27.2 beta, macOS 27.2 beta, tvOS 27.2 beta, visionOS 27.2 beta, and watchOS 27.2 beta for internal and external testing.
+TestFlight
 September 14, 2026
 App Store Connect update
 You can now upload apps built with Xcode 27 using the SDK for iOS 27.0, iPadOS 27.0, macOS 27.0, tvOS 27.0, visionOS 27.0, and watchOS 27.0 for the App Store, and for internal and external testing through TestFlight.
