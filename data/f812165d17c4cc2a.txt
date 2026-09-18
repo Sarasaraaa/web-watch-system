@@ -65,7 +65,7 @@ Apple Developer Center
 ビデオ
 リリースノート
 注目のアップデート
-iOS
+iPadOS
 iPadOS
 macOS
 watchOS

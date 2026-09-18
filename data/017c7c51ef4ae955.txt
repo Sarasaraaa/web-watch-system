@@ -1948,6 +1948,7 @@ Close Menu
 Accessibility
 Accessories
 AI & Machine Learning
+Apple In-App Purchase
 Apple Intelligence
 Audio & Video
 Augmented Reality
@@ -1957,7 +1958,6 @@ Distribution
 Education
 Games
 Health & Fitness
-In-App Purchase
 Localization
 Maps & Location
 Security
