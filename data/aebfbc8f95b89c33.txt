@@ -113,6 +113,13 @@ Site Updates
 Upcoming Requirements
 RSS
 TestFlight Update
+September 18, 2026
+View release notes
+Xcode 27.1 beta (27A9269)
+September 18, 2026
+View downloads
+View release notes
+TestFlight Update
 September 16, 2026
 View release notes
 Xcode 27.2 beta (27B5019j)
@@ -210,10 +217,6 @@ View release notes
 watchOS 26.6 (23U67)
 July 27, 2026
 View downloads
-View release notes
-TestFlight 4.3
-July 21, 2026
-Download the app
 View release notes
 App Store Connect API 4.4.1
 July 15, 2026

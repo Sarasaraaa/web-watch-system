@@ -4,8 +4,10 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
-+Apple In-App Purchase
--In-App Purchase
++September 18, 2026
++TestFlight update
++You can now submit apps built with Xcode 27.1 beta using the SDK for iOS 27.1 beta or iPadOS 27.1 beta for internal and external testing.
++TestFlight
 
 【Appleリリース情報】
 対象URL: https://developer.apple.com/news/releases/
@@ -13,42 +15,15 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+Apple In-App Purchase
--In-App Purchase
-
-【iOSの最新情報】
-対象URL: https://developer.apple.com/jp/ios/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f812165d17c4cc2a.html
-
-変更サマリ:
--iOS
-+iPadOS
-
-【Apple_App Review】
-対象URL: https://developer.apple.com/jp/distribute/app-review/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/8b2ebfe8d757c986.html
-
-変更サマリ:
--iOS
-+iPadOS
-
-【AppleDeveloperNews】
-対象URL: https://developer.apple.com/jp/news/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
-
-変更サマリ:
--iOS
-+iPadOS
-
-【AppleDeveloperNews（近日適用開始の要件）】
-対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
-検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
-
-変更サマリ:
--iOS
-+iPadOS
++September 18, 2026
++View release notes
++Xcode 27.1 beta (27A9269)
++September 18, 2026
++View downloads
++View release notes
++TestFlight Update
+-View release notes
+-TestFlight 4.3
+-July 21, 2026
+-Download the app
 
