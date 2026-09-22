@@ -126,6 +126,7 @@ Google Play Console に移動
 ユーザーのエンゲージメントを高め、アプリを収益化し、安全性を確保する方法をご確認ください。
 Google Play での収益化
 Play Integrity
+Android Vitals
 Play ポリシー
 Google Play のプログラム ↗️
 ゲーム デベロッパー センター
@@ -165,6 +166,8 @@ Android デベロッパーのブログ
 現場のユーザーが生み出した現実の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
 イベントとプログラム
 デベロッパーの成長を支援するための今後のウェブセミナー、ワークショップ、ミートアップ、特別な取り組みの詳細をご覧ください。
+ドキュメント
+詳細なマニュアル、API リファレンス、技術仕様にアクセスして、自信を持って構築と統合を行うことができます。
 /
 English
 Deutsch
@@ -345,6 +348,7 @@ Google Play Console に移動
 基本
 Google Play での収益化
 Play Integrity
+Android Vitals
 Play ポリシー
 Google Play のプログラム ↗️
 ゲーム デベロッパー センター
@@ -375,6 +379,7 @@ Android デベロッパーのブログ
 入門ガイド
 事例紹介
 イベントとプログラム
+ドキュメント
 Google は AI 技術を使用して、コンテンツをご希望の言語に翻訳しています。AI 翻訳には誤りが含まれる場合があります。
 Android Developers
 Essentials

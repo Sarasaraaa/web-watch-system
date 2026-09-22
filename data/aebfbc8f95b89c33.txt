@@ -112,6 +112,30 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+iOS 27.2 beta 2 (24B5089g)
+September 21, 2026
+View downloads
+View release notes
+iPadOS 27.2 beta 2 (24B5089g)
+September 21, 2026
+View downloads
+View release notes
+macOS 27.2 beta 2 (26B5091g)
+September 21, 2026
+View downloads
+View release notes
+tvOS 27.2 beta 2 (24K5093g)
+September 21, 2026
+View downloads
+View release notes
+visionOS 27.2 beta 2 (24N5093f)
+September 21, 2026
+View downloads
+View release notes
+watchOS 27.2 beta 2 (24S5091f)
+September 21, 2026
+View downloads
+View release notes
 TestFlight Update
 September 18, 2026
 View release notes
@@ -123,30 +147,6 @@ TestFlight Update
 September 16, 2026
 View release notes
 Xcode 27.2 beta (27B5019j)
-September 16, 2026
-View downloads
-View release notes
-iOS 27.2 beta (24B5084k)
-September 16, 2026
-View downloads
-View release notes
-iPadOS 27.2 beta (24B5084k)
-September 16, 2026
-View downloads
-View release notes
-macOS 27.2 beta (26B5086k)
-September 16, 2026
-View downloads
-View release notes
-tvOS 27.2 beta (24K5088l)
-September 16, 2026
-View downloads
-View release notes
-visionOS 27.2 beta (24N5088l)
-September 16, 2026
-View downloads
-View release notes
-watchOS 27.2 beta (24S5086l)
 September 16, 2026
 View downloads
 View release notes
