@@ -112,6 +112,10 @@ Software Releases
 Site Updates
 Upcoming Requirements
 RSS
+App Store Connect API 4.5
+September 22, 2026
+Download file
+View release notes
 iOS 27.2 beta 2 (24B5089g)
 September 21, 2026
 View downloads
@@ -217,10 +221,6 @@ View release notes
 watchOS 26.6 (23U67)
 July 27, 2026
 View downloads
-View release notes
-App Store Connect API 4.4.1
-July 15, 2026
-Download file
 View release notes
 Xcode 26.6 (17F113)
 June 25, 2026

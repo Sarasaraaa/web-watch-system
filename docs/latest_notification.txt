@@ -1,7 +1,7 @@
-【Android15】
-対象URL: https://developer.android.com/about/versions/15/summary?hl=ja
-検出した最終更新日: 最終更新日 2026-06-25 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/0905a72fa238b2ea.html
+【Android バージョン情報】
+対象URL: https://developer.android.com/about/versions?hl=ja
+検出した最終更新日: 最終更新日 2025-06-11 UTC
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
 
 変更サマリ:
 +Android Vitals
@@ -9,66 +9,6 @@
 +詳細なマニュアル、API リファレンス、技術仕様にアクセスして、自信を持って構築と統合を行うことができます。
 +Android Vitals
 +ドキュメント
-
-【Android16】
-対象URL: https://developer.android.com/about/versions/16/summary?hl=ja
-検出した最終更新日: 最終更新日 2026-03-03 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f8f9e1ea510138af.html
-
-変更サマリ:
-+Android Vitals
-+ドキュメント
-+詳細なマニュアル、API リファレンス、技術仕様にアクセスして、自信を持って構築と統合を行うことができます。
-+Android Vitals
-+ドキュメント
-
-【Android17】
-対象URL: https://developer.android.com/about/versions/17/summary?hl=ja
-検出した最終更新日: 最終更新日 2026-09-09 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/fab2fa9345b01938.html
-
-変更サマリ:
--AI を活用した IDE
-+AI 駆動の IDE
--スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などでユーザー エクスペリエンスを最適化するアプリを構築します。
-+スマートフォン、タブレット、折りたたみ式デバイス、自動車、XR などのユーザー エクスペリエンスを最適化するアプリを構築しましょう。
-+Android Vitals
--Level Up のガイドライン
-+Level Up ガイドライン
--著者を見る →
-+著者を探索 →
--事例紹介
--実際のユーザーによる実際の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
--イベントとプログラム
--デベロッパーの成長を支援するための今後のウェブセミナー、ワークショップ、ミートアップ、特別な取り組みの詳細をご覧ください。
--ユーザーのストーリー、注目の機能、コラボレーション プロジェクトなど、さまざまな情報をご紹介します。
--ハウツー
-+ユーザーのストーリー、注目の新機能、私たち全員をつなぐコラボレーション プロジェクトをご覧ください。
-+入門ガイド
-+事例紹介
-+現場のユーザーが生み出した現実の成果。さまざまなチームが Google のツールを使用して目標を達成している事例をご覧ください。
-+イベントとプログラム
-+デベロッパーの成長を支援するための今後のウェブセミナー、ワークショップ、ミートアップ、特別な取り組みの詳細をご覧ください。
-+ドキュメント
-+詳細なマニュアル、API リファレンス、技術仕様にアクセスして、自信を持って構築と統合を行うことができます。
-+QPR2 ベータ版
-+概要
-+リリースノート
-+QPR ベータ版ビルドを入手する
-+フィードバックと Issue Tracker
-+ファクトリー イメージをフラッシュする
-+OTA イメージ
-+Generic System Image（GSI）
-+リファレンスの更新
-+API 差分 - ベータ版 3 → 37.2 ⍈
-+API 差分 - API 37.1 → 37.2 ⍈
--AI を活用した IDE
-+AI 駆動の IDE
-+Android Vitals
--Level Up のガイドライン
-+Level Up ガイドライン
--著者を見る →
-... ほか 8 行
 
 【Appleリリース情報】
 対象URL: https://developer.apple.com/news/releases/
@@ -76,45 +16,42 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
 
 変更サマリ:
-+iOS 27.2 beta 2 (24B5089g)
-+September 21, 2026
-+View downloads
++App Store Connect API 4.5
++September 22, 2026
++Download file
 +View release notes
-+iPadOS 27.2 beta 2 (24B5089g)
-+September 21, 2026
-+View downloads
-+View release notes
-+macOS 27.2 beta 2 (26B5091g)
-+September 21, 2026
-+View downloads
-+View release notes
-+tvOS 27.2 beta 2 (24K5093g)
-+September 21, 2026
-+View downloads
-+View release notes
-+visionOS 27.2 beta 2 (24N5093f)
-+September 21, 2026
-+View downloads
-+View release notes
-+watchOS 27.2 beta 2 (24S5091f)
-+September 21, 2026
-+View downloads
-+View release notes
--September 16, 2026
--View downloads
 -View release notes
--iOS 27.2 beta (24B5084k)
--September 16, 2026
--View downloads
--View release notes
--iPadOS 27.2 beta (24B5084k)
--September 16, 2026
--View downloads
--View release notes
--macOS 27.2 beta (26B5086k)
--September 16, 2026
--View downloads
--View release notes
--tvOS 27.2 beta (24K5088l)
-... ほか 8 行
+-App Store Connect API 4.4.1
+-July 15, 2026
+-Download file
+
+【AppleDeveloperNews】
+対象URL: https://developer.apple.com/jp/news/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
+
+変更サマリ:
++新しいリソースでiPhone Duo向けに開発しましょう
++2026年9月18日
++Xcode 27.1ベータ版を入手しましょう。
++ダウンロードとリリースノートを見る
++AppleデザインリソースでFigmaとSketchのiPhone Duo向けのデザインキットを入手しましょう。
++Appleデザインリソースからデザインキットをダウンロードする
++世界各地で開催されるワークショップに登録して、アプリを最適化し、あらゆる画面サイズに対応する体験の構築方法を学びましょう。
++ワークショップを確認する
++iPhone Duoに向けたアプリの準備方法を確認しましょう。
++iPhone Duoについてさらに詳しく（英語）
++最新のベータ版リリースに備えましょう
++2026年9月16日
++iOS 27.2、iPadOS 27.2、macOS 27.2、tvOS 27.2、visionOS 27.2、watchOS 27.2のベータ版が利用可能になりました。これらのリリースでアプリが正常に動作することを確認し、準備を進めましょう。Xcode 27.2で開発とテストを行い、最新のSDKにおける進化を存分に活用してください。
++iOS 27.1とiPhone Duoに関する注意事項
++10月23日に提供が開始されるiPhone DuoにはiOS 27.1が搭載されます。このバージョンはiOS 27をベースとしており、新しい折りたためるデザイン専用の機能が導入されています。
++Xcode 27.1にはiPhone Duo向けの開発サポート機能が追加されます。iPhone Duoのまったく新しいポーズや向きに対応する最新のSDKとシミュレータも、これに含まれます。ベータ版は今月中に利用可能になります。
++ダウンロードとリリースノートを見る
++ベータ版OSのテスト方法について詳しく
++フィードバックの提出方法について詳しく
++EUにおけるApp Tracking Transparencyに関するアップデート
++2026年9月16日
++欧州の一部の競争当局との合意に基づき、Appleは欧州連合（EU）におけるApp Tracking Transparencyフレームワークに変更を導入します。iOS 27.2およびiPadOS 27.2以降、デベロッパはEU内でApp Tracking Transparencyシステムプロンプトの代替バージョンを使用できるようになります。どのタイミングでユーザーにトラッキングの許可を得る必要があるかに関する要件に変更はありません。法的要件により、ドイツ、フランス、イタリア、ポーランド、およびルーマニア向けに配信されるアプリでは、システムプロンプトの代替バージョンのみが利用できます。
++さらに詳しく
 
