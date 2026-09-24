@@ -1,29 +1,33 @@
-【Android バージョン情報】
-対象URL: https://developer.android.com/about/versions?hl=ja
-検出した最終更新日: 最終更新日 2025-06-11 UTC
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/7b47a62a92ede1e7.html
-
-変更サマリ:
-+Android Vitals
-+ドキュメント
-+詳細なマニュアル、API リファレンス、技術仕様にアクセスして、自信を持って構築と統合を行うことができます。
-+Android Vitals
-+ドキュメント
-
-【Appleリリース情報】
-対象URL: https://developer.apple.com/news/releases/
+【iOS_App Store Connect リリースノート】
+対象URL: https://developer.apple.com/app-store-connect/release-notes/
 検出した最終更新日: 検出できませんでした
-差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/aebfbc8f95b89c33.html
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/017c7c51ef4ae955.html
 
 変更サマリ:
-+App Store Connect API 4.5
-+September 22, 2026
-+Download file
-+View release notes
--View release notes
--App Store Connect API 4.4.1
--July 15, 2026
--Download file
++September 23, 2026
++App Store Connect update
++App Store Connect 3.3 is now available on the App Store for iPhone and iPad. This update includes:
++Landscape orientation on iPhone.
++Resizing when using iPhone Mirroring on Mac, on devices running OS version 27 or later (available in supported countries and regions).
++We’ve also significantly sped up the process of inviting internal testers on teams with many users, along with other stability improvements and bug fixes.
+
+【iOSの最新情報】
+対象URL: https://developer.apple.com/jp/ios/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/f812165d17c4cc2a.html
+
+変更サマリ:
+-アプリ内購入
++Appleアプリ内購入
+
+【Apple_App Review】
+対象URL: https://developer.apple.com/jp/distribute/app-review/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/8b2ebfe8d757c986.html
+
+変更サマリ:
+-アプリ内購入
++Appleアプリ内購入
 
 【AppleDeveloperNews】
 対象URL: https://developer.apple.com/jp/news/
@@ -31,27 +35,17 @@
 差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/892e136332c57de8.html
 
 変更サマリ:
-+新しいリソースでiPhone Duo向けに開発しましょう
-+2026年9月18日
-+Xcode 27.1ベータ版を入手しましょう。
-+ダウンロードとリリースノートを見る
-+AppleデザインリソースでFigmaとSketchのiPhone Duo向けのデザインキットを入手しましょう。
-+Appleデザインリソースからデザインキットをダウンロードする
-+世界各地で開催されるワークショップに登録して、アプリを最適化し、あらゆる画面サイズに対応する体験の構築方法を学びましょう。
-+ワークショップを確認する
-+iPhone Duoに向けたアプリの準備方法を確認しましょう。
-+iPhone Duoについてさらに詳しく（英語）
-+最新のベータ版リリースに備えましょう
-+2026年9月16日
-+iOS 27.2、iPadOS 27.2、macOS 27.2、tvOS 27.2、visionOS 27.2、watchOS 27.2のベータ版が利用可能になりました。これらのリリースでアプリが正常に動作することを確認し、準備を進めましょう。Xcode 27.2で開発とテストを行い、最新のSDKにおける進化を存分に活用してください。
-+iOS 27.1とiPhone Duoに関する注意事項
-+10月23日に提供が開始されるiPhone DuoにはiOS 27.1が搭載されます。このバージョンはiOS 27をベースとしており、新しい折りたためるデザイン専用の機能が導入されています。
-+Xcode 27.1にはiPhone Duo向けの開発サポート機能が追加されます。iPhone Duoのまったく新しいポーズや向きに対応する最新のSDKとシミュレータも、これに含まれます。ベータ版は今月中に利用可能になります。
-+ダウンロードとリリースノートを見る
-+ベータ版OSのテスト方法について詳しく
-+フィードバックの提出方法について詳しく
-+EUにおけるApp Tracking Transparencyに関するアップデート
-+2026年9月16日
-+欧州の一部の競争当局との合意に基づき、Appleは欧州連合（EU）におけるApp Tracking Transparencyフレームワークに変更を導入します。iOS 27.2およびiPadOS 27.2以降、デベロッパはEU内でApp Tracking Transparencyシステムプロンプトの代替バージョンを使用できるようになります。どのタイミングでユーザーにトラッキングの許可を得る必要があるかに関する要件に変更はありません。法的要件により、ドイツ、フランス、イタリア、ポーランド、およびルーマニア向けに配信されるアプリでは、システムプロンプトの代替バージョンのみが利用できます。
-+さらに詳しく
+-最新情報を確認する（英語）
++最新情報を確認する
+-アプリ内購入
++Appleアプリ内購入
+
+【AppleDeveloperNews（近日適用開始の要件）】
+対象URL: https://developer.apple.com/jp/news/upcoming-requirements/
+検出した最終更新日: 検出できませんでした
+差分詳細: https://Sarasaraaa.github.io/web-watch-system/diffs/3291f5ac7aa1b519.html
+
+変更サマリ:
+-アプリ内購入
++Appleアプリ内購入
 
