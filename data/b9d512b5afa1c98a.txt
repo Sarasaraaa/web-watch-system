@@ -41,7 +41,7 @@ macOSの最新バージョンは27です。Macのソフトウェアをアップ�
 tvOSの最新バージョンは27です。Apple TVのソフトウェアをアップデートする方法については、
 こちらの記事
 を参照してください。
-watchOSの最新バージョンは27です。Apple Watchのソフトウェアをアップデートする方法については、
+watchOSの最新バージョンは27（Apple Watch Series 9以降）および27.0.1（Apple Watch Series 12およびApple Watch Ultra 4のみ）です。Apple Watchのソフトウェアをアップデートする方法については、
 こちらの記事
 を参照してください。
 visionOSの最新バージョンは27です。Apple Vision Proのソフトウェアをアップデートする方法については、
@@ -52,6 +52,10 @@ Appleセキュリティアップデート（Apple Security Update）
 名前と情報リンク
 対象
 リリース日
+watchOS 27.0.1
+このアップデートにはCVEの公開エントリがありません。
+Apple Watch Series 12およびApple Watch Ultra 4
+2026年9月23日
 iOS 27およびiPadOS 27
 iPhone 11以降、iPad Pro 12.9インチ（第4世代）以降、iPad Pro 11インチ（第2世代）以降、iPad Air（第4世代）以降、iPad（第9世代）以降、iPad mini（第6世代）以降
 2026年9月14日
@@ -1054,7 +1058,7 @@ Apple が製造していない製品に関する情報や、Apple が管理ま�
 各メーカーや開発元にお問い合わせ
 ください。
 公開日：
-2026 年 09 月 15 日
+2026 年 09 月 24 日
 役に立ちましたか？
 はい
 いいえ
